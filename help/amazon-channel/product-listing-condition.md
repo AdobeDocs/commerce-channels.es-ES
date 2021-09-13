@@ -1,11 +1,11 @@
 ---
 title: Condición de lista de productos
-description: 'Utilice la configuración Condición de lista de productos para asignar los productos de comercio a una condición de producto de Amazon, como "Nuevo" o "Reformado".'
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html: 
+description: Utilice la configuración Condición de lista de productos para asignar los productos de comercio a una condición de producto de Amazon, como "Nuevo" o "Reformado".
+redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 0%
 
 ---

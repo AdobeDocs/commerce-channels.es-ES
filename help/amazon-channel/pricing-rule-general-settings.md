@@ -1,11 +1,11 @@
 ---
 title: Configuración general de la regla de precios
 description: Utilice la configuración general de la regla de precio para definir las características principales de una regla de precio de anuncio.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 711
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
