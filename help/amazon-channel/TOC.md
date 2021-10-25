@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guía del usuario de Amazon Sales Channel
-user-guide-description: Genere ventas a través de Amazon integrando Adobe Commerce o Magento Open Source con su cuenta [!DNL Amazon Seller Central] .
+user-guide-description: Genere ventas a través de Amazon integrando Adobe Commerce o Magento Open Source con su [!DNL Amazon Seller Central] cuenta.
 breadcrumb-title: Administrador de canales para comercio
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Canal de ventas de Amazon: [!DNL channel manager] para comercio de Adobe {#amazon}
+# Canal de ventas de Amazon: [!DNL channel manager] para Adobe Commerce {#amazon}
 
 - [Canal de ventas de Amazon](overview.md)
 - Introducción {#getting-started}
@@ -22,7 +22,7 @@ ht-degree: 0%
 - Incorporación {#onboarding}
    - [Canal de ventas integrado de Amazon](amazon-onboarding-home.md)
    - [Tareas previas a la configuración](amazon-pre-setup-tasks.md)
-   - [Crear atributos [!DNL Commerce] para Amazon](ob-creating-magento-attributes.md)
+   - [Crear [!DNL Commerce] atributos para Amazon](ob-creating-magento-attributes.md)
    - [Comprobación de la clave de API de Amazon](amazon-verify-api-key.md)
    - [Integración de tiendas](store-integration.md)
    - [Crear regla de listado](ob-create-listing-rule.md)
@@ -53,7 +53,7 @@ ht-degree: 0%
    - [Productos renovados](renewed-products.md)
 - [Configuración de pedidos](order-settings.md)
 - [Configuración de integración de almacén](store-integration-settings.md)
-- Reglas de lista y precios {#rules}
+- Reglas de anuncio y precio {#rules}
    - [Reglas de lista](listing-rules.md)
    - Reglas de precios {#pricing-rules}
       - [Administrar precios](pricing-products.md)

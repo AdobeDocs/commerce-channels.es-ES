@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Aprendizaje y preparación
 
-La vista _[!UICONTROL Learning and Preparation]_muestra la lista de tareas previas a la configuración que se recomiendan antes de integrar las tiendas de Amazon. También proporciona vínculos a materiales de aprendizaje, como:
+La variable _[!UICONTROL Learning and Preparation]_la vista muestra la lista de tareas previas a la configuración que se recomiendan antes de integrar las tiendas de Amazon. También proporciona vínculos a materiales de aprendizaje, como:
 
 - Esta [guía del usuario](./overview.md)
 - Tutoriales en vídeo

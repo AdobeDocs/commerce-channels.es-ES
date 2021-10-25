@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Puede publicar manualmente una o más listas de Amazon que hayan finalizado.
 
-1. Vea uno o más listados en la pestaña _[!UICONTROL Ended]_de la página [Listings de productos](./managing-product-listings.md) (pestaña_[!UICONTROL Inactive]_, _[!UICONTROL Active]_o_[!UICONTROL Ineligible]_).
+1. Ver uno o más anuncios en la _[!UICONTROL Ended]_en la ficha [Listados de productos](./managing-product-listings.md) página (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_o_[!UICONTROL Ineligible]_ ).
 
 1. En la columna izquierda, haga clic en para comprobar cada uno de los anuncios que desea volver a publicar.
 
@@ -23,4 +23,4 @@ Puede publicar manualmente una o más listas de Amazon que hayan finalizado.
 
    Se muestra un mensaje para confirmar que los anuncios seleccionados se están procesando para publicarse en Amazon.
 
-   La información de la lista se publica en Amazon en función de la configuración de cron. La información de la lista se envía a Amazon en la siguiente sincronización de datos. Hasta que Amazon responda con la confirmación de la lista, las listas publicadas manualmente permanecen en la pestaña _Ready to List_ con el estado `List in Progress`. Cuando se recibe la confirmación de la lista de Amazon, las listas se mueven a la pestaña _Activo_ con el estado `Active`.
+   La información de la lista se publica en Amazon en función de la configuración de cron. La información de la lista se envía a Amazon en la siguiente sincronización de datos. Hasta que Amazon responda con la confirmación del anuncio, los anuncios publicados manualmente permanecerán en el _Listo para la lista_ con un `List in Progress` estado. Cuando Amazon recibe la confirmación del anuncio, los anuncios pasan a la sección _Activo_ con una `Active` estado.

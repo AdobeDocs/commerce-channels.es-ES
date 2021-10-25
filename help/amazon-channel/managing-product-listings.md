@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Administrar anuncios de Amazon
 
-La configuración de la lista de productos se puede modificar en cualquier momento después de que la tienda [!DNL Commerce] esté integrada. Puede acceder a la configuración de la lista en el [panel de almacenamiento](./amazon-store-dashboard.md).
+La configuración de la lista de productos se puede modificar en cualquier momento después de la [!DNL Commerce] la tienda está integrada. Puede acceder a la configuración de la lista en la [tablero de almacenamiento](./amazon-store-dashboard.md).
 
-Para acceder a sus listas de productos por su estado de listado, haga clic en **[!UICONTROL Manage Listings]** en la sección _[!UICONTROL Store Listings]_. La página[_ Listas de productos _](./managing-listings-by-tab.md)se abre en la pestaña_[!UICONTROL Active]_ de forma predeterminada.
+Para acceder a sus listas de productos por su estado de listado, haga clic en **[!UICONTROL Manage Listings]** en el _[!UICONTROL Store Listings]_para obtener más información. La variable[_ Listados de productos _](./managing-listings-by-tab.md)se abre_[!UICONTROL Active]_ de forma predeterminada.
 
-También puede hacer clic en **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** y **[!UICONTROL In Progress Listings]** en la sección _[!UICONTROL Store Listings]_para acceder directamente a esas pestañas.
+También puede hacer clic en **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** y **[!UICONTROL In Progress Listings]** en el _[!UICONTROL Store Listings]_para acceder directamente a esas pestañas.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** o son su  _Listo para_ anuncios o sus  _Anuncios incompletos_, según su configuración de  [_Acciones de Listado de_](./product-listing-actions.md) Productos. Consulte las descripciones de las pestañas en [Administrar anuncios por estado / Tab](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** o bien _Listo para la lista_ anuncios o _Listas incompletas_, según el [_Acciones de lista de productos_](./product-listing-actions.md) configuración. Consulte las descripciones de pestañas en [Administrar anuncios por estado/ficha](./managing-listings-by-tab.md).
 
-Consulte [Administrar anuncios por estado / Tab](./managing-listings-by-tab.md) y [Administrar anuncios por acción](./managing-listings-by-action.md).
+Consulte [Administrar anuncios por estado/ficha](./managing-listings-by-tab.md) y [Administrar anuncios por acción](./managing-listings-by-action.md).
 
 ## Acceso a listas de productos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Haga clic **[!UICONTROL View Store]** en una tarjeta de la tienda.
+1. Haga clic en **[!UICONTROL View Store]** en una tarjeta de la tienda.
 
-1. En el panel de la tienda, haga clic en **[!UICONTROL Manage Listings]** en la sección _[!UICONTROL Store Listings]_.
+1. En el panel de la tienda, haga clic en **[!UICONTROL Manage Listings]** en el _[!UICONTROL Store Listings]_para obtener más información.
 
 1. Para ver los anuncios en ese estado, haga clic en una pestaña .
 
-   La pestaña _[!UICONTROL Active]_se muestra de forma predeterminada.
+   La variable _[!UICONTROL Active]_de forma predeterminada.

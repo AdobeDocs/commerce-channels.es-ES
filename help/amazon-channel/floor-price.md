@@ -19,31 +19,31 @@ Las secciones de una regla de reasignación de precios inteligente incluyen:
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-La configuración de [precio mínimo](./floor-price.md) protege automáticamente el precio más bajo del producto frente a las reglas de precios inteligentes. Utilice esta configuración para establecer un mínimo (precio más bajo) para sus reglas de precios inteligentes, asegurándose de que los productos no se listen por debajo del precio deseado.
+La variable [precio mínimo](./floor-price.md) proteja automáticamente su precio de producto más bajo contra las reglas de precios inteligentes. Utilice esta configuración para establecer un mínimo (precio más bajo) para sus reglas de precios inteligentes, asegurándose de que los productos no se listen por debajo del precio deseado.
 
-Los atributos de precio del piso se basan en el ámbito del sitio web si su tienda [!DNL Commerce] está usando el ámbito de precios del sitio web. Consulte [Alcance del precio](./price-scope.md).
+Los atributos de precio mínimo se basan en el ámbito del sitio web si su [!DNL Commerce] la tienda utiliza el ámbito de precios del sitio web. Consulte [Alcance del precio](./price-scope.md).
 
-El precio del piso solo se usa cuando **[!UICONTROL Rule Type]** está establecido en `Intelligent repricing rule`.
+El precio del piso solo se usa cuando **[!UICONTROL Rule Type]** está configurado como `Intelligent repricing rule`.
 
 ## Configurar el precio mínimo
 
-Defina la configuración de precio más baja en la sección _[!UICONTROL Floor Price]_.
+Defina la configuración de precio más baja en la variable _[!UICONTROL Floor Price]_para obtener más información.
 
 1. Para **[!UICONTROL Floor Price Source]**, elija un atributo de origen de precio.
 
-   Elija el [!DNL Commerce] [atributo del producto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} que indica su límite inferior relativo. Por ejemplo, si no desea que el precio del anuncio de Amazon sea inferior al coste del artículo, debe elegir el atributo *Cost*.
+   Elija la [!DNL Commerce] [atributo de producto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} que indica su límite de piso relativo. Por ejemplo, si no desea que el precio de su anuncio de Amazon sea inferior al coste de su artículo, debe elegir la *Costo* atributo.
 
 1. Para **[!UICONTROL Floor Price Action]**, elija una opción.
 
-   - `Decrease By` - Elija cuándo desea que el  _[!UICONTROL Floor Price Source]_valor definido se ajuste hacia abajo, creando un precio mínimo para la regla, antes de cotizar en Amazon.
+   - `Decrease By` - Elija cuándo desea que se defina _[!UICONTROL Floor Price Source]_para ajustar hacia abajo, creando un precio mínimo para la regla, antes de cotizar en Amazon.
 
-   - `Increase By` - Elija cuándo desea que se ajuste el  _[!UICONTROL Floor Price Source]_valor definido, creando un precio mínimo más alto para la regla, antes de cotizar en Amazon.
+   - `Increase By` - Elija cuándo desea que se defina _[!UICONTROL Floor Price Source]_para ajustar, creando un precio mínimo más alto para la regla, antes de cotizar en Amazon.
 
-   - `Match` - Elija cuándo no desea que el precio del anuncio fluctúe por debajo del  _[!UICONTROL Floor Price Source]_valor definido. Cuando se establece en `Match`, los campos_[!UICONTROL Apply]_ y _[!UICONTROL Floor Adjustment Amount]_se desactivan.
+   - `Match` - Elija cuándo no desea que el precio del anuncio fluctúe por debajo del valor definido _[!UICONTROL Floor Price Source]_valor. Cuando se configura como `Match`, el_[!UICONTROL Apply]_ y _[!UICONTROL Floor Adjustment Amount]_los campos están desactivados.
 
-1. Deje el **[!UICONTROL Apply]** predeterminado como `Apply as percentage`.
+1. Deje el **[!UICONTROL Apply]** default como `Apply as percentage`.
 
-1. Para **[!UICONTROL Floor Adjustment Price]**, introduzca el valor numérico del porcentaje para ajustar su valor _[!UICONTROL Floor Price Source]_.
+1. Para **[!UICONTROL Floor Adjustment Price]**, introduzca el valor numérico del porcentaje para ajustar el _[!UICONTROL Floor Price Source]_valor.
 
 En este ejemplo, el precio mínimo se establece en un 3 % por encima del coste del artículo.
 
@@ -51,7 +51,7 @@ En este ejemplo, el precio mínimo se establece en un 3 % por encima del coste d
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | Elija el atributo [!DNL Commerce] que indica su límite inferior relativo. Por ejemplo, si no desea que el precio del anuncio de Amazon sea inferior al coste del artículo, debe elegir el atributo `Cost`. |
-| [!UICONTROL Floor Price Action] | Elija una acción de ajuste de precios. Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que el  _[!UICONTROL Floor Price Source]_valor definido se ajuste hacia abajo, creando un precio mínimo para la regla, antes de cotizar en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que se ajuste el  _[!UICONTROL Floor Price Source]_valor definido, creando un precio mínimo más alto para la regla, antes de cotizar en Amazon.</li><li>**[!UICONTROL Match]** - Elija cuándo no desea que el precio del anuncio fluctúe por debajo del  _[!UICONTROL Floor Price Source]_valor definido. Cuando se elige, los campos_[!UICONTROL Apply]_ y _[!UICONTROL Floor Adjustment Amount]_se desactivan.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un ajuste porcentual relativo al  _[!UICONTROL Floor Price Source]_valor. |
-| [!UICONTROL Floor Adjustment Amount] | Introduzca el valor numérico del porcentaje para ajustar su valor _[!UICONTROL Floor Price Source]_. |
+| [!UICONTROL Floor Price Source] | Elija la [!DNL Commerce] que indica su límite mínimo relativo (precio más bajo). Por ejemplo, si no desea que el precio de su anuncio de Amazon sea inferior al coste de su artículo, debe elegir la `Cost` atributo. |
+| [!UICONTROL Floor Price Action] | Elija una acción de ajuste de precios. Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que se defina _[!UICONTROL Floor Price Source]_para ajustar hacia abajo, creando un precio mínimo para la regla, antes de cotizar en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que se defina _[!UICONTROL Floor Price Source]_para ajustar, creando un precio mínimo más alto para la regla, antes de cotizar en Amazon.</li><li>**[!UICONTROL Match]** - Elija cuándo no desea que el precio del anuncio fluctúe por debajo del valor definido _[!UICONTROL Floor Price Source]_valor. Si se elige, la variable_[!UICONTROL Apply]_ y _[!UICONTROL Floor Adjustment Amount]_los campos están desactivados.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un ajuste porcentual en relación con la variable _[!UICONTROL Floor Price Source]_valor. |
+| [!UICONTROL Floor Adjustment Amount] | Introduzca el valor numérico del porcentaje para ajustar el _[!UICONTROL Floor Price Source]_valor. |

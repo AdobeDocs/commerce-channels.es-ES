@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Actualizar información requerida (lista incompleta)
 
-Los anuncios mostrados en la pestaña _[!UICONTROL Incomplete]_incluyen los productos de catálogo de [!DNL Commerce] que cumplen los requisitos de elegibilidad de Amazon definidos en las reglas de listado, pero que carecen de la información requerida por Amazon antes de su inclusión en la lista.
+Los anuncios se muestran en la _[!UICONTROL Incomplete]_incluya [!DNL Commerce] catálogo de productos que cumplen los requisitos de elegibilidad de Amazon definidos en las reglas de listado, pero que carecen de la información requerida por Amazon antes de enumerar.
 
 ## Actualizar la información necesaria (no se puede asignar a la lista de Amazon) {#update-required-info-unable-to-assign-to-amazon-listing}
 
-1. Vea los listados en la pestaña _[!UICONTROL Incomplete]_en [Administrar listados](./managing-product-listings.md).
+1. Vea los anuncios en la _[!UICONTROL Incomplete]_en [Administrar anuncios](./managing-product-listings.md).
 
-1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para ver el listado que desea actualizar.
+1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para el listado que desea actualizar.
 
 1. Revise la información del producto del catálogo (SKU y nombre de producto) para la que está intentando coincidir con un anuncio de Amazon.
 
@@ -25,23 +25,23 @@ Los anuncios mostrados en la pestaña _[!UICONTROL Incomplete]_incluyen los prod
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]**.
 
-El listado ahora coincide con su catálogo y luego se actualiza y publica en Amazon en función de su configuración de cron y listado. También se elimina de la pestaña _[!UICONTROL Incomplete]_.
+El listado ahora coincide con su catálogo y luego se actualiza y publica en Amazon en función de su configuración de cron y listado. También se elimina del _[!UICONTROL Incomplete]_pestaña .
 
 ![Asignar ASIN manualmente para que no coincida con el listado](assets/amazon-listing-update-assign-asin.png)
 
 ## Actualizar la información necesaria (se encontraron varias coincidencias) {#update-required-info-multiple-matches-found}
 
-1. Vea los listados en la pestaña _[!UICONTROL Incomplete]_en [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Vea los anuncios en la _[!UICONTROL Incomplete]_en [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. En la columna _Action_, haga clic en **Select** > **Update Required Info** para ver la lista que desea actualizar.
+1. En el _Acción_ , haga clic en **Select** > **Actualizar información requerida** para el listado que desea actualizar.
 
 1. Revise la información del producto del catálogo (SKU y nombre de producto) para la que está intentando coincidir con un anuncio de Amazon.
 
 1. Para **[!UICONTROL Select Correct Amazon Listing]**, elija el ASIN correcto para la lista que desea que coincida con este producto.
 
-   Las opciones enumeradas aquí incluyen productos de catálogo que se identifican como posibles coincidencias. Si ninguna de las opciones es correcta, puede elegir `Manually Enter Correct ASIN` e introducir manualmente el ASIN para el producto.
+   Las opciones enumeradas aquí incluyen productos de catálogo que se identifican como posibles coincidencias. Si ninguna de las opciones es correcta, puede elegir `Manually Enter Correct ASIN` e introduzca manualmente el ASIN del producto.
 
-1. Si introduce el ASIN manualmente, introduzca el ASIN correcto para **[!UICONTROL Manually Assign ASIN]**.
+1. Si introduce ASIN manualmente, introduzca el ASIN correcto para **[!UICONTROL Manually Assign ASIN]**.
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]**.
 
@@ -49,17 +49,17 @@ El listado ahora coincide con su catálogo y luego se actualiza y publica en Ama
 
 ## Actualizar la información necesaria (tiene variantes) {#update-required-info-has-variants}
 
-1. Vea los listados en la pestaña _[!UICONTROL Incomplete]_en [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Vea los anuncios en la _[!UICONTROL Incomplete]_en [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para ver el listado que desea actualizar.
+1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para el listado que desea actualizar.
 
 1. Revise la información del producto del catálogo (SKU y nombre de producto) para la que está intentando coincidir con un anuncio de Amazon.
 
 1. Para **[!UICONTROL Select Correct Amazon Listing]**, elija el ASIN correcto para la lista que desea que coincida con este producto.
 
-   Las opciones enumeradas aquí incluyen productos de catálogo que se identifican como posibles coincidencias. Si ninguna de las opciones es correcta, puede seleccionar `Manually Enter Correct ASIN` e introducir manualmente el ASIN para el producto.
+   Las opciones enumeradas aquí incluyen productos de catálogo que se identifican como posibles coincidencias. Si ninguna de las opciones es correcta, puede seleccionar `Manually Enter Correct ASIN` e introduzca manualmente el ASIN del producto.
 
-1. Si introduce el ASIN manualmente, introduzca el ASIN correcto para **[!UICONTROL Manually Assign ASIN]**.
+1. Si introduce ASIN manualmente, introduzca el ASIN correcto para **[!UICONTROL Manually Assign ASIN]**.
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]**.
 
@@ -67,15 +67,15 @@ El listado ahora coincide con su catálogo y luego se actualiza y publica en Ama
 
 ## Actualizar la información necesaria (condición que falta) {#update-required-info-missing-condition}
 
-1. Vea los listados en la pestaña _[!UICONTROL Incomplete]_en [Administrar listados](./managing-product-listings.md).
+1. Vea los anuncios en la _[!UICONTROL Incomplete]_en [Administrar anuncios](./managing-product-listings.md).
 
-1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para ver el listado que desea actualizar.
+1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**para el listado que desea actualizar.
 
 1. Revise la información del producto del catálogo (SKU y nombre de producto) para la que está intentando coincidir con un anuncio de Amazon.
 
 1. Para **[!UICONTROL Condition]**, elija la condición adecuada.
 
-   La lista de opciones disponibles depende de la configuración de [Condición de lista de productos](./product-listing-condition.md).
+   La lista de opciones disponibles depende de la [Condición de lista de productos](./product-listing-condition.md) configuración.
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]** .
 

@@ -15,7 +15,7 @@ El registro de cambios en la lista muestra los cambios que se han producido en s
 
 No hay acciones disponibles para el registro. Es una función de solo revisión.
 
-Las páginas de inicio del canal de ventas de Amazon comparten algunos [controles del espacio de trabajo](./workspace-controls.md) comunes que le permiten personalizar los datos que se muestran.
+Las páginas de inicio del canal de ventas de Amazon comparten algunas [controles del espacio de trabajo](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 
 ![Registro de cambios en la lista](assets/amazon-listing-changes-log.png)
 
@@ -23,7 +23,7 @@ Las páginas de inicio del canal de ventas de Amazon comparten algunos [controle
 
 | Columna | Descripción |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | El nombre de la tienda definida cuando se configuró la tienda Amazon. Consulte [Integración de almacenamiento](./store-integration.md). |
+| [!UICONTROL Amazon Store Name] | El nombre de la tienda definida cuando se configuró la tienda Amazon. Consulte [Integración de tiendas](./store-integration.md). |
 | [!UICONTROL Seller SKU] | El SKU (unidad de mantenimiento de stock) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL Listing Action] | Tipo de cambio que se realizó en la lista. |
 | [!UICONTROL Comments] | Información adicional sobre el cambio en la lista. |

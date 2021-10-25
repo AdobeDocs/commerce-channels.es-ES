@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Acciones de reglas de precio estándar
 
-Una acción de regla de precio estándar le permite aumentar o disminuir un precio de anuncio de Amazon en un porcentaje específico o una cantidad fija en dólares en relación con el [!DNL Commerce] precio del catálogo (o fuente de precios).
+Una acción de regla de precio estándar le permite aumentar o reducir un precio de anuncio de Amazon en un porcentaje específico o una cantidad de dólares fija en relación con el [!DNL Commerce] precio de catálogo (o fuente de precio).
 
 Las secciones de una acción de regla de precio estándar incluyen:
 
@@ -22,27 +22,27 @@ Las secciones de una acción de regla de precio estándar incluyen:
 
 1. Para **[!UICONTROL Rule Type]**, elija `Standard price rule`.
 
-   Esta opción deshabilita los demás campos de la sección _[!UICONTROL Select Rule Type]_.
+   Esta opción deshabilita los demás campos de la variable _[!UICONTROL Select Rule Type]_para obtener más información.
 
-1. Expanda la sección _[!UICONTROL Price Adjustment]_si es necesario.
+1. Expanda el _[!UICONTROL Price Adjustment]_, si es necesario.
 
-1. Para **[!UICONTROL Price Action]**, elija una opción para determinar cómo desea cambiar el valor *[!UICONTROL Magento Price Source]* (definido en su [Precio de anuncio](./listing-price.md)).
+1. Para **[!UICONTROL Price Action]**, elija una opción para determinar cómo desea cambiar la variable *[!UICONTROL Magento Price Source]* (definida en el [Precio de anuncio](./listing-price.md)).
 
    - `Decrease By` - Elija cuándo desea que el valor se reduzca antes de cotizar en Amazon.
 
    - `Increase By` - Elija cuándo desea que se aumente el valor antes de añadirlo a Amazon.
 
-1. Para **[!UICONTROL Apply]**, elija una opción y una opción para determinar cómo desea que se ajuste el *[!UICONTROL Magento Price Source]* definido en su valor [Precio de lista](./listing-price.md):
+1. Para **[!UICONTROL Apply]**, elija una opción para determinar cómo desea que se defina la variable *[!UICONTROL Magento Price Source]* definida en [Precio de anuncio](./listing-price.md) valor que se va a ajustar:
 
-   - `Apply as percentage` - Elija cuándo desea que el valor definido  *[!UICONTROL Magento Price Source]* en su  [precio de ](./listing-price.md) lista se ajuste en un porcentaje
+   - `Apply as percentage` - Elija cuándo desea que se defina *[!UICONTROL Magento Price Source]* definida en [Precio de anuncio](./listing-price.md) valor ajustado en porcentaje
 
-   - `Apply as fixed amount` - Elija cuándo desea que el valor definido  *[!UICONTROL Magento Price Source]* en su  [precio de ](./listing-price.md) lista se ajuste en una cantidad fija.
+   - `Apply as fixed amount` - Elija cuándo desea que se defina *[!UICONTROL Magento Price Source]* definida en [Precio de anuncio](./listing-price.md) valor ajustado por una cantidad fija.
 
 1. Para **[!UICONTROL Adjustment Amount]** (obligatorio), introduzca el valor numérico para el ajuste de precio.
 
-   - Cuando *[!UICONTROL Apply]* está configurado en `Apply as percentage`, introduzca el valor de porcentaje (ejemplo: introduzca `25` para un ajuste de precio del 25%).
+   - When *[!UICONTROL Apply]* está configurado como `Apply as percentage`, introduzca el valor de porcentaje (ejemplo: enter `25` para un ajuste de precio del 25%).
 
-   - Cuando *[!UICONTROL Apply]* está configurado en `Apply as fixed amount`, introduzca el valor numérico de la cantidad fija (ejemplo: introduzca `25` para un ajuste de precio fijo de 25 $).
+   - When *[!UICONTROL Apply]* está configurado como `Apply as fixed amount`, introduzca el valor numérico de la cantidad fija (ejemplo: enter `25` para un ajuste de precio fijo de 25 dólares).
 
 1. Cuando termine, haga clic en **[!UICONTROL Save pricing rule]**.
 
@@ -50,7 +50,7 @@ Las secciones de una acción de regla de precio estándar incluyen:
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL Rule Type] | Seleccione `Standard price rule`. |
-| [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que el valor de origen de  [!DNL Commerce] precio definido se reduzca antes de cotizar en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que el valor de origen de  [!DNL Commerce] precio definido aumente antes de cotizar en Amazon.</li></ul> |
-| [!UICONTROL Apply] | Opciones:<ul><li>**[!UICONTROL Apply as percentage]** - Elija cuándo desea ajustar el valor de origen de  [!DNL Commerce] precio definido en un porcentaje.</li><li>**[!UICONTROL Apply as fixed amount]** - Elija cuándo desea ajustar el valor de origen de  [!DNL Commerce] precio definido en una cantidad fija.</li></ul> |
-| [!UICONTROL Adjustment Amount] | Requerido.<br><br>Si elige  `Apply as percentage` para  *[!UICONTROL Apply]*, introduzca el valor de porcentaje (ejemplo: introduzca  `25` para un ajuste del 25 %).<br><br>Si elige  `Apply as fixed amount` para  *[!UICONTROL Apply]*, introduzca el valor numérico de la cantidad fija (ejemplo: introduzca  `25` para un ajuste fijo de 25 $). |
+| [!UICONTROL Rule Type] | Select `Standard price rule`. |
+| [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que se defina [!DNL Commerce] el valor de la fuente de precios se reducirá antes de cotizar en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que se defina [!DNL Commerce] el valor de la fuente de precios se aumentará antes de publicarlo en Amazon.</li></ul> |
+| [!UICONTROL Apply] | Opciones:<ul><li>**[!UICONTROL Apply as percentage]** - Elija cuándo desea que se defina [!DNL Commerce] valor de fuente de precios ajustado en un porcentaje.</li><li>**[!UICONTROL Apply as fixed amount]** - Elija cuándo desea que se defina [!DNL Commerce] valor de origen de precio ajustado por una cantidad fija.</li></ul> |
+| [!UICONTROL Adjustment Amount] | Requerido.<br><br>Si elige `Apply as percentage` para *[!UICONTROL Apply]*, introduzca el valor de porcentaje (ejemplo: enter `25` para un ajuste del 25%).<br><br>Si elige `Apply as fixed amount` para *[!UICONTROL Apply]*, introduzca el valor numérico de la cantidad fija (ejemplo: enter `25` para un ajuste fijo de 25 dólares). |

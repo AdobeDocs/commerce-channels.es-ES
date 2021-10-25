@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## Finalización manual de una o varias listas de Amazon
 
-1. Vea uno o más listados en la página [[!UICONTROL Product Listings]](./managing-product-listings.md) (pestaña _[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
+1. Ver uno o más anuncios en la [[!UICONTROL Product Listings]](./managing-product-listings.md) página (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
 
 1. En la columna de la izquierda, haga clic en para comprobar cada una de las listas que desee finalizar.
 
 1. En _[!UICONTROL Actions]_, haga clic en **[!UICONTROL End listing(s) on Amazon]**.
 
-1. Haga clic **[!UICONTROL OK]** en el mensaje de confirmación.
+1. Haga clic en **[!UICONTROL OK]** en el mensaje de confirmación.
 
 ## Finalización manual de un solo listado de Amazon
 
-1. Vea uno o más listados en la página [[!UICONTROL Product Listings]](./managing-product-listings.md) (pestaña _[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
+1. Ver uno o más anuncios en la [[!UICONTROL Product Listings]](./managing-product-listings.md) página (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ o _[!UICONTROL Ineligible]_).
 
-1. En la columna _[!UICONTROL Action]_, haga clic en **Select**>**End Listing**.
+1. En el _[!UICONTROL Action]_, haga clic en **Select**>**Finalizar anuncio**.
 
-1. Haga clic **[!UICONTROL OK]** en el mensaje de confirmación.
+1. Haga clic en **[!UICONTROL OK]** en el mensaje de confirmación.
 
-Al finalizar una o varias listas, un mensaje confirma que la lista seleccionada se está procesando para finalizar. Los anuncios finalizados se pueden administrar en la pestaña [Ended](./ended-listings.md) de la página [_Product Listings_](./managing-product-listings.md). Cuando se procesa y se elimina de Amazon, el estado de la lista cambia a `Manually Ended`. Los anuncios finalizados se eliminan de Amazon hasta que se vuelve a publicar manualmente con la acción [_Publicar en Amazon_](./publish-listings-manually.md).
+Al finalizar una o varias listas, un mensaje confirma que la lista seleccionada se está procesando para finalizar. Los anuncios finalizados se pueden administrar en el [Finalizado](./ended-listings.md) en la ficha [_Listados de productos_](./managing-product-listings.md) página. Cuando se procesa y se elimina de Amazon, el estado de la lista cambia a `Manually Ended`. Los anuncios finalizados se eliminan de Amazon hasta que vuelva a publicar manualmente el listado con la variable [_Publicar en Amazon_](./publish-listings-manually.md) acción.

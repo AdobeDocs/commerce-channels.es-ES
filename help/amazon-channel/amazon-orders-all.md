@@ -26,27 +26,27 @@ _[!UICONTROL All Orders]_view agrega opciones de filtrado para búsquedas de ped
 
 >[!NOTE]
 >
->Excepto en la columna _[!UICONTROL Order Notes]_, la tabla_[!UICONTROL Amazon orders]_ se rellena con información de pedido recibida de Amazon. _Order Notes_ se actualiza en [!DNL Commerce] a medida que se procesa el pedido.
+>Excepto para el _[!UICONTROL Order Notes]_, la variable_[!UICONTROL Amazon orders]_ se rellena con información de pedido recibida de Amazon. La variable _Notas del pedido_ se actualiza con [!DNL Commerce] como el proceso de pedido.
 
 ## Pedidos recientes
 
-Puede ver los pedidos más recientes en la sección _[!UICONTROL Recent Orders]_del [panel de almacenamiento](./amazon-store-dashboard.md).
+Puede ver los pedidos más recientes en la _[!UICONTROL Recent Orders]_de la sección [tablero de almacenamiento](./amazon-store-dashboard.md).
 
 ![Pedidos recientes](assets/amazon-recent-orders-imported.png)
 
 ### Ver pedidos recientes de Amazon
 
-1. Haga clic **[!UICONTROL View Store]** en una tarjeta de la tienda.
+1. Haga clic en **[!UICONTROL View Store]** en una tarjeta de la tienda.
 
-1. Consulte sus pedidos en la sección _[!UICONTROL Recent Orders]_.
+1. Vea sus pedidos en la _[!UICONTROL Recent Orders]_para obtener más información.
 
-1. Para ver los detalles del pedido, haga clic en el número de pedido de Amazon en la columna _[!UICONTROL Order Number]_.
+1. Para ver los detalles del pedido, haga clic en el número de pedido de Amazon en la _[!UICONTROL Order Number]_para abrir el Navegador.
 
-   Se abre la página _[!UICONTROL Amazon Order Details]_del pedido.
+   La variable _[!UICONTROL Amazon Order Details]_para abrir el formulario de solicitud.
 
 ## Ver todos los pedidos
 
-Puede ver todos los pedidos de Amazon en la página _[!UICONTROL Amazon orders]_(también denominada vista_[!UICONTROL All Orders]_). La tabla Pedidos de Amazon es similar a la sección _[!UICONTROL Recent Orders]_del panel de almacenamiento, pero le permite ver todos sus pedidos de Amazon y reducir la lista de pedidos con las siguientes opciones de filtro:
+Puede ver todos sus pedidos de Amazon en la _[!UICONTROL Amazon orders]_(también denominada_[!UICONTROL All Orders]_ vista). La tabla Pedidos de Amazon es similar a la del _[!UICONTROL Recent Orders]_del panel de la tienda, pero le permite ver todos sus pedidos de Amazon y reducir la lista de pedidos con las siguientes opciones de filtro:
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -58,27 +58,27 @@ Puede ver todos los pedidos de Amazon en la página _[!UICONTROL Amazon orders]_
 
 ### Ver todos los pedidos de Amazon
 
-1. Haga clic **[!UICONTROL View Store]** en una tarjeta de la tienda.
+1. Haga clic en **[!UICONTROL View Store]** en una tarjeta de la tienda.
 
-1. Haga clic **[!UICONTROL All Orders]** en la sección _[!UICONTROL Recent Orders]_.
+1. Haga clic en **[!UICONTROL All Orders]** en el _[!UICONTROL Recent Orders]_para obtener más información.
 
-1. Para reducir la lista o buscar un número de orden específico, complete los parámetros **[!UICONTROL Filter by]** y haga clic en **[!UICONTROL Apply filters]**.
+1. Para reducir la lista o buscar un número de orden específico, complete la **[!UICONTROL Filter by]** parámetros y haga clic en **[!UICONTROL Apply filters]**.
 
-1. Para ver los detalles del pedido, haga clic en el número de pedido de Amazon en la columna _[!UICONTROL Order Number]_.
+1. Para ver los detalles del pedido, haga clic en el número de pedido de Amazon en la _[!UICONTROL Order Number]_para abrir el Navegador.
 
-   Se abre la página _[!UICONTROL Amazon Order Details]_del pedido.
+   La variable _[!UICONTROL Amazon Order Details]_para abrir el formulario de solicitud.
 
 ## Uso de filtros
 
-Puede aplicar filtros a la lista de pedidos en la sección _[!UICONTROL Filter by]_. Realice las selecciones y haga clic en **[!UICONTROL Apply filters]**. Los filtros aplicados aparecen encima de la cuadrícula de pedidos.
+Puede aplicar filtros a la lista de pedidos en la _[!UICONTROL Filter by]_para obtener más información. Realice las selecciones y haga clic en **[!UICONTROL Apply filters]**. Los filtros aplicados aparecen encima de la cuadrícula de pedidos.
 
 ![Filtros para ver pedidos de Amazon](assets/amazon-orders-filter-view.png)
 
 ### Cambio de los filtros aplicados
 
-- Puede añadir o cambiar los filtros en la sección _[!UICONTROL Filter by]_. Haga clic en **[!UICONTROL Apply filters]**para actualizar la lista de pedidos y las opciones de filtro que aparecen encima de la cuadrícula de pedidos.
+- Puede añadir o cambiar los filtros en la variable _[!UICONTROL Filter by]_para obtener más información. Haga clic en **[!UICONTROL Apply filters]**para actualizar la lista de pedidos y las opciones de filtro que aparecen encima de la cuadrícula de pedidos.
 
-- Puede eliminar filtros, de uno en uno haciendo clic en `x` para el filtro o todos a la vez haciendo clic en **[!UICONTROL Clear all filters]**. Al quitar un filtro, se actualiza la lista de pedidos y las opciones de filtro que aparecen encima de la cuadrícula de pedidos.
+- Puede quitar los filtros de uno en uno haciendo clic en el botón `x` para el filtro o todo a la vez haciendo clic en **[!UICONTROL Clear all filters]**. Al quitar un filtro, se actualiza la lista de pedidos y las opciones de filtro que aparecen encima de la cuadrícula de pedidos.
 
 - Si la lista de pedidos es larga, puede utilizar los controles de paginación situados debajo de la cuadrícula para ver más pedidos.
 
@@ -96,10 +96,10 @@ Puede aplicar filtros a la lista de pedidos en la sección _[!UICONTROL Filter b
 
 | Columna | Descripción |
 |---|---|
-| [!UICONTROL Filter by] | Disponible solo en la vista _[!UICONTROL All Orders]_.<br>Reducir la lista de pedidos en función de:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
+| [!UICONTROL Filter by] | Disponible solo en la variable _[!UICONTROL All Orders]_vista.<br>Reducir la lista de pedidos en función de:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | La fecha de la compra, tal como se recibió de Amazon. |
 | [!UICONTROL Order Number] | Número de pedido que Amazon genera y recibe. Para ver la pantalla Detalles del pedido de Amazon, haga clic en el vínculo . |
 | [!UICONTROL Status] | El estado del pedido, tal como lo recibió Amazon. Opciones: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
 | [!UICONTROL Buyer's Name] | Nombre de la persona que realizó el pedido, tal como se recibió de Amazon. |
 | [!UICONTROL Grand Total] | El valor monetario total del pedido, según se recibió de Amazon. |
-| [!UICONTROL Order Notes] | La acción más reciente registrada para el pedido mientras se procesa en [!DNL Commerce]. La información incluye, entre otros, errores de importación de pedidos y actualizaciones de procesamiento de pedidos.<br>**Nota**: Este campo lo actualiza  [!DNL Commerce] mientras se procesa la solicitud. |
+| [!UICONTROL Order Notes] | Acción más reciente registrada para la solicitud mientras se procesa en [!DNL Commerce]. La información incluye, entre otros, errores de importación de pedidos y actualizaciones de procesamiento de pedidos.<br>**Nota**: Este campo se actualiza mediante [!DNL Commerce] como el proceso de pedido. |
