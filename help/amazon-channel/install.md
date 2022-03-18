@@ -1,10 +1,10 @@
 ---
 title: Instalación de la extensión
-description: Para integrar su [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] y venda a través de la variable [!DNL Amazon Marketplace], descargue e instale la extensión de Sales Channel de Amazon.
+description: Para integrar su [!DNL Commerce] catálogo con [!DNL Amazon Seller Accounts] y venda a través de la variable [!DNL Amazon Marketplace], descargue e instale la extensión de Sales Channel de Amazon.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Solo [!DNL Amazon Sales Channel] las versiones de la extensión 4.0 y posteriores son compatibles con las versiones de Adobe Commerce y Magento Open Source 2.4.x. Si está ejecutando una versión 2.3.x, consulte la documentación de [versión compatible del canal de ventas de Amazon](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Para obtener más información sobre la compatibilidad de versiones, consulte la [Disponibilidad](https://devdocs.magento.com/release/availability.html)página {target=&quot;_blank&quot;} en la documentación del desarrollador.
 
-La variable [!UICONTROL Amazon Sales Channel] instala y agrega funciones para integrar su catálogo de comercio con [!DNL Amazon Seller Accounts] para vender a través de la variable [!DNL Amazon Marketplace]. Para revisar información adicional, consulte la [Sales Channel de Amazon](https://marketplace.magento.com/magento-module-amazon.html) en [!DNL Commerce Marketplace] y [notas de la versión](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) en la documentación para desarrolladores.
+La variable [!UICONTROL Amazon Sales Channel] instala y agrega funciones para integrar su catálogo de comercio con [!DNL Amazon Seller Accounts] para vender a través de la variable [!DNL Amazon Marketplace]. Para revisar información adicional, consulte la [Sales Channel de Amazon](https://marketplace.magento.com/magento-module-amazon.html) en [!DNL Commerce Marketplace] y [notas de la versión](release-notes.md).
 
 ## Requisitos
 
@@ -74,9 +74,9 @@ Tiene las siguientes opciones para configurar el canal de ventas de Amazon. No e
 
 1. (Opcional) Para **Origen de tareas en segundo plano (CRON)**, cambie la configuración a `Command Line (CLI) CRON`.
 
-   Esta configuración es recomendada para **_usuarios/administradores avanzados_**.
+   Se recomienda esta configuración para **_usuarios/administradores avanzados_**.
 
-1. Haga clic en **[!UICONTROL Save Config]**.
+1. Haga clic **[!UICONTROL Save Config]**.
 
 ## Actualizar la extensión
 

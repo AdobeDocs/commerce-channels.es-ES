@@ -1,18 +1,20 @@
 ---
 user-guide-title: Guía del usuario de Amazon Sales Channel
 user-guide-description: Genere ventas a través de Amazon integrando Adobe Commerce o Magento Open Source con su [!DNL Amazon Seller Central] cuenta.
-breadcrumb-title: Administrador de canales para comercio
-source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
+breadcrumb-title: Canal de ventas de Amazon
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
 
 # Canal de ventas de Amazon: [!DNL channel manager] para Adobe Commerce {#amazon}
 
-- [Canal de ventas de Amazon](overview.md)
+- [Información general de la guía](guide-overview.md)
+- [Introducción al canal de ventas de Amazon](overview.md)
+- [Notas de la versión](release-notes.md)
 - Introducción {#getting-started}
    - [Acerca del canal de ventas de Amazon](about-amazon-sales-channel.md)
    - [Acerca de Amazon Marketplace](about-amazon-marketplace.md)
