@@ -1,15 +1,15 @@
 ---
-title: '"Introducción a [!DNL Channel Manager]"'
+title: Acerca de [!DNL Channel Manager]
 description: Obtenga información sobre cómo instalar y utilizar [!DNL Channel Manager] para integrar tiendas de Adobe Commerce y Magento Open Source con mercados de terceros, y crear un canal de ventas para administrar ofertas de venta, precios, inventarios y ventas sin problemas desde su administrador de comercio.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Información general
 
@@ -65,7 +65,7 @@ Necesita la siguiente información de Walmart para integrar Commerce con Walmart
 
    * Seleccione Adobe como proveedor de soluciones.
 
-   * Establezca los permisos como se muestra en la tabla siguiente. Para obtener más información, consulte [Credenciales de API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) en el _Ayuda del vendedor de Walmart Marketplace_.
+   * Establezca los permisos como se muestra en la tabla siguiente. Para obtener más información, consulte [Credenciales de API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) en el *Ayuda del vendedor de Walmart Marketplace*.
 
 |    **Configuración clave de API de Adobe para Walmart**
 | **Permiso** | **Configuración** | |—|—| | Contenido | Acceso completo | | Obtener fuentes | Solo vista | | Inventario | Acceso completo | | Artículos | Acceso completo | | Tiempo de espera | Acceso completo | | Pedido | Acceso completo | | Precio | Acceso completo | | Informes | Solo vista | | Devuelve | Acceso completo | | Reglas | Acceso completo | | Envío | Acceso completo |

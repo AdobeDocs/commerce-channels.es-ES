@@ -1,13 +1,13 @@
 ---
 title: Instalar [!DNL Channel Manager]
 description: Instale la extensión del administrador de canales.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Instalación del administrador de canales
 
@@ -15,7 +15,7 @@ Consulte la [requisitos previos](onboard.md#prerequisites) y recopile la informa
 
 ## Actualizar la configuración de estabilidad mínima
 
-Antes de instalar la extensión, debe actualizar la variable `minimum-stability` requisitos de `composer.json` para que pueda instalar las versiones anteriores del Administrador de canales con Composer.
+Antes de instalar la extensión, actualice la variable `minimum-stability` requisitos de `composer.json` para que pueda instalar las versiones anteriores del Administrador de canales con Composer.
 
 Para actualizar la configuración, agregue las siguientes líneas a la `composer.json` archivo.
 
@@ -28,7 +28,7 @@ Para actualizar la configuración, agregue las siguientes líneas a la `composer
 
 ## Instalación de la extensión
 
-Las instrucciones de instalación dependen de si está instalando el administrador de canales en una instancia de comercio local o en la nube:
+Las instrucciones de instalación del Administrador de canales dependen de si Adobe Commerce o el Magento Open Source se implementan en las instalaciones o en la infraestructura de la nube.
 
 - Instalar en un [Instancia local](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Trabaje en una rama de desarrollo al añadir una extensión a la instancia de nu
 
 Para obtener ayuda sobre el uso de ramas, consulte [Introducción a la creación de ramas](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} en la documentación para desarrolladores de Adobe Commerce.
 
-Al instalar una extensión, el nombre de la extensión (&lt;vendorname>\_&lt;componentname>) se inserta automáticamente en la variable [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}. No es necesario que edite el archivo directamente.
+Durante la instalación, el nombre de la extensión (`&lt;VendorName>\_&lt;ComponentName>`) se inserta automáticamente en la variable [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}. No es necesario que edite el archivo directamente.
 
 1. En la estación de trabajo local, cambie al directorio raíz del proyecto de Cloud.
 
-1. Cree o extraiga una rama de desarrollo. Consulte [ramificación](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. Con el nombre del Compositor, agregue la extensión al `require` del archivo composer.json.
+1. Crear o comprobar un desarrollo [Rama](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. Con el nombre del Compositor, agregue la extensión al `require` de la sección `composer.json` archivo.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ Al instalar una extensión, el nombre de la extensión (&lt;vendorname>\_&lt;com
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. Una vez finalizada la compilación e implementación, utilice SSH para iniciar sesión en el entorno remoto y verificar que la extensión se haya instalado correctamente.
@@ -197,7 +198,7 @@ Compruebe la configuración de claves:
    $ cat /path/to/auth.json
    ```
 
-1. Compruebe que las credenciales de auth.json coinciden[ las claves asociadas con el ID de MAGE](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} se usa para registrarse en el servicio Administrador de canales.
+1. Compruebe que las credenciales de auth.json coinciden [las claves asociadas con el ID de MAGE](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} se usa para registrarse en el servicio Administrador de canales.
 
 ### Memoria insuficiente para PHP
 
@@ -223,6 +224,14 @@ Utilice cualquiera de los siguientes métodos para resolver el problema de memor
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Vista que falta
+
+Si aparece un error acerca de una falta `process_catalog_exporter_view` durante la instalación del administrador de canales, intente [actualización de los indexadores](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Errores de implementación en la nube
 
-Para ver los problemas de implementación de la extensión en la nube, consulte[error de implementación de extensiones](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Para ver los problemas de implementación de la extensión en la nube, consulte [error de implementación de extensiones](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.

@@ -3,9 +3,10 @@ title: Conectarse a Commerce Services
 description: Conecte la instancia del Administrador de canales a [!DNL Commerce services] para habilitar la sincronización de datos y la comunicación entre la instancia de Commerce, Channel Manager y otros servicios de soporte.
 role: User
 level: Intermediate
-source-git-commit: ec950579a9b2220f9ec106b616779fc3503f3add
+exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,15 @@ ht-degree: 0%
 
 Commerce Services Connector integra el servicio Channel Manager con instancias de Adobe Commerce y Magento Open Source. El conector permite la sincronización de datos y la comunicación entre los [!DNL Commerce] instancia, [!DNL Channel Manager]y otros servicios de soporte.
 
-La configuración de Commerce Services Connector es un proceso único necesario para utilizar Adobe [Servicios de Commerce SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} like [!DNL Channel Manager], [!DNL Live Search]y [!DNL Product Recommendations]. Si ya ha configurado el conector para otro servicio, puede omitir este paso.
+La configuración de Commerce Services Connector es un proceso único necesario para utilizar Adobe [Servicios de Commerce SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} like [!DNL Channel Manager], [!DNL Live Search]y [!DNL Product Recommendations]. Si ya ha configurado el conector para otro servicio, omita este paso.
 
 ## Requisitos previos
 
-- **Cuenta de comercio con [Acceso de administrador](https://docs.magento.com/user-guide/stores/admin.html){target=&quot;_blank&quot;}** a su instancia de Commerce** Los propietarios de cuentas y los usuarios administradores pueden configurar cuentas de usuario desde la instancia de Commerce o desde la línea de comandos utilizando la variable [!DNL Commerce] Comando CLI `admin:user:create`.
+- **Cuenta de comercio**-Para instalar software en instancias de Commerce, debe tener una cuenta con acceso de Propietario o Administrador a la plataforma Commerce.
 
-- **Adobe Commerce [Claves de API de producción](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}**-Habilitar el acceso a la API a los servicios requeridos por el Administrador de canales
+   Los propietarios de cuentas y los usuarios administradores pueden crear nuevas cuentas de administrador desde la instancia de Commerce o desde la línea de comandos utilizando la variable [!DNL Commerce] Comando CLI `admin:user:create`.
+
+- **Clave de API de producción de Adobe Commerce**-Esto [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} habilita el acceso de API a los servicios requeridos por el Administrador de canales. Necesita las credenciales públicas y privadas para esta clave.
 
    Para proporcionar las credenciales, el titular de una licencia de comercio o el propietario de la cuenta tiene la opción de
    [acceso compartido](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} o asigne la variable [Clave de API](https://docs.magento.com/user-guide/system/saas.html#apikey)Credenciales de {target=&quot;_blank&quot;} para un desarrollador de confianza.
@@ -29,13 +32,13 @@ La configuración de Commerce Services Connector es un proceso único necesario 
 
 1. Abra la configuración de Servicios de almacenamiento .
 
-   - En Administración, seleccione [!UICONTROL Stores].
+   - En Administración, seleccione **[!UICONTROL Stores]**.
 
-   - En *Configuración*, seleccione [!UICONTROL Configuration].
+   - En *Configuración*, seleccione **[!UICONTROL Configuration]**.
 
-   - En el [!UICONTROL Configuration] página, expandir [!UICONTROL Services] y seleccione [!UICONTROL Commerce Services Connector].
+   - Expandir **[!UICONTROL Services]** y seleccione **[!UICONTROL Commerce Services Connector]**.
 
-1. Agregue las claves de la API de producción de su cuenta de Adobe Commerce.
+1. Agregue las credenciales clave de la API de producción de su cuenta de Adobe Commerce.
 
    ![[!DNL Commerce Service Connector] en el [!DNL Admin] ver](assets/commerce-services-connector-admin-service-view.png)
 
