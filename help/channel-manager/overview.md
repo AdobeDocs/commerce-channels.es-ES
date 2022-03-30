@@ -75,8 +75,8 @@ Necesita la siguiente información de Walmart para integrar Commerce con Walmart
 
    * Establezca los permisos como se muestra en la tabla siguiente. Para obtener más información, consulte [Credenciales de API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) en el *Ayuda del vendedor de Walmart Marketplace*.
 
-|    **Configuración clave de API de Adobe para Walmart**
-| **Permiso** | **Configuración** | |—|—| | Contenido | Acceso completo | | Obtener fuentes | Solo vista | | Inventario | Acceso completo | | Artículos | Acceso completo | | Tiempo de espera | Acceso completo | | Pedido | Acceso completo | | Precio | Acceso completo | | Informes | Solo vista | | Devuelve | Acceso completo | | Reglas | Acceso completo | | Envío | Acceso completo |
+&#x200B;|    **Configuración clave de API de Adobe para Walmart**
+&#x200B;| **Permiso** | **Configuración** | |—|—| | Contenido | Acceso completo | | Obtener fuentes | Solo vista | | Inventario | Acceso completo | | Artículos | Acceso completo | | Tiempo de espera | Acceso completo | | Pedido | Acceso completo | | Precio | Acceso completo | | Informes | Solo vista | | Devuelve | Acceso completo | | Reglas | Acceso completo | | Envío | Acceso completo |
 
 ## Estado de Walmart Marketplace Store
 
