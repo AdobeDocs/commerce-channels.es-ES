@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo instalar y utilizar [!DNL Channel 
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -75,8 +75,21 @@ Necesita la siguiente información de Walmart para integrar Commerce con Walmart
 
    * Establezca los permisos como se muestra en la tabla siguiente. Para obtener más información, consulte [Credenciales de API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) en el *Ayuda del vendedor de Walmart Marketplace*.
 
-&#x200B;|    **Configuración clave de API de Adobe para Walmart**
-&#x200B;| **Permiso** | **Configuración** | |—|—| | Contenido | Acceso completo | | Obtener fuentes | Solo vista | | Inventario | Acceso completo | | Artículos | Acceso completo | | Tiempo de espera | Acceso completo | | Pedido | Acceso completo | | Precio | Acceso completo | | Informes | Solo vista | | Devuelve | Acceso completo | | Reglas | Acceso completo | | Envío | Acceso completo |
+   **Configuración clave de API de Adobe para Walmart**
+
+   | **Permiso** | **Configuración** |
+   |----------------|-------------|
+   | Contenido | Acceso completo |
+   | Obtener fuentes | Ver solo |
+   | Inventario | Acceso completo |
+   | Elementos | Acceso completo |
+   | Tiempo de retraso | Acceso completo |
+   | Pedido | Acceso completo |
+   | Precio | Acceso completo |
+   | Informes | Ver solo |
+   | Devuelve | Acceso completo |
+   | Reglas | Acceso completo |
+   | Envío | Acceso completo |
 
 ## Estado de Walmart Marketplace Store
 
