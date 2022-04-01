@@ -2,9 +2,9 @@
 title: Conectar Sales Channel a [!DNL Walmart Marketplace]
 description: Configure el canal de ventas y conéctese a Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] por ejemp
    - Agregue un **[!UICONTROL email address]** para recibir notificaciones de servicio relacionadas con [!DNL Channel Manager].
 
       ![Configurar la conexión entre Commerce y [!DNL Walmart Marketplace] from [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
-
 
 ## Conecte el canal a Walmart Marketplace
 
@@ -80,3 +79,25 @@ Si falla la conexión a Walmart, consulte la [Preguntas frecuentes sobre Walmart
 - Compruebe que la configuración de acceso para la clave de API de Adobe de Walmart tiene los permisos correctos. Consulte [Requisitos previos de Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Confirme que el servicio de API de Walmart está disponible en el [Página de estado de la API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+
+## Configuración completa de la tienda
+
+Después de conectar una tienda de comercio a [!DNL Walmart Marketplace], puede completar la configuración de la tienda desde el [!DNL Channel Manager Stores] vista.
+
+Para completar la configuración de la tienda:
+
+1. En el Administrador, seleccione **[!UICONTROL Marketing** > **Administrador de canales**].
+
+   ![[!DNL Walmart Marketplace API key] página de configuración](assets/connect-commerce-store-config.png)
+
+1. Abra un canal de ventas conectado seleccionando el icono de lápiz en una fila de entrada de tienda.
+
+1. Iniciar operaciones de canal de ventas.
+
+   - [Agregar productos del catálogo de comercio al administrador de canales](add-products-to-connected-channel.md)
+
+   - [Publicar productos en Walmart utilizando la combinación de productos](publish-listings-to-marketplace.md)
+
+   - [Ver y administrar inventario y precios](inventory-and-price-updates.md)
+
+   - Ver y administrar pedidos de Walmart desde el Administrador de comercio
