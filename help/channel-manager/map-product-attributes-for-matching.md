@@ -1,9 +1,10 @@
 ---
 title: Configurar la coincidencia de productos
 description: Asignar atributos para hacer coincidir productos de Commerce con anuncios de Walmart Marketplace existentes
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Si tiene un tipo diferente de atributo de ID de producto en el catálogo, convi�
 
 ## Configuración de atributos del producto
 
-1. En la página de lista de productos del canal de ventas conectado, seleccione uno o varios productos en *Borrador* estado.
+1. En el [!UICONTROL Listings] para el canal de ventas conectado, seleccione uno o varios productos en *Borrador* estado.
 
 1. Select **[!UICONTROL Settings]**.
 

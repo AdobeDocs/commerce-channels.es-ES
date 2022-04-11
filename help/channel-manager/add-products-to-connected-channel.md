@@ -1,37 +1,34 @@
 ---
-title: Añadir productos a la tienda de canales
+title: Añadir productos a un canal conectado
 description: Cree una gama de productos para las ventas de Marketplace agregando productos del catálogo al canal de ventas
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Añadir productos a la tienda de canales
+# Añadir productos a un canal conectado
 
-En el Administrador de canales, seleccione los productos de [!DNL Commerce] catálogo de ventas de Walmart Marketplace.
-
-Para sincronizar productos con el canal de ventas, los productos seleccionados deben tener la siguiente configuración de atributos:
+Para sincronizar los productos con el canal de ventas de Walmart Marketplace, seleccione los productos del [!DNL Commerce] catálogo de productos e impórtelos en Channel Manager. Los productos seleccionados deben tener la siguiente configuración de atributos:
 
 - **[!UICONTROL Publish to Channel Manager]** el atributo está habilitado
 
 - Al menos un atributo de producto debe coincidir con uno de los [atributos requeridos de Walmart Marketplace](map-product-attributes-for-matching.md)-GTIN, ISBN, ISSN, UPC, EAN
 
-Después de guardar las selecciones, el Administrador de canales importa los datos del producto en el canal. Este proceso puede tardar hasta 30 minutos.
+El proceso de importación de productos de [!DNL Commerce] a Administrador de canales puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
 
 ## Agregar productos al canal de ventas
 
-1. Abra el catálogo de productos asociado con su tienda de Channel Manager.
-
-   En un almacén de canales de ventas conectado, seleccione **Agregar productos**.
+1. En un almacén de canales de ventas conectado, seleccione **Agregar productos** para abrir el catálogo de productos.
 
    ![Añadir productos a un canal conectado](assets/add-initial-products-to-connected-channel.png)
 
    El catálogo se abre en una nueva pestaña.
 
-1. En la cuadrícula de productos del catálogo, seleccione los productos que desea vender en Walmart Marketplace.
+1. En la cuadrícula de producto del catálogo, seleccione los productos que desea vender [!DNL Walmart Marketplace].
 
    ![Enviar productos al canal conectado](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ Después de guardar las selecciones, el Administrador de canales importa los dat
 
 1. Vuelva al canal de ventas conectado en [!DNL Channel Manager].
 
-   Una vez finalizada la operación de importación, consulte los productos desde **[!UICONTROL Listings]**. Inicialmente, los productos están en *Borrador* estado. Select [!UICONTROL Refresh products]** para actualizar la tabla.
+1. Una vez finalizada la operación de importación, consulte los productos desde **[!UICONTROL Listings]**.
 
    ![Productos importados al canal de ventas conectado](assets/products-in-marketplace-sales-channel.png)
+
+   Inicialmente, los productos están en *Borrador* estado. Select **[!UICONTROL Refresh products]** para actualizar la tabla.
+

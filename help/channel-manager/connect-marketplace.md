@@ -1,28 +1,28 @@
 ---
-title: Conectar Sales Channel a [!DNL Walmart Marketplace]
+title: Conectar el canal de ventas a [!DNL Walmart Marketplace]
 description: Configure el canal de ventas y conéctese a Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Conectar a [!DNL Walmart Marketplace]
+# Conectar el canal de ventas a [!DNL Walmart Marketplace]
 
 Después de instalar el Administrador de canales en su [!DNL Commerce] por ejemplo, conecte una tienda de comercio a Walmart Marketplace.
 
-1. Cree el canal de ventas mediante [seleccionar Commerce store para listas de productos](#select-the-commerce-store-for-the-sales-channel).
+1. [Crear el canal de ventas](#create-the-sales-channel) seleccionando Commerce store para listas de productos.
 
 1. [Conecte el canal a [!DNL Walmart Marketplace] añadiendo credenciales de API de Walmart](#connect-the-channel-to-walmart-marketplace).
 
-1. [Configuración completa del canal de ventas](#complete-store-setup) para que pueda administrar anuncios, inventario, precios y ventas desde Channel Manager.
+1. [Configuración completa del canal de ventas](#complete-store-setup) para administrar anuncios, inventario, precios y pedidos de su gama de productos de Walmart Marketplace.
 
 ## Crear el canal de ventas
 
-1. Abra el Administrador de canales.
+1. Apertura [!DNL Channel Manager].
 
    - En el Administrador, seleccione **[!UICONTROL Marketing** > _Canales _> **Administrador de canales]**.
 
@@ -43,7 +43,7 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] por ejemp
 
 ## Conecte el canal a Walmart Marketplace
 
-1. Agregue las credenciales para la [!DNL Walmart Marketplace Adobe Production API key] de su [!DNL Walmart Marketplace Seller] cuenta.
+1. Agregue las credenciales para la [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) de su [!DNL Walmart Marketplace Seller] cuenta.
 
    - Si no dispone de las credenciales, seleccione **[!UICONTROL Get API credentials]** para obtenerlos de la variable [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,11 +63,11 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] por ejemp
 
       Al agregar credenciales a [!DNL Channel Manager], el Adobe oculta el secreto del cliente y almacena el valor en un almacén seguro.
 
-1. [!UICONTROL Save] la configuración para establecer la conexión.
+1. Select [!UICONTROL Save] para aplicar la configuración y conectarse al [!DNL Walmart marketplace].
 
-   Después de conectarse correctamente, administre el canal desde **[!UICONTROL Channel Manager > Marketplace Stores]**.
+Después de conectarse correctamente, administre el canal desde **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-   ![[!DNL Walmart Marketplace API key] página de configuración](assets/manage-connected-stores.png)
+![[!DNL Walmart Marketplace API key] página de configuración](assets/manage-connected-stores.png)
 
 
 ### Solución de problemas de conexión
@@ -78,7 +78,7 @@ Si falla la conexión a Walmart, consulte la [Preguntas frecuentes sobre Walmart
 
 - Compruebe que la configuración de acceso para la clave de API de Adobe de Walmart tiene los permisos correctos. Consulte [Requisitos previos de Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
-- Confirme que el servicio de API de Walmart está disponible en el [Página de estado de la API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- Confirme que la variable [!DNL Walmart API] está disponible en el [Página de estado de la API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
 
 ## Configuración completa de la tienda
 

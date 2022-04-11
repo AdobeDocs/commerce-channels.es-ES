@@ -1,17 +1,17 @@
 ---
 title: Configuración de canal completa
 description: Vaya a un canal de ventas conectado para administrar la vista y administración de listas de productos, actualizaciones de inventario y precios y realizar un seguimiento de pedidos
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
+# Configuración de canal completa
 
-# Configuración completa de la tienda
-
-Después de conectar una tienda de comercio a [!DNL Walmart Marketplace], puede completar la configuración de la tienda desde el [!DNL Channel Manager Stores] vista.
+Después de conectar una tienda de comercio a [!DNL Walmart Marketplace], complete la configuración de la tienda desde el [!DNL Channel Manager Stores] vista.
 
 1. En el Administrador, seleccione **[!UICONTROL Marketing** > **Administrador de canales**].
 
@@ -28,4 +28,3 @@ Después de conectar una tienda de comercio a [!DNL Walmart Marketplace], puede 
    - [Descubra cómo Channel Manager sincroniza las actualizaciones de precios e inventario entre Commerce y Walmart](inventory-and-price-updates.md)
 
    - Ver y administrar pedidos de Walmart desde el Administrador de comercio
-

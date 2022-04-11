@@ -2,25 +2,25 @@
 title: Publicar anuncios en Walmart
 description: Publique anuncios de productos de Commerce en Walmart Marketplace para comenzar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # Publicar anuncios en Walmart
 
-Al igual que otros mercados, Walmart permite a los vendedores de terceros listar artículos que otros venden.
+Como otros mercados, [!DNL Walmart] permite a los vendedores de terceros enumerar los artículos que venden otros.
 
-La plataforma utiliza identificadores de producto como UPC y GTIN para hacer coincidir elementos que ya están en venta.
-Para los productos coincidentes, la lista de Walmart Marketplace existente se actualiza para incluir la oferta de productos Commerce.
+La plataforma utiliza identificadores de producto como UPC y GTIN para coincidir con los existentes [!DNL Walmart Marketplace] anuncios.
+Para los productos coincidentes, el anuncio de Walmart Marketplace se actualiza para incluir la oferta de productos Commerce al publicar un producto de [!DNL Channel Manager].
 
-Por lo general, los productos con los precios más bajos aparecen primero en los resultados, pero otros factores como las revisiones también afectan a la ubicación.
+Normalmente, las ofertas de productos con los precios más bajos aparecen primero en la [!DNL Walmart Marketplace] , pero otros factores como las revisiones también afectan a la ubicación.
 
 ## Hacer coincidir productos
 
-Cuando coincide con productos, Channel Manager envía los datos del producto a Walmart Marketplace para buscar anuncios existentes con valores de atributo que coincidan con el atributo del producto de Commerce asignado. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-product-attributes-for-matching.md) para el canal de la tienda.
+Cuando coincide con productos, el Administrador de canales envía los datos del producto a [!DNL Walmart Marketplace] para buscar anuncios existentes con valores de atributo que coincidan con el atributo de producto de Commerce asignado. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-product-attributes-for-matching.md) para el canal de la tienda.
 
 Si se encuentra una coincidencia, la lista de productos existente se actualiza para añadir la oferta.
 

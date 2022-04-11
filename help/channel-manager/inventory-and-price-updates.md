@@ -2,34 +2,32 @@
 title: Actualizaciones de inventario y precios
 description: '''[!DNL Channel Manager] sincroniza las actualizaciones de inventario y precio entre Commerce store y [!DNL Walmart Marketplace] para que pueda administrar sus operaciones de canal de ventas desde el administrador de comercio'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: a1944052f02968c36495275cd5ddfb2ca43ce967
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # Actualizaciones de inventario y precios
 
-[!DNL Channel Manager] realiza un seguimiento del inventario y los precios de los productos en el almacén de canales. Cuando cambia el inventario o el precio, las actualizaciones se sincronizan con ambas [!DNL Channel Manager] y [!DNL Walmart Marketplace] para reflejar la cantidad de stock actual y los precios en las listas de productos.
+[!DNL Channel Manager] realiza un seguimiento del inventario y los precios de los productos en la variable [!DNL Commerce] catálogo de productos y sincroniza las actualizaciones del canal de ventas conectado y [!DNL Walmart Marketplace]. La sincronización garantiza que las listas de productos reflejen la cantidad de existencias y los precios actuales.
 
 ## Actualizaciones de inventario
 
-Cuando cambian los niveles de inventario, Channel Manager sincroniza las actualizaciones entre Commerce y Walmart Marketplace para garantizar que Channel Manager y Walmart Marketplace tengan la cantidad de stock correcta.
+Cuando los niveles de inventario de productos cambian en [!DNL Commerce], [!DNL Channel Manager] sincroniza las actualizaciones del canal de ventas y del [!DNL Walmart Marketplace]. Las actualizaciones de inventario pueden tardar hasta 10 minutos en sincronizarse entre el canal de ventas y el [!DNL Walmart marketplace].
 
-Las actualizaciones de inventario pueden tardar hasta 10 minutos en sincronizarse entre el Administrador de canales y el mercado.
+* **Actualizaciones de la cantidad de existencias en el catálogo de productos**-When [!DNL Commerce] cambios en la cantidad de stock debido a [cambios en la cantidad de stock manual](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), reembolsos o cancelaciones, [!DNL Channel Manager] sincroniza el cambio con canales conectados y [!DNL Walmart Marketplace].
 
-* **Actualizaciones de la cantidad de existencias en el catálogo de productos**-Cuando la cantidad de existencias de comercio cambia debido a [cambios en la cantidad de stock manual](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), reembolsos o cancelaciones, el Administrador de canales sincroniza el cambio con los canales conectados y [!DNL Walmart Marketplace].
-
-* **Reduzca la cantidad de existencias para reflejar los pedidos de Walmart Marketplace**-Después de sincronizar un pedido de Walmart Marketplace con Channel Manager, Channel Manager envía la actualización al sistema de pedidos de comercio. El comercio ajusta las cantidades de stock según el pedido. A continuación, la cantidad actualizada se sincroniza con Walmart Marketplace. Hasta que se completen las operaciones de sincronización, es posible que vea diferencias de cantidad entre Channel Manager y Marketplace.
+* **Reducir la cantidad de existencias para reflejar [!DNL Walmart Marketplace] pedidos**-Después de un [!DNL Walmart Marketplace] solicitar sincronizaciones a [!DNL Channel Manager], [!DNL Channel Manager] envía la actualización al [!DNL Commerce] sistema de pedidos. [!DNL Commerce] ajusta las cantidades de stock según el pedido. A continuación, la cantidad actualizada se sincroniza con [!DNL Walmart Marketplace]. Hasta que se hayan completado las operaciones de sincronización, es posible que vea cantidades diferentes en los listados del canal de ventas y [!DNL Walmart].
 
 >[!IMPORTANT]
 >
-> Después de sincronizar los pedidos de Walmart Marketplace con Channel Manager, las cantidades de inventario y la información de los pedidos se actualizan solo para los reembolsos y cancelaciones iniciadas desde Commerce. Si un pedido es reembolsado o cancelado desde el mercado Walmart, procese el cambio desde Commerce para garantizar la precisión de las cantidades de inventario de Commerce y la información de pedidos.
+> Después de un [!DNL Walmart Marketplace] solicitar sincronizaciones a [!DNL Channel Manager], las cantidades de inventario y la información de pedidos se actualizan solo para los reembolsos y cancelaciones iniciadas a partir de [!DNL Commerce]. Si se reembolsa o cancela un pedido de la [!DNL Walmart marketplace], procesar el cambio de [!DNL Commerce] para garantizar la exactitud de [!DNL Commerce] cantidades de inventario e información de pedido.
 
 ## Actualizaciones de precios
 
-Cuando el precio del producto cambia en Commerce, Channel Manager sincroniza la actualización desde el [!DNL Commerce] catálogo de productos a [!DNL Walmart Marketplace]. El mercado puede tardar hasta cinco minutos en mostrar los cambios de precios.
+Cuando el precio del producto cambia en [!DNL Commerce], [!DNL Channel Manager] sincroniza la actualización con [!DNL Walmart Marketplace]. El cambio de precio puede tardar hasta cinco minutos en mostrarse en la variable [!DNL Walmart Marketplace] listado.
 
 ### Administrar precios de un producto publicado
 
@@ -38,4 +36,4 @@ Cuando el precio del producto cambia en Commerce, Channel Manager sincroniza la 
 1. Revise y actualice el precio según sea necesario.
 1. **[!UICONTROL Save]** el cambio.
 
-Para obtener más información sobre la administración de la configuración de precios de productos en Commerce, consulte [Administrar precios](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Para obtener ayuda sobre la administración de la configuración de precios de productos en [!DNL Commerce], consulte [Administrar precios](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
