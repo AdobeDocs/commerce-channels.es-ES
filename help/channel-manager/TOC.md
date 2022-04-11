@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Guía"'
 user-guide-description: Aumente las ventas y amplíe su base de clientes integrando Adobe Commerce o Magento Open Source con su [!DNL Walmart Marketplace Seller Central] cuenta.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: fa98401f4920ba437855b667614c763413a7b8cd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
    - [Configuración de canal completa](complete-store-setup.md)
 - Lista de productos {#list-products}
    - [Administrar anuncios](manage-listings.md)
-   - [Agregar productos a la tienda de canales](add-products-to-connected-channel.md)
+   - [Añadir productos a la tienda de canales](add-products-to-connected-channel.md)
    - [Configurar la coincidencia de productos](map-product-attributes-for-matching.md)
    - [Publicar anuncios en Walmart](publish-listings-to-marketplace.md)
 - Inventario y precios {#inventory-pricing}
    - [Actualizar inventario y precios](inventory-and-price-updates.md)
-
+- [Administrar pedidos de Marketplace](manage-orders.md)

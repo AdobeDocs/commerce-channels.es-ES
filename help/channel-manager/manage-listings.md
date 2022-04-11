@@ -2,7 +2,7 @@
 title: Administrar anuncios
 description: Administrar listados de canal de ventas para un [!DNL Commerce] almacenar con el administrador de canales para Adobe Commerce y Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -41,28 +41,28 @@ Puede crear ofertas de productos en Walmart Marketplace mediante la coincidencia
 
 * **[Cargar manualmente nuevos anuncios](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Para los productos que no coinciden con un anuncio existente en Walmart Marketplace, utilice una plantilla Excel de categoría de producto Walmart para cargar listas de productos de forma masiva.
 
-## Listado de controles y descripciones de campos
+## Listing Controls y descripciones de columnas
 
-Las siguientes tablas describen los controles y campos disponibles en la [!UICONTROL Listings] página.
+Las tablas siguientes describen los controles y las columnas disponibles para [!UICONTROL Listings].
 
 **Controles para[!UICONTROL Listings]**
 
-| **Atributo** | **Nivel de requisito** |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | Actualiza la visualización con el listado y estado más actuales |
-| [!UICONTROL Add Products ] | Abre el [!UICONTROL  Admin Product Catalog] página para seleccionar los productos que desea agregar al [!DNL Walmart Marketplace] o actualizar los atributos del producto para cumplir los requisitos de listado de Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Después de seleccionar uno o varios productos en estado de borrador, seleccione [!UICONTROL Match products on Walmart] para comprobar las ofertas de productos que se pueden agregar a una [!DNL Walmart Marketplace] listado. |
+| **Control** | **Descripción** |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Refresh products] | Actualiza la visualización con el listado y el estado más actuales. |
+| [!UICONTROL Add Products] | Abre el [!UICONTROL Admin Product Catalog] página para seleccionar los productos que desea agregar al [!DNL Walmart Marketplace] o actualizar los atributos del producto para cumplir los requisitos de listado de Walmart Marketplace. |
+| [!UICONTROL Match products on Walmart] | Después de seleccionar uno o varios productos en estado borrador, seleccione Coincidir productos en Walmart para buscar ofertas de productos que se puedan agregar a una existente [!DNL Walmart Marketplace] listado. |
 
 
 **Descripciones de columnas**
 
 | **Campo** | **Descripción** |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Nombre del producto de la variable [!DNL Commerce] catálogo de tiendas. |
-| [!UICONTROL SKU (Unique ID)] | El atributo asignado utilizado para hacer coincidir productos en el mercado. Este nombre de campo varía en función de la configuración de atributo asignada para [!DNL Channel Manager] anuncios. En este caso, la operación de coincidencia de productos utiliza el SKU de producto de la variable [!DNL Commerce] catálogo para encontrar un [!DNL Walmart Marketplace]  Listado con un valor de SKU que coincide con el valor de SKU de los atributos de producto de comercio. |
+| [!UICONTROL SKU (Unique ID)] | El atributo asignado utilizado para hacer coincidir productos en el mercado. Este nombre de campo varía en función de la configuración de atributo asignada para [!DNL Channel Manager] anuncios. En este caso, la operación de coincidencia de productos utiliza el SKU de producto de la variable [!DNL Commerce] catálogo para encontrar un [!DNL Walmart Marketplace]  Listado con un valor de SKU que coincida con el valor de SKU del [!DNL Commerce] atributos del producto. |
 | [!UICONTROL  Quantity] | Cantidad de inventario disponible en Adobe Commerce o Magento Open Source. |
 | [!UICONTROL Price] | El precio del producto de la variable [!DNL Commerce] catálogo de tiendas. Las actualizaciones de precios del catálogo se sincronizan con el Administrador de canales y, a continuación, se envían a [!DNL Walmart Marketplace]  para que los artículos mostrados muestren el precio actual. |
-| [!UICONTROL Status] | Indica el estado del pedido actual en la variable [!DNL Commerce] flujo de trabajo de pedido. El estado se actualiza cuando se agregan productos correctamente a [!DNL Channel Manager] y cuando empareja productos en el mercado. Si falla una operación, la lista muestra un estado de error. Después de corregir el error, [!DNL Channel Manager] reintenta la operación y actualiza el estado. |
+| [!UICONTROL Status] | Indica el estado del pedido actual en la variable [!DNL Commerce] flujo de trabajo de pedido. El estado se actualiza cuando se agregan productos correctamente a [!DNL Channel Manager] y cuando empareja productos en el mercado. Si una operación falla, la lista muestra un estado de error. Después de corregir el error, [!DNL Channel Manager] reintenta la operación y actualiza el estado. |
 
 
 ### Acerca del estado de la lista
