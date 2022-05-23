@@ -2,9 +2,9 @@
 title: Publicar anuncios en Walmart
 description: Publique anuncios de productos de Commerce en Walmart Marketplace para comenzar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Si se encuentra una coincidencia, la lista de productos existente se actualiza p
 
 ### Requisitos previos
 
-Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos. Consulte [Configurar la coincidencia de productos](map-product-attributes-for-matching.md)
+Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos. Consulte [Configurar la coincidencia de productos](map-product-attributes-for-matching.md).
 
 #### Seleccionar y buscar coincidencias en los productos
 
@@ -40,27 +40,29 @@ Antes de hacer coincidir productos, compruebe que los valores de atributos del c
 
    Un mensaje indica el número de productos enviados para la coincidencia.
 
-   ![Enviar productos al canal de ventas conectado](assets/products-submit-for-matching.png)
+   ![Enviar productos al canal de ventas conectado](assets/products-submitted-for-matching.png)
 
    El estado de los productos seleccionados cambia a [!UICONTROL *Procesamiento*] hasta que se complete la operación de coincidencia. Walmart Marketplace puede tardar hasta 30 minutos en completar la operación del partido.
 
 ### Comprobar estado de coincidencia
 
-1. Select **Actualizar productos** para actualizar el estado del producto más actual.
+1. Select **Actualizar productos** para ver el estado actual del producto.
 
 1. Compruebe el estado del producto.
 
-   Una vez finalizada la coincidencia, el estado puede ser *Coincidencia* o *Error*.
+Una vez finalizada la coincidencia, el estado puede ser *Coincidencia* o *Error*.
 
-   * **[!UICONTROL Match]** indica que el producto se encontró correctamente. Su oferta de producto se publicó en una lista de Walmart Marketplace existente.
+* **[!UICONTROL Match]** indica que el producto se encontró correctamente. Su oferta de producto se publicó en una lista de Walmart Marketplace existente. Si la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* se muestra en la variable *[!UICONTROL Status detail]* para abrir el Navegador.
 
-   * **[!UICONTROL Error]** indica una de las siguientes opciones:
+Si su [[!DNL Walmart Marketplace] el almacén no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), el *Detalles de estado* indica que el producto es *Ensayo para coincidencia*. Los productos por etapas se publican automáticamente en cuanto se crea la variable [!DNL Walmart Marketplace] el almacén está activado.
 
-      * Se produjo un error y la operación de coincidencia falló.
+* **[!UICONTROL Error]** indica una de las siguientes opciones:
 
-      * No se encontró ninguna coincidencia.
+   * Se produjo un error y la operación de coincidencia falló.
 
-      * Coincidencia encontrada, pero producto publicado como ensayo porque la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * No se encontró ninguna coincidencia.
+
+   * Se ha encontrado una coincidencia, pero la lista no se puede publicar debido a un error devuelto desde el mercado Walmart.  falta un atributo o se publica como escenario porque la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Comprobación de listado en Walmart
 
@@ -68,9 +70,9 @@ Después de hacer coincidir los productos, revise la lista de productos actualiz
 
 ### Solución de problemas de errores de coincidencia de productos
 
-Si la operación de coincidencia del producto falla, Walmart Marketplace devuelve un código de error y Channel Manager muestra el estado de error en la información de la lista del producto.
+Si la operación de coincidencia del producto falla con un error, el mensaje de error se muestra en la *[!UICONTROL Status detail]* en la columna [!UICONTROL Channel Manager] lista de productos.
 
-Vea los detalles de los mensajes de error pasando el ratón sobre el **Error** etiqueta de estado. Los errores comunes devueltos tienen un formato incorrecto de los valores de ID de producto o carecen de los atributos necesarios.
+Los errores comunes devueltos tienen un formato incorrecto de los valores de ID de producto o carecen de los atributos necesarios.
 
 #### Corrección de los valores de ID de producto
 
