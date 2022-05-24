@@ -1,13 +1,13 @@
 ---
 title: Asignar atributos de catálogo
 description: Asignar atributos para la coincidencia [DNL! Productos de Commerce] para [!DNL Walmart Marketplace] anuncios y sincronización de datos entre [!DNL Channel Manager] y [!DNL Walmart].
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+exl-id: 6678d81f-d167-460d-b656-d082d56f670c
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Asignar atributos de catálogo
 
@@ -25,7 +25,7 @@ Para la coincidencia de productos, el producto Commerce debe tener al menos un a
 | ISSN | Número de serie estándar internacional | Número de serie de 8 dígitos utilizado para identificar revistas, revistas, periódicos y periódicos de todo tipo entregados en todos los medios impresos y electrónicos | 8 dígitos |
 | UPC | Código de producto universal | Código de seguimiento comercial estándar | 12 dígitos |
 
-Si el catálogo no tiene un atributo que coincida con uno de estos tipos, [agregar o convertir un atributo de catálogo existente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Si el catálogo no tiene un atributo coincidente, [agregar o convertir un atributo de catálogo existente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
 
 ## Asignación de identificadores únicos
 
@@ -37,6 +37,7 @@ Si el catálogo no tiene un atributo que coincida con uno de estos tipos, [agreg
 
       El siguiente ejemplo asigna el atributo UPC de Walmart Marketplace al atributo UPC del catálogo de productos.
    ![Asignar atributos para los criterios de coincidencia de producto](assets/products-map-attributes-for-match.png)
+   - De forma opcional, puede asignar varios atributos para aumentar las coincidencias. Si asigna más de un atributo, seleccione uno como **Identificador principal**. Esta
 
    - Select **[!UICONTROL Save]**.
 

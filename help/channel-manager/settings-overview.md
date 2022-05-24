@@ -1,19 +1,19 @@
 ---
 title: Información general sobre la configuración
 description: Obtenga información sobre [!DNL Channel Manager settings] para configurar la autenticación y asignar los atributos del catálogo de productos y los transportistas necesarios para coordinar las operaciones de venta entre [!DNL Commerce] y [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # Información general sobre la configuración
 
-La configuración del canal de ventas permite la comunicación y la sincronización de datos entre [!DNL Commerce] y [!DNL Walmart Marketplace] para que pueda administrar las operaciones de ventas de Walmart Marketplace desde [!DNL Commerce] Administrador:
+La configuración del canal de ventas permite la comunicación y la sincronización de datos entre [!DNL Commerce] y [!DNL Walmart Marketplace] para que pueda administrar las operaciones de ventas de Walmart Marketplace desde [!DNL Commerce] Administrador.
 
-En [!DNL Channel Manager], se configuran algunos canales de ventas durante el proceso de incorporación. Después de la incorporación, puede ver y administrar la configuración de Configuración desde la *Configuración* página.
+En [!DNL Channel Manager], se configuran algunos canales de ventas durante el proceso de incorporación. Después de la incorporación, puede ver y administrar la configuración desde la *Configuración* página.
 
 * **[Asignar identificadores únicos](map-catalog-attributes.md)**-Antes de publicar anuncios de [!DNL Commerce] a [!DNL Walmart Marketplace], asigne al menos un identificador único de su [!DNL Commerce] catálogo con el identificador correspondiente de Walmart. Este paso es necesario para que coincida con [!DNL Commerce] productos a [!DNL Walmart] anuncios y para sincronizar datos de productos entre [!DNL Commerce] y [!DNL Walmart].
 
