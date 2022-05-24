@@ -2,9 +2,9 @@
 title: Publicar anuncios en Walmart
 description: Publique anuncios de productos de Commerce en Walmart Marketplace para comenzar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Normalmente, las ofertas de productos con los precios más bajos aparecen primer
 
 ## Hacer coincidir productos
 
-Cuando coincide con productos, el Administrador de canales envía los datos del producto a [!DNL Walmart Marketplace] para buscar anuncios existentes con valores de atributo que coincidan con el atributo de producto de Commerce asignado. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-product-attributes-for-matching.md) para el canal de la tienda.
+Cuando coincide con productos, el Administrador de canales envía los datos del producto a [!DNL Walmart Marketplace] para buscar anuncios existentes con valores de atributo que coincidan con el atributo de producto de Commerce asignado. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-catalog-attributes.md) para el canal de la tienda.
 
 Si se encuentra una coincidencia, la lista de productos existente se actualiza para añadir la oferta.
 
 ### Requisitos previos
 
-Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos. Consulte [Configurar la coincidencia de productos](map-product-attributes-for-matching.md).
+Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos. Consulte [Asignar atributos de catálogo](map-catalog-attributes.md).
 
 #### Seleccionar y buscar coincidencias en los productos
 
@@ -54,15 +54,15 @@ Una vez finalizada la coincidencia, el estado puede ser *Coincidencia* o *Error*
 
 * **[!UICONTROL Match]** indica que el producto se encontró correctamente. Su oferta de producto se publicó en una lista de Walmart Marketplace existente. Si la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* se muestra en la variable *[!UICONTROL Status detail]* para abrir el Navegador.
 
-Si su [[!DNL Walmart Marketplace] el almacén no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), el *Detalles de estado* indica que el producto es *Ensayo para coincidencia*. Los productos por etapas se publican automáticamente en cuanto se crea la variable [!DNL Walmart Marketplace] el almacén está activado.
+Si su [[!DNL Walmart Marketplace] el almacén no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), el *Detalles de estado* indica que el producto es *Ensayo para coincidencia*. Los productos por etapas se publican automáticamente cuando el [!DNL Walmart Marketplace] el almacén está activado.
 
-* **[!UICONTROL Error]** indica una de las siguientes opciones:
+* **[!UICONTROL Error]** indica que la operación de coincidencia falló debido a uno de los siguientes problemas:
 
-   * Se produjo un error y la operación de coincidencia falló.
+   * [!DNL Channel Manager] no se pudo enviar para la coincidencia debido a un problema de conexión.
 
    * No se encontró ninguna coincidencia.
 
-   * Se ha encontrado una coincidencia, pero la lista no se puede publicar debido a un error devuelto desde el mercado Walmart.  falta un atributo o se publica como escenario porque la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Se ha encontrado una coincidencia, pero la lista no se puede publicar porque [!DNL Walmart Marketplace] devuelve un código de error. Consulte *Detalles de estado** para la descripción del error.
 
 ### Comprobación de listado en Walmart
 
@@ -116,7 +116,7 @@ Para obtener nuevos listados de productos, consulte su catálogo de productos pa
 
 ### Requisitos previos
 
-* Compruebe que cumple los requisitos de [Requisitos previos de Walmart](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Compruebe que cumple los requisitos de [Requisitos previos de Walmart](walmart-prerequisites.md).
 
 * En su catálogo de productos de Comercio, compruebe que la configuración del catálogo de los productos que desea incluir en Walmart Marketplace tenga todos los atributos necesarios y cumpla las directrices de contenido de Walmart Marketplace.
 

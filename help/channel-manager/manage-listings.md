@@ -2,9 +2,9 @@
 title: Administrar anuncios
 description: Administrar listados de canal de ventas para un [!DNL Commerce] almacenar con el administrador de canales para Adobe Commerce y Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Puede completar las siguientes tareas desde la vista Listing .
 
 Cree la gama de productos para el canal de Walmart Marketplace completando las siguientes tareas:
 
-* [Añadir productos del catálogo de productos de Commerce al administrador de canales](add-products-to-connected-channel.md)
+* [Añadir productos del catálogo de productos de Commerce al administrador de canales](add-products-to-channel-store.md)
 
-* [Configurar la coincidencia de productos](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Asignar atributos de catálogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Publicar productos en Walmart
 
 Puede crear ofertas de productos en Walmart Marketplace mediante la coincidencia de productos o cargando manualmente listas de productos para nuevos productos. Para obtener instrucciones, consulte [Publicar anuncios en Walmart Marketplace](publish-listings-to-marketplace.md) tal como se describe en los siguientes temas:
 
-* **[Hacer coincidir productos en Walmart](publish-listings-to-marketplace.md)**-Publique listas de productos de su canal a [!DNL Walmart Marketplace] actualizando los listados existentes que venden el mismo producto. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-product-attributes-for-matching.md) para su canal.
+* **[Hacer coincidir productos en Walmart](publish-listings-to-marketplace.md)**-Publique listas de productos de su canal a [!DNL Walmart Marketplace] actualizando los listados existentes que venden el mismo producto. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-catalog-attributes.md) para su canal.
 
 * **[Cargar manualmente nuevos anuncios](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Para los productos que no coinciden con un anuncio existente en Walmart Marketplace, utilice una plantilla Excel de categoría de producto Walmart para cargar listas de productos de forma masiva.
 
@@ -97,6 +97,8 @@ En el espacio de trabajo Listing , la etiqueta Status muestra dónde se encuentr
 
 * **[!UICONTROL Match - Match in Stage]**-Identifica los productos coincidentes en [!DNL Walmart] que no se puede publicar hasta que el [!DNL Walmart Marketplace] la tienda está activa. Los productos con este estado se publican automáticamente cuando el [!DNL Walmart Marketplace] la tienda se pone en marcha.
 
-* **[!UICONTROL Error]**-Identifica los productos que no coinciden con una [!DNL Walmart Marketplace] listado. Vea los detalles del error pasando el ratón sobre el *Error* etiqueta de estado.
+* **[!UICONTROL Error]**-Identifica los productos que no coinciden con una [!DNL Walmart Marketplace] listado.
+
+* **[!UICONTROL Error description]**-Proporciona información detallada sobre el error de listado.
 
    Después de resolver el error, vuelva a enviar el producto para que coincida. Consulte [Solución de problemas de errores de coincidencia de productos](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
