@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo instalar y utilizar [!DNL Channel 
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
+source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -49,54 +49,3 @@ Los procesos de sincronización de datos entre [!DNL Channel Manager] y un [!DNL
 | Solicite sincronizaciones de Walmart a Commerce | El cliente solicita un producto Commerce en el mercado Walmart. Walmart envía el pedido a Channel Manager. El orden se muestra en el panel de pedidos. | **Hasta 30 minutos** |
 | Pedido creado en Commerce Order Management | Channel Manager crea el pedido de comercio a partir del pedido de Walmart y actualiza el panel de pedidos para incluir el número de pedido de comercio. | **Hasta cinco minutos** |
 
-## Requisitos previos de Walmart
-
-Necesita la siguiente información de Walmart para integrar Commerce con Walmart Marketplace:
-
-* Aprobación para vender en Walmart y credenciales para iniciar sesión en la cuenta registrada de Marketplace Seller
-
-* Una clave de API para conectar Adobe Commerce o Magento Open Source a Walmart Marketplace
-
-   La clave de la API de Walmart Marketplace permite la integración entre Channel Manager para Adobe Commerce o Magento Open Source y Walmart Marketplace. Configure la clave de API en Seller Central antes de iniciar el proceso de incorporación del Administrador de canales.
-
-### Configuración de una cuenta de vendedor de Marketplace
-
-1. [Envíe su aplicación Walmart Seller](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-2. Después de obtener la aprobación de Walmart, [configure su cuenta de vendedor de Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
-
-### Generar una clave de API de Walmart Marketplace
-
-1. Vaya a Walmart Marketplace para generar un [clave de API de producción del proveedor de soluciones para Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
-
-1. Cree la clave y configure los permisos:
-
-   * Seleccione Adobe como proveedor de soluciones.
-
-   * Establezca los permisos como se muestra en la tabla siguiente. Para obtener más información, consulte [Credenciales de API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) en el *[!DNL Walmart Marketplace]Ayuda del vendedor*.
-
-   **Configuración clave de API de Adobe para Walmart**
-
-   | **Permiso** | **Configuración** |
-   |----------------|-------------|
-   | Contenido | Acceso completo |
-   | Obtener fuentes | Ver solo |
-   | Inventario | Acceso completo |
-   | Elementos | Acceso completo |
-   | Tiempo de retraso | Acceso completo |
-   | Pedido | Acceso completo |
-   | Precio | Acceso completo |
-   | Informes | Ver solo |
-   | Devuelve | Acceso completo |
-   | Reglas | Acceso completo |
-   | Envío | Acceso completo |
-
-## Estado de Walmart Marketplace Store
-
-Cuando publica productos en Walmart Marketplace, la disponibilidad de los anuncios depende del estado de sus tiendas Walmart:
-
-* En las tiendas en directo, las ofertas de productos aparecen en la lista y están disponibles para la venta cuando finaliza la operación de coincidencia.
-
-* En el caso de las tiendas que no están activas, las ofertas de productos están organizadas y no son visibles para los clientes. Cuando la tienda se pone en marcha, los anuncios clasificados se envían automáticamente a la tienda en directo.
-
-
-![[!DNL Walmart Seller Central] productos clasificados](assets/walmart-seller-central-staged.png)
