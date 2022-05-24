@@ -2,9 +2,9 @@
 title: Administrar pedidos de Walmart Marketplace
 description: Ver y administrar [!DNL Walmart Marketplace] pedidos con [!DNL Channel Manager] para Adobe Commerce y Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Las siguientes tablas describen los controles y las columnas disponibles para Pe
 | [!UICONTROL Order Value] | Coste total de los artículos pedidos. |
 | [!UICONTROL Date Created] | La fecha en la que se creó el pedido en la variable [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Fecha en la que debe enviarse el pedido para cumplir [!DNL Walmart Marketplace] requisitos. |
-| [!UICONTROL Order Status] | Indica el estado del pedido actual en la variable [!DNL Commerce] flujo de trabajo de pedido. El estado se actualiza cuando se agregan productos correctamente a [!DNL Channel Manager] y cuando coincida con productos en la variable [!DNL Walmart Marketplace]. Si falla una operación, la lista muestra un estado de error. Después de corregir el error, [!DNL Channel Manager] reintenta la operación y actualiza el estado. |
-
-| [!UICONTROL Error description]    | Proporciona información más detallada sobre los pedidos con una *Error* estado.|
+| [!UICONTROL Deliver By Date] | Fecha en la que se debe entregar el pedido al cliente para que se cumpla [!DNL Walmart Marketplace] requisitos. |
+| [!UICONTROL Last Update At] | Marca de tiempo que indica la última vez que se actualizaron los datos del pedido en [!DNL Channel Manager] |
+| [!UICONTROL Status] | Indica el estado del pedido actual en la variable [!DNL Commerce] flujo de trabajo de pedido. El estado se actualiza cuando se agregan productos correctamente a [!DNL Channel Manager] y cuando coincida con productos en la variable [!DNL Walmart Marketplace]. Si falla una operación, la lista muestra un estado de error. Después de corregir el error, [!DNL Channel Manager] reintenta la operación y actualiza el estado. |
+| [!UICONTROL Error Description] | Proporciona información más detallada sobre los pedidos con una *Error* estado. |
 
 ### Acerca del estado del pedido
 
