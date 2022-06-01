@@ -2,9 +2,9 @@
 title: Agregar productos al almacén de canales de ventas
 description: Cree una variedad de productos para [!DNL Walmart Marketplace] ventas añadiendo productos del catálogo al canal de ventas
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Agregar productos al almacén de canales de ventas
 
-Para sincronizar los productos con el canal de ventas de Walmart Marketplace, seleccione los productos del [!DNL Commerce] catálogo de productos e impórtelos en Channel Manager. Los productos seleccionados deben tener la siguiente configuración de atributos:
+Para sincronizar productos con [!DNL Walmart Marketplace] canal de ventas, seleccione productos en la [!DNL Commerce] catálogo de productos e impórtelos en Channel Manager. Los productos seleccionados deben tener la siguiente configuración de atributos:
 
 - **[!UICONTROL Publish to Channel Manager]** el atributo está habilitado
 
-- Al menos un atributo de producto debe coincidir con uno de los [atributos requeridos de Walmart Marketplace](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Al menos un atributo de producto debe coincidir con uno de los [obligatorio [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 El proceso de importación de productos de [!DNL Commerce] a Administrador de canales puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
 
@@ -38,7 +38,7 @@ El proceso de importación de productos de [!DNL Commerce] a Administrador de ca
 
    - Desplácese hasta el **[!UICONTROL Publish to Channel Manager]** y actívelo.
 
-   - Compruebe que los atributos de producto incluyen al menos uno de los ID de producto Walmart necesarios.
+   - Compruebe que los atributos de producto incluyen al menos uno de los requisitos [!DNL Walmart Product IDs].
 
    - Select **[!UICONTROL Save]**.
 

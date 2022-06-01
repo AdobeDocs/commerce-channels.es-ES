@@ -2,20 +2,20 @@
 title: Procesamiento de pedidos
 description: Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # Procesamiento de pedidos
 
-Si utiliza Adobe Commerce y Magento Open Source Order Management para administrar su [!DNL Commerce] almacenar ventas, puede procesar [!DNL Walmart Marketplace] pedidos de Commerce utilizando el mismo flujo de trabajo.
+Después [!DNL Walmart Marketplace] los pedidos se han reconocido y enviado correctamente a [!DNL Channel Manager], utilice [Administración de pedidos de comercio](https://docs.magento.com/user-guide/sales/orders-workspace.html) para procesar el pedido.
 
-Cuando se procesa un pedido en Commerce, el Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Marketplace]. Esta actualización garantiza que el estado de pedido y la información de envío de Commerce coincidan con los datos rastreados en la variable [!DNL Walmart Marketplace].
+El Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Marketplace] para asegurarse de que el estado de pedido y la información de envío de Commerce coinciden con los datos rastreados en la variable [!DNL Walmart Marketplace].
 
-* **Pedidos de envíos**-Walmart requiere un número de seguimiento para todos los envíos. Puede crear envíos parciales si no tiene existencias para todos los artículos del pedido. Después de enviar el envío, las actualizaciones de los pedidos se sincronizan con [!DNL Walmart Marketplace]. Luego, Walmart notifica a los clientes sobre el estado del pedido y los detalles de envío.
+* **Pedidos de envíos**-Walmart requiere un número de seguimiento para todos los envíos. Si algunos artículos no están en existencias, puede crear envíos parciales para enviar los artículos que están disponibles actualmente. Después de enviar el envío, las actualizaciones de los pedidos se sincronizan con [!DNL Walmart Marketplace]. Luego, Walmart notifica a los clientes sobre el estado del pedido y los detalles de envío.
 
 * **Cancelaciones de pedidos**-Al cancelar un [!DNL Walmart Marketplace] pedido, Walmart requiere un motivo de cancelación que se incluye en el aviso de cancelación de pedido enviado al cliente. El motivo de la cancelación también se muestra en la [!DNL Commerce] solicitar información de pagos.
 
@@ -35,11 +35,11 @@ Cuando se procesa un pedido en Commerce, el Administrador de canales sincroniza 
 
 1. Cree y envíe un envío para la totalidad o parte de un pedido seleccionando **[!UICONTROL Ship]**.
 
-   ![Vista de detalles de un pedido de Walmart Marketplace](assets/order-detail-with-external-order-id.png)
+   ![Vista de detalles de pedidos de comercio para un [!DNL Walmart Marketplace] pedido](assets/order-detail-with-external-order-id.png)
 
    * Seleccione un transportista y añada un número de seguimiento seleccionando **[!UICONTROL Add tracking number]**.
 
-      ![Vista de detalles de un pedido de Walmart Marketplace](assets/order-shipment-add-tracking-number.png)
+      ![Vista de detalles de pedidos de comercio para un [!DNL Walmart Marketplace] pedido](assets/order-shipment-add-tracking-number.png)
 
 
    * Rellene el resto del formulario de envío según sea necesario. Consulte [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) para obtener instrucciones detalladas.
@@ -56,15 +56,14 @@ Cuando se procesa un pedido en Commerce, el Administrador de canales sincroniza 
 
 1. En la tabla Pedidos, abra la página de detalles del pedido seleccionando la opción **Número de pedido de comercio** para la orden de cancelación.
 
-   ![Vista de detalles de un pedido de Walmart Marketplace](assets/order-detail-with-external-order-id.png)
+   ![Vista de detalles de pedidos de comercio para un[!DNL Walmart Marketplace]pedido](assets/order-detail-with-external-order-id.png)
 
 1. Cancelar el pedido.
 
    * Select **Cancelar** en el menú Detalle del pedido.
 
    * En el [!UICONTROL Cancel Order] seleccione **Motivo de cancelación**.
-
-   ![Vista de detalles de un pedido de Walmart Marketplace](assets/cancel-order-reason-selector.png)
+   ![Vista de detalles de pedidos de comercio para un [!DNL Walmart Marketplace] pedido](assets/cancel-order-reason-selector.png)
 
    * Select **Cancelar pedido**.
 

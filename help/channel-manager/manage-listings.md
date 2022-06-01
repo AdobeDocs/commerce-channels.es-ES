@@ -2,9 +2,9 @@
 title: Administrar anuncios
 description: Administrar listados de canal de ventas para un [!DNL Commerce] almacenar con el administrador de canales para Adobe Commerce y Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ Puede completar las siguientes tareas desde la vista Listing .
 
 ## Agregar productos de comercio al Administrador de canales
 
-Cree la gama de productos para el canal de Walmart Marketplace completando las siguientes tareas:
+Cree el surtido de productos para el [!DNL Walmart Marketplace] completando las siguientes tareas:
 
-* [Añadir productos del catálogo de productos de Commerce al administrador de canales](add-products-to-channel-store.md)
+* [Agregue productos de su [!DNL Commerce] catálogo de productos a [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Asignar atributos de catálogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Publicar productos en Walmart
+## Publicar productos en [!DNL Walmart]
 
-Puede crear ofertas de productos en Walmart Marketplace mediante la coincidencia de productos o cargando manualmente listas de productos para nuevos productos.
+Puede crear ofertas de productos en la [!DNL Walmart Marketplace] mediante la coincidencia de productos o cargando manualmente listas de productos para nuevos productos.
 
 * **[Hacer coincidir productos en Walmart](publish-listings-to-marketplace.md)**: publique listas de productos de su canal en [!DNL Walmart Marketplace] actualizando los listados existentes que venden el mismo producto. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-catalog-attributes.md) para su canal.
 
-* **[Cargar manualmente nuevos anuncios](publish-listings-to-marketplace.md#upload-new-product-listings)**: para los productos que no coinciden con un anuncio existente en Walmart Marketplace, utilice una plantilla Excel de categoría de producto Walmart para cargar listas de productos de forma masiva.
+* **[Cargar manualmente nuevos anuncios](publish-listings-to-marketplace.md#upload-new-product-listings)**: para productos que no coinciden con un listado existente en [!DNL Walmart Marketplace], utilice un [!DNL Walmart] categoría de producto Plantilla de Excel para cargar listas de productos de forma masiva.
 
 ## Listing Controls y descripciones de columnas
 
@@ -64,7 +64,7 @@ Las tablas siguientes describen los controles y las columnas disponibles para [!
 | **Control** | **Descripción** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Abre el [!UICONTROL Admin Product Catalog] página para seleccionar los productos que desea agregar al [!DNL Walmart Marketplace] o actualizar los atributos del producto para cumplir los requisitos de listado de Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Después de seleccionar uno o varios productos en estado borrador, seleccione Coincidir productos en Walmart para buscar ofertas de productos que se puedan agregar a una existente [!DNL Walmart Marketplace] listado. |
+| [!UICONTROL Match products on Walmart] | Después de seleccionar uno o varios productos en estado de borrador, seleccione Coincidir productos en [!DNL Walmart] para comprobar las ofertas de productos que se pueden agregar a una [!DNL Walmart Marketplace] listado. |
 | [!UICONTROL Refresh products] | Actualice la visualización con el listado y el estado más actuales. Este control también restablece la vista de listado al orden de clasificación predeterminado y elimina los filtros. |
 | [!UICONTROL Filter by *Estado*] | Mostrar solo los listados con un estado específico seleccionando una de las tarjetas de recuento de estado encima de la tabla Listing. Utilice la variable *Actualizar productos* para quitar el filtro. |
 | [!UICONTROL Sort products] | Cambie el orden de clasificación seleccionando cualquier encabezado de columna. |
@@ -91,7 +91,7 @@ En el espacio de trabajo Listing , la etiqueta Status muestra dónde se encuentr
 
 * **[!UICONTROL Match]**-Identifica los productos con los que se ha alcanzado una coincidencia satisfactoria en [!DNL Walmart].
 
-   Se produce una coincidencia cuando el valor del atributo del producto (por ejemplo, el código UPC) coincide con el valor UPC de una[!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Commerce se agrega a la lista de Walmart existente.
+   Se produce una coincidencia cuando el valor del atributo del producto (por ejemplo, el código UPC) coincide con el valor UPC de una[!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Commerce se agrega a la [!DNL Walmart] listado.
 
    Marque la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tablero para revisar la lista de productos actualizada y verificar los detalles del producto, el precio y la cantidad de inventario.
 

@@ -1,19 +1,19 @@
 ---
-title: Administrar pedidos de Walmart Marketplace
-description: Ver y administrar [!DNL Walmart Marketplace] pedidos con [!DNL Channel Manager] para Adobe Commerce y Magento Open Source.
+title: '"Administrar [!DNL Walmart Marketplace] Pedidos"'
+description: '"Ver y administrar [!DNL Walmart Marketplace] pedidos con [!DNL Channel Manager] para Adobe Commerce y Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Administrar pedidos de Walmart Marketplace
+# Administrar [!DNL Walmart Marketplace] pedidos
 
-[!DNL Walmart Marketplace] pedidos [!DNL Commerce] las listas de productos se sincronizan automáticamente con [!DNL Channel Manager] después de que Walmart procese el pedido. Cuando finalice la sincronización, puede ver la información de pedido seleccionando **[!UICONTROL Orders]** desde la vista de almacén de canales conectada en [!DNL Channel Manager].
+[!DNL Walmart Marketplace] pedidos [!DNL Commerce] las listas de productos se sincronizan automáticamente con [!DNL Channel Manager] after [!DNL Walmart] procesa el pedido. Cuando finalice la sincronización, puede ver la información de pedido seleccionando **[!UICONTROL Orders]** desde la vista de almacén de canales conectada en [!DNL Channel Manager].
 
-![Administrador de canales Vista Pedidos para administrar pedidos de Walmart Marketplace](assets/orders-dashboard-view.png)
+![Administrador de canales vista Pedidos para administrar [!DNL Walmart Marketplace] pedidos](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Una vez que se recibe un pedido del mercado y se importa a Adobe Commerce o al M
 
 De **[!UICONTROL Orders]**, seleccione **[!UICONTROL Commerce Order Number]** para abrir el [!DNL Commerce] detalles del pedido.
 
-![Vista de detalles de un pedido de Walmart Marketplace](assets/order-detail-with-external-order-id.png)
+![Vista de detalles de pedidos de comercio para un [!DNL Walmart Marketplace] pedido](assets/order-detail-with-external-order-id.png)
 
 ### Controles de pedidos y descripciones de columnas
 
@@ -48,7 +48,7 @@ Las siguientes tablas describen los controles y las columnas disponibles para Pe
 
 | Campo | Descripción |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | El número de orden de compra asignado al pedido en la variable [!DNL Walmart Marketplace]. Cuando se importa inicialmente un pedido a [!DNL Channel Manager], solo se muestra el número de pedido de Walmart. Cuando la variable [!DNL Commerce] se crea el [!DNL Walmart] el número de pedido se almacena en la variable [!UICONTROL External ID] atributo de producto. |
+| [!UICONTROL  Walmart Order Number] | El número de orden de compra asignado al pedido en la variable [!DNL Walmart Marketplace]. Cuando se importa inicialmente un pedido a [!DNL Channel Manager], solo el [!DNL Walmart] número de pedido. Cuando la variable [!DNL Commerce] se crea el [!DNL Walmart] el número de pedido se almacena en la variable [!UICONTROL External ID] atributo de producto. |
 | [!DNL Commerce]  Número de pedido | El número asignado a la variable [!DNL Commerce]  pedido creado a partir de [!DNL Walmart Marketplace] pedido. |
 | Elementos | Número de artículos pedidos en [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | Coste total de los artículos pedidos. |
@@ -60,6 +60,7 @@ Las siguientes tablas describen los controles y las columnas disponibles para Pe
 | [!UICONTROL Error Description] | Proporciona información más detallada sobre los pedidos con una *Error* estado. |
 
 ### Acerca del estado del pedido
+
 
 [!UICONTROL Order Status] proporciona información sobre el estado actual de [!DNL Walmart Marketplace] pedidos administrados desde Adobe Commerce o Magento Open Source. Las actualizaciones de estado del pedido se producen cuando [!DNL Channel Manager] recibe información de pedido actualizada de [!DNL Walmart Marketplace] o [!DNL Commerce] sistema de pedidos. Los pedidos pueden tener los siguientes estados:
 
