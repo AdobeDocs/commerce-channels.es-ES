@@ -2,9 +2,9 @@
 title: Agregar productos al almacén de canales de ventas
 description: Cree una variedad de productos para [!DNL Walmart Marketplace] ventas añadiendo productos del catálogo al canal de ventas
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # Agregar productos al almacén de canales de ventas
 
-Para sincronizar productos con [!DNL Walmart Marketplace] canal de ventas, seleccione productos en la [!DNL Commerce] catálogo de productos e impórtelos en Channel Manager. Los productos seleccionados deben tener la siguiente configuración de atributos:
+El producto se agrega al [!DNL Walmart Marketplace] canal de ventas seleccionando productos de [!DNL Commerce] catálogo de productos e importarlos a [!DNL Channel Manager].
+El proceso de importación puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
+
+## Requisito previo
+
+**[Asignar atributos de catálogo](map-catalog-attributes.md)**—En el [!DNL Channel Settings] configuración, asigne al menos un atributo de [!DNL Commerce] catálogo de productos a uno de los identificadores de producto Walmart requeridos—-GTIN, ISBN, ISSN, UPC, EAN.
+
+## Requisitos de listado
+
+[!DNL Commerce] las listas de productos deben tener la siguiente configuración de atributos requerida:
 
 - **[!UICONTROL Publish to Channel Manager]** el atributo está habilitado
 
-- Al menos un atributo de producto debe coincidir con uno de los [obligatorio [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Proporcione valores válidos para los atributos Walmart requeridos.
 
-El proceso de importación de productos de [!DNL Commerce] a Administrador de canales puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
+   - Al menos un atributo de producto que coincida con uno de los requisitos [!DNL Walmart Marketplace] identificadores de producto: GTIN, ISBN, ISSN, UPC, EAN.
+
+   - El precio del producto especificado es de un máximo de dos decimales, por ejemplo `9.99`
+
+   - Peso del producto especificado como máximo en dos decimales, por ejemplo `1.25`
+
+>[!TIP]
+>
+>Para obtener información adicional sobre la optimización de anuncios para su canal de ventas, consulte la [Guía de optimización de la calidad de la lista de Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## Agregar productos
 
