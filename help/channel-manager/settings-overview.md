@@ -2,9 +2,9 @@
 title: Información general sobre la configuración
 description: Obtenga información sobre [!DNL Channel Manager settings] para configurar la autenticación y asignar los atributos del catálogo de productos y los transportistas necesarios para coordinar las operaciones de venta entre [!DNL Commerce] y [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ En [!DNL Channel Manager], se configuran algunos canales de ventas durante el pr
 
 * **[Asignar transportistas de envío](map-shipping-carriers.md)**-Antes de procesar [!DNL Walmart Marketplace] pedidos de [!DNL Commerce], asegúrese de asignar los transportistas desde su [!DNL Commerce] a los operadores correspondientes en [!DNL Walmart Marketplace].
 
-* **Credenciales de la API Walmart**-Durante el [!DNL Channel Manager] proceso de incorporación, proporcione la variable [Credenciales de la API Walmart](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) de su[!DNL Walmart Marketplace] Cuenta de vendedor para conectar [!DNL Commerce] a [!DNL Walmart Marketplace] para la comunicación y la sincronización de datos. Si es necesario, puede actualizar estas credenciales desde el *Configuración* página.
+* **Credenciales de la API Walmart**-Durante el [!DNL Channel Manager] proceso de incorporación, proporcione [Credenciales de API](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) de su [!DNL Walmart Marketplace] Cuenta de vendedor para conectar [!DNL Commerce] a [!DNL Walmart Marketplace] para la comunicación y la sincronización de datos. Si es necesario, puede actualizar estas credenciales desde el *Configuración* página.

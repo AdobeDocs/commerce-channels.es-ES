@@ -2,9 +2,9 @@
 title: Publicar anuncios en Walmart
 description: Publicar listas para productos de Comercio en [!DNL Walmart Marketplace]para empezar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Si se encuentra una coincidencia, la lista de productos existente se actualiza p
 
 ### Requisitos previos
 
-Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos. Consulte [Asignar atributos de catálogo](map-catalog-attributes.md).
+Antes de hacer coincidir productos, compruebe que los valores de atributos del catálogo de productos cumplen los requisitos de Walmart y configure los atributos del producto. Consulte [Asignar atributos de catálogo](map-catalog-attributes.md).
 
 #### Seleccionar y buscar coincidencias en los productos
 
@@ -52,9 +52,7 @@ Antes de hacer coincidir productos, compruebe que los valores de atributos del c
 
 Una vez finalizada la coincidencia, el estado puede ser *Coincidencia* o *Error*.
 
-* **[!UICONTROL Match]** indica que el producto se encontró correctamente. Su oferta de producto se publicó en una lista de Walmart Marketplace existente. Si la variable [El almacén de Marketplace no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* se muestra en la variable *[!UICONTROL Status detail]* para abrir el Navegador.
-
-Si su [[!DNL Walmart Marketplace] el almacén no está activo](walmart-prerequisites.md#walmart-marketplace-store-status), el *Detalles de estado* indica que el producto es *Ensayo para coincidencia*. Los productos por etapas se publican automáticamente cuando el [!DNL Walmart Marketplace] el almacén está activado.
+* **[!UICONTROL Match]** indica que el producto se encontró correctamente. Su oferta de producto se publicó en una lista de Walmart Marketplace existente. Si la variable [El almacén de Marketplace no está activo](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* se muestra en la variable *[!UICONTROL Status detail]* para abrir el Navegador. Los productos por etapas se publican automáticamente cuando el [!DNL Walmart Marketplace] el almacén está activado.
 
 * **[!UICONTROL Error]** indica que la operación de coincidencia falló debido a uno de los siguientes problemas:
 
@@ -116,7 +114,7 @@ Para obtener nuevos listados de productos, consulte su catálogo de productos pa
 
 ### Requisitos previos
 
-* Compruebe que cumple los requisitos de [Requisitos previos de Walmart](walmart-prerequisites.md).
+* Compruebe que cumple los requisitos de [Requisitos de Walmart](walmart-requirements.md).
 
 * En su catálogo de productos de Comercio, compruebe que la configuración del catálogo de los productos que desea incluir en Walmart Marketplace tenga todos los atributos necesarios y cumpla las directrices de contenido de Walmart Marketplace.
 

@@ -2,7 +2,7 @@
 title: Conectar el canal de ventas a [!DNL Walmart Marketplace]
 description: Configure el canal de ventas y conéctese a Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] instancia
 
 1. Conecte el canal a [!DNL Walmart Marketplace].
 
-   - Agregue las credenciales para la [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) de su [!DNL Walmart Marketplace Seller] cuenta.
+   - Agregue las credenciales para la [[!DNL Walmart Marketplace Adobe Production API key]](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) de su [!DNL Walmart Marketplace Seller] cuenta.
 
    - Si no dispone de las credenciales, consígalas desde el [!DNL Walmart Marketplace Developer Portal] seleccionando **[!UICONTROL Get API credentials]**.
 
@@ -59,7 +59,7 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] instancia
 
       >[!NOTE]
       >
-      >Si la variable [!DNL Adobe Inc] La clave no aparece en Developer Portal, seleccione **[!UICONTROL Add New Key for a Solution Provider]** para configurar permisos y generar la clave. Para obtener más información sobre la configuración, consulte [Genere un [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
+      >Si la variable [!DNL Adobe Inc] La clave no aparece en Developer Portal, seleccione **[!UICONTROL Add New Key for a Solution Provider]** para configurar permisos y generar la clave. Para obtener más información sobre la configuración, consulte [Genere un [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
    - Volver a [!DNL Channel Manager] para agregar las credenciales al **[!UICONTROL Walmart Connection]** información.
 
@@ -77,6 +77,6 @@ Si la conexión a [!DNL Walmart] falla, consulte [Preguntas frecuentes sobre Wal
 
 - En el [!DNL Walmart Developer Portal], compruebe que ha copiado las credenciales correctas para la clave de API de producción para [!UICONTROL Adobe Inc.]
 
-- Compruebe que la configuración de acceso para la variable [!UICONTROL Walmart Adobe API key] tiene los permisos correctos. Consulte [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- Compruebe que la configuración de acceso para la variable [!UICONTROL Walmart Adobe API key] tiene los permisos correctos. Consulte [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
 - Confirme que la variable [!DNL Walmart API] está disponible en el [Página de estado de la API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.

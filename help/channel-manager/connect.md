@@ -4,9 +4,9 @@ description: Conectar el Administrador de canales a [!DNL Commerce] para permiti
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Commerce Services Connector integra el servicio Channel Manager con instancias d
 
 La configuración de Commerce Services Connector es un proceso único necesario para utilizar Adobe [Servicios de Commerce SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} like [!DNL Channel Manager], [!DNL Live Search]y [!DNL Product Recommendations]. Si ya ha configurado el conector para otro servicio, omita este paso.
 
-## Requisitos previos
+## Requisitos
 
 - **Cuenta de comercio**-Para instalar software en instancias de Commerce, debe tener una cuenta con acceso de Propietario o Administrador a la plataforma Commerce.
 
-   Los propietarios de cuentas y los usuarios administradores pueden crear cuentas de administrador desde la instancia de Commerce o desde la línea de comandos utilizando la variable [!DNL Commerce] Comando CLI `admin:user:create`.
+   Los propietarios de cuentas y los superusuarios pueden crear cuentas de administrador desde la instancia de Commerce o desde la línea de comandos utilizando la variable [!DNL Commerce] Comando CLI `admin:user:create`.
 
 - **Clave de API de producción de Adobe Commerce**-Esto [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} habilita el acceso de API a los servicios requeridos por el Administrador de canales. Necesita las credenciales públicas y privadas para esta clave.
 
