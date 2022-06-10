@@ -2,7 +2,7 @@
 title: Instalar [!DNL Channel Manager]
 description: Instale la extensión del administrador de canales.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Siga estas instrucciones para instalar [!DNL Channel Manager] en Adobe Commerce 
 1. En el [!DNL Commerce] directorio raíz del proyecto, agregue el Administrador de canales a `composer.json`.
 
    ```bash
-    composer require magento/module-sales-channels-extension --no-update
+    composer require magento/channel-manager --no-update
    ```
 
 1. Si se le solicita, introduzca las claves de acceso de su [!DNL Commerce] cuenta.
@@ -66,7 +66,7 @@ Siga estas instrucciones para instalar [!DNL Channel Manager] en Adobe Commerce 
 1. Actualice las dependencias e instale la extensión.
 
    ```bash
-   composer update magento/module-sales-channels-extension
+   composer update magento/channel-manager
    ```
 
    La variable `composer update` actualiza solo las dependencias necesarias para [!DNL Channel Manager]. Para actualizar todas las dependencias, utilice este comando en su lugar: `composer update`.
