@@ -2,9 +2,9 @@
 title: Asignación de transportistas
 description: Asignar atributos para la coincidencia [DNL! Productos de Commerce] para [!DNL Walmart Marketplace] anuncios y sincronización de datos entre [!DNL Channel Manager] y [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Antes de asignar transportistas, complete las siguientes tareas:
 
 ## Asignación de transportistas
 
-1. En el [!UICONTROL Listings] para el almacén de canales de ventas, seleccione **[!UICONTROL Settings]**.
+1. En el **[!UICONTROL Listings]** o **[!UICONTROL Orders]** página, seleccione **[!UICONTROL Channel Settings]**.
 
-1. De **[!UICONTROL Map Attributes]**, seleccione **[!UICONTROL Shipping Carriers]**.
+1. Activado **[!UICONTROL Channel Settings]**, seleccione **[!UICONTROL Shipping Carriers]**.
 
    ![Asignación de transportistas](assets/map-shipping-carriers.png)
 

@@ -2,17 +2,17 @@
 title: Agregar productos al almacén de canales de ventas
 description: Cree una variedad de productos para [!DNL Walmart Marketplace] ventas añadiendo productos del catálogo al canal de ventas
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# Agregar productos al almacén de canales de ventas
+# Añadir productos a [!DNL Channel Manager]
 
-El producto se agrega al [!DNL Walmart Marketplace] canal de ventas seleccionando productos de [!DNL Commerce] catálogo de productos e importarlos a [!DNL Channel Manager].
+Para agregar productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en la lista [!DNL Commerce] catálogo de productos e impórtelos en [!DNL Channel Manager].
 El proceso de importación puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
 
 ## Requisito previo
@@ -23,7 +23,7 @@ El proceso de importación puede tardar hasta 30 minutos o más en función de l
 
 [!DNL Commerce] las listas de productos deben tener la siguiente configuración de atributos requerida:
 
-- **[!UICONTROL Publish to Channel Manager]** el atributo está habilitado
+- **[!UICONTROL Connect to Channel Manager]** el atributo está habilitado
 
 - Proporcione valores válidos para los atributos Walmart requeridos.
 
@@ -49,11 +49,11 @@ El proceso de importación puede tardar hasta 30 minutos o más en función de l
 
    ![Enviar productos al almacén de canales de ventas](assets/select-products-from-catalog.png)
 
-1. Active la variable **[!UICONTROL Publish to Channel Manager]** para los elementos seleccionados.
+1. Active la variable **[!UICONTROL Connect to Channel Manager]** para los elementos seleccionados.
 
    - De **[!UICONTROL Actions]**, seleccione **[!UICONTROL Update attributes]**.
 
-   - Desplácese hasta el **[!UICONTROL Publish to Channel Manager]** y actívelo.
+   - Desplácese hasta el **[!UICONTROL Connect to Channel Manager]** y actívelo.
 
    - Compruebe que los atributos de producto incluyen al menos uno de los requisitos [!DNL Walmart Product IDs].
 
