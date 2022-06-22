@@ -1,13 +1,13 @@
 ---
 title: Administrar la conexión de Walmart
-description: Actualice las credenciales de la API para autorizar la conexión entre [DNL! Commerce] vista de tienda y [!DNL Walmart Marketplace]. La conexión es necesaria para conectar las listas de productos de Commerce y sincronizar los datos de inventario, precio, pedido y envío entre Commerce y Walmart.
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+description: '"Actualice las credenciales de la API para autorizar la conexión entre [DNL! Commerce] vista de tienda y [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] listados de productos y sincronizar datos de inventario, precio, pedido y envío entre [!DNL Commerce] y Walmart.'''
+exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
+source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Asignación de transportistas
 

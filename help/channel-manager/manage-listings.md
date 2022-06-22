@@ -1,10 +1,10 @@
 ---
 title: Administrar anuncios
-description: Administrar listados de canal de ventas para un [!DNL Commerce] almacenar con el administrador de canales para Adobe Commerce y Magento Open Source.
+description: '''Administrar listados de canales de ventas para un [!DNL Commerce] almacenar con el administrador de canales para Adobe Commerce y Magento Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puede completar las siguientes tareas desde la vista Listing .
 * Agregar productos
 * Hacer coincidir productos
 * Seguimiento del estado de la lista
-* Descripción de error para cualquier lista de productos con un estado de error
+* Revisar la descripción del error para los listados con un estado de error
 
 ## Ver listados de productos
 
@@ -40,7 +40,7 @@ Puede completar las siguientes tareas desde la vista Listing .
 
 1. Restablecer el orden y quitar filtros seleccionando **Actualizar productos**.
 
-## Agregar productos de comercio al Administrador de canales
+## Agregar [!DNL Commerce] productos a Channel Manager
 
 Cree el surtido de productos para el [!DNL Walmart Marketplace] completando las siguientes tareas:
 
@@ -93,7 +93,7 @@ En el espacio de trabajo Listing , la etiqueta Status muestra dónde se encuentr
 
 * **[!UICONTROL Match]**-Identifica los productos con los que se ha alcanzado una coincidencia satisfactoria en [!DNL Walmart].
 
-   Se produce una coincidencia cuando el valor del atributo del producto (por ejemplo, el código UPC) coincide con el valor UPC de una [!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Commerce se agrega a la [!DNL Walmart] listado.
+   Se produce una coincidencia cuando el valor del atributo del producto (por ejemplo, el código UPC) coincide con el valor UPC de una [!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Comercio se agrega a la lista existente.
 
    Marque la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tablero para revisar la lista de productos actualizada y verificar los detalles del producto, el precio y la cantidad de inventario.
 

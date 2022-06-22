@@ -1,12 +1,12 @@
 ---
 title: Incorporado [!DNL Channel Manager]
-description: Conecte la instancia a la variable [!DNL Channel Manager] completando algunos pasos de integración.
+description: '"Conecte la instancia a la variable [!DNL Channel Manager] completando algunos pasos de integración".'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Después de completar la incorporación, configure y administre las operaciones 
 
 - **Información de la cuenta de comercio**-Descarga e instalación [!DNL Channel Manager] requiere un [Cuenta de comercio](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Necesita un ID de cuenta y credenciales con acceso de propietario o administrador a la variable [!DNL Adobe Commerce] o [!DNL Magento Open Source] instancia.
 
-   - **ID DE MAGE**-[Iniciar sesión](https://account.magento.com/customer/account/login/) a la cuenta de comercio para obtener el ID de **[!UICONTROL My Account - Magento settings]**.
+   - **ID DE MAGE**-[Iniciar sesión](https://account.magento.com/customer/account/login/) a [!DNL Commerce] cuenta para obtener el ID de **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] en la configuración de la cuenta de comercio](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] en [!DNL Commerce] configuración de la cuenta](assets/mageid-my-commerce-account.png)
 
-   - **Teclas de acceso -** Obtenga claves de autenticación para descargar extensiones de comercio desde el repositorio de Commerce Composer `([!DNL repo.magento.com]`).
+   - **Teclas de acceso -** Obtener claves de autenticación para descargar [!DNL Commerce] las extensiones de [!DNL Commerce] Repositorio de compositores `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

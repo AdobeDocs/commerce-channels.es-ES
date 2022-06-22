@@ -1,10 +1,10 @@
 ---
 title: Conectar anuncios a Walmart
-description: Conectar listados de productos de Commerce a [!DNL Walmart Marketplace]para empezar a vender.
+description: '''Conectar listados para [!DNL Commerce] productos a [!DNL Walmart Marketplace]para empezar a vender".'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Como otros mercados, [!DNL Walmart] permite a los vendedores de terceros enumera
 
 - [!DNL Walmart Marketplace] utiliza identificadores de producto como UPC y GTIN para hacer coincidir productos con productos existentes [!DNL Walmart Marketplace] anuncios.
 
-- Para los productos coincidentes, el anuncio de Walmart Marketplace se actualiza para incluir la oferta de productos Commerce al conectar un producto desde [!DNL Channel Manager].
+- Para los productos coincidentes, Walmart Marketplace enumera las actualizaciones para incluir la variable [!DNL Commerce] oferta de producto cuando conecta un producto desde [!DNL Channel Manager].
 
 - Normalmente, las ofertas de productos con los precios más bajos aparecen primero en la [!DNL Walmart Marketplace] , pero otros factores como las revisiones también afectan a la ubicación.
 
 ## Hacer coincidir productos
 
-Cuando coincide con productos, el Administrador de canales envía los datos del producto a [!DNL Walmart Marketplace] para buscar anuncios existentes con valores de atributo que coincidan con el atributo de producto de Commerce asignado. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-catalog-attributes.md) para el canal de la tienda.
+Cuando coincide con productos, el Administrador de canales envía los datos del producto a [!DNL Walmart Marketplace] para buscar anuncios existentes con valores de atributo que coincidan con el [!DNL Commerce] atributo de producto. Los criterios de coincidencia están determinados por la variable [configuración de asignación de atributos](map-catalog-attributes.md) para el canal de la tienda.
 
 Si se encuentra una coincidencia, la lista de productos existente se actualiza para añadir la oferta.
 
@@ -81,7 +81,7 @@ Para obtener más información sobre los códigos de error de Walmart Marketplac
 
 ## Cargar nuevas listas de productos
 
-Para los productos que no coinciden con Walmart Marketplace, utilice una plantilla de Excel de categoría de producto Walmart para cargar listas de productos de forma masiva. La plantilla de Walmart se rellena con datos del catálogo de productos exportados desde la instancia de Commerce.
+Para los productos que no coinciden con Walmart Marketplace, utilice una plantilla de Excel de categoría de producto Walmart para cargar listas de productos de forma masiva. La plantilla de Walmart se rellena con datos del catálogo de productos exportados desde su [!DNL Commerce] instancia.
 
 Para obtener nuevos listados de productos, consulte su catálogo de productos para asegurarse de que los productos que planea vender en Walmart Marketplace tengan los atributos requeridos para las listas de productos de Walmart.
 
@@ -113,7 +113,7 @@ Para obtener nuevos listados de productos, consulte su catálogo de productos pa
 
 - Compruebe que cumple los requisitos de [Requisitos de Walmart](walmart-requirements.md).
 
-- En su catálogo de productos de Comercio, compruebe que la configuración del catálogo de los productos que desea incluir en Walmart Marketplace tenga todos los atributos necesarios y cumpla las directrices de contenido de Walmart Marketplace.
+- En [!DNL Commerce] catálogo de productos, compruebe que la configuración del catálogo de los productos que se incluyen en Walmart Marketplace tiene todos los atributos necesarios y cumple las directrices de contenido de Walmart Marketplace.
 
 - Compruebe que el trabajo cron se esté ejecutando para completar la operación de exportación.
 
@@ -135,16 +135,16 @@ Para obtener nuevos listados de productos, consulte su catálogo de productos pa
 
    - Compruebe que la plantilla incluye los atributos requeridos y recomendados para la lista de productos.
 
-1. En el [!DNL Commerce] Administrador, seleccione los datos de producto que desea exportar desde el sitio de Adobe Commerce.
+1. En el [!DNL Commerce] Administrador, seleccione los datos del producto para exportar desde el Adobe [!DNL Commerce] sitio.
 
    - En Administración, seleccione [!UICONTROL **Sistema** > Transferencia de datos > **Exportar**].
 
    - En el [!UICONTROL Export] en el [!UICONTROL Entity Type] campo, seleccione [!UICONTROL **Productos**].
 
    - En el [!UICONTROL Entity Attributes] , configure los criterios de selección para la exportación de datos del producto.
-   ![Exportar la página de datos del producto en el [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![Exportar la página de datos del producto en el [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilice filtros para seleccionar y configurar los valores de atributo que se aplican a las categorías de productos que vende. Asegúrese de incluir los atributos requeridos y recomendados de Walmart (consulte [Exportar datos](https://docs.magento.com/user-guide/system/data-export.html) en la Guía del usuario de Adobe Commerce para obtener instrucciones detalladas).
+   Utilice filtros para seleccionar y configurar los valores de atributo que se aplican a las categorías de productos que vende. Asegúrese de incluir los atributos requeridos y recomendados de Walmart (consulte [Exportar datos](https://docs.magento.com/user-guide/system/data-export.html) en el Adobe [!DNL Commerce] Guía del usuario para obtener instrucciones detalladas).
 
    Para omitir un atributo de la exportación, seleccione la opción [!UICONTROL **Excluir**] al principio de la fila.
 

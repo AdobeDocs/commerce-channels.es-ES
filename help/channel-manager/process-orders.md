@@ -1,10 +1,10 @@
 ---
 title: Procesamiento de pedidos
-description: Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source.
+description: '"Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source.'''
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Después [!DNL Walmart Marketplace] los pedidos se han reconocido y enviado correctamente a [!DNL Channel Manager], utilice [Administración de pedidos de comercio](https://docs.magento.com/user-guide/sales/orders-workspace.html) para procesar el pedido.
 
-El Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Marketplace] para asegurarse de que el estado de pedido y la información de envío de Commerce coinciden con los datos rastreados en la variable [!DNL Walmart Marketplace].
+El Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Marketplace] para garantizar que el estado del pedido y la información de envío [!DNL Commerce] coincide con los datos rastreados en la variable [!DNL Walmart Marketplace].
 
 * **Pedidos de envíos**-Walmart requiere un número de seguimiento para todos los envíos. Si algunos artículos no están en existencias, puede crear envíos parciales para enviar los artículos que están disponibles actualmente. Después de enviar el envío, las actualizaciones de los pedidos se sincronizan con [!DNL Walmart Marketplace]. Luego, Walmart notifica a los clientes sobre el estado del pedido y los detalles de envío.
 
 * **Cancelaciones de pedidos**-Al cancelar un [!DNL Walmart Marketplace] pedido, Walmart requiere un motivo de cancelación que se incluye en el aviso de cancelación de pedido enviado al cliente. El motivo de la cancelación también se muestra en la [!DNL Commerce] solicitar información de pagos. Después de enviar la cancelación, las actualizaciones de inventario se sincronizan con [!DNL Walmart Marketplace]. Luego, Walmart notifica a los clientes sobre el estado del pedido y los detalles de envío.
 
-   En la tienda, debe cancelar todo el pedido. El comercio no permite cancelaciones parciales.
+   En la tienda, debe cancelar todo el pedido. [!DNL Commerce] no permite cancelaciones parciales.
 
 Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza correctamente las actualizaciones de envío, envío parcial y cancelación a la variable [!DNL Walmart Marketplace], se ha completado el procesamiento de la solicitud.
 
@@ -58,7 +58,7 @@ Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza c
 
 1. Para ver [!DNL Walmart Marketplace] pedidos, seleccione *[!UICONTROL *Orders]**.
 
-1. En la tabla Pedidos, abra la página de detalles del pedido seleccionando la opción **Número de pedido de comercio** para la orden de cancelación.
+1. En la tabla Pedidos, abra el [página de detalles del pedido](manage-orders.md#view-order-detail) seleccionando **Número de pedido de comercio** para la orden de cancelación.
 
    ![Vista de detalles de pedidos de comercio para un[!DNL Walmart Marketplace]pedido](assets/order-detail-with-external-order-id.png)
 
