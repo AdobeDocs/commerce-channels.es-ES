@@ -2,9 +2,9 @@
 title: Acerca de Amazon y el catálogo de comercio
 description: El canal de ventas de Amazon importa sus anuncios de Amazon en el backend de Commerce y se sincroniza continuamente con productos y ventas.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Para administrar y revisar mejor el catálogo de productos y las ventas a travé
 
 Adobe Commerce y el Magento Open Source administran las sincronizaciones de catálogo mediante el uso del producto [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} para definir la configuración y los datos del producto. Amazon también utiliza atributos, que se asignarán mediante la incorporación. Durante [tareas previas a la configuración](./amazon-pre-setup-tasks.md) para el canal de ventas de Amazon, debe definir atributos de Amazon adicionales (si es necesario) para garantizar las asignaciones de productos correctas al importar los anuncios de Amazon en su [!DNL Commerce] catálogo. Estos atributos incluyen UPC, EAN, ISBN y ASIN ([!DNL Amazon Standard Identification Number]). Mediante la incorporación, los productos se sincronizan entre Amazon y [!DNL Commerce] catálogos con sus atributos. Asignación adecuada de su [!DNL Commerce] y los productos de Amazon garantizan una sincronización continua de la información del producto, los pedidos y el inventario.
 
-Si no tiene estos atributos creados o configurados para el catálogo, debe agregar un [!DNL Commerce] [atributo de producto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} y los valores de sus productos antes de la incorporación. Cuando se importa un atributo de Amazon, puede utilizarse para búsquedas, navegación, reglas de precios y mucho más. Para obtener más información sobre estos atributos, consulte [Amazon: ¿Qué son los UPC, EAN, ISBN y ASIN?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Si no tiene estos atributos creados o configurados para el catálogo, debe agregar un [!DNL Commerce] [atributo de producto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} y los valores de sus productos antes de la incorporación. Cuando se importa un atributo de Amazon, puede utilizarse para búsquedas, navegación, reglas de precios y mucho más. Consulte [¿Qué significan ASIN, UPC, EAN, ISBN, SKU y otros códigos de barras?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 Después de la incorporación, puede administrar y actualizar los atributos de producto y las asignaciones de Amazon en cualquier momento.
 
