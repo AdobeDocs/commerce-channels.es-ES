@@ -2,9 +2,9 @@
 title: Procesamiento de pedidos
 description: '"Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source.'''
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ El Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Mar
 
    En la tienda, debe cancelar todo el pedido. [!DNL Commerce] no permite cancelaciones parciales.
 
-Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza correctamente las actualizaciones de envío, envío parcial y cancelación a la variable [!DNL Walmart Marketplace], se ha completado el procesamiento de la solicitud.
+* **Solicitud de reembolso**-Si se solicita una devolución de Walmart para un pedido enviado, la variable [!UICONTROL Status details] incluye un vínculo al retorno. Las devoluciones y los reembolsos se administran desde [Devuelve](return-refund-orders.md) tablero.
+
+Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza correctamente las actualizaciones de envío, envío parcial y cancelación a la variable [!DNL Walmart Marketplace], se ha completado el procesamiento de la solicitud. Las solicitudes de devolución y los reembolsos de los pedidos enviados se administran desde el [Devuelve](return-refund-orders.md) tablero.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza c
 
 1. Abra la vista de tienda seleccionando el icono de ojo para un almacén de canales de ventas.
 
-1. Para ver [!DNL Walmart Marketplace] pedidos, seleccione *[!UICONTROL *Orders]**.
+1. Para ver [!DNL Walmart Marketplace] pedidos, seleccionar **[!UICONTROL Orders]**.
 
 1. En la tabla Pedidos, abra el pedido que desea enviar seleccionando la opción **Número de pedido de comercio**.
 
@@ -49,6 +51,8 @@ Cuando se procesan los pedidos comerciales y [!DNL Channel Manager] sincroniza c
    * Rellene el resto del formulario de envío según sea necesario. Consulte [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) para obtener instrucciones detalladas.
 
 1. Después de enviar el envío, realice un seguimiento de la variable [estado de pedido](manage-orders.md#about-order-status) en [!DNL Channel Manager] para verificar que las actualizaciones se hayan enviado a [!DNL Walmart Marketplace].
+
+Después de enviar un pedido, puede procesar los reembolsos completos o parciales desde [!DNL Channel Manager] para elementos incluidos en el pedido en función de las solicitudes de devolución recibidas de [!DNL Walmart Marketplace]. Consulte [órdenes de devolución y devolución](return-refund-orders.md).
 
 ## Cancelar una solicitud
 

@@ -1,10 +1,10 @@
 ---
-title: '''Connect [!DNL Channel Manager] a [!DNL Walmart Marketplace]'''
+title: 'Connect [!DNL Channel Manager] a [!DNL Walmart Marketplace]'
 description: '"Conecte una vista de Commerce store a [!DNL Walmart Marketplace] para crear el canal de ventas para administrar las listas de productos, el inventario, el precio y los pedidos de ventas de Walmart Marketplace".'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] , cree un
 
 1. [Conecte el canal a [!DNL Walmart Marketplace] añadiendo [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Configuración completa del canal de ventas](#complete-store-setup) para administrar anuncios, inventario, precios y pedidos para su [!DNL Walmart Marketplace] gama de productos.
+1. [Configuración completa del canal de ventas](#complete-sales-channel-store-setup) para administrar anuncios, inventario, precios y pedidos para su [!DNL Walmart Marketplace] gama de productos.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Después de instalar el Administrador de canales en su [!DNL Commerce] , cree un
 
 1. Select **[!UICONTROL Save Store]** para aplicar la configuración y conectarse al [!DNL Walmart marketplace].
 
-1. Después de conectarse correctamente, [configuración completa de la tienda](complete-store-setup.md) de la variable **[!UICONTROL Channel Manager]** almacenar página.
+1. Después de conectarse correctamente, [configuración completa de la tienda](complete-sales-channel-store-setup.md) de la variable **[!UICONTROL Channel Manager]** almacenar página.
 
 ![Configuración de la primera tienda](assets/channel-manager-setup-first-store.png)
 

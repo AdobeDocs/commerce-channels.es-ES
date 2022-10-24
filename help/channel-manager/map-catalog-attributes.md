@@ -2,9 +2,9 @@
 title: Asignar atributos de catálogo
 description: '''Asignar atributos para la coincidencia [DNL! Productos de Commerce] para [!DNL Walmart Marketplace] anuncios y sincronización de datos entre [!DNL Channel Manager] y [!DNL Walmart]"'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,15 @@ Si el catálogo no tiene un atributo coincidente, [agregar o convertir un atribu
 
 1. En el **[!UICONTROL Listings]** o **[!UICONTROL Orders]** para el almacén de canales de ventas, seleccione **[!UICONTROL Channel Settings]**.
 
-1. Activado **[!UICONTROL Channel Settings]**, seleccione **[!UICONTROL Shipping Carriers]**.
+1. Activado **[!UICONTROL Channel Settings]**, seleccione **[!UICONTROL Map Attributes]**.
 
    - Busque la [!DNL Walmart Marketplace] para asignar.
 
    - Seleccione el atributo correspondiente en la [!DNL Commerce] catálogo de tiendas.
 
       El siguiente ejemplo asigna la variable [!UICONTROL Walmart Marketplace UPC] al atributo UPC en el catálogo de productos.
-   ![Asignar atributos para los criterios de coincidencia de producto](assets/products-map-attributes-for-match.png)
+
+      ![Asignar atributos para los criterios de coincidencia de producto](assets/products-map-attributes-for-match.png)
 
    - Select **[!UICONTROL Save]**.
 

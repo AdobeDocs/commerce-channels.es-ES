@@ -2,9 +2,9 @@
 title: Conectar anuncios a Walmart
 description: '''Conectar listados para [!DNL Commerce] productos a [!DNL Walmart Marketplace]para empezar a vender".'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Antes de hacer coincidir productos, compruebe que los valores de atributos del c
 1. Select **[!UICONTROL Match Products]**.
 
    Un mensaje indica el número de productos enviados para la coincidencia.
-
-   ![Enviar productos al canal de ventas conectado](assets/products-submitted-for-matching.png)
 
    El estado de los productos seleccionados cambia a [!UICONTROL *Procesamiento*] hasta que se complete la operación de coincidencia. Walmart Marketplace puede tardar hasta 30 minutos en completar la operación del partido.
 
@@ -144,7 +142,7 @@ Para obtener nuevos listados de productos, consulte su catálogo de productos pa
    - En el [!UICONTROL Entity Attributes] , configure los criterios de selección para la exportación de datos del producto.
    ![Exportar la página de datos del producto en el [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilice filtros para seleccionar y configurar los valores de atributo que se aplican a las categorías de productos que vende. Asegúrese de incluir los atributos requeridos y recomendados de Walmart (consulte [Exportar datos](https://docs.magento.com/user-guide/system/data-export.html) en el Adobe [!DNL Commerce] Guía del usuario para obtener instrucciones detalladas).
+   Utilice filtros para seleccionar y configurar los valores de atributo que se aplican a las categorías de productos que vende. Asegúrese de incluir los atributos requeridos y recomendados de Walmart. (Consulte [Exportar datos](https://docs.magento.com/user-guide/system/data-export.html) en el Adobe [!DNL Commerce] Guía del usuario para obtener instrucciones detalladas).
 
    Para omitir un atributo de la exportación, seleccione la opción [!UICONTROL **Excluir**] al principio de la fila.
 

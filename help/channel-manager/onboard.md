@@ -4,9 +4,9 @@ description: '"Conecte la instancia a la variable [!DNL Channel Manager] complet
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Después de completar la incorporación, configure y administre las operaciones 
 
 1. [Conecte su [!DNL Commerce] almacenar en [!DNL Walmart Marketplace]](connect.md).
 
-1. [Configuración completa de la tienda](complete-store-setup.md).
+1. [Configuración completa de la tienda](complete-sales-channel-store-setup.md).
 
 ## Requisitos
 

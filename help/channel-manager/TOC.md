@@ -1,10 +1,10 @@
 ---
 user-guide-title: '''[!DNL Channel Manager] Guía"'
 user-guide-description: '"Aumente las ventas y amplíe su base de clientes integrando Adobe Commerce o Magento Open Source con su [!DNL Walmart Marketplace] Cuenta de Vendedor Central].'''
-breadcrumb-title: '''[!DNL Channel Manager Guide]'''
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+breadcrumb-title: '[!DNL Channel Manager Guide]'
+source-git-commit: 8cfc006e295d12fce9edafed0806c2899368ef64
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -13,20 +13,20 @@ ht-degree: 0%
 # Administrador de canales - [!DNL Channel Manager] para Adobe Commerce {#channel-manager}
 
 - [Información general de la guía](guide-overview.md)
-- Introducción a [!DNL Channel Manager] {#intro-to-channel-manager}
-   - [Acerca del Administrador de canales](overview.md)
-   - [Requisitos de Walmart](walmart-requirements.md)
+- [Introducción a [!DNL Channel Manager]](overview.md)
+- [Notas de la versión](release-notes.md)
+- [Requisitos de Walmart](walmart-requirements.md)
 - Incorporado [!DNL Channel Manager] {#on-boarding}
    - [Incorporación](onboard.md)
    - [Instale el [!DNL Channel Manager] Extensión](install.md)
    - [Conectarse a Commerce Services](connect.md)
    - [Conectar a [!DNL Walmart Marketplace]](connect-marketplace.md)
-   - [Configuración de canal completa](complete-store-setup.md)
+   - [Configuración de canal completa](complete-sales-channel-store-setup.md)
 - Configuración {#configure-settings}
-   - [Información general sobre la configuración de canal](settings-overview.md)
-   - [Asignar atributos del catálogo](map-catalog-attributes.md)
-   - [Asignar transportistas de envío](map-shipping-carriers.md)
-   - [Administrar conexión de Walmart](manage-wmt-connection.md)
+   - [Resumen de la configuración del canal](settings-overview.md)
+   - [Asignar atributos de catálogo](map-catalog-attributes.md)
+   - [Asignación de transportistas](map-shipping-carriers.md)
+   - [Administrar la conexión de Walmart](manage-wmt-connection.md)
 - Lista de productos {#list-products}
    - [Administrar anuncios](manage-listings.md)
    - [Añadir productos a la tienda de canales](add-products-to-channel-store.md)
@@ -34,6 +34,8 @@ ht-degree: 0%
 - Inventario y precios {#inventory-pricing}
    - [Actualizar inventario y precios](inventory-and-price-updates.md)
 - Administrar pedidos {#manage-orders}
-   - [Ver y rastrear pedidos](manage-orders.md)
-   - [Procesamiento de Pedidos](process-orders.md)
+   - [Ver y rastrear](manage-orders.md)
+   - [Proceso](process-orders.md)
+- [Pedidos de devolución y devolución](return-refund-orders.md)
+
 
