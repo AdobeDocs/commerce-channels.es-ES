@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Walmart] Requisitos"'
-description: '''Compruebe que dispone del [!DNL Walmart Marketplace]información y recursos que se integrarán con el administrador de canales.'''
+description: 'Compruebe que dispone del [!DNL Walmart Marketplace]información y recursos que se integrarán con el administrador de canales.'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## Configure un [!DNL Walmart Seller] account
 
 1. [Envíe su aplicación Walmart Seller](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Después de obtener la aprobación de [!DNL Walmart], [configure su cuenta de vendedor de Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Después de obtener la aprobación de [!DNL Walmart], [configure su cuenta de vendedor de Walmart](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Genere un [!DNL Walmart Marketplace] Clave de API de producción
 
