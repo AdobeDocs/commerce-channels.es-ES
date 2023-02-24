@@ -1,15 +1,15 @@
 ---
-title: Procesamiento de pedidos
+title: Procesamiento de Pedidos
 description: '"Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source.'''
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Procesamiento de pedidos
+# Procesamiento de Pedidos
 
 Después [!DNL Walmart Marketplace] los pedidos se han reconocido y enviado correctamente a [!DNL Channel Manager], utilice [Administración de pedidos de comercio](https://docs.magento.com/user-guide/sales/orders-workspace.html) para procesar el pedido.
 

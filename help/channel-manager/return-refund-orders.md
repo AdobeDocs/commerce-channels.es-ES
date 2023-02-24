@@ -1,14 +1,15 @@
 ---
 title: Devolución y Devolución de Pedidos
-description: "Instrucciones para la expedición de restituciones totales o parciales a las solicitudes de devolución recibidas de [!DNL Walmart Marketplace] from [!DNL Channel Manager] para Adobe Commerce y Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Instrucciones para la expedición de restituciones totales o parciales a las solicitudes de devolución recibidas de [!DNL Walmart Marketplace] from [!DNL Channel Manager] para Adobe Commerce y Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Pedidos de devolución y devolución
+# Devolución y Devolución de Pedidos
 
 Cuando un comprador solicita una devolución para los artículos de pedido comprados a través de [!DNL Walmart Marketplace], Walmart crea una solicitud de devolución. [!DNL Channel Manager] supervisa el canal de mercado para estas solicitudes y sincroniza automáticamente la información de solicitud de devolución con el Administrador de canales.
 
@@ -16,7 +17,7 @@ En el lado comercial, la solicitud de retorno inicia el siguiente flujo de traba
 
 1. El Administrador de canales crea una solicitud de devolución correspondiente con un estado recibido y agrega el número de ID devuelto ([!UICONTROL RMA #]) a la variable [!UICONTROL Returns] tablero. En el [!DNL Orders] tablero, el detalle de estado del pedido asociado con las actualizaciones de devolución para incluir un [!UICONTROL Return requested] para ver y procesar el retorno.
 
-1. Los comerciantes procesan el reembolso asociado con la devolución mediante la creación de una nota de crédito después de la [Flujo de trabajo de reembolso de Adobe Commerce](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Todos los reembolsos se procesan mediante el método sin conexión.
+1. Los comerciantes procesan el reembolso asociado con la devolución mediante la creación de una nota de crédito después de [Flujo de trabajo de reembolso de Adobe Commerce](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Todos los reembolsos se procesan mediante el método sin conexión.
 
 1. [!DNL Channel Manager] envía una actualización de reembolso al mercado de Walmart para que el estado de devolución se pueda actualizar para reflejar el reembolso completado de Adobe Commerce.
 
@@ -189,5 +190,3 @@ Puede ver información sobre las solicitudes de devolución y el procesamiento d
 Pueden producirse errores cuando se recibe la información de retorno de [!DNL Walmart Marketplace]o cuando [!DNL Channel Manager] sincroniza las actualizaciones de estado de [!DNL Commerce] a [!DNL Walmart Marketplace].
 
 Si falla la operación de sincronización para una actualización de retorno, la variable [!DNL Channel Manager] El panel Devuelve muestra un *[!UICONTROL Error]* para la entrada de devolución. Para garantizar que la información de devolución y reembolso se refleje con precisión en la cuenta de Walmart Marketplace, actualice manualmente el pedido en su [!DNL Walmart Marketplace] tienda.
-
-

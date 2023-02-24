@@ -1,16 +1,16 @@
 ---
-title: Agregar productos al Administrador de canales
+title: Agregar productos al administrador de canales
 description: "Cree una variedad de productos para [!DNL Walmart Marketplace] ventas mediante la adición de productos del catálogo al canal de ventas configurado en el Administrador de canales."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Añadir productos a [!DNL Channel Manager]
+# Agregar productos a [!DNL Channel Manager]
 
 Para agregar productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en la lista [!DNL Commerce] catálogo de productos e impórtelos en [!DNL Channel Manager].
 El proceso de importación puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.

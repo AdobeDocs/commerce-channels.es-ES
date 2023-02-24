@@ -1,15 +1,15 @@
 ---
-title: Asignar atributos de catálogo
+title: Asignar atributos del catálogo
 description: '''Asignar atributos para la coincidencia [DNL! Productos de Commerce] para [!DNL Walmart Marketplace] anuncios y sincronización de datos entre [!DNL Channel Manager] y [!DNL Walmart]"'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Asignar atributos de catálogo
+# Asignar atributos del catálogo
 
 Antes de conectar anuncios desde [!DNL Commerce] a [!DNL Walmart Marketplace], debe asignar al menos un identificador único del [!DNL Commerce] catálogo con el identificador correspondiente de Walmart.
 
@@ -41,5 +41,3 @@ Si el catálogo no tiene un atributo coincidente, [agregar o convertir un atribu
       ![Asignar atributos para los criterios de coincidencia de producto](assets/products-map-attributes-for-match.png)
 
    - Select **[!UICONTROL Save]**.
-
-

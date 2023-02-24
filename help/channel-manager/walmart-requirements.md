@@ -2,14 +2,14 @@
 title: '''[!DNL Walmart] Requisitos"'
 description: 'Compruebe que dispone del [!DNL Walmart Marketplace]información y recursos que se integrarán con el administrador de canales.'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# [!DNL Walmart] requisitos
+# [!DNL Walmart] Requisitos
 
 [!DNL Channel Manager] requiere los siguientes recursos e información para configurar un [!DNL Commerce] canal de ventas para [!DNL Walmart Marketplace.]
 

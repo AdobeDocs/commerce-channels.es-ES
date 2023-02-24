@@ -4,9 +4,9 @@ description: '"Conecte la instancia a la variable [!DNL Channel Manager] complet
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Revise los requisitos para utilizar el administrador de canales y recopile la in
 
 - **[Requisitos de Walmart Marketplace](walmart-requirements.md)**-Compruebe que cumple los requisitos para la integración con el Administrador de canales, incluido [configuración de la cuenta de vendedor](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) y generación de la clave de API para habilitar la integración.
 
-- **Información de la cuenta de comercio**-Descarga e instalación [!DNL Channel Manager] requiere un [Cuenta de comercio](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Necesita un ID de cuenta y credenciales con acceso de propietario o administrador a la variable [!DNL Adobe Commerce] o [!DNL Magento Open Source] instancia.
+- **Información de la cuenta de comercio**-Descarga e instalación [!DNL Channel Manager] requiere un [Cuenta de comercio](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. Necesita un ID de cuenta y credenciales con acceso de propietario o administrador a la variable [!DNL Adobe Commerce] o [!DNL Magento Open Source] instancia.
 
    - **ID DE MAGE**-[Iniciar sesión](https://account.magento.com/customer/account/login/) a [!DNL Commerce] cuenta para obtener el ID de **[!UICONTROL My Account - Magento settings]**.
 
@@ -45,7 +45,7 @@ Revise los requisitos para utilizar el administrador de canales y recopile la in
       Consulte [Administrar el acceso de los usuarios](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Experiencia con el Compositor y el[!DNL Commerce CLI]**-Consulte [Instalación general de CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} para obtener información sobre el uso de estas herramientas para instalar y administrar extensiones en [!DNL Adobe Commerce] o [!DNL Magento Open Source] plataformas.
+- **Experiencia con el Compositor y el[!DNL Commerce CLI]**-Consulte [Instalación general de CLI](https://devdocs.magento.com/extensions/install/){target="_blank"} para obtener información sobre el uso de estas herramientas para instalar y administrar extensiones en [!DNL Adobe Commerce] o [!DNL Magento Open Source] plataformas.
 
 - **[[!DNL Amazon Sales Channel] versión 4.4.2 o posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**- Si ha activado [!DNL Amazon Sales Channel] para su [!DNL Commerce] sitios, compruebe que su [!DNL Commerce] platform tiene instalada la versión 4.4.2 o posterior antes de instalar [!DNL Channel Manager].
 
