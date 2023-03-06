@@ -1,108 +1,108 @@
 ---
-title: Reglas de lista
-description: Las reglas de uso de las listas determinan los productos del catálogo de comercio que se publican como anuncios de Amazon Marketplace.
+title: Reglas de listado
+description: Utilice reglas de listado para determinar los productos del catálogo de Commerce que se publican como listados de Amazon Marketplace.
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
-# Reglas de lista
+# Reglas de listado
 
-Puede acceder a las reglas de la lista para almacenarlas en la [tablero de almacenamiento](./amazon-store-dashboard.md).
+Puede acceder a las reglas de listado para almacenar en la [tablero de tienda](./amazon-store-dashboard.md).
 
-Las reglas de lista definen las reglas para determinar qué productos publica el canal de ventas de Amazon en Amazon. Estas reglas proporcionan muchas opciones para crear reglas sencillas o complejas para incluir o excluir productos como anuncios. Cada regla consta de condiciones que establecen los requisitos para la idoneidad para la lista de productos.
+Las reglas de listado definen las reglas para determinar qué productos publica el canal de ventas de Amazon en Amazon. Estas reglas ofrecen muchas opciones para crear reglas sencillas o complejas para incluir o excluir productos como listados. Cada regla consta de condiciones que establecen los requisitos para la elegibilidad de la lista de productos.
 
-Las reglas del anuncio se sincronizan continuamente con su [!DNL Commerce] catálogo. Al agregar [!DNL Commerce] productos que cumplen los requisitos de elegibilidad establecidos por las reglas de cotización, los productos se procesan automáticamente para su inclusión en Amazon.
+Las reglas de anuncios se sincronizan continuamente con tu [!DNL Commerce] catálogo. Cuando se añade un nuevo [!DNL Commerce] productos que cumplen los requisitos de idoneidad establecidos por las reglas de listado, los productos se procesan automáticamente para su listado en Amazon.
 
-- Si desea que todos sus productos se publiquen en una lista de Amazon, no defina ninguna condición para las reglas de la lista.
+- Si desea que todos sus productos se publiquen en un anuncio de Amazon, no defina ninguna condición para las reglas del anuncio.
 
-- Si desea limitar qué producto del catálogo se publica en Amazon, debe definir las condiciones de las reglas de listado. La definición de las condiciones para las reglas de listado de Amazon sigue la misma lógica y proceso que la definición de las condiciones para [Reglas de precios del carro de compras](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+- Si desea limitar cuáles de los productos del catálogo se publican en Amazon, defina las condiciones de la regla de listado. La definición de las condiciones para las reglas de listado de Amazon sigue la misma lógica y proceso que la definición de las condiciones para [Reglas de precio de carrito](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
-- Si las reglas de la lista excluyen un producto, el estado de elegibilidad de ese producto cambia a `Ineligible`. Los productos no aptos no se publican en Amazon.
+- Si las reglas de la lista excluyen un producto, el estado de idoneidad de ese producto cambia a `Ineligible`. Los productos no aptos no se publican en Amazon.
 
-- Si un producto no apto ya aparece en la lista de Amazon y usted coincide con el listado de Amazon en su [!DNL Commerce] producto del catálogo, la cantidad de la lista de Amazon cambia a `0` para evitar ventas del producto. Los anuncios de Amazon se pueden [eliminado manualmente](./end-listings-manually.md).
+- Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Los anuncios de Amazon pueden ser [eliminado manualmente](./end-listings-manually.md).
 
-Los cambios en la cantidad y el estado de elegibilidad afectan a todos los anuncios que comparten el SKU del vendedor de Amazon en mercados que existen para tiendas que venden en la misma región (tal y como se define en _[!UICONTROL Amazon Marketplace Country]_during [integración de tiendas](./store-integration.md)). Sin embargo, un cambio en un [!DNL Amazon Seller SKU] en una región no afecta a las listas de Amazon del producto en un país diferente.
+Los cambios en la cantidad y en el estado de idoneidad afectan a todos los anuncios que comparten el SKU del vendedor de Amazon en los mercados que existen para tiendas que venden en la misma región (tal y como se define en _[!UICONTROL Amazon Marketplace Country]_durante [integración de tienda](./store-integration.md)). Sin embargo, un cambio en un recurso compartido [!DNL Amazon Seller SKU] en una región no afecta a los anuncios de Amazon del producto en un país diferente.
 
-![Reglas de lista](assets/ob-listing-rules.png)
+![Reglas de listado](assets/ob-listing-rules.png)
 
 ## Configurar las reglas de listado
 
-1. Haga clic en **[!UICONTROL Listing Rules]** en el panel de la tienda.
+1. Clic **[!UICONTROL Listing Rules]** en el tablero de la tienda.
 
-1. Defina las condiciones que desee para la idoneidad de los productos que se incluirán en Amazon.
+1. Defina las condiciones deseadas para la idoneidad de los productos que se enumerarán en Amazon.
 
-Consulte [Ejemplo: Definir una condición](./ob-define-condition-example.md).
+Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.md).
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL Websites] | Las opciones disponibles dependen de la variable [sitios web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} que ha configurado en su [!DNL Commerce] configuración. Seleccione el sitio web de los productos aptos enumerados en Amazon. Solo se puede seleccionar un sitio web, ya que cada sitio web requiere una tienda Amazon única creada en el canal de ventas de Amazon. |
-| [!UICONTROL Conditions] | Se utiliza para definir la variable [!DNL Commerce] atributos para la idoneidad del producto dentro de su región de Amazon. Consulte [Ejemplo: Definir una condición](./ob-define-condition-example.md). |
+| [!UICONTROL Websites] | Las opciones disponibles dependen de la variable [sitios web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} que ha configurado en su [!DNL Commerce] configuración. Seleccione el sitio web de los productos aptos que aparecen en Amazon. Solo se puede seleccionar un sitio web, ya que cada sitio web requiere una tienda Amazon única creada en el canal de ventas de Amazon. |
+| [!UICONTROL Conditions] | Se utiliza para definir la variable [!DNL Commerce] atributos para la idoneidad del producto dentro de su región de Amazon. Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.md). |
 
-## Espacio de trabajo de condiciones
+## Espacio de trabajo Condiciones
 
 Se puede hacer clic en cualquier área de las condiciones que esté en negrita para ver las distintas opciones.
 
-- No agregue condiciones si todos los productos dentro de los sitios web seleccionados son aptos.
-- Existe un conjunto complejo de procesos back-end para comunicarse directamente con los sistemas de Amazon. En función del número de elementos que intente enumerar y de la cantidad de usuarios que estén en sistemas de Amazon (como Black Friday), puede que haya que esperar que los elementos aparezcan en Amazon.
+- No agregue condiciones si todos los productos de los sitios web seleccionados cumplen los requisitos.
+- Existe un complejo conjunto de procesos back-end para comunicarse directamente con los sistemas de Amazon. En función del número de artículos que intentas poner en venta y de la ocupación que puedan tener los sistemas de Amazon (por ejemplo, Black Friday), puede que tus artículos tarden un tiempo en aparecer en Amazon.
 
-Para obtener más información sobre las condiciones, consulte [Describir las condiciones](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+Para obtener más información sobre las condiciones, consulte [Describir las condiciones](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
-## Vista previa de regla de anuncio
+## Previsualización de regla de anuncio
 
-Cuando modifique las definiciones de condiciones para las reglas de listado, puede hacer clic en **[!UICONTROL Preview Changes]** para aplicar los cambios de reglas y ver cómo se ven afectados sus anuncios. Compruebe sus anuncios en esta función de vista previa de anuncio antes de guardar los cambios en la regla de anuncio.
+Cuando modifique las definiciones de condición para las reglas de listado, puede hacer clic en **[!UICONTROL Preview Changes]** para aplicar los cambios de las reglas y ver cómo se ven afectados los anuncios. Comprueba tus anuncios en esta función de vista previa antes de guardar los cambios de las reglas de anuncios.
 
-Los anuncios de Amazon se comparan con las reglas y condiciones definidas. A continuación, puede revisar:
+Los anuncios de Amazon se comparan con las reglas y las condiciones definidas. A continuación, puede revisar:
 
-- Qué productos pasan a ser inelegibles en función de su estado actual [!DNL Amazon Seller Central] account
-- Qué productos pasan de un estado no elegible a un estado apto
-- Qué productos son nuevos anuncios de Amazon y se han agregado a su lista de Amazon desde su lista de productos aptos [!DNL Commerce] products
+- Qué productos pasan a un estado no apto en función de su [!DNL Amazon Seller Central] account
+- Qué productos pasan de un estado no apto a un estado apto
+- ¿Qué productos son nuevos anuncios de Amazon y se añaden a tu anuncio de Amazon desde el anuncio apto? [!DNL Commerce] products
 
-Vista previa de anuncio le permite obtener una vista previa de los anuncios potenciales de Amazon y realizar los ajustes necesarios en las reglas de anuncio.
+Vista previa de anuncios permite obtener una vista previa de los anuncios de Amazon y realizar los ajustes necesarios en las reglas de anuncios.
 
-Los anuncios potenciales de Amazon se rellenan en la variable _[!UICONTROL Listing Preview]_en una de las tres pestañas:
+Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en una de las tres pestañas:
 
-- **[!UICONTROL Ineligible Listings]** - Los productos enumerados no son aptos para la lista de Amazon según las reglas y condiciones de la lista actual.
+- **[!UICONTROL Ineligible Listings]** - Los productos que aparecen en la lista no cumplen los requisitos para aparecer en la lista de Amazon según las reglas y condiciones actuales.
 
-   Los productos no aptos no se publican en Amazon. Si un producto no apto ya aparece en la lista de Amazon y usted coincide con el listado de Amazon en su [!DNL Commerce] producto del catálogo, la cantidad de la lista de Amazon cambia a `0` para evitar ventas del producto. Para quitar manualmente un listado, consulte [Finalización de una lista de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no se enumeran aquí. Estos productos se incluyen en la lista [Pestaña Listados inactivos](./inactive-listings.md).
+   Los productos no aptos no se publican en Amazon. Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Para quitar manualmente un listado, consulte [Finalizar un anuncio de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no aparecen aquí. Estos productos se enumeran en la [Pestaña Anuncios inactivos](./inactive-listings.md).
 
-- **[!UICONTROL Eligible Listings]** - Los productos que figuran en la lista pueden incluirse en la lista de Amazon en función de las reglas y condiciones de la lista actual, y también pueden optar a los requisitos de Amazon. Esta lista incluye los listados de Amazon existentes que se importan (si tiene **Importar anuncios de terceros** configure como `Import Listing` en [Configuración de lista](./third-party-listing-settings.md)).
+- **[!UICONTROL Eligible Listings]** - Los productos que aparecen en la lista cumplen los requisitos para aparecer en la lista de Amazon según las reglas y condiciones actuales del anuncio, y también cumplen los requisitos de Amazon. Esta lista incluye los anuncios existentes de Amazon que se importan (si tiene **Importar anuncios de terceros** establezca en `Import Listing` in [Configuración de anuncio](./third-party-listing-settings.md)).
 
-- **[!UICONTROL New Listings]** - Los productos listados incluyen su [!DNL Commerce] catálogo de productos que recientemente cumplen los requisitos para la lista de Amazon según las reglas y condiciones de la lista actual, y cree y publique nuevos anuncios de Amazon.
+- **[!UICONTROL New Listings]** - Los productos enumerados incluyen su [!DNL Commerce] catalogar productos que acaban de ser aptos para la creación de anuncios de Amazon en función de las reglas y condiciones actuales, y crear y publicar nuevos anuncios de Amazon.
 
 ### Ver la vista previa del anuncio
 
-1. Haga clic en **[!UICONTROL Listing Rules]** en el panel de la tienda.
+1. Clic **[!UICONTROL Listing Rules]** en el tablero de la tienda.
 
-1. Vea o agregue su [listar reglas](./listing-rules.md).
+1. Ver o agregar su [enumerar reglas](./listing-rules.md).
 
-1. Modifique su [Condiciones de reglas de lista](./ob-define-condition-example.md).
+1. Modifique su [Condiciones de reglas de listado](./ob-define-condition-example.md).
 
-1. Haga clic en **[!UICONTROL Preview Changes]**.
+1. Clic **[!UICONTROL Preview Changes]**.
 
-1. Revise y confirme sus anuncios en la _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ y _[!UICONTROL New Listings]_pestañas.
+1. Revisa y confirma tus anuncios en la _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, y _[!UICONTROL New Listings]_pestañas.
 
-1. Si sus anuncios coinciden con sus expectativas, haga clic en **[!UICONTROL Save and close]**.
+1. Si tus anuncios cumplen tus expectativas, pulsa **[!UICONTROL Save and close]**.
 
-   Si sus anuncios no aparecen como se esperaba, haga clic en **[!UICONTROL Back]** y modifique sus reglas y condiciones hasta que sus anuncios coincidan con sus expectativas.
+   Si los anuncios no se muestran según lo esperado, pulsa **[!UICONTROL Back]** y modifica las reglas y condiciones hasta que los anuncios cumplan tus expectativas.
 
-![Vista previa de regla de anuncio](assets/amazon-listing-rule-preview.png)
+![Previsualización de regla de anuncio](assets/amazon-listing-rule-preview.png)
 
-### Listando registros de vista previa
+### Listado de registros de vista previa
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Product ID] | El número único y secuencial que se asigna a un [!DNL Commerce] producto de catálogo cuando se agregue. |
+| [!UICONTROL Product ID] | El número único y secuencial que se asigna a un [!DNL Commerce] el producto del catálogo cuando se añada. |
 | [!UICONTROL Thumbnail] | Muestra una miniatura de la imagen principal del producto. |
-| [!UICONTROL Name] | El nombre del producto, administrado en la variable [!DNL Commerce] [cuadrícula de productos](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Name] | El nombre del producto, administrado en la variable [!DNL Commerce] [cuadrícula de productos](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
 | [!UICONTROL Type] | El tipo de producto, administrado en la variable [!DNL Commerce] cuadrícula de productos. |
 | [!UICONTROL Attribute Set] | El nombre del conjunto de atributos utilizado como plantilla para el producto, administrado en la variable [!DNL Commerce] cuadrícula de productos. |
-| [!UICONTROL SKU] | La unidad única de mantenimiento de stock asignada al producto, administrada en la variable [!DNL Commerce] cuadrícula de productos. |
-| [!UICONTROL Visibility] | Indica dónde está visible el producto, y se administra en la variable [!DNL Commerce] cuadrícula de productos. Opciones:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
-| Estado | Indica el estado del producto, administrado en la variable [!DNL Commerce] cuadrícula de productos. Opciones: `Enabled` / `Disabled` |
+| [!UICONTROL SKU] | La única unidad de mantenimiento de stock asignada al producto, gestionada en el [!DNL Commerce] cuadrícula de productos. |
+| [!UICONTROL Visibility] | Indica dónde está visible el producto, administrado en el [!DNL Commerce] cuadrícula de productos. Opciones:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
+| Estado | Indica el estado del producto, gestionado en el [!DNL Commerce] cuadrícula de productos. Opciones: `Enabled` / `Disabled` |
 
-![Flujo de trabajo de vista previa de anuncio](assets/listing-preview-flowchart.png)
+![Flujo de trabajo de vista previa](assets/listing-preview-flowchart.png)

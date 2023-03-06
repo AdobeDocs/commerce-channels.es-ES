@@ -1,64 +1,64 @@
 ---
 title: Añadir o verificar la clave de API de Amazon
-description: En la configuración de Commerce, la clave de API de Amazon validada le permite integrar sus tiendas con su cuenta de Amazon Seller.
+description: En la configuración de Commerce, la clave de API de Amazon validada permite integrar las tiendas con la cuenta de vendedor de Amazon.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
 
 # Añadir o verificar la clave de API de Amazon
 
-Al acceder al canal de ventas de Amazon, [!DNL Commerce] comprueba y valida automáticamente la clave de API de Amazon que ha añadido en la configuración de la tienda. Si se valida, puede pasar al siguiente paso, [Integración de tiendas](./store-integration.md).
+Al acceder al canal de ventas de Amazon, [!DNL Commerce] comprueba y valida automáticamente la clave de API de Amazon que añadió en la configuración de la tienda. Si se valida, puede pasar al siguiente paso, [Integración de tienda](./store-integration.md).
 
-Si falta la clave de API de Amazon, no es válida o ha caducado, debe actualizarla. Aparece un mensaje que le solicita que obtenga una clave de API y que la añada a la configuración del canal de ventas de Amazon.
+Si falta la clave de API de Amazon, si no es válida o si ha caducado, debe actualizarla. Aparece un mensaje que le solicita que obtenga una clave de API y que la añada a la configuración de su canal de ventas de Amazon.
 
 ## Obtenga y agregue la clave de API de Amazon cuando se le solicite
 
 La clave de API se valida cada vez que accede al canal de ventas de Amazon.
 
-1. Inicie sesión en el [!DNL Commerce] Administrador.
+1. Inicie sesión en [!DNL Commerce] Administrador.
 
 1. En el _[!UICONTROL Admin]_barra lateral, vaya a **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Si es la primera vez que accede al canal de ventas de Amazon o si la clave de API requiere actualización, el sistema le indicará que siga el proceso.
+   Si es la primera vez que accede al canal de ventas de Amazon o si la clave de API requiere una actualización, el sistema le guiará a través del proceso.
 
-   ![Obtener y agregar el mensaje de clave de API de Amazon](assets/amazon-api-verification-prompt.png)
+   ![Obtener y agregar el indicador de clave de API de Amazon](assets/amazon-api-verification-prompt.png)
 
-1. Haga clic en **[!UICONTROL Sign in]** para acceder a su [!DNL Commerce] cuenta web.
+1. Clic **[!UICONTROL Sign in]** para acceder a su [!DNL Commerce] cuenta web.
 
-   La página Cuentas de comercio se abre en una nueva pestaña del explorador.
+   La página de cuentas de Commerce se abre en una nueva pestaña del explorador.
 
-   - Si ha iniciado sesión en su [!DNL Commerce] cuenta, la variable _[!UICONTROL API Portal]_de la sección_[!UICONTROL My Account]_ aparece automáticamente.
+   - Si ha iniciado sesión en su [!DNL Commerce] cuenta, la _[!UICONTROL API Portal]_de la sección_[!UICONTROL My Account]_ página aparece automáticamente.
 
-   - Si no ha iniciado sesión, se le pedirá que introduzca su [!DNL Commerce] nombre de usuario y contraseña de la cuenta antes de _[!UICONTROL API Portal]_se abre.
+   - Si no ha iniciado sesión, se le pedirá que introduzca su [!DNL Commerce] nombre de usuario y contraseña de la cuenta antes de _[!UICONTROL API Portal]_aparece la pestaña.
 
-   - Si no tiene una cuenta, visite [el [!DNL Commerce] página de cuenta](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} y regístrese. Esta cuenta debe formar parte de su empresa o negocio.
+   - Si no tiene una cuenta de, visite [el [!DNL Commerce] página de cuenta](https://account.magento.com/customer/account/login/){target="_blank"} y registrarse. Esta cuenta debe ser parte de su compañía o negocio.
 
-1. Si es necesario, puede ver y generar claves de API en la variable _[!UICONTROL API Portal]_en la ficha [!DNL Commerce] cuenta.
+1. Si es necesario, puede ver y generar claves API en la _[!UICONTROL API Portal]_pestaña en su [!DNL Commerce] cuenta.
 
-   Para crear una clave de API, introduzca una descripción como `Amazon Sales Channel` y haga clic en **[!UICONTROL Add New]**. La nueva clave se genera y se muestra con el nombre introducido. Haga clic en **[!UICONTROL Copy]** para copiar la nueva clave.
+   Para crear una clave de API, escriba una descripción como `Amazon Sales Channel` y haga clic en **[!UICONTROL Add New]**. La nueva clave se genera y se muestra con el nombre introducido. Clic **[!UICONTROL Copy]** para copiar la nueva clave.
 
    ![Generar o copiar una clave de API](assets/amazon-add-api-key.png)
 
-1. Con la nueva clave generada y copiada, vuelva a la _[!UICONTROL Amazon Sales Channel]_en el navegador.
+1. Con la nueva clave generada y copiada, vuelva a la _[!UICONTROL Amazon Sales Channel]_en el explorador.
 
 1. En el _[!UICONTROL Welcome to Amazon Sales Channel]_página, haga clic en **[!UICONTROL Add the key]**.
 
-   El explorador sale del canal de ventas de Amazon y una página de configuración de tienda abre la variable _[!UICONTROL Api Keys]_en el [!DNL Commerce] Administrador. Puede abrir esta página manualmente cuando vaya a **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**, expandir **[!UICONTROL Services]** en el panel izquierdo y elija **[!UICONTROL Magento Services]**.
+   El explorador sale del canal de ventas de Amazon y se abre una página de configuración de tienda de _[!UICONTROL Api Keys]_página en la [!DNL Commerce] Administrador. Puede abrir esta página manualmente cuando vaya a **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**, expanda **[!UICONTROL Services]** en el panel izquierdo y seleccione **[!UICONTROL Magento Services]**.
 
-1. Pegar la clave copiada para **[!UICONTROL Production Api key]**.
+1. Pegue la clave copiada para **[!UICONTROL Production Api key]**.
 
-1. Haga clic en **[!UICONTROL Save Config]**. Ahora puede volver al canal de ventas de Amazon.
+1. Clic **[!UICONTROL Save Config]**. Ahora puede volver al canal de ventas de Amazon.
 
-   ![Añadir la clave de API en la configuración de la tienda](assets/config-magento-services-api-screen.png)
+   ![Añadir la clave API en la configuración de la tienda](assets/config-magento-services-api-screen.png)
 
 1. En el _[!UICONTROL Admin]_barra lateral, vaya a **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Volver a acceder a los déclencheur de canal de ventas de Amazon [!DNL Commerce] compruebe y valide su clave de API y le permite continuar.
+   Volver a acceder a los déclencheur del canal de ventas de Amazon [!DNL Commerce] compruebe y valide la clave de API y le permita continuar.
 
-   Si se le solicita que vuelva a verificar la clave, repita esta _Agregar y verificar_ proceso.
+   Si se le pide que vuelva a comprobar la clave, repita esto _Agregar y verificar_ proceso.
 
-![Icono Siguiente](assets/btn-next.png) [**Continuar con la integración del almacén**](./store-integration.md)
+![Icono Siguiente](assets/btn-next.png) [**Continuar con la integración de almacenamiento**](./store-integration.md)

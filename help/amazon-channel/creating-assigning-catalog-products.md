@@ -1,134 +1,134 @@
 ---
 title: Crear y asignar productos
-description: La Sales Channel de Amazon proporciona la variable [!UICONTROL New Third Party] para crear y asignar productos de catálogo de comercio coincidentes con los anuncios de Amazon.
+description: La Sales Channel de Amazon proporciona el [!UICONTROL New Third Party] para crear y asignar productos del catálogo de Commerce que coincidan con anuncios de Amazon.
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 # Crear y asignar productos
 
-Al ver _[!UICONTROL New Third Party]_, puede coincidir con su [!DNL Commerce] catálogo de productos en una lista de Amazon existente. Hay dos opciones para esta coincidencia. Puede asignar una lista a un producto de catálogo existente o puede usar la información de la lista para crear productos de catálogo. Estas opciones son útiles cuando sus anuncios de Amazon no coinciden automáticamente con sus [!DNL Commerce] catálogo.
+Al ver _[!UICONTROL New Third Party]_pestaña, puede hacer coincidir su [!DNL Commerce] catalogar productos a un listado de Amazon existente. Hay dos opciones para esta coincidencia. Puede asignar un listado a un producto de catálogo existente o puede utilizar la información del listado para crear productos de catálogo. Estas opciones son útiles cuando los anuncios de Amazon no coinciden automáticamente con las [!DNL Commerce] catálogo.
 
-Para usar el conjunto completo de funciones del canal de ventas de Amazon, es necesario que los productos coincidan (o asignen) a sus anuncios de Amazon.
+Hacer coincidir (o asignar) sus productos con sus anuncios de Amazon es necesario para utilizar el conjunto completo de funciones del canal de ventas de Amazon.
 
-Al crear un producto de catálogo a partir de una lista de Amazon:
+Cuando crea un producto de catálogo a partir de una lista de Amazon:
 
-- La variable **ASIN** se convierte en la variable [!DNL Commerce] SKU
-- La variable **Nombre de lista de productos** se convierte en el nombre de lista del catálogo
-- La variable **Precio** y **Cantidad** se importan desde la lista de Amazon
+- El **ASINA** se convierte en [!DNL Commerce] SKU
+- El **Nombre del listado de productos** se convierte en el nombre del listado de catálogo
+- El **Precio** y **Cantidad** se importan desde el listado de Amazon
 
-El resto de los ajustes necesarios se determinan mediante la variable [!DNL Commerce] configuración de producto que seleccione durante la creación.
+El resto de la configuración necesaria viene determinado por la variable [!DNL Commerce] configuración de producto que seleccione durante la creación.
 
-Cuando se crean y coinciden, los anuncios se eliminan del _[!UICONTROL New Third Party]_y aparecen en la pestaña_[!UICONTROL Active]_ pestaña .
+Cuando se crean y se comparan, los anuncios se eliminan del _[!UICONTROL New Third Party]_y aparecerán en la_[!UICONTROL Active]_ pestaña.
 
-## Asignar un producto de catálogo único a una lista de Amazon
+## Asignar un solo producto de catálogo a un listado de Amazon
 
-1. Vea sus listados de productos en el [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña .
+1. Ver los listados de productos en [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña.
 
-1. Busque el listado que desea asignar en la lista, haga clic en **[!UICONTROL Select]** en el _[!UICONTROL Action]_y haga clic en **[!UICONTROL Assign Catalog Product]**.
+1. Busca el anuncio que deseas asignar en la lista y pulsa **[!UICONTROL Select]** en el _[!UICONTROL Action]_y haga clic en **[!UICONTROL Assign Catalog Product]**.
 
-   Esta acción abre las _[!UICONTROL Assign Magento Catalog Product]_página.
+   Esta acción abre el _[!UICONTROL Assign Magento Catalog Product]_página.
 
-1. Busque o filtre la lista utilizando la variable [controles del espacio de trabajo](./workspace-controls.md) y busque el producto de catálogo correspondiente para que coincida con la lista.
+1. Busque o filtre la lista utilizando el [controles de workspace](./workspace-controls.md) y busque el producto de catálogo adecuado que coincida con el listado.
 
-1. Cuando aparezca el producto correcto en la lista, haga clic en **[!UICONTROL Assign Catalog Product]** en el _[!UICONTROL Action]_para abrir el Navegador.
+1. Cuando aparezca el producto correcto en la lista, haga clic en **[!UICONTROL Assign Catalog Product]** en el _[!UICONTROL Action]_columna.
 
-El producto y el anuncio ya coinciden. El canal de ventas de Amazon ahora puede compartir datos de productos y listados con Amazon y administrar su anuncio y su información, incluido el precio de venta, el precio de envío, las acciones y cantidades, la información y el estado del pedido, entre otros.
+Su producto y listado ahora coinciden. El canal de ventas de Amazon ahora puede compartir datos de productos y listados con Amazon y administrar su listado y su información, incluidos el precio de listado, el precio de envío, el stock/cantidad, la información y el estado del pedido, etc.
 
-## Cree un producto de catálogo único utilizando la información de listado de Amazon
+## Crear un único producto de catálogo utilizando la información de listado de Amazon
 
-1. Vea sus listados de productos en el [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña .
+1. Ver los listados de productos en [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña.
 
-1. Encuentre el listado que desea crear en su [!DNL Commerce] catálogo, haga clic en **[!UICONTROL Select]** en el _[!UICONTROL Action]_y haga clic en **[!UICONTROL Create New Catalog Product]**.
+1. Busque el anuncio que desea crear en su [!DNL Commerce] catálogo, haga clic en **[!UICONTROL Select]** en el _[!UICONTROL Action]_y haga clic en **[!UICONTROL Create New Catalog Product]**.
 
-   Esta acción abre las _[!UICONTROL Create Magento Catalog Product]_página.
+   Esta acción abre el _[!UICONTROL Create Magento Catalog Product]_página.
 
 1. Complete la configuración del catálogo para el producto.
 
-   - Establezca **[!UICONTROL Enable Product(s)]** alternar a `Yes` o `No` (obligatorio).
+   - Establecer **[!UICONTROL Enable Product(s)]** cambiar a `Yes` o `No` (obligatorio).
 
-      |Sí|Elija hacer que el producto sea apto para su [!DNL Commerce] ventas de tienda.| |No|Elija hacer que el producto no sea apto para su [!DNL Commerce] ventas de tienda.|
+      |Sí|Elija que el producto cumpla los requisitos para su [!DNL Commerce] ventas de tienda.| |No|Elija que el producto no cumpla los requisitos para su [!DNL Commerce] ventas de tienda.|
 
    - Para **[!UICONTROL Categories]**, asigne una categoría para el producto (opcional).
 
-      Para seleccionar la categoría del producto, haga clic en la flecha hacia abajo y seleccione una casilla de verificación de categoría. Haga clic en **[!UICONTROL Done]** cuando termine.
+      Para seleccionar la categoría del producto, haga clic en la flecha hacia abajo y seleccione una casilla de verificación de categoría. Clic **[!UICONTROL Done]** cuando termine.
 
-   - Para **[!UICONTROL Website Ids]**, elija el sitio web (tienda) para el que se asociará el producto.
+   - Para **[!UICONTROL Website Ids]**, elija el sitio web (tienda) al que desea asociar el producto.
 
-      Las opciones de esta lista dependen de su [!DNL Commerce] [configuración del almacén](https://docs.magento.com/user-guide/stores/websites-stores-views.html)Configuración de {target=&quot;_blank&quot;}.
+      Las opciones de esta lista dependen de su [!DNL Commerce] [configuración de tienda](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configuración.
 
    - Para **[!UICONTROL Attribute Set Id]** (obligatorio), elija una opción.
 
-      `Default` es la selección predeterminada. Las opciones de esta lista dependen de su [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} que ha configurado.
+      `Default` es la selección predeterminada. Las opciones de esta lista dependen de su [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} que ha configurado.
 
    - Para **[!UICONTROL Visibility]**, elija una opción para el nuevo producto.
 
-      |**[!UICONTROL Not Visible Individually]** (predeterminado)|El producto no está incluido en sus listas de tiendas, aunque podría estar disponible como una variación de otro producto.| |**[!UICONTROL Catalog]**|El producto aparece en las listas del catálogo.| |**[!UICONTROL Search]**|El producto está disponible para operaciones de búsqueda.| |**[!UICONTROL Catalog and Search]**|El producto está incluido en las listas de catálogos y está disponible para operaciones de búsqueda.|
+      |**[!UICONTROL Not Visible Individually]** (predeterminado)|El producto no se incluye en los anuncios de las tiendas, aunque podría estar disponible como una variación de otro producto.| |**[!UICONTROL Catalog]**|El producto aparece en los listados del catálogo.| |**[!UICONTROL Search]**|El producto está disponible para operaciones de búsqueda.| |**[!UICONTROL Catalog and Search]**|El producto está incluido en las listas de catálogos y disponible para las operaciones de búsqueda.|
 
    - Para **[!UICONTROL Assign Tax Class]**, elija una opción para el producto.
 
-      Las opciones que se muestran en esta lista dependen de la variable [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} que ha configurado.
+      Las opciones que se muestran en esta lista dependen de la variable [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} que ha configurado.
 
    - Cuando termine, haga clic en **[!UICONTROL Create Catalog Products]**.
 
-El producto del catálogo se crea en su [!DNL Commerce] catálogo y asignado al listado de Amazon desde el que se creó. Ahora que la lista coincide con una lista de Amazon existente, la lista se elimina del _[!UICONTROL New Third Party]_y aparecen en la pestaña_[!UICONTROL Active]_ pestaña .
+El producto del catálogo se crea en su [!DNL Commerce] y asignado al listado de Amazon a partir del cual se creó. Ahora que el listado coincide con un listado de Amazon existente, el listado se elimina del _[!UICONTROL New Third Party]_y aparecen en la pestaña_[!UICONTROL Active]_ pestaña.
 
-## Crear varios productos de catálogo utilizando la información de listado de Amazon
+## Crear varios productos de catálogo utilizando la información de su listado de Amazon
 
-1. Vea sus listados de productos en el [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña .
+1. Ver los listados de productos en [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) pestaña.
 
 1. Seleccione los listados para los que desea crear productos de catálogo.
 
-   Puede seleccionar casillas individuales en la columna de la izquierda o hacer clic en la flecha hacia abajo en la columna de la parte superior izquierda y elegir **[!UICONTROL Select All]** o **[!UICONTROL Select All on this Page]**.
+   Puede seleccionar casillas de verificación individuales en la columna del lado izquierdo o puede hacer clic en la flecha hacia abajo de la columna superior izquierda y elegir **[!UICONTROL Select All]** o **[!UICONTROL Select All on this Page]**.
 
 1. En _[!UICONTROL Actions]_, haga clic en **[!UICONTROL Create New Catalog Product(s)]**.
 
-1. Para aceptar el mensaje de confirmación y abrir el _[!UICONTROL Create Magento Catalog Product]_página, haga clic en **[!UICONTROL OK]**.
+1. Para aceptar el mensaje de confirmación y abrir _[!UICONTROL Create Magento Catalog Product]_página, haga clic en **[!UICONTROL OK]**.
 
-1. Complete la configuración del catálogo para los productos.
+1. Complete la configuración del catálogo de los productos.
 
    >[!NOTE]
-   >Al crear productos de catálogo para varias listas seleccionadas, la configuración de producto introducida se aplica a todas las listas.
+   >Al crear productos de catálogo para varios anuncios seleccionados, la configuración de producto introducida se aplica a todos los anuncios.
 
-   - Establezca **[!UICONTROL Enable Product(s)]** alternar a `Yes` o `No` (obligatorio).
+   - Establecer **[!UICONTROL Enable Product(s)]** cambiar a `Yes` o `No` (obligatorio).
 
-      |Sí|Elija hacer que el producto sea apto para su [!DNL Commerce] ventas de tienda.| |No|Elija hacer que el producto no sea apto para su [!DNL Commerce] ventas de tienda.|
+      |Sí|Elija que el producto cumpla los requisitos para su [!DNL Commerce] ventas de tienda.| |No|Elija que el producto no cumpla los requisitos para su [!DNL Commerce] ventas de tienda.|
 
    - Para **[!UICONTROL Categories]**, asigne una categoría para el producto (opcional).
 
-      Para seleccionar la categoría del producto, haga clic en la flecha hacia abajo y seleccione una casilla de verificación de categoría. Haga clic en **Listo** cuando termine.
+      Para seleccionar la categoría del producto, haga clic en la flecha hacia abajo y seleccione una casilla de verificación de categoría. Clic **Listo** cuando termine.
 
-   - Para **[!UICONTROL Website Ids]**, elija el sitio web (tienda) para el que se asociará el producto.
+   - Para **[!UICONTROL Website Ids]**, elija el sitio web (tienda) al que desea asociar el producto.
 
-      Las opciones de esta lista dependen de su [!DNL Commerce] [configuración del almacén](https://docs.magento.com/user-guide/stores/websites-stores-views.html)Configuración de {target=&quot;_blank&quot;}.
+      Las opciones de esta lista dependen de su [!DNL Commerce] [configuración de tienda](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configuración.
 
    - Para **[!UICONTROL Attribute Set Id]** (obligatorio), elija una opción.
 
-      `Default` es la selección predeterminada. Las opciones de esta lista dependen de su [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} que ha configurado.
+      `Default` es la selección predeterminada. Las opciones de esta lista dependen de su [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} que ha configurado.
 
    - Para **[!UICONTROL Visibility]**, elija una opción para el nuevo producto.
 
-      |**[!UICONTROL Not Visible Individually]** (predeterminado)|El producto no está incluido en sus listas de tiendas, aunque podría estar disponible como una variación de otro producto.| |**[!UICONTROL Catalog]**|El producto aparece en las listas del catálogo.| |**[!UICONTROL Search]**|El producto está disponible para operaciones de búsqueda.| |**[!UICONTROL Catalog and Search]**|El producto está incluido en las listas de catálogos y está disponible para operaciones de búsqueda.|
+      |**[!UICONTROL Not Visible Individually]** (predeterminado)|El producto no se incluye en los anuncios de las tiendas, aunque podría estar disponible como una variación de otro producto.| |**[!UICONTROL Catalog]**|El producto aparece en los listados del catálogo.| |**[!UICONTROL Search]**|El producto está disponible para operaciones de búsqueda.| |**[!UICONTROL Catalog and Search]**|El producto está incluido en las listas de catálogos y disponible para las operaciones de búsqueda.|
 
    - Para **[!UICONTROL Assign Tax Class]**, elija una opción para el producto.
 
-      Las opciones que se muestran en esta lista dependen de la variable [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} que ha configurado.
+      Las opciones que se muestran en esta lista dependen de la variable [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} que ha configurado.
 
    - Cuando termine, haga clic en **[!UICONTROL Create Catalog Products]**.
 
-Los productos del catálogo se crean en su [!DNL Commerce] catálogo y asignado al listado de Amazon desde el que se creó. Ahora que los anuncios coinciden con sus respectivos listados de Amazon, los listados se eliminan del [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) y aparecen en la pestaña [_[!UICONTROL Active]_](./active-listings.md) pestaña .
+Los productos del catálogo se crean en su [!DNL Commerce] y asignado al listado de Amazon a partir del cual se creó. Ahora que los anuncios coinciden con sus respectivas listas de Amazon, se eliminan del [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) y aparecen en la pestaña [_[!UICONTROL Active]_](./active-listings.md) pestaña.
 
-![Crear producto de catálogo de comercio](assets/amazon-magento-catalog-product.png)
+![Crear producto del catálogo de Commerce](assets/amazon-magento-catalog-product.png)
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Enable Product(s)] | (Obligatorio) Si está habilitado, el producto es visible en su [!DNL Commerce] tienda. Si está desactivado, el producto no se muestra en su [!DNL Commerce] tienda. |
-| [!UICONTROL Categories] | Puede introducir el nombre de la categoría del nuevo producto o seleccionar una categoría haciendo clic en la flecha hacia abajo para mostrar las opciones. Las opciones dependen del [categories](https://docs.magento.com/user-guide/catalog/category-create.html)Configuración de {target=&quot;_blank&quot;}. |
-| [!UICONTROL Website Ids] | (Obligatorio) Elija el sitio web (tienda) para el que se asociará el producto. Las opciones dependen del [!DNL Commerce] [configuración del almacén](https://docs.magento.com/user-guide/stores/websites-stores-views.html)Configuración de {target=&quot;_blank&quot;} |
-| Id De Conjunto De Atributos | Elija un conjunto de atributos. Las opciones dependen de la configuración [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}. |
-| [!UICONTROL Visibility] | Opciones:<ul><li>**[!UICONTROL Not Visible Individually]** - El producto no es visible en su [!DNL Commerce] tienda (más común para los productos de variante).</li><li>**[!UICONTROL Catalog]** - Permite acceder al producto a través de la categoría a la que está asociado dentro del sitio web.</li><li>**Buscar** : permite que el producto solo se encuentre a través de la herramienta de búsqueda.</li><li>**[!UICONTROL Catalog and Search]** - Permite acceder a los productos a través de la estructura de categorías y mediante la herramienta de búsqueda.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Asigne una clase fiscal al nuevo producto. Las opciones dependen de la configuración [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Enable Product(s)] | (Obligatorio) Si está activado, el producto es visible en su [!DNL Commerce] tienda. Si está desactivado, el producto no se muestra en su [!DNL Commerce] tienda. |
+| [!UICONTROL Categories] | Puede introducir el nombre de la categoría del nuevo producto o seleccionar una categoría haciendo clic en la flecha hacia abajo para mostrar las opciones. Las opciones dependen de su [categorías](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} configuración. |
+| [!UICONTROL Website Ids] | (Obligatorio) Elija el sitio web (tienda) al que se asociará el producto. Las opciones dependen de su [!DNL Commerce] [configuración de tienda](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configuración |
+| ID de conjunto de atributos | Seleccione un conjunto de atributos. Las opciones dependen de la configuración [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Visibility] | Opciones:<ul><li>**[!UICONTROL Not Visible Individually]** - El producto no es visible en su [!DNL Commerce] tienda (más común para productos de variante).</li><li>**[!UICONTROL Catalog]** - Permite acceder al producto a través de la categoría a la que está asociado dentro del sitio web.</li><li>**Buscar** - Permite que el producto solo se encuentre a través de la herramienta de búsqueda.</li><li>**[!UICONTROL Catalog and Search]** - Permite acceder a los productos a través de la estructura de categorías y utilizando la herramienta de búsqueda.</li></ul> |
+| [!UICONTROL Assign Tax Class] | Asigne una clase de impuestos al nuevo producto. Las opciones dependen de la configuración [clases de impuestos](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |

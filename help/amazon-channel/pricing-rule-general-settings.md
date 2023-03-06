@@ -1,61 +1,61 @@
 ---
-title: Configuración general de la regla de precios
-description: Utilice la configuración general de la regla de precio para definir las características principales de una regla de precio de anuncio.
+title: Configuración general de reglas de precios
+description: Utilice la configuración general de la regla de precios para definir las características principales de una regla de precios de listado.
 redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Configuración general de la regla de precios
+# Configuración general de reglas de precios
 
 Defina el nombre, la descripción, las fechas activas y la prioridad de la regla.
 
-## Completar la sección Configuración general de la regla de precio
+## Rellene la sección Configuración general de la regla de precio
 
 1. Para **[!UICONTROL Rule Name]** (obligatorio), introduzca el nombre de la regla.
 
-   Este nombre es solo para fines de identificación interna. Cuanto más descriptivo sea el nombre de la regla, mejor.
+   Este nombre es solo para propósitos de identificación interna. Cuanto más descriptivo sea el nombre de la regla, mejor.
 
 1. Para **[!UICONTROL Description]**, introduzca una descripción detallada de la regla.
 
-   Esta descripción podría incluir información sobre los productos que cumplen los requisitos, las fechas activas, la fórmula para calcular el precio ajustado o cualquier otra información que considere útil si desea modificar la regla.
+   Esta descripción puede incluir información sobre los productos aptos, las fechas de actividad, la fórmula para calcular el precio ajustado o cualquier otra información que le resulte útil si desea modificar la regla.
 
 1. Para **[!UICONTROL Status]**, elija una opción:
 
-   - `Active` - Seleccione esta opción cuando desee que la regla de precios se aplique a sus productos aptos y ajuste los precios de los anuncios antes de publicarlos en Amazon.
+   - `Active` : elige esta opción cuando quieras que la regla de precios se aplique a tus productos aptos y ajuste los precios del anuncio antes de publicarlo en Amazon.
 
-   - `Inactive` - Seleccione esta opción cuando no desee que la regla de precios se aplique a sus productos aptos. Es muy probable que esta opción se utilice al modificar una regla de precios o desactivarla después de una promoción limitada.
+   - `Inactive` - Elija esta opción cuando no desee que la regla de asignación de precios se aplique a los productos aptos. Es muy probable que esta opción se utilice al modificar una regla de asignación de precios o al desactivarla después de una promoción limitada.
 
-1. Para **[!UICONTROL From]** y **[!UICONTROL To]**, introduzca una fecha de inicio y de finalización para la regla de precios.
+1. Para **[!UICONTROL From]** y **[!UICONTROL To]**, introduzca una fecha de inicio y de finalización para la regla de asignación de precios.
 
-   También puede hacer clic en el icono de calendario para seleccionar una fecha del calendario dinámico. Esta opción de inicio y parada automática es útil cuando se configuran promociones de tiempo limitado o de temporada con fechas de inicio y finalización definidas.
+   También puede hacer clic en el icono de calendario para seleccionar una fecha del calendario dinámico. Esta opción de inicio y parada automática es beneficiosa cuando se configuran promociones de tiempo limitado o de temporada con fechas de inicio y finalización definidas.
 
 1. Para **[!UICONTROL Priority]**, introduzca un valor numérico para la prioridad de regla.
 
-   Valor de prioridad igual a `1` es la prioridad más alta. Cuando tiene varias reglas de precios activas, puede utilizar este valor de prioridad para determinar qué regla se aplica primero. Este campo es necesario para utilizar la variable _[!UICONTROL Discard Subsequent Rules]_función.
+   Valor de prioridad igual a `1` es la prioridad más alta. Cuando tiene varias reglas de asignación de precios activas, puede utilizar este valor de prioridad para determinar qué regla se aplica primero. Este campo es necesario para utilizar la variable _[!UICONTROL Discard Subsequent Rules]_función.
 
 1. Para **[!UICONTROL Discard Subsequent Rules]**, elija una opción:
 
-   - `Yes` - Seleccione esta opción cuando no desee que se apliquen otras reglas de precios que puedan aplicarse a un producto. Descartar reglas posteriores significa que, si se aplican varias reglas de precios al mismo producto, solo se aplica al producto la regla de precios con el valor de prioridad definido más alto. Esta opción evita que se apilen varias reglas de precios y proporciona descuentos adicionales no deseados.
+   - `Yes` - Elija esta opción cuando no desee que se apliquen otras reglas de precios que puedan aplicarse a un producto. Descartar las reglas siguientes significa que, si se aplican varias reglas de asignación de precios al mismo producto, solo se aplica al producto la regla de asignación de precios con el valor de prioridad definido más alto. Esta opción evita que se apilen varias reglas de precios y proporciona descuentos adicionales no deseados.
 
-   - `No` - Seleccione esta opción cuando desee permitir que se apliquen varias reglas de precios al mismo producto. Esta opción podría resultar en apilar y proporcionar varios descuentos a aplicar.
+   - `No` : elija esta opción cuando desee permitir que se apliquen varias reglas de precios al mismo producto. Esta opción podría provocar que se apilen y que se apliquen varios descuentos.
 
 >[!NOTE]
 >
->Para descartar reglas posteriores, una regla de precios debe tener una definición **Prioridad** valor.
+>Para descartar reglas subsiguientes, una regla de asignación de precios debe tener un **Prioridad** valor.
 
-![Configuración general de la regla de precios](assets/amazon-pricing-rule-general.png)
+![Configuración general de reglas de precios](assets/amazon-pricing-rule-general.png)
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL Rule Name] | (Obligatorio) Introduzca un nombre para la regla, que se utiliza con fines de identificación interna. Cuanto más descriptivo sea el nombre de la regla, mejor. Por ejemplo, &quot;25% de descuento en la venta de libros de fin de año&quot;. |
-| [!UICONTROL Description] | Introduzca una descripción detallada que explique la regla (también utilizada con fines internos). Por ejemplo, &quot;Venta al final del año, 25 % de descuento en todos los artículos de la categoría Libros&quot;. |
-| [!UICONTROL Status] | Opciones:<ul><li>**[!UICONTROL Inactive]** - La regla de precios no se aplica a sus anuncios. Esta opción se puede utilizar al modificar una regla de precios o desactivarla después de una promoción limitada.</li><li>**[!UICONTROL Active]** - La regla de precios se aplica a sus anuncios y ajusta los precios de los anuncios antes de publicarlos en Amazon.</li></ul> |
-| [!UICONTROL From] | Introduzca la fecha de inicio en la que comienza la regla de precios. Por ejemplo, para tener una venta durante el último mes del año, establecería la variable `From` fecha hasta el 1 de diciembre para que la regla de precios se aplique automáticamente a sus anuncios de Amazon a partir del 1 de diciembre. |
-| [!UICONTROL To] | Introduzca la fecha de finalización cuando finalice la regla de precios. Siguiendo con el ejemplo anterior, para limitar la venta al último mes del año, establecería la variable `To` fecha 31 de diciembre, por lo que la regla de precios caduca el 31 de diciembre. |
-| [!UICONTROL Priority] | Introduzca un valor para la prioridad de regla de precios. Un valor de prioridad igual a `1` es la prioridad más alta. Cuando tiene varias reglas de precios, puede utilizar el valor de prioridad para determinar qué regla se aplica primero. Este campo es necesario para utilizar la variable **Descartar reglas posteriores** función. |
-| [!UICONTROL Discard Subsequent Rules] | Se utiliza para permitir o evitar que se apilen varias reglas de precios y para proporcionar descuentos adicionales. Para descartar reglas posteriores, una regla de precios debe tener un valor definido para **[!UICONTROL Priority]**. Opciones:<ul><li>**[!UICONTROL Yes]** - Elija cuándo no desea que se apliquen otras reglas de precios que puedan aplicarse a un producto. Descartar reglas posteriores significa que, cuando se aplican varias reglas de precios al mismo producto, solo se aplica la regla de precios con el valor de prioridad definido más alto.</li><li>**[!UICONTROL No]** - Elija cuándo desea permitir que se apliquen varias reglas de precios al mismo producto. Esta opción podría resultar en apilamiento y en varios descuentos aplicados al precio de su anuncio.</li></ul> |
+| [!UICONTROL Rule Name] | (Obligatorio) Introduzca un nombre para la regla, que se utilizará con fines de identificación interna. Cuanto más descriptivo sea el nombre de la regla, mejor. Por ejemplo, &quot;25% de descuento en la venta de libros al final del año&quot;. |
+| [!UICONTROL Description] | Introduzca una descripción detallada que explique la regla (también utilizada con fines internos). Por ejemplo, &quot;Venta de fin de año, 25 % de descuento en todos los artículos de la categoría Libros&quot;. |
+| [!UICONTROL Status] | Opciones:<ul><li>**[!UICONTROL Inactive]** - La regla de precios no se aplica a tus anuncios. Esta opción se puede utilizar cuando se modifica una regla de asignación de precios o se desactiva después de una promoción limitada.</li><li>**[!UICONTROL Active]** : la regla de precios se aplica a los anuncios y ajusta los precios del anuncio antes de publicarlo en Amazon.</li></ul> |
+| [!UICONTROL From] | Introduzca la fecha de inicio en la que comienza la regla de asignación de precios. Por ejemplo, para realizar una venta durante el último mes del año, debe establecer la variable `From` Fecha hasta el 1 de diciembre para que la regla de precios se aplique automáticamente a los anuncios de Amazon a partir del 1 de diciembre. |
+| [!UICONTROL To] | Introduzca la fecha de finalización en la que finaliza la regla de asignación de precios. Continuando con el ejemplo anterior, para limitar la venta al último mes del año, debe establecer el valor de `To` La fecha es el 31 de diciembre, por lo que la regla de precios caduca el 31 de diciembre. |
+| [!UICONTROL Priority] | Introduzca un valor para la prioridad de la regla de asignación de precios. Un valor de prioridad igual a `1` es la prioridad más alta. Cuando tiene varias reglas de asignación de precios, puede utilizar el valor de prioridad para determinar qué regla se aplica primero. Este campo es necesario para utilizar la variable **Descartar reglas posteriores** función. |
+| [!UICONTROL Discard Subsequent Rules] | Se utiliza para permitir o evitar que se apilen varias reglas de precios y proporcionar descuentos adicionales. Para descartar reglas subsiguientes, una regla de asignación de precios debe tener un valor definido para **[!UICONTROL Priority]**. Opciones:<ul><li>**[!UICONTROL Yes]** : elija cuándo no desea que se apliquen otras reglas de precios que puedan aplicarse a un producto. Descartar las reglas siguientes significa que, cuando se aplican varias reglas de asignación de precios al mismo producto, solo se aplica la regla de asignación de precios con el valor de prioridad definido más alto.</li><li>**[!UICONTROL No]** : elija cuándo desea permitir que se apliquen varias reglas de precios al mismo producto. Esta opción podría provocar la acumulación y la aplicación de varios descuentos al precio del anuncio.</li></ul> |
