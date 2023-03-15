@@ -4,7 +4,7 @@ user-guide-description: '"Aumente las ventas y amplíe su base de clientes integ
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 source-git-commit: dc84f36fd7054bbd11a7492574bb662eaf097c4a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
