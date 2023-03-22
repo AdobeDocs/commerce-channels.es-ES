@@ -1,10 +1,11 @@
 ---
-title: '[!DNLChannel Manager] Notas de la versión'
-description: '"La información de la última versión de [!DNL Channel Manager] de Adobe Commerce".'
-source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
+title: '''[!DNL Channel Manager] Notas de la versión'
+description: La información de la última versión de [!DNL Channel Manager] de Adobe Commerce.
+exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
+source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 2%
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +18,7 @@ Estas notas de la versión describen la versión inicial de [!DNL Channel Manage
 ![Problema conocido](../assets/bug.svg) Problemas conocidos
 
 
-## Versión 1.1.0
+## v1.1.0
 
 ![Nuevo](../assets/new.svg)<!--CHAN-5204--> **Devoluciones y reembolsos**: ahora puede procesar devoluciones y reembolsos de Walmart Marketplace para pedidos enviados a través de una tienda de Adobe Commerce y Magento Open Source Channel Manager. La información y las actualizaciones sobre devoluciones y reembolsos se sincronizan entre Walmart y Adobe Commerce para que los datos actuales estén disponibles tanto en la variable [!DNL Commerce] tienda y [!DNL Walmart Marketplace]. Consulte [Pedidos de devolución y devolución](return-refund-orders.md).
 
