@@ -1,79 +1,79 @@
 ---
-title: Agregar productos al administrador de canales
-description: "Cree una variedad de productos para [!DNL Walmart Marketplace] ventas mediante la adición de productos del catálogo al canal de ventas configurado en el Administrador de canales."
+title: Añadir productos al Administrador de canales
+description: '''Crear surtido de productos para [!DNL Walmart Marketplace] ventas añadiendo productos del catálogo al canal de ventas configurado en Channel Manager." '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 
-# Agregar productos a [!DNL Channel Manager]
+# Añadir productos a [!DNL Channel Manager]
 
-Para agregar productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en la lista [!DNL Commerce] catálogo de productos e impórtelos en [!DNL Channel Manager].
+Para añadir productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en la [!DNL Commerce] catálogo de productos e importarlos en [!DNL Channel Manager].
 El proceso de importación puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
 
 ## Requisito previo
 
-**[Asignar atributos de catálogo](map-catalog-attributes.md)**—En el [!DNL Channel Settings] configuración, asigne al menos un atributo de [!DNL Commerce] catálogo de productos a uno de los identificadores de producto Walmart requeridos—-GTIN, ISBN, ISSN, UPC, EAN.
+**[Asignar atributos de catálogo](map-catalog-attributes.md)**: en el [!DNL Channel Settings] , asigne al menos un atributo del [!DNL Commerce] Catálogo de productos a uno de los identificadores de producto de Walmart requeridos: GTIN, ISBN, ISSN, UPC, EAN.
 
-## Requisitos de listado
+## Requisitos de anuncios
 
-[!DNL Commerce] las listas de productos deben tener la siguiente configuración de atributos requerida:
+[!DNL Commerce] los listados de productos deben tener la siguiente configuración de atributos requerida:
 
 - **[!UICONTROL Connect to Channel Manager]** el atributo está habilitado
 
-- Proporcione valores válidos para los atributos Walmart requeridos.
+- Proporcione valores válidos para los atributos de Walmart necesarios.
 
-   - Al menos un atributo de producto que coincida con uno de los requisitos [!DNL Walmart Marketplace] identificadores de producto: GTIN, ISBN, ISSN, UPC, EAN.
+   - Al menos un atributo de producto que coincida con uno de los necesarios [!DNL Walmart Marketplace] identificadores de producto: GTIN, ISBN, ISSN, UPC, EAN.
 
-   - El precio del producto especificado es de un máximo de dos decimales, por ejemplo `9.99`
+   - El precio del producto especificado en un máximo de dos decimales, por ejemplo `9.99`
 
-   - Peso del producto especificado como máximo en dos decimales, por ejemplo `1.25`
+   - Peso del producto especificado en un máximo de dos decimales, por ejemplo `1.25`
 
 >[!TIP]
 >
->Para obtener información adicional sobre la optimización de anuncios para su canal de ventas, consulte la [Guía de optimización de la calidad de la lista de Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
+>Si desea obtener más información sobre cómo optimizar anuncios para su canal de ventas, consulte la [Guía de optimización de calidad de lista de Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
-## Agregar productos
+## Añadir productos
 
-1. En un almacén de canales de ventas conectado, seleccione **Agregar productos** para abrir el catálogo de productos.
+1. En un almacén de canales de ventas conectado, seleccione **Añadir productos** para abrir el catálogo de productos.
 
-   ![Agregar productos al almacén de canales de ventas](assets/add-initial-products-to-connected-channel.png)
+   ![Añadir productos a la tienda de canales de ventas](assets/add-initial-products-to-connected-channel.png)
 
    El catálogo se abre en una nueva pestaña.
 
-1. En la cuadrícula de producto del catálogo, seleccione los productos que desea vender [!DNL Walmart Marketplace].
+1. En la cuadrícula de productos del catálogo, seleccione los productos que desea vender [!DNL Walmart Marketplace].
 
-   ![Enviar productos al almacén de canales de ventas](assets/select-products-from-catalog.png)
+   ![Envíe productos a la tienda de canales de ventas](assets/select-products-from-catalog.png)
 
-1. Active la variable **[!UICONTROL Connect to Channel Manager]** para los elementos seleccionados.
+1. Habilite la **[!UICONTROL Connect to Channel Manager]** para los elementos seleccionados.
 
-   - De **[!UICONTROL Actions]**, seleccione **[!UICONTROL Update attributes]**.
+   - Desde **[!UICONTROL Actions]**, seleccione **[!UICONTROL Update attributes]**.
 
-   - Desplácese hasta el **[!UICONTROL Connect to Channel Manager]** y actívelo.
+   - Desplácese hasta **[!UICONTROL Connect to Channel Manager]** y habilitarlo.
 
-   - Compruebe que los atributos de producto incluyen al menos uno de los requisitos [!DNL Walmart Product IDs].
+   - Compruebe que los atributos del producto incluyen al menos uno de los necesarios [!DNL Walmart Product IDs].
 
-   - Select **[!UICONTROL Save]**.
+   - Seleccionar **[!UICONTROL Save]**.
 
       Aparece un mensaje de confirmación.
 
       ![Importación de productos del catálogo al mensaje de confirmación de canal de ventas](assets/product-import-from-catalog-confirmation.png)
 
-      Si el mensaje indica que la actualización está programada, utilice la variable [cola:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] para procesar la actualización inmediatamente.
+      Si el mensaje indica que la actualización está programada, utilice el [cola:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] para procesar la actualización inmediatamente.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
       ```
 
-1. Una vez finalizada la operación de importación, compruebe los productos que ha agregado volviendo a [!DNL Channel Manager] y seleccionar **[!UICONTROL Listings]**.
+1. Una vez finalizada la operación de importación, compruebe los productos que ha agregado volviendo a [!DNL Channel Manager] y seleccionando **[!UICONTROL Listings]**.
 
-   Inicialmente, los productos están en *Borrador* estado. Select **[!UICONTROL Refresh products]** para actualizar la tabla.
+   Inicialmente, los productos se encuentran en *Borrador* estado. Seleccionar **[!UICONTROL Refresh products]** para actualizar la tabla.
 
-1. Actualice la vista para mostrar los nuevos productos añadidos al Administrador de canales seleccionando la opción **[!UICONTROL Draft]** tarjeta de estado.
+1. Actualice la vista para mostrar los nuevos productos añadidos al Administrador de canales seleccionando el **[!UICONTROL Draft]** tarjeta de estado.
 
    ![Productos importados al canal de ventas conectado](assets/products-in-marketplace-sales-channel.png)
 

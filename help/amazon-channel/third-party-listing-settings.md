@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La configuración de anuncios de terceros forma parte de la configuración de anuncios de tiendas. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
 
-Esta configuración determina si su [!DNL Commerce] catálogo importa productos de su existente [!DNL Amazon Seller Central] anuncios. Se recomienda importar los anuncios de Amazon para asegurarse de que todos los anuncios tengan coincidencias [!DNL Commerce] productos. Cuando tus anuncios formen parte de tu [!DNL Commerce] puede administrar todos sus productos desde un único catálogo y utilizar las funciones del canal de ventas de Amazon. Estas funciones incluyen gestión de pedidos y satisfacción de pedidos con Amazon, reasignación inteligente de precios y gestión de cantidades.
+Esta configuración determina si su [!DNL Commerce] catálogo importa productos de su existente [!DNL Amazon Seller Central] anuncios. Se recomienda importar los anuncios de Amazon para asegurarse de que todos los anuncios tengan coincidencias [!DNL Commerce] productos. Cuando tus anuncios formen parte de tu [!DNL Commerce] catálogo, puede administrar todos sus productos desde un único catálogo y utilizar las funciones del canal de ventas de Amazon. Estas funciones incluyen gestión de pedidos y satisfacción de pedidos con Amazon, reasignación inteligente de precios y gestión de cantidades.
 
 Cuando se configura para importar tus anuncios de Amazon, el canal de ventas de Amazon importa tus anuncios de Amazon en tu [!DNL Commerce] catálogo, intentando hacerlos coincidir con productos existentes. Si no encuentra una coincidencia automáticamente, puede importar el anuncio de Amazon como nuevo [!DNL Commerce] o hacer coincidir manualmente la lista con un producto.
 

@@ -1,6 +1,6 @@
 ---
 title: Registro de errores de comunicación
-description: El registro de errores de comunicación muestra los errores de comunicación entre Amazon y [!DNL Commerce].
+description: El registro de errores de comunicación muestra cualquier error de comunicación entre Amazon y [!DNL Commerce].
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ El registro de errores de comunicación muestra los errores de comunicación not
 
 No hay acciones disponibles para el registro. Es una función de solo revisión.
 
-Las páginas de inicio del canal de ventas de Amazon comparten algunas [controles del espacio de trabajo](./workspace-controls.md) que permiten personalizar los datos que se muestran.
+las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 
 ![Registro de errores de comunicación](assets/amazon-comm-errors-log.png)
 
@@ -23,7 +23,7 @@ Las páginas de inicio del canal de ventas de Amazon comparten algunas [controle
 
 | Columna | Descripción |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | El nombre de la tienda definida cuando se configuró la tienda Amazon. Consulte [Integración de tiendas](./store-integration.md). |
+| [!UICONTROL Amazon Store Name] | El nombre del almacén definido cuando se configuró el almacén de Amazon. Consulte [Integración de tienda](./store-integration.md). |
 | [!UICONTROL Error Code] | El código recibido de Amazon para identificar el tipo de error. |
-| [!UICONTROL Message] | Mensaje que describe el error asociado al código de error. |
+| [!UICONTROL Message] | El mensaje que describe el error asociado al código de error. |
 | [!UICONTROL Created On] | Fecha y hora en que se produjo el error. |

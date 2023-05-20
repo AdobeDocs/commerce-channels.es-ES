@@ -1,6 +1,6 @@
 ---
-title: Precio de la competencia del Buy Box
-description: La Sales Channel de Amazon proporciona la variable [!UICONTROL Buy Box Competitor Pricing] para ayudarle a comprender la posición de precios de sus competidores en Amazon.
+title: Precios de competidor Buy Box
+description: La Sales Channel de Amazon proporciona el [!UICONTROL Buy Box Competitor Pricing] para comprender mejor el posicionamiento de los precios de sus competidores en Amazon.
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,36 +9,36 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] Precio de la competencia
+# [!DNL Buy Box] Precios de competidor
 
-La variable [!DNL Buy Box] es otorgado por Amazon al vendedor que tiene el producto listado normalmente al mejor precio, junto con otros factores como ofertas de envío de FBA/Prime, disponibilidad y rendimiento del vendedor.
+El [!DNL Buy Box] Amazon lo otorga al vendedor que tiene el producto en la lista por lo general al mejor precio, junto con otros factores como el envío de FBA/Prime ofrecido, la disponibilidad y el rendimiento del vendedor.
 
-La variable _[!UICONTROL Buy Box Competitor Pricing]_en la ficha_[!UICONTROL Product Listing Details]_ La página incluye el [[!DNL Buy Box]](./buy-box-competitor-pricing.md) cotiza el precio de envío y el precio de aterrizaje de sus competidores. Utilice esta información para comprender el posicionamiento de precios de sus competidores en Amazon.
+El _[!UICONTROL Buy Box Competitor Pricing]_de la pestaña_[!UICONTROL Product Listing Details]_ La página incluye [[!DNL Buy Box]](./buy-box-competitor-pricing.md) precio de listado, precio de envío y precio de aterrizaje de sus competidores. Utilice esta información para comprender el posicionamiento de los precios de sus competidores en Amazon.
 
-[Reglas de reasignación inteligentes](./intelligent-repricing-rules.md) puede configurarse para ajustar los precios en función del [!DNL Amazon Buy Box] precio.
+[Reglas de reasignación de precios inteligentes](./intelligent-repricing-rules.md) se puede configurar para ajustar los precios en función de la variable [!DNL Amazon Buy Box] precio.
 
-![Detalles de precios de la competencia del Buy Box](assets/amazon-listing-details-buy-box.png)
+![Detalles de precios de Buy Box Competitor](assets/amazon-listing-details-buy-box.png)
 
-## Acceso [!DNL Buy Box] Detalles de precios de la competencia
+## Acceso [!DNL Buy Box] Detalles de precios del competidor
 
-1. Haga clic en **[!UICONTROL Manage Listings]** en el panel de la tienda.
+1. Clic **[!UICONTROL Manage Listings]** en el tablero de la tienda.
 
-   La variable [_[!UICONTROL Product Listing]_](./managing-product-listings.md) se abre.
+   El [_[!UICONTROL Product Listing]_](./managing-product-listings.md) se abre la página.
 
-1. En cualquiera de las pestañas de estado de la lista, haga clic en el nombre de la lista de productos de una lista.
+1. En cualquiera de las pestañas de estado del listado, haga clic en el nombre de un listado de productos.
 
-   La variable _[!UICONTROL Product Listing Details]_se abre.
+   El _[!UICONTROL Product Listing Details]_se abre la página.
 
-1. Haga clic en el **[!UICONTROL Buy Box Competitor Pricing]** pestaña .
+1. Haga clic en **[!UICONTROL Buy Box Competitor Pricing]** pestaña.
 
-   Muestra el comerciante y el precio cuyo anuncio contiene la variable [[!DNL Buy Box]](./buy-box-competitor-pricing.md) en Amazon.
+   Muestra el comerciante y el precio cuyo listado contiene el [[!DNL Buy Box]](./buy-box-competitor-pricing.md) en Amazon.
 
 | Columna | Descripción |
 |--- |--- |
-| [!UICONTROL ASIN] | Un bloque único de 10 letras o números que identifican elementos.<br><br>Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en el catálogo. Puede encontrar el ASIN de un artículo en la página de detalles del producto junto con detalles adicionales relacionados con el artículo (como tamaño, número de páginas o número de discos). |
-| [!UICONTROL Is Seller] | Indica si el vendedor ha ganado la posición de Buy Box para el anuncio. |
-| [!UICONTROL Condition] | La variable [condición](./product-listing-condition.md) del producto. |
-| [!UICONTROL Listing Price] | El precio que se usa para los anuncios de Amazon. |
-| [!UICONTROL Shipping Price] | El coste de envío del producto. |
-| [!UICONTROL Landed Price] | El precio de venta del producto más su precio de envío. |
-| [!UICONTROL Last Updated] | Fecha en la que se actualizó por última vez el precio del Buy Box. |
+| [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar el ASIN de un artículo en la página de detalles del producto junto con detalles adicionales relacionados con el artículo (como tamaño, número de páginas o número de discos). |
+| [!UICONTROL Is Seller] | Indica si el vendedor ha ganado el puesto de Buy Box del anuncio. |
+| [!UICONTROL Condition] | El [condición](./product-listing-condition.md) del producto. |
+| [!UICONTROL Listing Price] | El precio usado para tus anuncios de Amazon. |
+| [!UICONTROL Shipping Price] | El coste para enviar el producto. |
+| [!UICONTROL Landed Price] | El precio del anuncio del producto más su precio de envío. |
+| [!UICONTROL Last Updated] | Fecha en la que se actualizó por última vez el precio de Buy Box. |
