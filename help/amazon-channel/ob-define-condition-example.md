@@ -1,10 +1,10 @@
 ---
-title: "Ejemplo: Definición de una condición"
+title: "Ejemplo: Definición de una condición para reglas de listado de Amazon"
 description: Al crear las reglas de listado, defina las condiciones para identificar los productos del catálogo de Commerce que se enumerarán en Amazon Marketplace.
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Se puede hacer clic en cualquier área de las condiciones que esté en negrita p
 >
 >Existe un complejo conjunto de procesos back-end para comunicarse directamente con los sistemas de Amazon. En función del número de artículos que intentas poner en venta y de la ocupación que puedan tener los sistemas de Amazon (por ejemplo, Black Friday), puede que tus artículos tarden un tiempo en aparecer en Amazon.
 
-Consulte la sección Condiciones de [Creación de una Regla de Precio de Carro](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target="_blank"}.
+Consulte la sección Condiciones de [Creación de una Regla de Precio de Carro](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html).
 
 ## Definición de una condición
 
@@ -31,9 +31,9 @@ Las condiciones se basan en valores de atributo de producto existentes. Para apl
 
 >[!NOTE]
 >
->Si desea definir una condición basada en un atributo de producto específico, establezca el **[!UICONTROL Use for Promo Rule Conditions]** configuración del atributo en `Yes`. Puede acceder a esta configuración en la [Propiedades de tienda](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target="_blank"} para el atributo.
+>Si desea definir una condición basada en un atributo de producto específico, establezca el **[!UICONTROL Use for Promo Rule Conditions]** configuración del atributo en `Yes`. Puede acceder a esta configuración en la [Propiedades de tienda](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) para el atributo.
 
-![Condición: línea 1](assets/ob-listing-rule-conditions-start.png)
+![Condición: línea 1](assets/ob-listing-rule-conditions-start.png){width="500"}
 
 La regla de este ejemplo define una regla que establece la idoneidad de Amazon para todos los productos de catálogo que tengan la variable _AMAZON FBA_ atributo establecido en `Yes`.
 
@@ -51,13 +51,13 @@ Puede crear diferentes condiciones cambiando la combinación de estos valores. P
 
    - **[!UICONTROL Conditions Combination]** : elija permitir crear otro conjunto de `All/Any` y `True/False` condiciones dentro del conjunto existente.
 
-      ![Combinación de condiciones](assets/ob-conditions-combinations.png)
+      ![Combinación de condiciones](assets/ob-conditions-combinations.png){width="500"}
 
-   - **[!UICONTROL Product Attribute]** : los atributos del producto dependen de la configuración del atributo. Para que un atributo aparezca en la lista, debe configurarse para su uso en condiciones de regla promocional. Consulte la _Usar para condiciones de regla de promoción_ in [Atributos del producto](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+   - **[!UICONTROL Product Attribute]** : los atributos del producto dependen de la configuración del atributo. Para que un atributo aparezca en la lista, debe configurarse para su uso en condiciones de regla promocional. Consulte la _Usar para condiciones de regla de promoción_ in [Atributos del producto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
       En la lista debajo de **[!UICONTROL Product Attribute]**, elija el atributo que desea utilizar como base de la condición. Para este ejemplo, la condición seleccionada es `Amazon FBA`.
 
-      ![Línea de condición 2, parte 2](assets/ob-condition-attribute-dropdown.png)
+      ![Línea de condición 2, parte 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
       La condición seleccionada aparece en la instrucción, seguida de dos vínculos en negrita más. Las opciones difieren según el atributo de producto que seleccione.
 
@@ -73,7 +73,7 @@ Puede crear diferentes condiciones cambiando la combinación de estos valores. P
 
          El elemento seleccionado aparece en la instrucción para completar la condición.
 
-         ![Línea de condición 2, parte 3](assets/ob-listing-rule-condition-is.png)
+         ![Línea de condición 2, parte 3](assets/ob-listing-rule-condition-is.png){width="500"}
    Esta condición se ha completado. Como se ha indicado, esta condición significa que cualquier producto de [!DNL Commerce] catálogo que tiene el atributo Amazon FBA establecido en un valor de `Yes` es apto para poner en venta en Amazon para la región y la tienda. Puede añadir más líneas de condición para reducir aún más los productos aptos.
 
 1, Para agregar otra línea de condición a la instrucción, vuelva al paso 1 y repita el proceso hasta que se hayan completado todas las condiciones deseadas.

@@ -1,19 +1,19 @@
 ---
-title: Atributos
+title: Atributos para listados de Amazon
 description: La Sales Channel de Amazon proporciona el [!UICONTROL Attributes] para monitorizar la lista de atributos de Amazon y Commerce y cómo se asignan para la coincidencia de productos.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Atributos
+# Atributos para listados de Amazon
 
 El _[!UICONTROL Attributes]_La vista muestra su lista de Amazon y [!DNL Commerce] atributos. La lista también indica los atributos que se han asignado para la coincidencia de productos. Para obtener más información, consulte [Administrar atributos](./managing-attributes.md).
 
-![Vista Atributos](assets/amazon-attributes-view.png)
+![Vista Atributos](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 Desde el _[!UICONTROL Attributes]_vea, y revise la configuración de atributos en la tabla y [crear o editar](./creating-attributes.md) un atributo.
 

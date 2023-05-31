@@ -1,16 +1,16 @@
 ---
-title: Anuncios de terceros
+title: Canal de ventas de Amazon - [!UICONTROL Third-party Listings]
 description: Actualice la configuración del anuncio de terceros para determinar si el catálogo de Commerce importa productos de los anuncios existentes de Amazon Seller Central.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# Anuncios de terceros
+# [!UICONTROL Third-party Listings]
 
 La configuración de anuncios de terceros forma parte de la configuración de anuncios de tiendas. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
 
@@ -32,7 +32,7 @@ La importación inicial del listado se inicia cuando [integración de tienda](./
 
    - `Import Listing` - (Predeterminado) Elige cuándo quieres que la información de los productos de tus anuncios de Amazon se importe en tu [!DNL Commerce] catálogo de productos. Esta opción es la predeterminada y se recomienda.
 
-   - `Do Not Import Listing` - Elige cuándo quieres hacerlo manualmente [crear y asignar nuevos productos](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} a su [!DNL Commerce] para tus anuncios de Amazon.
+   - `Do Not Import Listing` - Elige cuándo quieres hacerlo manualmente [crear y asignar nuevos productos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) a su [!DNL Commerce] para tus anuncios de Amazon.
    >[!NOTE]
    >Los siguientes campos de opciones solo están activos cuando se establece en `Import Listing`.
 
@@ -45,11 +45,11 @@ La importación inicial del listado se inicia cuando [integración de tienda](./
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Anuncios de terceros](assets/amazon-third-party-listings.png)
+![Anuncios de terceros](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Requerido. Opciones:<ul><li>**[!UICONTROL Import Listing]** - (Predeterminado) Elige cuándo quieres que la información de los productos de tus anuncios de Amazon se importe en tu [!DNL Commerce] catálogo de productos. </li><li>**[!UICONTROL Do Not Import Listing]** - Elige cuándo quieres hacerlo manualmente [crear y asignar nuevos productos](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} a su [!DNL Commerce] para tus anuncios de Amazon.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Requerido. Opciones:<ul><li>**[!UICONTROL Import Listing]** - (Predeterminado) Elige cuándo quieres que la información de los productos de tus anuncios de Amazon se importe en tu [!DNL Commerce] catálogo de productos. </li><li>**[!UICONTROL Do Not Import Listing]** - Elige cuándo quieres hacerlo manualmente [crear y asignar nuevos productos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) a su [!DNL Commerce] para tus anuncios de Amazon.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Solo está activo cuando se establece en `Import Listing`.<br>Elija la [!DNL Commerce] coincide con el atributo de Amazon para el SKU del vendedor de Amazon. Si este atributo no existe, consulte [Creación de atributos de producto de Amazon para la coincidencia de Amazon](./ob-creating-magento-attributes.md). Si es necesario, revise su [!DNL Commerce] [atributos](./managing-attributes.md) y cree o edite un atributo para que coincida con estos datos de Amazon. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Solo está activo cuando se establece en `Import Listing`.<br>Elija la [!DNL Commerce] que coincide con el atributo de Amazon para el ASIN de Amazon. Si este atributo no existe, consulte [Creación de atributos de producto de Amazon para la coincidencia de Amazon](./ob-creating-magento-attributes.md). Si es necesario, revise su [!DNL Commerce] [atributos](./managing-attributes.md) y cree o edite un atributo para que coincida con estos datos de Amazon. |
 

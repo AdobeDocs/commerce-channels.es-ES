@@ -1,15 +1,15 @@
 ---
-title: Nuevos anuncios de terceros
+title: Nuevos anuncios de Amazon de terceros
 description: Administre nuevos listados de Amazon al hacerlos coincidir con un producto de su catálogo de Commerce.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Nuevos anuncios de terceros
+# Nuevos anuncios de Amazon de terceros
 
 El _[!UICONTROL New Third Party]_La pestaña muestra tus anuncios de Amazon existentes que no coinciden con ningún producto de tu [!DNL Commerce] catálogo. Para utilizar la gestión de anuncios para cantidad, precios, tiempo de manipulación y mucho más, cada uno de tus anuncios de Amazon debe coincidir (asignado) con un producto de tu [!DNL Commerce] catálogo. Existen varias opciones para asignar un anuncio a un producto de su [!DNL Commerce] catálogo.
 
@@ -31,7 +31,7 @@ En _[!UICONTROL Select]_:
 >
 >Si tiene listados en proceso, aparece un mensaje sobre las pestañas indicando el número de listados.
 
-![Nuevos anuncios de terceros](assets/amazon-listings-new-third-party.png)
+![Nuevos anuncios de terceros](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

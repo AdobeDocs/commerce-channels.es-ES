@@ -2,7 +2,7 @@
 title: Administrar anuncios
 description: '''Administrar listados de canales de ventas para un [!DNL Commerce] Almacenar con Channel Manager para Adobe Commerce y Magento Open Source."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Administrar listados de productos para [!DNL Walmart Marketplace] canal de venta
 
 El estado de una lista individual indica dónde se encuentra el producto en la [!DNL Channel Manager] flujo de trabajo para que pueda determinar los pasos siguientes y resolver los errores.
 
-![Página de listados de un canal de ventas conectado](assets/listings-dashboard-view.png)
+![Página de listados de un canal de ventas conectado](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 Puede completar las tareas siguientes desde la vista Listado.
 

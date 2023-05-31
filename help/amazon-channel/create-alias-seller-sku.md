@@ -2,7 +2,7 @@
 title: Crear un SKU de vendedor de Amazon de alias
 description: Puede usar el SKU del vendedor de Alias Amazon para crear anuncios de Amazon multirregionales a partir de los productos del catálogo de Commerce.
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Ver el anuncio en la _[!UICONTROL Product Listings]_página (_[!UICONTROL Inacti
 
 1. Clic **[!UICONTROL Save Listing Update]**.
 
-![crear un SKU de vendedor de Amazon de alias](assets/amazon-alias-sku-create.png)
+![crear un SKU de vendedor de Amazon de alias](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

@@ -1,15 +1,15 @@
 ---
-title: "Incorporación: Crear regla de listado"
+title: Crear una regla de listado de Amazon
 description: Al completar el proceso de incorporación al canal de ventas de Amazon, cree las reglas de anuncio iniciales para generar anuncios de Amazon para su [!DNL Commerce] productos.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Incorporación: crear una regla de listado
+# Crear una regla de listado de Amazon
 
 Las reglas de listado se pueden definir durante la incorporación, pero también se pueden modificar en cualquier momento. Después de la incorporación, puede acceder a las [enumerar reglas](./listing-rules.md) en la tienda [tablero](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Las reglas de listado se pueden definir durante la incorporación, pero también
 
 1. Revisa tus anuncios en la sección Vista previa del anuncio:
 
-   ![Vista previa del anuncio](assets/amazon-ob-listing-preview.png)
+   ![Vista previa del anuncio](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** : los productos que aparecen en esta pestaña no pueden aparecer en el anuncio de Amazon según la configuración actual de las reglas de anuncio.
 

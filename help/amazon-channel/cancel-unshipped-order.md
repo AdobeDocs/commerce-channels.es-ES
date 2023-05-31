@@ -1,15 +1,15 @@
 ---
-title: Cancelar un pedido no enviado
+title: Cancelar un pedido de Amazon sin enviar
 description: Cancelar un pedido pendiente o parcialmente enviado (no enviado) a través de su Amazon [!DNL Seller Central] cuenta.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Cancelar un pedido no enviado
+# Cancelar un pedido de Amazon sin enviar
 
 Los pedidos de Amazon solo se pueden cancelar si están en un `Unshipped` estado. Si el pedido está pendiente o parcialmente enviado (no enviado), el pedido solo se puede cancelar a través de [!DNL Amazon Seller Central] cuenta. Si el artículo ha sido enviado, las devoluciones y los cambios también deben ser manejados en su [!DNL Amazon Seller Central] Cuenta.
 
@@ -17,7 +17,7 @@ Los pedidos de Amazon solo se pueden cancelar si están en un `Unshipped` estado
 >
 >Para tareas que no sean cancelar una solicitud:
 >
->- Si tiene [importación de pedidos](./order-settings.md) si está activada, los pedidos se administran en [[!DNL Commerce] flujo de trabajo pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- Si tiene [importación de pedidos](./order-settings.md) si está activada, los pedidos se administran en [[!DNL Commerce] flujo de trabajo pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [importación de pedidos](./order-settings.md) está desactivado, debe gestionar sus pedidos en [!DNL Amazon Seller Central].
 
 

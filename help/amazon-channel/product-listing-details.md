@@ -1,15 +1,15 @@
 ---
-title: Ver detalles del anuncio
+title: Ver detalles del listado de Amazon
 description: Para comprender las métricas competitivas en sus anuncios de Amazon y en los cambios individuales de SKU/producto, consulte la página Detalles del listado de productos
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Ver detalles del anuncio
+# Ver detalles del listado de Amazon
 
 El _[!UICONTROL Product Listing Details]_Esta página muestra información adicional sobre sus listados de productos activos, incluido el registro de actividad de listado que muestra los cambios en un SKU/producto individual. Esta información puede ayudarle a comprender las métricas competitivas de sus productos y los cambios individuales en su SKU o producto. La información adicional de esta página incluye:
 
@@ -28,7 +28,7 @@ La información del producto mostrada incluye:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Detalles del anuncio](assets/amazon-product-listing-details.png)
+![Detalles del anuncio](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Listando registro de actividades {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Muestra toda la actividad reciente del listado de Amazon. La información mostra
 - Comentarios: proporciona detalles adicionales relacionados con el tipo de acción de lista que se produjo.
 - Ejecutado a las: identifica la fecha y la hora en que se produjo la acción.
 
-![Detalles de la lista de productos: registro de actividades de lista](assets/amazon-listing-activity-log.png)
+![Detalles de la lista de productos: registro de actividades de lista](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Precios de competidor Buy Box {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Esta pestaña muestra información sobre el comerciante de Amazon que posee el [
 - Precio en destino: identifica el precio del anuncio más el precio de envío del anuncio.
 - Última Actualización: Identifica la fecha y la hora en que se actualizó la información de precios desde Amazon.
 
-![Detalles de la lista de productos: Precios de competidor Buy Box](assets/amazon-listing-details-buy-box-2.png)
+![Detalles de la lista de productos: Precios de competidor Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Precios más bajos para competidores {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ Esta pestaña muestra información sobre los competidores de Amazon para el mism
 - Recuento de comentarios: identifica el recuento de comentarios de Amazon del comerciante con precio más bajo.
 - Última Actualización: Identifica la fecha y la hora en que se actualizó la información de precios desde Amazon.
 
-![Detalles de la lista de productos: precios más bajos para la competencia](assets/amazon-listing-details-lowest-comp.png)
+![Detalles de la lista de productos: precios más bajos para la competencia](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

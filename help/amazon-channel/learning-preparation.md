@@ -1,19 +1,19 @@
 ---
-title: Aprendizaje y preparación
+title: Canal de ventas de Amazon - [!UICONTROL Learning and Preparation]
 description: La Sales Channel de Amazon proporciona la pestaña Vista de aprendizaje y preparación para facilitar el acceso a una lista de tareas de configuración y recursos informativos.
 exl-id: 0b31132b-9106-4492-8be7-e784ff436a6d
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
-# Aprendizaje y preparación
+# [!UICONTROL Learning and Preparation]
 
 El _[!UICONTROL Learning and Preparation]_La vista muestra la lista de tareas de preconfiguración recomendadas antes de integrar las tiendas Amazon. También proporciona vínculos a materiales de aprendizaje, como:
 
 - Esta [guía del usuario](./overview.md)
 - Tutoriales en vídeo
 
-![Vista de aprendizaje y preparación](assets/learning-preparation.png)
+![Vista de aprendizaje y preparación](assets/learning-preparation.png){width="600" zoomable="yes"}

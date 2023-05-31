@@ -1,18 +1,18 @@
 ---
-title: (B2B) Precio comercial
+title: "[!DNL (B2B) Business Price] para anuncios de Amazon"
 description: Puede enumerar sus [!DNL Commerce] almacene productos en el sitio web de Amazon Business (B2B) al permitir que su empresa esté en Amazon [!DNL Seller Central] cuenta.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Precio comercial
+# [!DNL (B2B) Business Price] para anuncios de Amazon
 
-(B2B) La configuración del precio comercial forma parte de la configuración del anuncio de la tienda. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
+(B2B) La configuración del precio comercial forma parte de la configuración del anuncio de la tienda. Se accede a la configuración de anuncio desde el [Tablero de la tienda Amazon](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] es un mercado exclusivo de las cuentas comerciales registradas de Amazon que solo está disponible en Estados Unidos, Francia, Alemania y Reino Unido. Si el mercado permite los precios comerciales B2B, se pueden editar en la configuración del anuncio.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Para que sus productos aparezcan en la lista de [!DNL Amazon Business (B2B)] sitio, primero debe habilitar la empresa en su [!DNL Amazon Seller Central] cuenta. Para obtener más información sobre la función B2B, consulte [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (requiere el inicio de sesión en la Central de vendedores).
 
-## Configurar (B2B) ajustes de precios empresariales
+## Configurar [!DNL (B2B) Business Price] configuración
 
 1. Clic **[!UICONTROL Listing Settings]** en el tablero de la tienda.
 
@@ -44,7 +44,7 @@ Para que sus productos aparezcan en la lista de [!DNL Amazon Business (B2B)] sit
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

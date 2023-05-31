@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Channel Manager] Descripción general de la guía'
+title: '[!DNL Channel Manager] Guía'
 description: '''Información completa acerca de [!DNL Channel Manager] para administradores de Adobe Commerce y Magento Open Source, incluida la instalación e incorporación."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# Información general
+# Guía del administrador de canales
 
 Esta guía está destinada a administradores de Adobe Commerce y Magento Open Source. Incluye información detallada sobre [!DNL Channel Manager] instalación, incorporación, configuración y administración. La guía supone una comprensión básica de los componentes principales [!DNL Commerce] configuración y funcionalidad.
 
@@ -30,10 +30,14 @@ Para obtener más información sobre cómo administrar su [!DNL Commerce] plataf
 
 ## Documentación adicional
 
-| Guía | Descripción |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Guía del usuario de Adobe Commerce 2.4](https://docs.magento.com/user-guide) | Documentación centrada en el comerciante para Adobe Commerce y Magento Open Source |
-| [Guía para desarrolladores de Adobe Commerce 2.4](https://devdocs.magento.com) | Documentación centrada en el desarrollador que se utiliza para crear y personalizar Adobe Commerce o Magento Open Source |
+
+| Recurso de documentación | Descripción |
+|----------------------- | ----------- |
+| [Documentación de Adobe Commerce 2.4 Merchant](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Documentación centrada en el comerciante para Adobe Commerce y Magento Open Source |
+| [Servicios para la documentación de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentación para ofrecer compatibilidad con una colección de servicios que ayudan a los comerciantes a integrar componentes clave de su negocio en su tienda. |
+| [Guía de Commerce en la infraestructura de Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
+| [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener proyectos implementados en plataformas Adobe Commerce y de Magento Open Source. |
+| [Documentación para desarrolladores de Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentación centrada en el desarrollador que se utiliza para crear y personalizar Adobe Commerce o Magento Open Source |
 
 ## Asistencia
 

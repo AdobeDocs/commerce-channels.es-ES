@@ -1,19 +1,19 @@
 ---
-title: Vista de tiendas Amazon
+title: "[!UICONTROL Amazon Stores] view"
 description: Vaya a la vista Tiendas Amazon para revisar rápidamente las estadísticas básicas de cada una de las tiendas Amazon y acceder a las opciones de administración.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Vista de tiendas Amazon
+# [!UICONTROL Amazon Stores] vista
 
 Al ver la página de inicio del canal de ventas de Amazon, la variable _Tiendas Amazon_ La vista se abre de forma predeterminada.
 
-![Vista de tiendas Amazon](assets/amazon-sales-channel-home-tabs.png)
+![Vista de tiendas Amazon](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 El _[!UICONTROL Amazon Stores]_La vista muestra una &quot;tarjeta de tienda&quot; para cada una de las tiendas Amazon, junto con algunas estadísticas básicas y opciones de administración. La información de resumen que se muestra en cada tarjeta incluye cada estado de tienda, fecha de creación, fecha de última actualización, anuncios que requieren atención (por ejemplo: anuncios incompletos) y el asignado [!DNL Commerce] sitio web.
 

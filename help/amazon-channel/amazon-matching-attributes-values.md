@@ -2,9 +2,9 @@
 title: Ver asignación de atributos de Amazon
 description: Compruebe los valores de los atributos de Commerce vinculados para sincronizar correctamente entre Commerce y Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ El _Valor de Amazon_ difiere según el tipo de atributo y el atributo de Amazon 
 
 1. Haga clic en **[!UICONTROL Matching Attribute Values]** pestaña.
 
-   Anuncios que tienen un correspondiente [!DNL Commerce] producto de catálogo mostrar un valor vinculado en la variable _SKU del producto del Magento_ columna. Al hacer clic en un vínculo, se abre la página de detalles del producto del catálogo correspondiente. Los cambios en los atributos de Amazon en la página de detalles del producto no se sincronizan con el canal de ventas de Amazon.
+   Anuncios que tienen un correspondiente [!DNL Commerce] producto de catálogo mostrar un valor vinculado en la variable _[!UICONTROL Magento Product SKU]_columna. Al hacer clic en un vínculo, se abre la página de detalles del producto del catálogo correspondiente. Los cambios en los atributos de Amazon en la página de detalles del producto no se sincronizan con el canal de ventas de Amazon.
 
 >[!TIP]
 >Para editar o asignar la asignación de un listado a un producto del catálogo, consulte [Actualizar información requerida](./amazon-manually-update-incomplete-listing.md).
 
-![Ver valores de atributo](assets/amazon-managing-attribute-values.png)
+![Ver valores de atributo](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

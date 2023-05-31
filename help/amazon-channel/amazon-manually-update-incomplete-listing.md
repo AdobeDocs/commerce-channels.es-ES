@@ -1,10 +1,10 @@
 ---
-title: Actualizar la información necesaria (anuncio incompleto)
+title: Actualizar la información necesaria de Amazon
 description: El canal de ventas de Amazon proporciona la pestaña Incompleto para controlar los productos del catálogo de Commerce que carecen de la información requerida por Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Anuncios mostrados en la _[!UICONTROL Incomplete]_pestaña incluir su [!DNL Comm
 
 El anuncio ahora coincide con el catálogo y, a continuación, se actualiza y publica en Amazon en función de la configuración de cron y del anuncio. También se elimina del _[!UICONTROL Incomplete]_pestaña.
 
-![Asignar manualmente ASIN para que no haya coincidencia con el anuncio](assets/amazon-listing-update-assign-asin.png)
+![Asignar manualmente ASIN para que no haya coincidencia con el anuncio](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Actualizar la información necesaria (se encontraron varias coincidencias) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ El anuncio ahora coincide con el catálogo y, a continuación, se actualiza y pu
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]**.
 
-![Seleccionar manualmente ASIN entre varias coincidencias posibles](assets/amazon-listing-update-multiple-matches.png)
+![Seleccionar manualmente ASIN entre varias coincidencias posibles](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Actualizar la información necesaria (tiene variantes) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ El anuncio ahora coincide con el catálogo y, a continuación, se actualiza y pu
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]**.
 
-![Seleccionar manualmente ASIN entre las posibles coincidencias de variante](assets/amazon-listing-update-multiple-matches.png)
-
 ## Actualizar la información necesaria (falta la condición) {#update-required-info-missing-condition}
 
 1. Ver los anuncios de la _[!UICONTROL Incomplete]_pestaña en [Administrar anuncios](./managing-product-listings.md).
@@ -79,4 +77,4 @@ El anuncio ahora coincide con el catálogo y, a continuación, se actualiza y pu
 
 1. Para guardar la coincidencia del producto, haga clic en **[!UICONTROL Save Listing Update]** .
 
-![Actualizar manualmente la condición que falta](assets/amazon-update-listing-missing-condition.png)
+![Actualizar manualmente la condición que falta](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

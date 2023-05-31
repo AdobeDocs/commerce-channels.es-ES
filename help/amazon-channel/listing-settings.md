@@ -1,11 +1,11 @@
 ---
-title: Ver configuración del anuncio
+title: Ver configuración de listados de Amazon
 description: Use la configuración del listado para definir cómo se [!DNL Commerce] los productos del catálogo aparecen en [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Expanda cada una de las secciones y configúrelas según sea necesario.
 
 1. Clic **[!UICONTROL Save]**.
 
-![Configuración de anuncio](assets/amazon-listing-settings.png)
+![Configuración de anuncio](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

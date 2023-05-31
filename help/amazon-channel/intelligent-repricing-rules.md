@@ -2,7 +2,7 @@
 title: "Regla de reasignación de precios inteligente: Seleccionar tipo de regla"
 description: Determine el precio del anuncio de Amazon en función de los precios de la competencia mediante la creación de una regla de reasignación de precios inteligente.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Defina el tipo de regla en _[!UICONTROL Select Rule Type]_sección.
 >
 >Puede utilizar estas opciones de precios y comentarios de la competencia para evitar basar los precios en un competidor que tiene comentarios deficientes y que vende un producto de menor calidad.
 
-![Regla de reasignación de precios inteligente: seleccione el tipo de regla](assets/ob-intelligent-price-rule-type.png)
+![Regla de reasignación de precios inteligente: seleccione el tipo de regla](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

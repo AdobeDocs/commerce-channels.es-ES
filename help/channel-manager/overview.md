@@ -4,9 +4,9 @@ description: '"Aprenda a instalar y utilizar [!DNL Channel Manager] integrar tie
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] ayuda a los comerciantes a aumentar sus ventas, llegar a nuevos clientes, optimizar las operaciones de ventas y ahorrar tiempo mediante la integración de un catálogo de productos Adobe Commerce o de Magento Open Source con [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] vista de administración de extensiones](assets/channel-manager-home.png)
+![[!DNL Channel Manager] vista de administración de extensiones](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] admite comerciantes Adobe Commerce o Magento Open Source que deseen vender en [!DNL Walmart Marketplace] ampliando el [!DNL Commerce] Administrador. Con [!DNL Channel Manager] instalado, los administradores de tienda y el personal de operaciones pueden gestionar [!DNL Walmart Marketplace] ventas, inventario y precios de productos sin problemas desde el entorno de Commerce.
 
@@ -36,7 +36,7 @@ Después de instalar y configurar [!DNL Channel Manager], puede utilizar las sig
 
 * **Cancelaciones**—Cuando los pedidos se cancelan en Adobe Commerce, [!DNL Channel Manager] envía información de pedido actualizada al mercado para replicar la acción del pedido del mercado correspondiente. Una vez finalizada la cancelación del pedido, la variable [!DNL Commerce] las actualizaciones de cantidad de existencias para reflejar los artículos devueltos y las actualizaciones de inventario se sincronizan automáticamente con [!DNL Walmart Marketplace].
 
-* **Devoluciones y reembolsos**: cuando Walmart Marketplace solicita una devolución para los artículos pedidos a través del canal de ventas de Adobe Commerce o del Magento Open Source, [!DNL Channel Manager] envía la información de la solicitud de devolución al almacén del canal de ventas de Commerce para replicar la solicitud de devolución. A continuación, el reembolso se puede procesar utilizando el [!DNL Commerce] [flujo de trabajo de reembolsos](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), método sin conexión. Una vez completado el reembolso, [!DNL Channel Manager] sincroniza la actualización a Walmart para que el estado de devolución en la cuenta de vendedor del marketplace se pueda actualizar para reflejar el reembolso.
+* **Devoluciones y reembolsos**: cuando Walmart Marketplace solicita una devolución para los artículos pedidos a través del canal de ventas de Adobe Commerce o del Magento Open Source, [!DNL Channel Manager] envía la información de la solicitud de devolución al almacén del canal de ventas de Commerce para replicar la solicitud de devolución. A continuación, el reembolso se puede procesar utilizando el [!DNL Commerce] [flujo de trabajo de reembolsos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow), método sin conexión. Una vez completado el reembolso, [!DNL Channel Manager] sincroniza la actualización a Walmart para que el estado de devolución en la cuenta de vendedor del marketplace se pueda actualizar para reflejar el reembolso.
 
 ## Latencia esperada para [!DNL Channel Manager] operaciones
 

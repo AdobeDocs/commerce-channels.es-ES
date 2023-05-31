@@ -1,17 +1,17 @@
 ---
-title: Integración de tienda
+title: Integración de tienda con un [!DNL Amazon Seller Account]
 description: Antes de iniciar el proceso de incorporación, debes crear (añadir) un almacén de Sales Channel de Amazon y conectarlo a tu cuenta de vendedor de Amazon.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Integración de tienda
+# Integración de tienda con un [!DNL Amazon Seller Account]
 
-Para empezar a usar el canal de ventas de Amazon, debes crear (añadir) un almacén de canales de ventas de Amazon y conectarlo a tu cuenta de vendedor de Amazon. Estos dos pasos integran su [!DNL Commerce] y cuentas de Amazon para compartir datos, sincronizar productos y mucho más.
+Para empezar a usar el canal de ventas de Amazon, debe crear (añadir) un almacén de canales de ventas de Amazon y conectarlo a su [!DNL Amazon Seller Account]. Estos dos pasos integran su [!DNL Commerce] y cuentas de Amazon para compartir datos, sincronizar productos y mucho más.
 
 _Necesita las credenciales de inicio de sesión principales para su [!DNL Amazon Seller Central] cuenta (el correo electrónico o teléfono usado para crear la cuenta de vendedor) para conectar tu tienda._
 
@@ -29,7 +29,7 @@ _Necesita las credenciales de inicio de sesión principales para su [!DNL Amazon
 
    El _[!UICONTROL Add Amazon sales channel]_se abre la página.
 
-   ![Añadir el almacén del canal de ventas de Amazon](assets/amazon-store-integration.png)
+   ![Añadir el almacén del canal de ventas de Amazon](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Para **[!UICONTROL Magento Website to use for Amazon Listing]**, elija cuál de sus [!DNL Commerce] sitios web a los que conectarse para esta tienda de canales de ventas de Amazon.
 
@@ -84,7 +84,7 @@ _Necesita las credenciales de inicio de sesión principales para su [!DNL Amazon
 
    Para ver el tablero de la tienda, haga clic en **[!UICONTROL View Store]** en la tarjeta de la tienda.
 
-![inicio del canal de ventas de Amazon con la nueva tarjeta de la tienda](assets/asc-dashboard-after-2fa.png)
+![inicio del canal de ventas de Amazon con la nueva tarjeta de la tienda](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 El nuevo almacén del canal de ventas de Amazon ya está conectado a su [!DNL Amazon Seller Central] cuenta.
 

@@ -1,15 +1,15 @@
 ---
-title: Tablero de Amazon Store
+title: Tablero de la tienda Amazon
 description: Vea la actividad de sus tiendas Amazon desde el administrador de Commerce a través del panel de la tienda Amazon.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Tablero de Amazon Store
+# Tablero de la tienda Amazon
 
 En el _[!UICONTROL Amazon Stores]_ver en la página de inicio del canal de ventas de Amazon, puede hacer clic en **[!UICONTROL View Store]**en una tarjeta de la tienda para abrir el panel de la tienda.
 
@@ -17,7 +17,7 @@ El tablero de la tienda es la ubicación principal para ver la actividad de cada
 
 También puede acceder a su [configuración de tienda](./ob-store-review.md), [administrar tus anuncios](./managing-product-listings.md)y vea datos de ventas e información de pedidos recientes.
 
-![Tablero de Amazon Store](assets/amazon-store-dashboard.png)
+![Tablero de Amazon Store](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 El encabezado del panel de almacenamiento muestra la misma información básica del almacén que se muestra en la tarjeta de almacenamiento:
 

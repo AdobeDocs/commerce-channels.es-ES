@@ -2,7 +2,7 @@
 title: Editar un ASIN asignado
 description: Cambie el valor ASIN de un producto de Commerce si no coincide correctamente con uno de sus anuncios de Amazon.
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Cuando se cambia un ASIN asignado:
 - Crea un listado para el ASIN actualizado
 - Actualiza la información de listado en el canal de ventas de Amazon
 
-Para editar un ASIN asignado:
+**_Para editar un ASIN asignado:_**
 
 1. Ver el anuncio en la _[!UICONTROL Product Listings]_página (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, o_[!UICONTROL Ineligible]_ pestaña).
 
@@ -32,4 +32,4 @@ Para editar un ASIN asignado:
 
 1. Para guardar los cambios, haga clic en **[!UICONTROL Save Listing Update]**.
 
-![Editar un ASIN asignado](assets/amazon-assigned-asin-edit.png)
+![Editar un ASIN asignado](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

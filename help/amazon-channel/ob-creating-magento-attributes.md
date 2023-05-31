@@ -1,17 +1,17 @@
 ---
-title: Crear [!DNL Commerce] Atributos para Amazon
+title: Crear atributos de Commerce para Amazon
 description: Antes de completar el proceso de incorporación al canal de ventas de Amazon, asegúrese de que dispone de los [!UICONTROL Commerce] atributos del producto.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Crear [!DNL Commerce] Atributos para Amazon
+# Crear atributos de Commerce para Amazon
 
-Antes de incorporar su [!DNL Amazon Seller Central] cuentas, se recomienda añadir lo siguiente [!DNL Commerce] [atributos del producto](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} para asignar los listados de productos. Una vez que haya completado la incorporación, puede administrar los atributos del producto mediante las [Atributos](./managing-attributes.md) de la pestaña [inicio del canal de ventas de Amazon](./amazon-sales-channel-home.md) página.
+Antes de incorporar su [!DNL Amazon Seller Central] cuentas, se recomienda añadir lo siguiente [!DNL Commerce] [atributos del producto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) para asignar los listados de productos. Una vez que haya completado la incorporación, puede administrar los atributos del producto mediante las [Atributos](./managing-attributes.md) de la pestaña [inicio del canal de ventas de Amazon](./amazon-sales-channel-home.md) página.
 
 Estas instrucciones detallan cómo crear [!DNL Commerce] atributos para Amazon ASIN y Amazon Condition. Se recomienda crear atributos adicionales, incluidos Amazon EAN, Amazon ISBN y Amazon UPC. También puede crear un atributo Precio de Amazon si desea utilizar el precio de listado de Amazon como fuente de precios para las reglas de asignación de precios. Estos atributos se utilizan para configurar los anuncios y los precios durante la incorporación. Utilice también estos atributos al crear anuncios de Amazon y al actualizar y sincronizar su [!DNL Commerce] con sus anuncios de Amazon.
 
@@ -59,7 +59,7 @@ Si solo crea el atributo ASIN de Amazon (sin agregar valores ASIN por producto),
 
 1. Clic **[!UICONTROL Save Attribute]**.
 
-![Atributo ASIN de Amazon](assets/creating-asin-attribute.png)
+![Atributo ASIN de Amazon](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Cree el atributo de producto Condición de Amazon
 
@@ -116,6 +116,6 @@ Si solo crea el atributo ASIN de Amazon (sin agregar valores ASIN por producto),
 
 1. Clic **[!UICONTROL Save Attribute]**.
 
-![Atributo de condición de Amazon](assets/creating-amazon-condition-attribute.png)
+![Atributo de condición de Amazon](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![Icono Siguiente](assets/btn-next.png) [**Continuar para añadir o verificar la clave API**](./amazon-verify-api-key.md)

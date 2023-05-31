@@ -1,15 +1,15 @@
 ---
-title: Anuncios finalizados
+title: Anuncios de Amazon finalizados
 description: La Sales Channel de Amazon proporciona la pestaña Finalizado para revisar los anuncios finalizados de Amazon Marketplace, que se pueden volver a publicar cuando así se elija.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Anuncios finalizados
+# Anuncios de Amazon finalizados
 
 El _[!UICONTROL Ended]_La pestaña muestra todos los productos de Amazon que se han finalizado (eliminado) manualmente de su [!DNL Amazon Seller Central] cuenta. Estos productos cumplen con todos los requisitos de listado y se pueden volver a publicar en cualquier momento y no requieren información adicional. Si un producto está en la_[!UICONTROL Ineligible]_ pestaña, puede elegir modificar su [configuración de listado](./listing-settings.md) para que el producto cumpla los requisitos para aparecer en la lista.
 
@@ -33,7 +33,7 @@ Para ver los anuncios finales, consulta [Finalizar un anuncio de Amazon](./end-l
 
 Para publicar anuncios, consulte [Publicar manualmente un anuncio de Amazon](./publish-listings-manually.md).
 
-![Anuncios de Amazon finalizados](assets/amazon-ended-listings.png)
+![Anuncios de Amazon finalizados](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

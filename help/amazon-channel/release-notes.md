@@ -1,15 +1,15 @@
 ---
-title: '[!DNL Amazon Sales Channel] Notas de la versión'
+title: '[!DNL Amazon Sales Channel] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de todos los [!DNL Amazon Sales Channel] versiones.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# Notas de versión
+# [!DNL Amazon Sales Channel] notas de la versión
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Estas notas de la versión describen la versión inicial de [!DNL Amazon sales c
 ![Problema corregido](../assets/fix.svg) Correcciones y mejoras
 ![Problema conocido](../assets/bug.svg) Problemas conocidos
 
-Consulte [Próximas versiones](https://devdocs.magento.com/release/){target="_blank"} para versiones, compatibilidad y compatibilidad.
+Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) para versiones, compatibilidad y compatibilidad.
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ Consulte [Próximas versiones](https://devdocs.magento.com/release/){target="_bl
 
 Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar el Adobe Commerce a la versión 2.4.0, se le pedirá que actualice la extensión antes de poder completar la actualización de Adobe Commerce.
 
-![Problema conocido](../assets/bug.svg) Cuándo [!DNL Amazon sales channel] 4.2.0 está integrado con la versión 2.4.0 y [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) está habilitado, hay un problema conocido que impide la adición de productos en el catálogo de Commerce. Este problema se solucionará en una versión futura de Commerce.
+![Problema conocido](../assets/bug.svg) Cuándo [!DNL Amazon sales channel] 4.2.0 está integrado con la versión 2.4.0 y [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) está habilitado, hay un problema conocido que impide la adición de productos en el catálogo de Commerce. Este problema se solucionará en una versión futura de Commerce.
 
 ![Nuevo](../assets/new.svg) [!DNL Amazon sales channel] se ha mejorado para aceptar datos de direcciones basados en texto y hacerlos coincidir con formatos de direcciones estandarizados, incluidos ciudad, estado y código postal. Esta actualización permite que los datos de pedidos y envíos se sincronicen (sincronicen) con Amazon sin errores de dirección.<br/>Por ejemplo, un comprador introduce la ciudad, el estado y el código postal como `Escondido, californiA 92025-1501`. Amazon Sales Channel importa y hace coincidir los datos con el formato estándar como `Escondido, CA 92025`y luego lo vuelve a sincronizar con Amazon en este formato estandarizado.
 
 ![Nuevo](../assets/new.svg) Se ha agregado compatibilidad con PHP 7.4.
 
-![Nuevo](../assets/new.svg) <!--CHAN-4334-->Se ha agregado compatibilidad con Adobe Commerce 2.4.x. Las versiones anteriores pueden ser compatibles con Commerce 2.4.x, pero no son compatibles. Consulte [Próximas versiones](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} para la compatibilidad de versiones. La Sales Channel de Amazon debe actualizarse a 4.2.0 antes de poder completar la actualización de Adobe Commerce 2.4.0.
+![Nuevo](../assets/new.svg) <!--CHAN-4334-->Se ha agregado compatibilidad con Adobe Commerce 2.4.x. Las versiones anteriores pueden ser compatibles con Commerce 2.4.x, pero no son compatibles. Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) para la compatibilidad de versiones. La Sales Channel de Amazon debe actualizarse a 4.2.0 antes de poder completar la actualización de Adobe Commerce 2.4.0.
 
 ![Fix](../assets/fix.svg) <!--CHAN-4431-->Se ha corregido un problema que provocaba un error _Acceso denegado_ error para clientes del Reino Unido.
 
@@ -192,7 +192,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 [!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
 
-![Fix](../assets/fix.svg) **Configuración de campos numéricos**: <!--CHAN-3779-->Los campos que requieren un valor numérico se han actualizado para aceptar solo caracteres numéricos. Ejemplo: Configuración de Reglas de Asignación de Precios > Campo Importe de Ajuste
+![Fix](../assets/fix.svg) **Configuración de campo numérico**: <!--CHAN-3779-->Los campos que requieren un valor numérico se han actualizado para aceptar solo caracteres numéricos. Ejemplo: Configuración de Reglas de Asignación de Precios > Campo Importe de Ajuste
 
 ![Fix](../assets/fix.svg) **Vínculos de guía del usuario**: <!--CHAN-3778-->Incorrecto _Guía del usuario_ Se han corregido los vínculos.
 
@@ -210,7 +210,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 - [Código de impuesto del producto](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} información.
 
-![Nuevo](../assets/new.svg) **Registro mejorado**: <!--CHAN-3642, 3672-->Se ha implementado el **Habilitar registro de depuración** para recopilar datos de sincronización adicionales cuando sea necesario solucionar problemas. Consulte la [Configuración de Sales Channel](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) en la Referencia de configuración.
+![Nuevo](../assets/new.svg) **Registro mejorado**: <!--CHAN-3642, 3672-->Se ha implementado el **Habilitar registro de depuración** para recopilar datos de sincronización adicionales cuando sea necesario solucionar problemas. Consulte la [Configuración de Sales Channel](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) en la Referencia de configuración.
 
 ![Fix](../assets/fix.svg) **Catálogo de productos**: <!--CHAN-3687-->Se ha corregido un problema que impedía que las imágenes importadas con un listado de Amazon se aplicaran al producto del catálogo de Commerce correspondiente.
 

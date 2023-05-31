@@ -1,11 +1,10 @@
 ---
-title: Configuración general de reglas de precios
+title: 'Canal de ventas de Amazon: configuración general de la regla de precios'
 description: Utilice la configuración general de la regla de precios para definir las características principales de una regla de precios de listado.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ Defina el nombre, la descripción, las fechas activas y la prioridad de la regla
 >
 >Para descartar reglas subsiguientes, una regla de asignación de precios debe tener un **Prioridad** valor.
 
-![Configuración general de reglas de precios](assets/amazon-pricing-rule-general.png)
+![Configuración general de reglas de precios](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |---|---|

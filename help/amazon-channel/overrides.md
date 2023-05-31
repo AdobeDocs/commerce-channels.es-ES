@@ -1,15 +1,15 @@
 ---
-title: Invalidaciones
+title: Canal de ventas de Amazon - [!UICONTROL Overrides]
 description: La Sales Channel de Amazon proporciona la pestaña Anulaciones para ayudarle a identificar y administrar cómo aplica las anulaciones en los anuncios de Amazon.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Invalidaciones
+# [!UICONTROL Overrides]
 
 El _[!UICONTROL Overrides]_La pestaña muestra los anuncios de Amazon a los que has aplicado una anulación. Una anulación es una configuración específica de un listado que se puede utilizar para establecer un valor definido en un listado. La anulación aplicada a un anuncio define su configuración, independientemente de la configuración o las reglas definidas para las que sea apto. Cuando se aplica una anulación a un listado, el listado aparece en la_[!UICONTROL Overrides]_ pestaña. El valor definido en la anulación aparece en la columna correspondiente al listado. Se pueden aplicar cuatro tipos de invalidaciones: precio, tiempo de manipulación, condición y notas del vendedor.
 
@@ -36,7 +36,7 @@ Consulte [Crear y editar invalidaciones](./creating-editing-overrides.md).
 >
 >Si tiene listados en proceso, el número de listados se muestra en un mensaje encima de las pestañas.
 
-![Pestaña Invalidaciones](assets/amazon-overrides.png)
+![Pestaña Invalidaciones](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

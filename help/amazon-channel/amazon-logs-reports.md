@@ -1,15 +1,15 @@
 ---
-title: Registros e informes de tienda
+title: Registros e informes de tienda para listados de Amazon
 description: Utilice los registros y los informes de tienda para ver qué está sucediendo en su tienda Adobe Commerce o de Magento Open Source y en sus anuncios de Amazon Marketplace.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# Registros e informes de tienda
+# Registros e informes de tienda para listados de Amazon
 
 La extensión de canal de ventas de Amazon incluye algunos registros valiosos e informes de tienda que le permiten ver los cambios que afectan a los anuncios y pedidos de Amazon. Puedes usar estos informes para ver lo que está sucediendo en tu tienda y entender los distintos estados de las mismas.
 
@@ -29,4 +29,4 @@ Se puede acceder a los siguientes informes específicos del almacén desde el [t
 
 >[!TIP]
 >
->También puede buscar información adicional en el archivo de registro cuando necesite solucionar problemas. Consulte [Configuración de administración del canal de ventas](./sales-channel-settings.md). el registro de sincronización del canal de ventas de Amazon se escribe en `{Commerce Root}/var/log/channel_amazon.log` y se pueden ver en [modo de desarrollador](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>También puede buscar información adicional en el archivo de registro cuando necesite solucionar problemas. Consulte [Configuración de administración del canal de ventas](./sales-channel-settings.md). el registro de sincronización del canal de ventas de Amazon se escribe en `{Commerce Root}/var/log/channel_amazon.log` y se pueden ver en [modo de desarrollador](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

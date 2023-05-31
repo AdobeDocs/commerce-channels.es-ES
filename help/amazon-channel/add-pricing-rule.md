@@ -1,15 +1,15 @@
 ---
-title: Añadir reglas de precios
+title: Añadir reglas de precios de Amazon
 description: Utilice reglas de precios para administrar los precios de listado en Amazon Marketplace para su catálogo de productos de Commerce.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Añadir reglas de precios
+# Añadir reglas de precios de Amazon
 
 Las reglas de precios se pueden configurar o modificar en cualquier momento después de que su tienda esté integrada. Las reglas de precios forman parte de [Configuración de anuncio](./listing-settings.md) y se puede acceder a en la [tablero de tienda](./amazon-store-dashboard.md).
 

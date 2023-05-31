@@ -1,19 +1,19 @@
 ---
-title: Análisis de precios competitivos
+title: Informe Análisis de Precios Competitivos
 description: El análisis de precios competitivos muestra los anuncios de Amazon por mercado con los respectivos precios de Buy Box y los valores más bajos de precios de competidor.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Análisis de precios competitivos
+# Informe Análisis de Precios Competitivos
 
 El informe Análisis de precios competitivos muestra los anuncios de Amazon por mercado con los correspondientes [Buy Box](./buy-box-competitor-pricing.md) precio y [competidor más bajo](./lowest-competitor-pricing.md) valores de precios. No hay acciones disponibles para el registro. Es una función de solo revisión.
 
-![Informe Análisis de Precios Competitivos](assets/amazon-competitive-price-analysis.png)
+![Informe Análisis de Precios Competitivos](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## Columnas predeterminadas
 

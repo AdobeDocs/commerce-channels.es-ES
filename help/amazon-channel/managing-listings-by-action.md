@@ -1,15 +1,15 @@
 ---
-title: Administrar listados de productos por acción
+title: Administrar listas de productos de Amazon por acción
 description: Al administrar los anuncios de Amazon, puedes aplicar una acción a anuncios individuales o múltiples.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Administrar listados de productos por acción
+# Administrar listas de productos de Amazon por acción
 
 El _[!UICONTROL Product Listings]_Esta página contiene varias pestañas desde las que puedes ver los estados de todos tus anuncios y hacer coincidir tus productos con los de Amazon.
 

@@ -1,10 +1,10 @@
 ---
-title: Acciones de regla de precio estándar
+title: 'Canal de ventas de Amazon: acciones de regla de precio estándar'
 description: Utilice acciones de regla de precio estándar para aumentar o reducir un precio de listado de Amazon en relación con el precio del catálogo de Commerce (o la fuente de precios).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Las secciones de una acción de regla de precio estándar incluyen:
 
    - `Increase By` : elige cuándo quieres aumentar el valor antes de ponerlo en venta en Amazon.
 
-1. Para **[!UICONTROL Apply]**, elija una opción y una opción para determinar cómo desea que se definan las *[!UICONTROL Magento Price Source]* definido en su [Precio del anuncio](./listing-price.md) valor que debe ajustarse:
+1. Para **[!UICONTROL Apply]**, elija una opción para determinar cómo desea que se definan las *[!UICONTROL Magento Price Source]* definido en su [Precio del anuncio](./listing-price.md) valor que debe ajustarse:
 
    - `Apply as percentage` - Elija cuándo desea que se defina el *[!UICONTROL Magento Price Source]* definido en su [Precio del anuncio](./listing-price.md) valor ajustado en porcentaje
 
@@ -46,7 +46,7 @@ Las secciones de una acción de regla de precio estándar incluyen:
 
 1. Cuando termine, haga clic en **[!UICONTROL Save pricing rule]**.
 
-![Regla de precio estándar](assets/ob-price-rule-action-standard-example.png)
+![Regla de precio estándar](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |---|---|

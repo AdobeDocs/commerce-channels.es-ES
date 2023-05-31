@@ -1,15 +1,15 @@
 ---
-title: Tareas previas a la instalación
+title: Tareas previas a la configuración para [!DNL Amazon sales channel]
 description: Revise las tareas necesarias que debe completar antes de integrar su tienda de Adobe Commerce o Magento Open Source en la Sales Channel de Amazon.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# Tareas previas a la instalación
+# Tareas previas a la configuración para [!DNL Amazon sales channel]
 
 Antes [Integración de tienda](./store-integration.md), debe asegurarse de que sus [!DNL Amazon Seller Central] y su [!DNL Commerce] Las cuentas de están listas para la integración de. Para integrarse correctamente, hay algunas tareas de preconfiguración necesarias.
 
@@ -17,11 +17,11 @@ Cuando configura su primera tienda Amazon en el canal de ventas de Amazon, apare
 
 ## 1. Habilitar tareas en segundo plano en [!DNL Commerce]
 
-Todos los productos y datos sincronizados entre [!DNL Commerce] y Amazon está gestionado por un [trabajo cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. Cuando completa tareas como agregar o actualizar listados y recibe pedidos, un trabajo cron envía y recibe datos entre sus [!DNL Commerce] back-end y su [!DNL Amazon Seller Central] cuenta.
+Todos los productos y datos sincronizados entre [!DNL Commerce] y Amazon está gestionado por un [trabajo cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). Cuando completa tareas como agregar o actualizar listados y recibe pedidos, un trabajo cron envía y recibe datos entre sus [!DNL Commerce] back-end y su [!DNL Amazon Seller Central] cuenta.
 
-- [Activar [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [Activar [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- Para obtener el máximo rendimiento, [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} para ejecutar una vez cada cinco minutos.
+- Para obtener el máximo rendimiento, [set [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) para ejecutar una vez cada cinco minutos.
 
 ## 2. Cree su [!DNL Amazon Seller Central] account
 
@@ -57,7 +57,7 @@ Para tener el número más alto de [!DNL Commerce] Los productos de coinciden au
 
 ## 6. Configure la divisa y la conversión (según sea necesario)
 
-Si su tienda Amazon usa una divisa diferente a la configurada para su [!DNL Commerce] tienda, [habilitar la moneda](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+Si su tienda Amazon usa una divisa diferente a la configurada para su [!DNL Commerce] tienda, [habilitar la moneda](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) y configure el [tasa de conversión de moneda](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7. Cree un atributo de condición de producto (según sea necesario)
 
@@ -65,7 +65,7 @@ Si los anuncios de Amazon contienen más de una condición de producto (como _nu
 
 ## 8. Configure su [!DNL Amazon Seller Central] método de envío
 
-Para configurar los métodos de envío que desea ofrecer para cumplir los pedidos de Amazon, consulte [Configuración y configuración de envío][10] en su [!DNL Amazon Seller Central] cuenta.
+Para configurar los métodos de envío que desea ofrecer para cumplir los pedidos de Amazon, consulte _Configuración y configuración de envío_ en su [!DNL Amazon Seller Central] cuenta.
 
 ## Configuraciones adicionales
 
@@ -73,10 +73,10 @@ Cuando su cuenta de Amazon está configurada y activa, hay varias [!DNL Commerce
 
 ### Revise y anote los productos que desee excluir
 
-Es posible que no quiera que algunos productos aparezcan en Amazon. El canal de ventas de Amazon tiene un motor de reglas de listado que se utiliza para determinar qué productos cumplen los requisitos para su publicación en Amazon. [Reglas de listado](./listing-rules.md) le permite seleccionar subconjuntos de productos para publicarlos (o no publicarlos) en su [!DNL Amazon Seller Central] cuenta, como por selección de categoría o definiendo uno o varios atributos de producto. Like [!DNL Commerce] [catalogar](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+Es posible que no quiera que algunos productos aparezcan en Amazon. El canal de ventas de Amazon tiene un motor de reglas de listado que se utiliza para determinar qué productos cumplen los requisitos para su publicación en Amazon. [Reglas de listado](./listing-rules.md) le permite seleccionar subconjuntos de productos para publicarlos (o no publicarlos) en su [!DNL Amazon Seller Central] cuenta, como por selección de categoría o definiendo uno o varios atributos de producto. Like [!DNL Commerce] [catalogar](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) o [carro de compras](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) reglas de precios, los atributos de producto utilizados para la idoneidad del listado de Amazon deben tener **[!UICONTROL Use for Promo Rule Conditions]** establezca en `Yes`. Consulte la **[!UICONTROL Use for Promo Rule Conditions]** in [Atributos del producto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### Configure su [!DNL Amazon Seller Central] región a inactiva
 
-Para facilitar la transición de datos sin errores durante la integración, se recomienda establecer la región de Amazon en `Inactive` en Configuración > Información de la cuenta > Configuración de vacaciones. Consulte [Amazon: Estado del anuncio para vacaciones][11]. Cuando finalice la configuración, vuelva a cambiar el estado a `Active` en Amazon.
+Para facilitar la transición de datos sin errores durante la integración, se recomienda establecer la región de Amazon en `Inactive` en Configuración > Información de la cuenta > Configuración de vacaciones. Cuando finalice la configuración, vuelva a cambiar el estado a `Active` en Amazon.
 
 ![Icono Siguiente](assets/btn-next.png) [**Continuar con la creación [!DNL Commerce] Atributos**](./ob-creating-magento-attributes.md)

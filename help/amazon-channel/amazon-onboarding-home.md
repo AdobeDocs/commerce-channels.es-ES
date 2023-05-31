@@ -1,16 +1,16 @@
 ---
-title: Sales Channel de Amazon integrada
+title: "A bordo [!DNL Amazon Sales Channel]"
 description: Obtenga información acerca de las tareas previas a la configuración, los pasos de incorporación y cómo funciona Amazon con la Sales Channel de Amazon en Adobe Commerce y Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Sales Channel de Amazon integrada
+# A bordo [!DNL Amazon Sales Channel]
 
 En esta sección se describen las tareas previas a la configuración, los pasos de incorporación y algunos conceptos clave del funcionamiento de Amazon con el canal de ventas de Amazon en Adobe Commerce y Magento Open Source.
 

@@ -1,15 +1,15 @@
 ---
-title: Anuncios inactivos
+title: Anuncios de Amazon inactivos
 description: El canal de ventas de Amazon proporciona [!UICONTROL Inactive] pestaña para controlar su actualmente inactivo [!DNL Amazon Marketplace] anuncios.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Anuncios inactivos
+# Anuncios de Amazon inactivos
 
 El _[!UICONTROL Inactive]_La pestaña muestra los productos que se han publicado en Amazon pero que no están activos en [!DNL Amazon Marketplace]. Tus anuncios podrían estar inactivos por distintos motivos. Por ejemplo, es posible que no pueda incluir en la lista esa marca en particular. Los anuncios inactivos dependen de los estándares de Amazon y de sus [!DNL Amazon Seller Central] permisos de cuenta.
 
@@ -37,7 +37,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 >
 >Si tiene listados en proceso, aparece un mensaje sobre las pestañas indicando el número de listados.
 
-![Anuncios de Amazon inactivos](assets/amazon-inactive-listings.png)
+![Anuncios de Amazon inactivos](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

@@ -1,10 +1,10 @@
 ---
-title: Crear y editar invalidaciones
+title: Creación y edición de anulaciones del canal de ventas de Amazon
 description: Utiliza las anulaciones de Sales Channel de Amazon para aplicar los cambios a un solo anuncio de Amazon o a varios.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ El _[!UICONTROL Create Override]_La acción está disponible cuando se visualiza
 
 1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**>**[!UICONTROL Create Override]**para abrir la página Sustituciones de listado de productos.
 
-   ![crear anulación de listado de Amazon](assets/amazon-select-create-override.png)
+   ![crear anulación de listado de Amazon](assets/amazon-select-create-override.png){width="220"}
 
 1. Para asegurarte de que visualiza el anuncio correcto, comprueba la _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ El _[!UICONTROL Create Override]_La acción está disponible cuando se visualiza
 
 El siguiente ejemplo muestra una anulación que define un nuevo precio de `$55`, un nuevo tiempo de manipulación de `1 day`, una nueva condición de `Used; Like New`y el nuevo texto de la nota al vendedor.
 
-![Ejemplo de anulación de listado de Amazon](assets/amazon-overrides-edit.png)
+![Ejemplo de anulación de listado de Amazon](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Modificar o eliminar una omisión en un solo anuncio {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ El _[!UICONTROL Edit Overrides]_La acción está disponible cuando se visualizan
 
    El _[!UICONTROL Product Listing Overrides]_se abre la página.
 
-   ![Seleccionar una anulación de listado de Amazon](assets/amazon-select-edit-overrides.png)
+   ![Seleccionar una anulación de listado de Amazon](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Para asegurarte de que anulas el anuncio correcto, comprueba la _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ El _[!UICONTROL Edit Overrides]_La acción está disponible cuando se visualizan
 
 Piggyback en el _Crear una anulación_ ejemplo. El siguiente ejemplo muestra una edición de la anulación creada anteriormente que define un nuevo precio de `$50`, elimina la anulación de Tiempo de manejo y mantiene las anulaciones anteriores de Condición y Notas del vendedor.
 
-![Edición o eliminación de una invalidación](assets/amazon-overrides-edit-2.png)
+![Edición o eliminación de una invalidación](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Modificar o quitar una anulación de varios anuncios {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ El _[!UICONTROL Edit Listing Overrides]_La acción está disponible en la_[!UICO
 
    El _[!UICONTROL Product Listing Overrides]_se abre la página.
 
-   ![Seleccionar una anulación de listado de Amazon](assets/amazon-actions-edit-listing-overrides.png)
+   ![Seleccionar una anulación de listado de Amazon](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Para editar su _[!UICONTROL Override]_, defina las secciones para el tipo que desea cambiar (precio, tiempo de manipulación, condición, notas del vendedor).
 

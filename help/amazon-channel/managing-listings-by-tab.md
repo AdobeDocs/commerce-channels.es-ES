@@ -1,15 +1,15 @@
 ---
-title: Administrar listados de productos por estado/ficha
+title: Administrar listados de productos de Amazon por estado/pestaña
 description: Al administrar los anuncios de Amazon, puedes aplicar acciones a los anuncios según su estado.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Administrar listados de productos por estado/ficha
+# Administrar listados de productos de Amazon por estado/pestaña
 
 El _[!UICONTROL Product Listings]_Esta página contiene varias pestañas desde las que puedes ver los estados de todos tus anuncios y hacer coincidir tus productos con los de Amazon.
 
@@ -19,7 +19,7 @@ Opciones en **[!UICONTROL Actions]** puede aplicar la acción a varios anuncios,
 
 Consulte también [Administrar anuncios por acción](./managing-listings-by-action.md).
 
-![Fichas de listados de productos](assets/amazon-product-listings-tabs.png)
+![Fichas de listados de productos](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Ficha | Descripción | Acciones |
 |--- |--- |--- |

@@ -4,9 +4,9 @@ description: '''Conectar el Administrador de canales a [!DNL Commerce] servicios
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 El [!DNL Commerce Services Connector] integra el servicio Channel Manager con las instancias de Adobe Commerce y Magento Open Source. El conector permite la sincronización de datos y la comunicación entre los [!DNL Commerce] ejemplo, [!DNL Channel Manager]y otros servicios de soporte.
 
-[!DNL Commerce Services Connector] la configuración es un proceso único necesario para utilizar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} como [!DNL Channel Manager], [!DNL Live Search], y [!DNL Product Recommendations]. Si ya ha configurado el conector para otro servicio, omita este paso.
+[!DNL Commerce Services Connector] la configuración es un proceso único necesario para utilizar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) como [!DNL Channel Manager], [!DNL Live Search], y [!DNL Product Recommendations]. Si ya ha configurado el conector para otro servicio, omita este paso.
 
 ## Requisitos
 
@@ -24,11 +24,11 @@ El [!DNL Commerce Services Connector] integra el servicio Channel Manager con la
 
    Los propietarios de cuenta y los superusuarios pueden crear cuentas de administrador desde el [!DNL Commerce] o desde la línea de comandos utilizando la variable [!DNL Commerce] comando CLI `admin:user:create`.
 
-- **Clave de API de producción de Adobe Commerce**-Esto [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} habilita el acceso de API a los servicios requeridos por Channel Manager. Necesita las credenciales públicas y privadas para esta clave.
+- **Clave de API de producción de Adobe Commerce**-Esto [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) habilita el acceso de API a los servicios requeridos por Channel Manager. Necesita las credenciales públicas y privadas para esta clave.
 
 >[!TIP]
 >
->Para proporcionar las credenciales, [!DNL Commerce] el titular de la licencia o el titular de la cuenta tienen opciones para [acceso compartido](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} credenciales a un desarrollador de confianza.
+>Para proporcionar las credenciales, [!DNL Commerce] el titular de la licencia o el titular de la cuenta tienen opciones para [acceso compartido](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html), o asigne el [Clave de API](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) credenciales a un desarrollador de confianza.
 
 ## Configure las variables [!DNL Commerce Services Connector]
 
@@ -42,7 +42,7 @@ El [!DNL Commerce Services Connector] integra el servicio Channel Manager con la
 
 1. Agregue las credenciales de la clave API de producción de su cuenta de Adobe Commerce.
 
-   ![[!DNL Commerce Services Connector] servicio en la [!DNL Admin] vista](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] servicio en la [!DNL Admin] vista](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
@@ -51,5 +51,5 @@ El [!DNL Commerce Services Connector] integra el servicio Channel Manager con la
 
 1. Configure el proyecto SaaS y el espacio de datos para que Commerce Services pueda enviar datos al servicio Channel Manager.
 
-   ![[!DNL Commerce Services Connector] Configuración del identificador SaaS en [!DNL Admin] vista](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] Configuración del identificador SaaS en [!DNL Admin] vista](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

@@ -1,17 +1,17 @@
 ---
-title: Detalles de pedidos de Amazon
+title: Detalles del pedido de Amazon
 description: Vea los detalles de sus pedidos de Amazon Marketplace en Adobe Commerce o en el administrador de Magento Open Source.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Detalles de pedidos de Amazon
+# Detalles del pedido de Amazon
 
-![Detalles del pedido de Amazon](assets/amazon-order-details-header.png)
+![Detalles del pedido de Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Ver detalles del pedido de Amazon
 
@@ -55,16 +55,16 @@ El _[!UICONTROL Order and Shipping Details]_La pestaña muestra información det
 >
 >No olvide hacer clic en **Guardar pedido** después de realizar modificaciones.
 
-![Detalles de pedido y envío](assets/amazon-order-details.png)
+![Detalles de pedido y envío](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Pestaña Ordenar elementos
 
 El _[!UICONTROL Order Items]_La pestaña muestra todos los elementos asociados con el pedido de Amazon, tal como se recibieron de Amazon.
 
-![Detalles del artículo del pedido](assets/amazon-order-item-details.png)
+![Detalles del artículo del pedido](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Pestaña Seguimiento
 
 El _[!UICONTROL Tracking]_La pestaña muestra información de seguimiento asociada con el pedido de Amazon.
 
-![Detalles de seguimiento](assets/amazon-order-tracking-details.png)
+![Detalles de seguimiento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

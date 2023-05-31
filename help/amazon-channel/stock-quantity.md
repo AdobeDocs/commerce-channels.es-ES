@@ -1,16 +1,15 @@
 ---
-title: Existencias/cantidad
+title: Canal de ventas de Amazon - [!UICONTROL Stock/Quantity]
 description: Para controlar la sincronización de los detalles de cantidad de productos de su tienda de Commerce con su [!DNL Amazon Seller Central] para actualizar la configuración de stock/cantidad.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Existencias/cantidad
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* La configuración de forma parte de la configuración del anuncio de la tienda. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ La cantidad es un atributo regional basado en el **[!UICONTROL Amazon Marketplac
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Configuración de stock/cantidad](assets/amazon-stock-quantity.png)
+![Configuración de stock/cantidad](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |---|---|
@@ -67,10 +66,10 @@ Cuando se vende un artículo, el anuncio de Amazon vuelve a ponerlo en venta en 
 
 Por ejemplo, si establece *[!UICONTROL Maximum Listed Quantity]* as `12`, la lista de Amazon muestra una cantidad de 12 aunque el producto tenga un [!DNL Commerce] cantidad de 80:
 
-![Ejemplo 1 de cantidad máxima enumerada](assets/amazon-max-listed-quantity.png)
+![Ejemplo 1 de cantidad máxima enumerada](assets/amazon-max-listed-quantity.png){width="300"}
 
 Si establece su *[!UICONTROL Maximum Listed Quantity]* as `1`, todos los productos aptos se enumeran con una cantidad de `1`. Cuando se vende un artículo, el sistema consulta [!DNL Commerce] y, si existen existencias adicionales, vuelve a poner en venta el artículo en Amazon con una cantidad de `1`.
 
 Esta opción puede ser útil para productos que normalmente se solicitan en una cantidad de 1. También aumenta la urgencia para el comprador al ver su anuncio de Amazon.
 
-![Ejemplo 2 de cantidad máxima enumerada](assets/amazon-max-listed-quantity-1.png)
+![Ejemplo 2 de cantidad máxima enumerada](assets/amazon-max-listed-quantity-1.png){width="300"}

@@ -1,11 +1,11 @@
 ---
-title: Condición de lista de productos
+title: 'Canal de ventas de Amazon: condición de lista de productos'
 description: Utilice la configuración de Condición de la lista de productos para asignar sus productos de Commerce a una condición de producto de Amazon, como "Nuevo" o "Reacondicionado".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Durante [Tareas previas a la configuración](./amazon-pre-setup-tasks.md), se le
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Condición de lista de productos](assets/amazon-product-listing-condition.png)
+![Condición de lista de productos](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |---|---|

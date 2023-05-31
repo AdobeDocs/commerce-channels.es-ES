@@ -1,16 +1,15 @@
 ---
-title: Reglas de listado
+title: Canal de ventas de Amazon - [!UICONTROL Listing Rules]
 description: Utilice reglas de listado para determinar los productos del catálogo de Commerce que se publican como listados de Amazon Marketplace.
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# Reglas de listado
+# [!UICONTROL Listing Rules]
 
 Puede acceder a las reglas de listado para almacenar en la [tablero de tienda](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ Las reglas de anuncios se sincronizan continuamente con tu [!DNL Commerce] catá
 
 - Si desea que todos sus productos se publiquen en un anuncio de Amazon, no defina ninguna condición para las reglas del anuncio.
 
-- Si desea limitar cuáles de los productos del catálogo se publican en Amazon, defina las condiciones de la regla de listado. La definición de las condiciones para las reglas de listado de Amazon sigue la misma lógica y proceso que la definición de las condiciones para [Reglas de precio de carrito](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- Si desea limitar cuáles de los productos del catálogo se publican en Amazon, defina las condiciones de la regla de listado. La definición de las condiciones para las reglas de listado de Amazon sigue la misma lógica y proceso que la definición de las condiciones para [Reglas de precio de carrito](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - Si las reglas de la lista excluyen un producto, el estado de idoneidad de ese producto cambia a `Ineligible`. Los productos no aptos no se publican en Amazon.
 
@@ -28,7 +27,7 @@ Las reglas de anuncios se sincronizan continuamente con tu [!DNL Commerce] catá
 
 Los cambios en la cantidad y en el estado de idoneidad afectan a todos los anuncios que comparten el SKU del vendedor de Amazon en los mercados que existen para tiendas que venden en la misma región (tal y como se define en _[!UICONTROL Amazon Marketplace Country]_durante [integración de tienda](./store-integration.md)). Sin embargo, un cambio en un recurso compartido [!DNL Amazon Seller SKU] en una región no afecta a los anuncios de Amazon del producto en un país diferente.
 
-![Reglas de listado](assets/ob-listing-rules.png)
+![Reglas de listado](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## Configurar las reglas de listado
 
@@ -40,7 +39,7 @@ Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL Websites] | Las opciones disponibles dependen de la variable [sitios web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} que ha configurado en su [!DNL Commerce] configuración. Seleccione el sitio web de los productos aptos que aparecen en Amazon. Solo se puede seleccionar un sitio web, ya que cada sitio web requiere una tienda Amazon única creada en el canal de ventas de Amazon. |
+| [!UICONTROL Websites] | Las opciones disponibles dependen de la variable [sitios web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) que ha configurado en su [!DNL Commerce] configuración. Seleccione el sitio web de los productos aptos que aparecen en Amazon. Solo se puede seleccionar un sitio web, ya que cada sitio web requiere una tienda Amazon única creada en el canal de ventas de Amazon. |
 | [!UICONTROL Conditions] | Se utiliza para definir la variable [!DNL Commerce] atributos para la idoneidad del producto dentro de su región de Amazon. Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.md). |
 
 ## Espacio de trabajo Condiciones
@@ -50,7 +49,7 @@ Se puede hacer clic en cualquier área de las condiciones que esté en negrita p
 - No agregue condiciones si todos los productos de los sitios web seleccionados cumplen los requisitos.
 - Existe un complejo conjunto de procesos back-end para comunicarse directamente con los sistemas de Amazon. En función del número de artículos que intentas poner en venta y de la ocupación que puedan tener los sistemas de Amazon (por ejemplo, Black Friday), puede que tus artículos tarden un tiempo en aparecer en Amazon.
 
-Para obtener más información sobre las condiciones, consulte [Describir las condiciones](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+Para obtener más información sobre las condiciones, consulte [Describir las condiciones](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## Previsualización de regla de anuncio
 
@@ -90,7 +89,7 @@ Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en 
 
    Si los anuncios no se muestran según lo esperado, pulsa **[!UICONTROL Back]** y modifica las reglas y condiciones hasta que los anuncios cumplan tus expectativas.
 
-![Previsualización de regla de anuncio](assets/amazon-listing-rule-preview.png)
+![Previsualización de regla de anuncio](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### Listado de registros de vista previa
 
@@ -98,11 +97,11 @@ Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en 
 |--- |--- |
 | [!UICONTROL Product ID] | El número único y secuencial que se asigna a un [!DNL Commerce] el producto del catálogo cuando se añada. |
 | [!UICONTROL Thumbnail] | Muestra una miniatura de la imagen principal del producto. |
-| [!UICONTROL Name] | El nombre del producto, administrado en la variable [!DNL Commerce] [cuadrícula de productos](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | El nombre del producto, administrado en la variable [!DNL Commerce] [cuadrícula de productos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | El tipo de producto, administrado en la variable [!DNL Commerce] cuadrícula de productos. |
 | [!UICONTROL Attribute Set] | El nombre del conjunto de atributos utilizado como plantilla para el producto, administrado en la variable [!DNL Commerce] cuadrícula de productos. |
 | [!UICONTROL SKU] | La única unidad de mantenimiento de stock asignada al producto, gestionada en el [!DNL Commerce] cuadrícula de productos. |
 | [!UICONTROL Visibility] | Indica dónde está visible el producto, administrado en el [!DNL Commerce] cuadrícula de productos. Opciones:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | Estado | Indica el estado del producto, gestionado en el [!DNL Commerce] cuadrícula de productos. Opciones: `Enabled` / `Disabled` |
 
-![Flujo de trabajo de vista previa](assets/listing-preview-flowchart.png)
+![Flujo de trabajo de vista previa](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

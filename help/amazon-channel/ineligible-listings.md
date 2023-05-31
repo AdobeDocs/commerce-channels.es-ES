@@ -1,15 +1,15 @@
 ---
-title: Anuncios no aptos
+title: Anuncios de Amazon no aptos
 description: El canal de ventas de Amazon proporciona [!UICONTROL Ineligible] para ayudarte a administrar artículos no se pueden utilizar como anuncio según las reglas actuales.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Anuncios no aptos
+# Anuncios de Amazon no aptos
 
 El _[!UICONTROL Ineligible]_Esta pestaña muestra una lista de todos los productos que están publicados actualmente en Amazon, pero que no cumplen los requisitos para aparecer en un anuncio según las reglas actuales. Si un producto anterior era apto y se modifican las reglas de listado para que ahora no sea apto, la cantidad asociada a un producto cae a 0 y el producto se marca como_ inelegible _. Sin embargo, sigue presente en su [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 >[!NOTE]
 >Si tiene listados en proceso, el número de listados se muestra en un mensaje encima de las pestañas.
 
-![Anuncios de Amazon no aptos](assets/amazon-ineligible-listings.png)
+![Anuncios de Amazon no aptos](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

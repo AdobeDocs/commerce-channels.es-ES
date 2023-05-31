@@ -2,9 +2,9 @@
 title: "Regla de reasignación inteligente: precio mínimo"
 description: Utiliza la configuración de precios mínimos para determinar el precio más bajo de una regla de precios inteligente para administrar tus anuncios de Amazon.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Defina la configuración de precio más bajo en la _[!UICONTROL Floor Price]_sec
 
 1. Para **[!UICONTROL Floor Price Source]**, elija un atributo de fuente de precios.
 
-   Elija la [!DNL Commerce] [atributo de producto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} que indica su límite mínimo relativo. Por ejemplo, si no quieres que el precio de tu anuncio de Amazon sea inferior al coste del artículo, elige la opción *Coste* atributo.
+   Elija la [!DNL Commerce] [atributo de producto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) que indica su límite mínimo relativo. Por ejemplo, si no quieres que el precio de tu anuncio de Amazon sea inferior al coste del artículo, elige la opción *Coste* atributo.
 
 1. Para **[!UICONTROL Floor Price Action]**, elija una opción.
 
@@ -47,7 +47,7 @@ Defina la configuración de precio más bajo en la _[!UICONTROL Floor Price]_sec
 
 En este ejemplo, el precio mínimo se establece en un 3 % por encima del coste del artículo.
 
-![Ejemplo de regla de reasignación de precios inteligente: precio mínimo](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Ejemplo de regla de reasignación de precios inteligente: precio mínimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

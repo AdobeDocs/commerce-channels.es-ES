@@ -1,15 +1,15 @@
 ---
-title: Administrar anuncios de Amazon
+title: Administrar listados de Amazon
 description: La Sales Channel de Amazon proporciona varias herramientas para ayudarle a administrar los listados de Amazon desde el administrador de Commerce.
 exl-id: 895fd0f1-29ec-4ae5-af5b-eb5d99f5752a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# Administrar anuncios de Amazon
+# Administrar listados de Amazon
 
 La configuración de la lista de productos se puede modificar en cualquier momento después de [!DNL Commerce] La tienda está integrada. Puede acceder a la configuración de su anuncio en la [tablero de tienda](./amazon-store-dashboard.md).
 

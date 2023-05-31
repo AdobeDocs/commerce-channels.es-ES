@@ -1,15 +1,15 @@
 ---
-title: Administrar atributos
+title: Administrar atributos para listados de Amazon
 description: Puede administrar la asignación de atributos de producto de Commerce a atributos de Amazon para garantizar una información de producto precisa entre los sistemas.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Administrar atributos
+# Administrar atributos para listados de Amazon
 
 AMAZON y [!DNL Commerce] ambos utilizan un sistema de propiedades de producto, conocido como atributos, que se utiliza para definir un producto. Los atributos definen la descripción, el contenido, las imágenes, los precios y los distintos datos de los productos.
 
@@ -23,7 +23,7 @@ El canal de ventas de Amazon le permite acceder, revisar, crear y administrar at
 
 Para obtener más información acerca de [!DNL Commerce] y los conjuntos de atributos y valores de Amazon; consulte:
 
-- [Administrar conceptos básicos de atributos](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [Administrar conceptos básicos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Crear un atributo](./creating-attributes.md#create-an-attribute)
 - [Editar un atributo existente](./creating-attributes.md#edit-an-attribute)
 - [Ver asignación de atributos](./amazon-matching-attributes-values.md)

@@ -1,21 +1,21 @@
 ---
-title: Mejoras de anuncios
+title: Canal de ventas de Amazon - [!UICONTROL Listing Improvements]
 description: La Sales Channel de Amazon proporciona el informe Mejoras de anuncios para ofrecerle sugerencias para mejorar la calidad de los anuncios de Amazon.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Mejoras de anuncios
+# [!UICONTROL Listing Improvements]
 
 El [!UICONTROL Listing Improvements] El informe muestra los productos con sugerencias de Amazon para mejorar la calidad del anuncio. Puede revisar estas sugerencias, que podrían ayudar al rendimiento de los productos dentro de la lista de Amazon. No hay acciones disponibles para el registro. Es una función de solo revisión.
 
 Una mejora en la lista recibida de Amazon no impide que el producto aparezca en la lista de Amazon.
 
-![Mejoras de anuncios](assets/amazon-listing-improvements.png)
+![Mejoras de anuncios](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## Columnas predeterminadas
 

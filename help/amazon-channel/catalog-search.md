@@ -1,16 +1,16 @@
 ---
-title: Búsqueda en catálogo
+title: Buscar en el catálogo anuncios de Amazon
 description: Para establecer la coincidencia de atributos que ayude a asignar productos del catálogo de Commerce aptos con listas de Amazon, actualice la configuración de Búsqueda en el catálogo.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Búsqueda en catálogo
+# Buscar en el catálogo anuncios de Amazon
 
 _Búsqueda en catálogo_ La configuración de forma parte de la configuración del anuncio de la tienda. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Si desea agregar atributos, consulte [Crear atributos de producto para la coinci
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Búsqueda en catálogo](assets/amazon-catalog-search.png)
+![Búsqueda en catálogo](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |

@@ -2,16 +2,16 @@
 title: Procesar pedidos
 description: '''Instrucciones de envío y cancelación [!DNL Walmart Marketplace] pedidos de Adobe Commerce y Magento Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Procesar pedidos
 
-Después [!DNL Walmart Marketplace] los pedidos se han reconocido y enviado correctamente a [!DNL Channel Manager], se utiliza [Commerce Order Management](https://docs.magento.com/user-guide/sales/orders-workspace.html) para procesar la solicitud.
+Después [!DNL Walmart Marketplace] los pedidos se han reconocido y enviado correctamente a [!DNL Channel Manager], se utiliza [Commerce Order Management](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) para procesar la solicitud.
 
 El Administrador de canales sincroniza las actualizaciones con [!DNL Walmart Marketplace] para garantizar que el estado del pedido y la información de envío de [!DNL Commerce] coincide con los datos rastreados en la variable [!DNL Walmart Marketplace].
 
@@ -37,22 +37,21 @@ Cuando se procesan los pedidos de Commerce y [!DNL Channel Manager] sincroniza c
 
 1. Para ver [!DNL Walmart Marketplace] pedidos, seleccione **[!UICONTROL Orders]**.
 
-1. En la tabla Orders, abra el pedido que desea enviar seleccionando la **Número de pedido comercial**.
+1. En la tabla Orders, abra el pedido que desea enviar seleccionando la **[!UICONTROL Commerce Order Number]**.
 
 1. Cree y envíe un envío para la totalidad o parte de un pedido seleccionando **[!UICONTROL Ship]**.
 
-   ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/order-detail-with-external-order-id.png)
+   ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * Seleccione un transportista y añada un número de seguimiento seleccionando **[!UICONTROL Add tracking number]**.
 
-      ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/order-shipment-add-tracking-number.png)
+      ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * Complete el resto del formulario de envío según sea necesario. Consulte [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) para obtener instrucciones detalladas.
+   * Complete el resto del formulario de envío según sea necesario. Consulte [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) para obtener instrucciones detalladas.
 
 1. Después de enviar el envío, realice un seguimiento de [estado del pedido](manage-orders.md#about-order-status) in [!DNL Channel Manager] para verificar que las actualizaciones se han enviado a [!DNL Walmart Marketplace].
 
-Después de enviar un pedido, puede procesar los reembolsos completos o parciales desde [!DNL Channel Manager] para artículos incluidos en el pedido en función de las solicitudes de devolución recibidas de [!DNL Walmart Marketplace]. Consulte [pedidos de devolución y reembolso](return-refund-orders.md).
+Después de enviar un pedido, puede procesar los reembolsos completos o parciales desde [!DNL Channel Manager] para artículos incluidos en el pedido en función de las solicitudes de devolución recibidas de [!DNL Walmart Marketplace]. Consulte [Pedidos de devolución y reembolso](return-refund-orders.md).
 
 ## Cancelar un pedido
 
@@ -60,20 +59,20 @@ Después de enviar un pedido, puede procesar los reembolsos completos o parciale
 
 1. Abra la vista de la tienda seleccionando el icono en forma de ojo de una tienda de canales de venta.
 
-1. Para ver [!DNL Walmart Marketplace] pedidos, seleccione *[!UICONTROL *Orders]**.
+1. Para ver [!DNL Walmart Marketplace] pedidos, seleccione *[!UICONTROL Orders]**.
 
-1. En la tabla Orders, abra el [página de detalles del pedido](manage-orders.md#view-order-detail) seleccionando la opción **Número de pedido comercial** para la orden de cancelación.
+1. En la tabla Orders, abra el [página de detalles del pedido](manage-orders.md#view-order-detail) seleccionando la opción **[!UICONTROL Commerce Order Number]** para la orden de cancelación.
 
-   ![Vista de detalles de pedido comercial para un[!DNL Walmart Marketplace]pedido](assets/order-detail-with-external-order-id.png)
+   ![Vista de detalles de pedido comercial para un[!DNL Walmart Marketplace]pedido](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. Cancele el pedido.
 
    * Seleccionar **Cancelar** en el menú Detalles del pedido.
 
-   * En el [!UICONTROL Cancel Order] , seleccione la **Motivo de cancelación**.
-   ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/cancel-order-reason-selector.png)
+   * En el [!UICONTROL Cancel Order] , seleccione la **[!UICONTROL Cancellation reason]**.
+   ![Vista de detalles de pedido comercial para un [!DNL Walmart Marketplace] pedido](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * Seleccionar **Cancelar pedido**.
+   * Seleccionar **[!UICONTROL Cancel Order]**.
 
 
 1. Después de enviar la cancelación, realice un seguimiento de [estado del pedido](manage-orders.md#about-order-status) in [!DNL Channel Manager] para verificar que las actualizaciones se han enviado a [!DNL Walmart Marketplace].

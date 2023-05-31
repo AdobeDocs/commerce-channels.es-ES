@@ -1,15 +1,15 @@
 ---
-title: Anuncios activos
+title: Anuncios activos de Amazon
 description: El canal de ventas de Amazon proporciona la pestaña Activo para supervisar las listas de Amazon activas que coinciden con un producto del catálogo de Adobe Commerce.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Anuncios activos
+# Anuncios activos de Amazon
 
 El _[!UICONTROL Active]_La pestaña muestra los anuncios de Amazon que están activos en [!DNL Amazon Marketplace] y que se han emparejado con un producto en su [!DNL Commerce] catálogo.
 
@@ -39,7 +39,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 >
 >Si tiene listados en proceso, el número de listados se muestra en un mensaje encima de las pestañas.
 
-![Anuncios activos](assets/amazon-active-listings.png)
+![Anuncios activos](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

@@ -1,15 +1,15 @@
 ---
-title: Página principal
+title: página de inicio del canal de ventas de Amazon
 description: Utilice la página de inicio del canal de ventas de Amazon en su [!DNL Commerce] Administrador para acceder a su [!DNL Amazon Marketplace] listados y actividad.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Página principal
+# página de inicio del canal de ventas de Amazon
 
 La página de inicio del canal de ventas de Amazon es su página de aterrizaje al acceder a su canal de ventas de Amazon.
 

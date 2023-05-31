@@ -2,7 +2,7 @@
 title: Administrar conexión de Walmart Marketplace
 description: '''Actualice las credenciales de la API para autorizar la conexión entre un [DNL! Comercio] vista de tienda y el [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] listados de productos y sincronizar datos de inventario, precio, pedido y envío entre [!DNL Commerce] y el Walmart.'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Revisar [Requisitos de Walmart](walmart-requirements.md) para el [!DNL Marketpla
 
 1. Para modificar las credenciales, seleccione **[!UICONTROL Change Credentials]**
 
-   ![Actualizar credenciales de la API de Walmart para autorizar la conexión](assets/update-connection-credentials.png)
+   ![Actualizar credenciales de la API de Walmart para autorizar la conexión](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. Introduzca el **[!UICONTROL Walmart Client ID]** y **[!UICONTROL Walmart Client Secret]**.
 

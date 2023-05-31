@@ -3,9 +3,9 @@ title: Administrar precios de Amazon
 description: Puedes establecer que los precios de los anuncios de Amazon difieran de los de tu tienda de comercio mediante las reglas de precios.
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Existen dos tipos de reglas de precios:
    >
    >Las reglas de reasignación de precios inteligentes no funcionan correctamente si la región de Amazon está configurada como `Inactive` estado, tal como aparece durante la incorporación. Los cálculos de precios dependen de las tarifas de envío y la región debe estar en `Active` estado de las tarifas de envío que se sincronizarán desde Amazon.
    >
-   >Para actualizar el estado de tu región en la cuenta de Amazon, ve a Configuración > Información de la cuenta > Configuración de vacaciones. Consulte [Amazon: Estado del anuncio para vacaciones](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} (Se requiere el inicio de sesión en Seller Central).
+   >Para actualizar el estado de tu región en la cuenta de Amazon, ve a Configuración > Información de la cuenta > Configuración de vacaciones. Consulte [Amazon: Estado del anuncio para vacaciones](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Se requiere el inicio de sesión en Seller Central).
 
-Esta función le permite manipular los precios de Amazon de una manera similar a la [!DNL Commerce] [reglas de precios de catálogo](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. Puede crear reglas complejas que le permitan cambiar los precios de productos específicos, productos dentro de categorías específicas o incluso con atributos específicos.
+Esta función le permite manipular los precios de Amazon de una manera similar a la [!DNL Commerce] [reglas de precios de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Puede crear reglas complejas que le permitan cambiar los precios de productos específicos, productos dentro de categorías específicas o incluso con atributos específicos.
 
 Puedes agregar reglas de precios para tus anuncios de Amazon. Las reglas de precios se pueden utilizar para ajustar automáticamente los precios de los anuncios, según un conjunto de condiciones definidas. Las reglas de precios se activan y calculan el precio ajustado antes de que el producto aparezca en Amazon.
 
@@ -33,7 +33,7 @@ Puedes agregar reglas de precios para tus anuncios de Amazon. Las reglas de prec
 >
 >La fuente de precios de los anuncios de Amazon está definida para **[!UICONTROL Magento Price Source]** en su [precio de venta](./listing-price.md) configuración. Cualquier cálculo de ajuste definido en la regla de asignación de precios utiliza el origen de precio como valor inicial.
 
-Las reglas de asignación de precios permiten establecer un precio de anuncio de Amazon diferente al de **[!UICONTROL Magento Price Source]** en su [precio de venta](./listing-price.md) configuración. También puede apilar varias reglas que funcionen juntas para ajustar el precio.
+Las reglas de precios permiten establecer el precio del anuncio de Amazon de forma diferente al de **[!UICONTROL Magento Price Source]** en su [precio de venta](./listing-price.md) configuración. También puede apilar varias reglas que funcionen juntas para ajustar el precio.
 
 Una regla de asignación de precios/reasignación de precios requiere tres conjuntos de información durante su configuración:
 
@@ -41,9 +41,9 @@ Una regla de asignación de precios/reasignación de precios requiere tres conju
 - [Condiciones](./pricing-rule-conditions.md): Determine qué productos cumplen los requisitos para la regla de precio.
 - [Acciones](./pricing-rule-actions.md): Defina los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado.
 
-Puede crear [reglas de precios estándar](./standard-price-rules.md) que ajustan automáticamente el precio del anuncio de Amazon en relación con el seleccionado **[!UICONTROL Magento Price Source]** en su [precio de venta](./listing-price.md) configuración. Esta función le permite manipular los precios de Amazon de una manera similar a la [!DNL Commerce] [reglas de precios de catálogo](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. Puede crear reglas complejas que cambien automáticamente los precios de productos específicos, productos dentro de categorías específicas o productos con atributos específicos. Puede completar la configuración tradicional y reasignar el precio de los productos para aumentar o disminuir según una cantidad fija o un porcentaje.
+Puede crear [reglas de precios estándar](./standard-price-rules.md) que ajustan automáticamente el precio del anuncio de Amazon en relación con el seleccionado **[!UICONTROL Magento Price Source]** en su [precio de venta](./listing-price.md) configuración. Esta función le permite manipular los precios de Amazon de una manera similar a la [!DNL Commerce] [reglas de precios de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). Puede crear reglas complejas que cambien automáticamente los precios de productos específicos, productos dentro de categorías específicas o productos con atributos específicos. Puede completar la configuración tradicional y reasignar el precio de los productos para aumentar o disminuir según una cantidad fija o un porcentaje.
 
-Otra herramienta potente es la [Reasignación inteligente de precios](./intelligent-repricing-rules.md) función que ajusta el precio del anuncio de Amazon en función de la competencia [[!DNL Buy Box]](./buy-box-competitor-pricing.md) precio o [Precio de competidor más bajo](./lowest-competitor-pricing.md). Similar a la [!DNL Commerce] [reglas de precios de catálogo](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}Sin embargo, esta función avanzada le permite manipular los precios de Amazon creando reglas complejas. Las reglas pueden definir el ámbito de un cambio de precio para productos específicos, productos dentro de categorías específicas o incluso con atributos de producto específicos.
+Otra herramienta potente es la [Reasignación inteligente de precios](./intelligent-repricing-rules.md) función que ajusta el precio del anuncio de Amazon en función de la competencia [[!DNL Buy Box]](./buy-box-competitor-pricing.md) precio o [Precio de competidor más bajo](./lowest-competitor-pricing.md). Similar a la [!DNL Commerce] [reglas de precios de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html)Sin embargo, esta función avanzada le permite manipular los precios de Amazon creando reglas complejas. Las reglas pueden definir el ámbito de un cambio de precio para productos específicos, productos dentro de categorías específicas o incluso con atributos de producto específicos.
 
 Utilizar la reasignación inteligente de precios para ajustar los precios de listado de Amazon, según los precios de la competencia. El canal de ventas de Amazon ha incorporado protecciones para que pueda proteger los márgenes o evitar que los precios de un comerciante coincidan con los bajos comentarios. Uso de [reglas inteligentes de reasignación de precios](./intelligent-repricing-rules.md), los precios de las listas de Amazon pueden manipularse automáticamente como una cantidad fija o porcentual (hacia arriba o hacia abajo) o incluso sincronizarse con el [[!DNL Buy Box]](./buy-box-competitor-pricing.md) precio o [Precio de competidor más bajo](./lowest-competitor-pricing.md) por artículo. Las reglas incluso se pueden apilar para proporcionar una flexibilidad ilimitada.
 
@@ -53,7 +53,7 @@ Por ejemplo, puedes definir y establecer las condiciones de una regla de precios
 
 Otra opción de precios es una [anulación de precios](./overrides.md), que se establece en el nivel de listado individual. A [anulación de precios](./overrides.md) se puede establecer, y una anulación ignora o tiene prioridad sobre el resto de valores predeterminados, configuraciones y reglas. Un [invalidar](./overrides.md) se puede configurar para el precio, el tiempo de manipulación, la condición y las notas del vendedor (con algunas excepciones).
 
-![Reglas de precios](assets/amazon-pricing-rules.png)
+![Reglas de precios](assets/amazon-pricing-rules.png){width="600" zoomable="yes"}
 
 ## Columnas predeterminadas
 

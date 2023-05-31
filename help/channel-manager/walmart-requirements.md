@@ -2,7 +2,7 @@
 title: '[!DNL Walmart] Requisitos'
 description: '''Compruebe que dispone de los [!DNL Walmart Marketplace]información y recursos para integrar con Channel Manager".'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Al conectar los productos al mercado, la disponibilidad de la lista depende del 
 
 * En el caso de las tiendas que no están activas, las ofertas de productos se muestran por fases y no son visibles para los clientes. Si la variable [!DNL Walmart Marketplace] La tienda se activa y los anuncios clasificados se transfieren automáticamente a la tienda activa.
 
-![[!DNL Walmart Seller Central] productos clasificados](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] productos clasificados](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

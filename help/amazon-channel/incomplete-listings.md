@@ -1,15 +1,15 @@
 ---
-title: Anuncios incompletos
+title: Anuncios de Amazon incompletos
 description: El canal de ventas de Amazon proporciona [!UICONTROL Incomplete] para ayudarte a identificar y cumplir los requisitos para tus anuncios de Amazon incompletos.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Anuncios incompletos
+# Anuncios de Amazon incompletos
 
 El _[!UICONTROL Incomplete]_enumera las [!DNL Commerce] catalogar productos que cumplan los requisitos de idoneidad para Amazon (definidos en su [enumerar reglas](./listing-rules.md)), pero faltan la información requerida por Amazon (como el ASIN de Amazon o una condición de producto definida).
 
@@ -41,7 +41,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 >
 >Si tiene listados en proceso, el número de listados aparece en un mensaje encima de las pestañas.
 
-![Anuncios de Amazon incompletos](assets/amazon-incomplete-listings.png)
+![Anuncios de Amazon incompletos](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 

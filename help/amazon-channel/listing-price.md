@@ -1,16 +1,16 @@
 ---
-title: Precio del anuncio
+title: Canal de ventas de Amazon - [!UICONTROL Listing Price]
 description: Utilice la configuración Precio de anuncio para determinar el origen del precio y el valor de precio base (por defecto) de los anuncios de Amazon.
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# Precio del anuncio
+# [!UICONTROL Listing Price]
 
 [!UICONTROL Listing Price] La configuración de forma parte de la configuración del anuncio de la tienda. Se accede a la configuración de anuncio desde el [tablero de tienda](./amazon-store-dashboard.md).
 
@@ -18,9 +18,9 @@ Esta configuración define qué [!DNL Commerce] atributo de asignación de preci
 
 Puede configurar su [ámbito de precios](./price-scope.md) como global o sitio web. Si el ámbito de precios se establece en `Global`, hay una única fuente de precios para todas tus tiendas/sitios web. Si el ámbito de precios se establece en `Website`, la fuente de precios utiliza la lógica alternativa del precio del sitio web (si está disponible) seguido del precio predeterminado (global).
 
-Si una regla de listado está configurada para aplicarse a más de un sitio web, el orden en el que se usa el precio del sitio web se determina mediante la configuración de prioridad del sitio web definida en la variable [regla de listado](./listing-rules.md). Estas reglas permiten definir los precios de los productos en todo el catálogo. Para ver si está usando el ámbito de precios del sitio web, consulte [Precios de catálogo](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target="_blank"}.
+Si una regla de listado está configurada para aplicarse a más de un sitio web, el orden en el que se usa el precio del sitio web se determina mediante la configuración de prioridad del sitio web definida en la variable [regla de listado](./listing-rules.md). Estas reglas permiten definir los precios de los productos en todo el catálogo. Para ver si está usando el ámbito de precios del sitio web, consulte [Precios de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html).
 
-Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, y _[!UICONTROL Strike Through Price (MSRP)]_incluya los atributos de precios configurados. Los atributos de precios son [!DNL Commerce] atributos de producto con el valor Tipo de entrada de catálogo para propietario de tienda establecido en `Price`. Consulte [Tipos de entrada de atributos](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target="_blank"}.
+Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, y _[!UICONTROL Strike Through Price (MSRP)]_incluya los atributos de precios configurados. Los atributos de precios son [!DNL Commerce] atributos de producto con el valor Tipo de entrada de catálogo para propietario de tienda establecido en `Price`. Consulte [Tipos de entrada de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html).
 
 ## Configurar el precio del anuncio {#configure-listing-price-settings}
 
@@ -51,7 +51,7 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
    - `Enabled` - Elige cuándo quieres aplicar el IVA al precio de tu anuncio. El IVA se suele utilizar como impuesto sobre las ventas en los países europeos y se añade al precio final que aparece en Amazon. El IVA no se aplica al precio final de los anuncios que se utilizan dentro de una regla de asignación inteligente de precios, a menos que la [precio mínimo](./floor-price.md) se ha golpeado.
    >[!NOTE]
    >
-   >Las empresas de la Unión Europea (UE) están obligadas a enviar facturas a los compradores de negocios, para que el cliente pueda remitir el impuesto. Puede generar estas facturas y calcular los impuestos usted mismo o utilizar un servicio de cálculo de impuestos como el servicio de cálculo de IVA de Amazon. Amazon recomienda registrarse en [Amazon VAT Calculation Service](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target="_blank"}. Si elige un método diferente, usted es responsable del cumplimiento del IVA.>
+   >Las empresas de la Unión Europea (UE) están obligadas a enviar facturas a los compradores de negocios, para que el cliente pueda remitir el impuesto. Puede generar estas facturas y calcular los impuestos usted mismo o utilizar un servicio de cálculo de impuestos como el servicio de cálculo de IVA de Amazon. Amazon recomienda registrarse en [Amazon VAT Calculation Service](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Si elige un método diferente, usted es responsable del cumplimiento del IVA.>
    >
    >Amazon puede tardar entre 10 y 14 días en verificar y activar su cuenta del servicio de cálculo de IVA.
 
@@ -72,11 +72,11 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
 
 1. Para **[!UICONTROL Currency Conversion]**, elija una opción.
 
-   El valor predeterminado es `Disabled`. Estas opciones dependen de su [!DNL Commerce] [moneda](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} configuración. Si no hay opciones disponibles, configure los valores de moneda.
+   El valor predeterminado es `Disabled`. Estas opciones dependen de su [!DNL Commerce] [moneda](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) configuración. Si no hay opciones disponibles, configure los valores de moneda.
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
-![Precio del anuncio](assets/amazon-listing-price.png)
+![Precio del anuncio](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
 |--- |--- |
@@ -87,7 +87,7 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
 | [!UICONTROL VAT Percentage] | Define el porcentaje que se utilizará para calcular el importe de IVA que se añadirá al precio del anuncio de tus anuncios de Amazon. <br><br>Si introduce `5`, se aplicará un IVA del 5% al precio final del anuncio una vez que se hayan aplicado todas las reglas de precios. El impuesto sobre el IVA no se aplica al precio final de los anuncios que se utilizan dentro de una regla de asignación inteligente de precios, a menos que la [suelo](./floor-price.md) o [techo](./optional-ceiling-price.md) se ha golpeado. |
 | [!UICONTROL Amazon Product Tax Code (PTC)] | (Aparece solo para tiendas del Reino Unido) Determina si el canal de ventas de Amazon envía información de código de impuestos del producto a su [!DNL Amazon Seller Central] cuenta. <br><br>Seleccionar **No administrar PTC** si utiliza un servicio de cálculo de impuestos de terceros o ya ha configurado todos los cálculos de impuestos en su [!DNL Amazon Seller Central] cuenta. Cuando se establece en esta opción, el canal de ventas de Amazon no envía información de código de impuestos del producto a su [!DNL Amazon Seller Central] cuenta.<br><br>Seleccionar **Definir PTC predeterminado** si tiene un código de impuesto universal que desee usar para todos sus productos.<br><br>Consulte [Códigos de impuestos de productos de Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Solo aparece cuando **Código de impuesto sobre productos Amazon (PTC)** se establece en `Set Default PTC`. Introduce el PTC por defecto que se utilizará para todos los anuncios de Amazon aptos. Si el PTC por defecto está definido en su [!DNL Amazon Seller Central] Cuenta de, deje este campo en blanco. <br><br>Los cambios realizados en este campo no afectan a los anuncios existentes. La lista debe ser [finalizado](./end-listings-manually.md) y se crea un nuevo anuncio para que el cambio surta efecto. |
-| [!UICONTROL Currency Conversion] | Permite que [!DNL Commerce] moneda predeterminada de la tienda para convertirla con precisión a la moneda predeterminada de Amazon y publicar los precios del anuncio en la moneda adecuada. La conversión de moneda siempre se basa en [!DNL Commerce] moneda predeterminada.<br><br>Puede seguir viendo el valor predeterminado [!DNL Commerce] y Amazon monedas cuando hay otras monedas disponibles. Si el valor predeterminado [!DNL Commerce] La moneda coincide con la moneda predeterminada de Amazon. Deje desactivada la opción Conversión de moneda.<br><br>Por ejemplo, si su [!DNL Commerce] La divisa predeterminada es CAD (dólares canadienses) y la divisa predeterminada de Amazon es USD. Debe activar la conversión de divisa y seleccionar la tarifa de conversión CAD a USD. Las opciones presentadas se basan en la variable integrada [!DNL Commerce] conversiones de moneda. Si no ve la opción que está buscando, [configure la moneda en [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}. |
+| [!UICONTROL Currency Conversion] | Permite que [!DNL Commerce] moneda predeterminada de la tienda para convertirla con precisión a la moneda predeterminada de Amazon y publicar los precios del anuncio en la moneda adecuada. La conversión de moneda siempre se basa en [!DNL Commerce] moneda predeterminada.<br><br>Puede seguir viendo el valor predeterminado [!DNL Commerce] y Amazon monedas cuando hay otras monedas disponibles. Si el valor predeterminado [!DNL Commerce] La moneda coincide con la moneda predeterminada de Amazon. Deje desactivada la opción Conversión de moneda.<br><br>Por ejemplo, si su [!DNL Commerce] La divisa predeterminada es CAD (dólares canadienses) y la divisa predeterminada de Amazon es USD. Debe activar la conversión de divisa y seleccionar la tarifa de conversión CAD a USD. Las opciones presentadas se basan en la variable integrada [!DNL Commerce] conversiones de moneda. Si no ve la opción que está buscando, [configure la moneda en [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 
 **Acceso rápido** - [!UICONTROL Listing Settings] secciones
 
