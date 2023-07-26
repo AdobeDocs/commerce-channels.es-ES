@@ -1,8 +1,9 @@
 ---
 title: 'Canal de ventas de Amazon: lógica de prioridad de precios'
 description: El canal de ventas de Amazon aplica la priorización al determinar el precio publicado para un anuncio de Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Si el precio del producto está establecido en `Use Default`Sin embargo, vuelve 
 
 ## Ejemplo 1
 
-|  | Prioridad del sitio web | Precio (sitio web) | Usar valor predeterminado |
-|---|---|---|---|
+|         | Prioridad del sitio web | Precio (sitio web) | Usar valor predeterminado |
+|---------|------------------|-----------------|-------------|
 | Predeterminado | 0 | $31.99 | -- |
 | Almacén 1 | 1 | $24.99 | No |
 | Almacén 2 | 2 | $27.99 | Sí |
@@ -35,8 +36,8 @@ Si el precio del producto está establecido en `Use Default`Sin embargo, vuelve 
 
 ## Ejemplo 2
 
-|  | Prioridad del sitio web | Sitio web de precios | Usar valor predeterminado |
-|---|---|---|---|
+|         | Prioridad del sitio web | Sitio web de precios | Usar valor predeterminado |
+|---------|------------------|---------------|-------------|
 | Predeterminado | 0 | $31.99 | -- |
 | Almacén 1 | 1 | $24.99 | Sí |
 | Almacén 2 | 2 | $27.99 | No |
@@ -48,8 +49,8 @@ Si el precio del producto está establecido en `Use Default`Sin embargo, vuelve 
 
 ## Ejemplo 3
 
-|  | Prioridad del sitio web | Sitio web de precios | Usar valor predeterminado |
-|---|---|---|---|
+|         | Prioridad del sitio web | Sitio web de precios | Usar valor predeterminado |
+|---------|------------------|---------------|-------------|
 | Predeterminado | 0 | $31.99 | $30.00 |
 | Almacén 1 | 1 | $24.99 | -- |
 | Almacén 2 | 2 | $27.99 | $20.00 |

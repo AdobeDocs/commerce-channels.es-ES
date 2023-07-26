@@ -1,9 +1,9 @@
 ---
 title: Administrar precios de Amazon
 description: Puedes establecer que los precios de los anuncios de Amazon difieran de los de tu tienda de comercio mediante las reglas de precios.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Existen dos tipos de reglas de precios:
 - [Regla de precios estándar](./standard-price-rules.md)
 - [Regla de reasignación inteligente](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Las reglas de reasignación de precios inteligentes no funcionan correctamente si la región de Amazon está configurada como `Inactive` estado, tal como aparece durante la incorporación. Los cálculos de precios dependen de las tarifas de envío y la región debe estar en `Active` estado de las tarifas de envío que se sincronizarán desde Amazon.
-   >
-   >Para actualizar el estado de tu región en la cuenta de Amazon, ve a Configuración > Información de la cuenta > Configuración de vacaciones. Consulte [Amazon: Estado del anuncio para vacaciones](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Se requiere el inicio de sesión en Seller Central).
+  >[!IMPORTANT]
+  >
+  >Las reglas de reasignación de precios inteligentes no funcionan correctamente si la región de Amazon está configurada como `Inactive` estado, tal como aparece durante la incorporación. Los cálculos de precios dependen de las tarifas de envío y la región debe estar en `Active` estado de las tarifas de envío que se sincronizarán desde Amazon.
+  >
+  >Para actualizar el estado de tu región en la cuenta de Amazon, ve a Configuración > Información de la cuenta > Configuración de vacaciones. Consulte [Amazon: Estado del anuncio para vacaciones](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Se requiere el inicio de sesión en Seller Central).
 
 Esta función le permite manipular los precios de Amazon de una manera similar a la [!DNL Commerce] [reglas de precios de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Puede crear reglas complejas que le permitan cambiar los precios de productos específicos, productos dentro de categorías específicas o incluso con atributos específicos.
 
@@ -58,7 +58,7 @@ Otra opción de precios es una [anulación de precios](./overrides.md), que se e
 ## Columnas predeterminadas
 
 | Columna | Descripción |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | El nombre de la regla de precios, tal como se establece en [Configuración general de reglas de precios](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | El tipo de regla, tal como se establece en [Acciones de regla de precios](./pricing-rule-actions.md) (Regla de precio estándar o Regla de reasignación de precios inteligente) |
 | [!UICONTROL Is Active] | Si la regla está activa, como se establece en [Configuración general de reglas de precios](./pricing-rule-general-settings.md) |

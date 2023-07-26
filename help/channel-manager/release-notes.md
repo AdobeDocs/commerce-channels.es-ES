@@ -1,8 +1,9 @@
 ---
 title: '[!DNL Channel Manager] Notas de la versión'
 description: La información de la versión más reciente de [!DNL Channel Manager] de Adobe Commerce.
+feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 1%

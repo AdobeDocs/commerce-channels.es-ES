@@ -1,8 +1,9 @@
 ---
-title: Canal de ventas de Amazon - [!UICONTROL Store Integration Settings]
+title: Sales Channel de Amazon - [!UICONTROL Store Integration Settings]
 description: Una vez completado el proceso de incorporación al canal de ventas de Amazon, revise y configure los ajustes de integración de la tienda mediante el [!UICONTROL Amazon Store] tablero
+feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

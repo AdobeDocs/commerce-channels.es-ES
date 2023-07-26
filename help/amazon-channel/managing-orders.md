@@ -1,8 +1,9 @@
 ---
 title: Administrar pedidos de Amazon
 description: Puede habilitar la importación de pedidos en Configuración de pedidos para administrar más fácilmente los pedidos de Amazon de su administrador de comercio.
+feature: Sales Channels, Orders
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Los pedidos de Amazon importados se administran en [[!DNL Commerce] Pedidos](htt
 Cuando se realiza un pedido en Amazon y [importación de pedidos](./order-settings.md) está activada, comienza el siguiente proceso.
 
 | Cambiar | Acciones |
-|---|---|
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se realiza un pedido en Amazon. | <ul><li>Amazon establece el estado del pedido en `Pending`.</li><li>La información del pedido se envía a [!DNL Commerce].</li><li>El pedido se ha añadido a [_Pedidos de Amazon_ tabla](./amazon-orders-all.md) con un `Pending` estado.</li></ul> |
 | Amazon cambia el estado del pedido a `Unshipped`. | <ul><li>El cambio de estado se envía a [!DNL Commerce].</li><li>En el [_Pedidos de Amazon_ tabla](./amazon-orders-all.md), el estado del pedido cambia a `Unshipped`.</li><li>En el [[!DNL Commerce] flujo de trabajo pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), un correspondiente [!DNL Commerce] El pedido se crea con una `Processing` estado.</li></ul> |
 | Entrada [[!DNL Commerce] flujo de trabajo pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), el [!DNL Commerce] el pedido se procesa y el estado cambia a `Shipped`. | <ul><li>En el [_Pedidos de Amazon_ tabla](./amazon-orders-all.md), el estado del pedido cambia a `Shipped`.</li><li>En el siguiente trabajo cron, el estado del pedido cambia a `Complete` en el [[!DNL Commerce] flujo de trabajo pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
@@ -40,7 +41,7 @@ Cuando se realiza un pedido en Amazon y [importación de pedidos](./order-settin
 Hay algunos escenarios que impiden la creación de los correspondientes [!DNL Commerce] pedido. [!DNL Commerce] los pedidos no se crean para pedidos que se reciben cuando se produce cualquiera de los siguientes problemas.
 
 | Escenario | Solución |
-|---|---|
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | El elemento no existe en [!DNL Commerce] catálogo. | [Crear el producto](./creating-assigning-catalog-products.md) en su [!DNL Commerce] catálogo y [coincidencia manual](./creating-assigning-catalog-products.md) se envía al producto. |
 | El elemento del catálogo está desactivado. | Asegúrese de que la variable [estado del producto](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) está activada. |
 | El artículo pedido está agotado. | Actualizar o configurar el [opciones de producto](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) para cantidad y origen. |

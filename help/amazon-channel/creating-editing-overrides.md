@@ -1,8 +1,9 @@
 ---
 title: Creación y edición de anulaciones del canal de ventas de Amazon
 description: Utiliza las anulaciones de Sales Channel de Amazon para aplicar los cambios a un solo anuncio de Amazon o a varios.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ El _[!UICONTROL Edit Listing Overrides]_La acción está disponible en la_[!UICO
 ### Anular tipos
 
 | Anular | Descripción |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Una anulación de precio define el precio de los anuncios. Esta anulación tiene prioridad sobre todas las configuraciones automatizadas hasta que se elimine la anulación.<br><br>Para anular el precio del producto, elija **[!UICONTROL Change Listing Price]** e introduzca el nuevo precio para **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Una anulación del tiempo de manipulación define el tiempo que se tarda (en días) en procesar y enviar los productos. Una anulación del tiempo de manipulación tiene prioridad sobre todas las configuraciones de tiempo de manipulación automatizadas y predeterminadas hasta que se elimine la anulación.<br><br>El valor que existe en _[!UICONTROL Handling Time Override]_es el tiempo de manipulación predeterminado definido en su [configuración de listado](./listing-settings.md) o el tiempo de control de invalidaciones definido. Si se elimina una sustitución del tiempo de manipulación, el anuncio toma como valor predeterminado el tiempo de gestión definido en la configuración del anuncio.<br><br>Para definir una sustitución del tiempo de manipulación, seleccione **[!UICONTROL Change Handling Time]**e introduzca el nuevo tiempo de manipulación (en días) para **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Para anular la condición de anuncio, seleccione **[!UICONTROL Change Condition]** y elija la nueva condición **Anulación de condición**. |

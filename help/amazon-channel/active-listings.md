@@ -1,17 +1,18 @@
 ---
 title: Anuncios activos de Amazon
 description: El canal de ventas de Amazon proporciona la pestaña Activo para supervisar las listas de Amazon activas que coinciden con un producto del catálogo de Adobe Commerce.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Anuncios activos de Amazon
 
-El _[!UICONTROL Active]_La pestaña muestra los anuncios de Amazon que están activos en [!DNL Amazon Marketplace] y que se han emparejado con un producto en su [!DNL Commerce] catálogo.
+El _[!UICONTROL Active]_La pestaña muestra los anuncios activos de la [!DNL Amazon Marketplace] que coinciden con un producto de su [!DNL Commerce] catálogo.
 
 Las acciones disponibles en la _[!UICONTROL Active]_pestaña incluir:
 
@@ -44,7 +45,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 
 | Columna | Descripción |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | El SKU (código de referencia) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos. <br><br>ASIN significa el [!DNL Amazon Standard Identification Number]. Un ASIN es un bloque único de 10 letras y/o números que identifican elementos. Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar artículos ASIN en la página de detalles del producto de Amazon, junto con más detalles relacionados con el artículo. |
 | [!UICONTROL Product Listing Name] | El nombre del producto. |

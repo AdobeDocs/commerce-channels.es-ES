@@ -1,8 +1,9 @@
 ---
 title: Canal de ventas de Amazon - [!UICONTROL Lowest Competitor Pricing]
 description: El [!UICONTROL Amazon Sales Channel] proporciona el [!UICONTROL Lowest Competitor Pricing] para comprender mejor el posicionamiento de los precios de sus competidores en Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ El _[!UICONTROL Lowest Competitor Pricing]_de la pestaña_[!UICONTROL Product Li
    Muestra una lista de los comerciantes de la competencia en Amazon y sus precios respectivos.
 
 | Columna | Descripción |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar el ASIN de un artículo en la página de detalles del producto junto con detalles adicionales relacionados con el artículo (como tamaño, número de páginas o número de discos). |
 | [!UICONTROL Condition] | El [condición](./product-listing-condition.md) del producto. |
 | [!UICONTROL Fulfillment Channel] | El método de cumplimiento. |

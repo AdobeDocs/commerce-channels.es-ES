@@ -1,8 +1,9 @@
 ---
 title: Canal de ventas de Amazon - [!UICONTROL Overrides]
 description: La Sales Channel de Amazon proporciona la pestaña Anulaciones para ayudarle a identificar y administrar cómo aplica las anulaciones en los anuncios de Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ El _[!UICONTROL Overrides]_La pestaña muestra los anuncios de Amazon a los que 
 ## Tipos de invalidaciones
 
 | Tipo | Descripción |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Precio | Anulación que establece el precio del anuncio e ignora cualquier otra configuración de precio del anuncio. <br><br>**Ejemplo**: ha definido una regla de precio de descuento del 20 % que se aplica a todos los productos de una categoría específica del catálogo. Tiene un producto nuevo en el mercado y la demanda es alta, por lo que no desea que se aplique el precio con descuento al anuncio aunque el producto esté en esa categoría. Puede seleccionar el anuncio, [creación de una anulación de precios](./creating-editing-overrides.md#edit-override-single-listing)y defina el precio de listado en una anulación de precios. |
 | Tiempo de manipulación | Omisión que define el tiempo de manipulación de un anuncio e ignora el tiempo de gestión predeterminado establecido en la configuración del anuncio.<br><br>**Ejemplo**: El tiempo de manipulación predeterminado de los anuncios es de dos días. Usted tiene un producto que es frágil y requiere un día extra para garantizar su embalaje especial para el envío. Puede ver el anuncio, [creación de una anulación de tiempo de manipulación](./creating-editing-overrides.md#edit-override-single-listing)y defina el tiempo de manipulación en tres días.<br><br>**Nota:** No disponible para productos configurados como `Fulfilled by Amazon`. |
 | Condición | Anulación que establece el valor de condición de un listado, independientemente del atributo de condición asignado al listado.<br><br>**Ejemplo**: la mayoría de los productos del catálogo son nuevos, pero tiene un producto que se encuentra en estado restaurado. Puede ver el anuncio, [creación de una anulación de condición](./creating-editing-overrides.md#edit-override-single-listing)y defina la condición Reacondicionado para el listado.<br><br>**Nota:** No disponible para productos configurados como `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ las páginas de inicio del canal de ventas de Amazon comparten algunos elementos
 ## Columnas predeterminadas
 
 | Columna | Descripción |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | El SKU (código de referencia) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>ASIN significa los números de identificación estándar de Amazon. Un ASIN es un bloque único de 10 letras y/o números que identifican elementos. Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar artículos ASIN en la página de detalles del producto de Amazon, junto con más detalles relacionados con el artículo. |
 | [!UICONTROL Condition Override] | La nueva condición definida en la anulación. Si la anulación aplicada al listado no es una anulación de condición, `Not Selected` aparece en esta columna. |

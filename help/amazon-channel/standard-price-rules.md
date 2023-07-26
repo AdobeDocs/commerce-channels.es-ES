@@ -1,8 +1,9 @@
 ---
 title: 'Canal de ventas de Amazon: acciones de regla de precio estándar'
 description: Utilice acciones de regla de precio estándar para aumentar o reducir un precio de listado de Amazon en relación con el precio del catálogo de Commerce (o la fuente de precios).
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Las secciones de una acción de regla de precio estándar incluyen:
 ![Regla de precio estándar](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Seleccionar `Standard price rule`. |
 | [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que se defina el [!DNL Commerce] el valor de origen del precio debe reducirse antes de ponerlo en venta en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que se defina el [!DNL Commerce] el valor de la fuente de precios debe aumentarse antes de añadirse a Amazon.</li></ul> |
 | [!UICONTROL Apply] | Opciones:<ul><li>**[!UICONTROL Apply as percentage]** - Elija cuándo desea que se defina el [!DNL Commerce] valor fuente del precio ajustado en un porcentaje.</li><li>**[!UICONTROL Apply as fixed amount]** - Elija cuándo desea que se defina el [!DNL Commerce] valor fuente del precio ajustado por un importe fijo.</li></ul> |

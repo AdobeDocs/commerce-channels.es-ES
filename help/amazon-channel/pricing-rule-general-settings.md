@@ -1,8 +1,9 @@
 ---
-title: 'Canal de ventas de Amazon: configuración general de la regla de precios'
+title: 'Sales Channel de Amazon: configuración general de la regla de precios'
 description: Utilice la configuración general de la regla de precios para definir las características principales de una regla de precios de listado.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Defina el nombre, la descripción, las fechas activas y la prioridad de la regla
 ![Configuración general de reglas de precios](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obligatorio) Introduzca un nombre para la regla, que se utilizará con fines de identificación interna. Cuanto más descriptivo sea el nombre de la regla, mejor. Por ejemplo, &quot;25% de descuento en la venta de libros al final del año&quot;. |
 | [!UICONTROL Description] | Introduzca una descripción detallada que explique la regla (también utilizada con fines internos). Por ejemplo, &quot;Venta de fin de año, 25 % de descuento en todos los artículos de la categoría Libros&quot;. |
 | [!UICONTROL Status] | Opciones:<ul><li>**[!UICONTROL Inactive]** - La regla de precios no se aplica a tus anuncios. Esta opción se puede utilizar cuando se modifica una regla de asignación de precios o se desactiva después de una promoción limitada.</li><li>**[!UICONTROL Active]** : la regla de precios se aplica a los anuncios y ajusta los precios del anuncio antes de publicarlo en Amazon.</li></ul> |

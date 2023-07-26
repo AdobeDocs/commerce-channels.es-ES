@@ -1,8 +1,9 @@
 ---
 title: Canal de ventas de Amazon - [!UICONTROL Ready to List]
 description: El canal de ventas de Amazon proporciona la pestaña Listo para poner en venta para ayudarle a revisar los productos de Commerce que cumplen los requisitos, pero que no aparecen en la lista automáticamente.
+feature: Sales Channels, Products, Merchandising
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Tiene algunas opciones para configurar manualmente [publicar un anuncio nuevo en
 ## Columnas predeterminadas
 
 | Columna | Descripción |
-|---|---|
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | El SKU (código de referencia) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>ASIN significa el [!DNL Amazon Standard Identification Number]. Un ASIN es un bloque único de 10 letras y/o números que identifican elementos. Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar artículos ASIN en la página de detalles del producto de Amazon, junto con más detalles relacionados con el artículo. |
 | [!UICONTROL Product Listing Name] | El nombre del producto. |

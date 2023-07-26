@@ -1,8 +1,9 @@
 ---
 title: Flujos de trabajo de Amazon Fulfillment
 description: El cumplimiento de un pedido de un anuncio de Amazon sigue una secuencia específica desde la entrega del pedido hasta el envío.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 ## Ejemplo: completado por el comerciante
 
 | Etapa | Descripción |
-|----|----|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Se realiza un pedido completado por el comerciante en Amazon.** Amazon asigna un estado de `Pending` hasta que se verifique la información de la tarjeta de crédito del cliente. Pedidos en `Pending` estado se importa automáticamente en el canal de ventas de Amazon, pero no se muestra en la _[!UICONTROL Orders]_pestaña. |
 | 2 | **Amazon verifica el pedido.** Cuando se verifica, Amazon cambia el estado a `Unshipped`. Con este cambio de estado, el pedido se actualiza en el canal de ventas de Amazon y aparece en la _[!UICONTROL Orders]_pestaña. |
 | 3 | **Se actualizan los detalles del pedido.** Amazon Sales Channel actualiza los detalles del pedido con el precio, el correo electrónico del cliente y el nombre del cliente. Durante esta actualización, el pedido de Amazon crea el correspondiente [!DNL Commerce] orden en la página de gestión de pedidos. El [!DNL Commerce] el número de pedido se muestra con la información del pedido en la _[!UICONTROL Orders]_pestaña. |
@@ -24,7 +25,7 @@ ht-degree: 2%
 ## Ejemplo: completado por Amazon (FBA)
 
 | Etapa | Descripción |
-|---|---|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Se realiza un pedido completado por Amazon en Amazon.** |
 | 2 | **Se importa el pedido.** El pedido no se importa en el canal de ventas de Amazon hasta que se asigne al pedido el `Shipped` estado por Amazon. Dado que Amazon tiene el inventario para este producto, evita interferencias con la administración del almacén/inventario. |
 | 3 | **Se actualizan los detalles del pedido.** Si está configurado en su [configuración de pedidos](./order-settings.md), el orden de Amazon crea el correspondiente [!DNL Commerce] y se creará como un pedido con un estado de `Complete`. |

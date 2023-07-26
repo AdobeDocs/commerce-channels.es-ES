@@ -1,8 +1,10 @@
 ---
 title: Crear una regla de listado de Amazon
 description: Al completar el proceso de incorporación al canal de ventas de Amazon, cree las reglas de anuncio iniciales para generar anuncios de Amazon para su [!DNL Commerce] productos.
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ Las reglas de listado se pueden definir durante la incorporación, pero también
 
    - **[!UICONTROL Ineligible Listings]** : los productos que aparecen en esta pestaña no pueden aparecer en el anuncio de Amazon según la configuración actual de las reglas de anuncio.
 
-      Los productos no aptos no se publican en Amazon. Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Para eliminar manualmente un anuncio de Amazon, consulte [Finalizar un anuncio de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no aparecen aquí. Estos productos se enumeran en la [[!UICONTROL Inactive Listings] pestaña](./inactive-listings.md).
+     Los productos no aptos no se publican en Amazon. Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Para eliminar manualmente un anuncio de Amazon, consulte [Finalizar un anuncio de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no aparecen aquí. Estos productos se enumeran en la [[!UICONTROL Inactive Listings] pestaña](./inactive-listings.md).
 
-      Para cambiar un `Ineligible` poner en venta un `Eligible` anuncio, repite este proceso y modifica las reglas del anuncio.
+     Para cambiar un `Ineligible` poner en venta un `Eligible` anuncio, repite este proceso y modifica las reglas del anuncio.
 
    - **[!UICONTROL Eligible Listings]** : los productos que aparecen en esta pestaña pueden aparecer en el anuncio de Amazon según la configuración actual de reglas del anuncio y cumplen los requisitos de Amazon. Esta pestaña incluye los anuncios existentes de Amazon que se importan (si tiene **[!UICONTROL Import Third Party Listings]** establezca en `Import Listing` en su [Configuración de anuncio](./listing-settings.md)).
 

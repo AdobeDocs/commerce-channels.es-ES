@@ -1,9 +1,10 @@
 ---
 title: Canal de ventas de Amazon - [!UICONTROL Listing Price]
 description: Utilice la configuración Precio de anuncio para determinar el origen del precio y el valor de precio base (por defecto) de los anuncios de Amazon.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
    - `Disabled` - (Predeterminado) Elige el momento en el que no quieres aplicar el IVA al precio del anuncio.
 
    - `Enabled` - Elige cuándo quieres aplicar el IVA al precio de tu anuncio. El IVA se suele utilizar como impuesto sobre las ventas en los países europeos y se añade al precio final que aparece en Amazon. El IVA no se aplica al precio final de los anuncios que se utilizan dentro de una regla de asignación inteligente de precios, a menos que la [precio mínimo](./floor-price.md) se ha golpeado.
+
    >[!NOTE]
    >
    >Las empresas de la Unión Europea (UE) están obligadas a enviar facturas a los compradores de negocios, para que el cliente pueda remitir el impuesto. Puede generar estas facturas y calcular los impuestos usted mismo o utilizar un servicio de cálculo de impuestos como el servicio de cálculo de IVA de Amazon. Amazon recomienda registrarse en [Amazon VAT Calculation Service](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Si elige un método diferente, usted es responsable del cumplimiento del IVA.>
@@ -66,6 +68,7 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
    - `Set Default PTC` - Elija si tiene un código de impuesto universal de productos (PTC) que desee utilizar para todos sus productos. Cuando se elige, se debe completar _[!UICONTROL Default PTC]_.
 
       - Para **[!UICONTROL Default PTC]**, introduce el PTC por defecto que se utilizará para todos los anuncios de Amazon aptos. Si el PTC por defecto está definido en su [!DNL Amazon Seller Central] Cuenta de, deje este campo en blanco. Los cambios realizados en este campo no afectan a los anuncios de Amazon existentes. Para cambiar el PTC por defecto de un listado existente, el listado debe ser [finalizado](./end-listings-manually.md) y se crea un nuevo anuncio.
+
    >[!NOTE]
    >
    >Si utiliza el servicio de cálculo de IVA de Amazon, debe conocer la categoría de impuestos de sus productos. Un PTC es el código de ID de categoría fiscal de Amazon para compras B2B en la UE. Consulte [Códigos de impuestos de productos de Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ Las opciones enumeradas en _[!UICONTROL Magento Price Source]_,_[!UICONTROL Mini
 ![Precio del anuncio](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Determina el origen de precios que se utiliza para crear los anuncios de Amazon. El valor predeterminado es `Price`. Si elige un atributo diferente, como `Amazon Price` o `Special Price`, el valor definido para el atributo se utilizará en el listado de Amazon. Sin embargo, si el atributo seleccionado no está definido, `Price` se utiliza. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | El [!DNL Commerce] para los precios de MAP. Si elige la opción de asignación, el anuncio de Amazon se establece automáticamente en el precio de asignación si el precio del anuncio es inferior al precio de asignación. |
 | [!UICONTROL Strike Through Price (MSRP)] | El [!DNL Commerce] que representa los precios MSRP. Si el precio del anuncio de Amazon es menor que el MSRP, muestra una tachadura del precio del MSRP y el precio del anuncio. Esta opción también se usa para calcular la cantidad y el porcentaje de &quot;Ahorras&quot;, pero esta función solo se aplica a los anuncios que han ganado el [Buy Box](./buy-box-competitor-pricing.md) posición. |

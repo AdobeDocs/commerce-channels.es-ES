@@ -1,8 +1,10 @@
 ---
 title: Crear atributos de Commerce para Amazon
 description: Antes de completar el proceso de incorporación al canal de ventas de Amazon, asegúrese de que dispone de los [!UICONTROL Commerce] atributos del producto.
+role: Admin
+feature: Sales Channels, Products, Configuration
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%

@@ -1,8 +1,9 @@
 ---
 title: "Regla de reasignación inteligente: precio mínimo"
 description: Utiliza la configuración de precios mínimos para determinar el precio más bajo de una regla de precios inteligente para administrar tus anuncios de Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ En este ejemplo, el precio mínimo se establece en un 3 % por encima del coste d
 ![Ejemplo de regla de reasignación de precios inteligente: precio mínimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descripción |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Elija la [!DNL Commerce] atributo que indica el límite mínimo relativo (precio más bajo). Por ejemplo, si no quieres que el precio de tu anuncio de Amazon sea inferior al coste del artículo, elige la opción `Cost` atributo. |
 | [!UICONTROL Floor Price Action] | Seleccione una acción de ajuste de precios. Opciones:<ul><li>**[!UICONTROL Decrease By]** - Elija cuándo desea que se defina el _[!UICONTROL Floor Price Source]_valor que se debe ajustar hacia abajo, lo que crea un precio mínimo más bajo para la regla, antes de ponerlo en venta en Amazon.</li><li>**[!UICONTROL Increase By]** - Elija cuándo desea que se defina el _[!UICONTROL Floor Price Source]_valor que se debe ajustar, lo que crea un precio mínimo más alto para la regla, antes de ponerlo en venta en Amazon.</li><li>**[!UICONTROL Match]** - Elija cuándo no desea que el precio del anuncio fluctúe por debajo del valor definido _[!UICONTROL Floor Price Source]_valor. Cuando se elige, la variable_[!UICONTROL Apply]_ y _[!UICONTROL Floor Adjustment Amount]_Los campos de están desactivados.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un ajuste porcentual en relación con el _[!UICONTROL Floor Price Source]_valor. |

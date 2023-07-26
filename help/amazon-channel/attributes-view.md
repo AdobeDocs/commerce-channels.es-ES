@@ -1,8 +1,9 @@
 ---
 title: Atributos para listados de Amazon
 description: La Sales Channel de Amazon proporciona el [!UICONTROL Attributes] para monitorizar la lista de atributos de Amazon y Commerce y cómo se asignan para la coincidencia de productos.
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ Desde el _[!UICONTROL Attributes]_vea, y revise la configuración de atributos e
 
    - Para desactivar o [editar la configuración](./creating-attributes.md#edit-an-attribute) o Valores de atributo coincidentes para el atributo, haga clic en **[!UICONTROL Edit]**.
 
-      La edición de un atributo incluye el cambio de la asignación de atributos para la coincidencia de productos.
+     La edición de un atributo incluye el cambio de la asignación de atributos para la coincidencia de productos.
 
 | Campo | Descripción |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | El país para la actividad de ventas definida en  **[!DNL Amazon Marketplace]País** durante [integración de tienda](./store-integration.md). |
 | [!UICONTROL ID] | Valor de atributo genérico generado por [!DNL Commerce] cuando se crea el atributo. |
 | [!UICONTROL Amazon Attribute Name] | Nombre del atributo importado de Amazon. |

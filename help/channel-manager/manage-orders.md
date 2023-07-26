@@ -1,8 +1,9 @@
 ---
 title: '"Ver y administrar pedidos desde" [!DNL Channel Manager]'''
 description: '''Ver y administrar [!DNL Walmart Marketplace] pedidos con [!DNL Channel Manager] para Adobe Commerce y Magento Open Source".'
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,7 +124,7 @@ En las tablas siguientes se describen los controles y las columnas disponibles p
 
 - **[!UICONTROL Canceled]**: pedidos que se han cancelado desde el [!DNL Commerce] tienda.
 
-   Una vez finalizada la cancelación del pedido, la variable [!DNL Commerce] actualizaciones de cantidad de stock para reflejar los artículos devueltos. A continuación, [!DNL Channel Manager] sincroniza la actualización con el [!DNL Walmart Marketplace].
+  Una vez finalizada la cancelación del pedido, la variable [!DNL Commerce] actualizaciones de cantidad de stock para reflejar los artículos devueltos. A continuación, [!DNL Channel Manager] sincroniza la actualización con el [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**: si Walmart Marketplace solicita una devolución para los artículos de pedido que se han enviado, una `Return requested` El vínculo se muestra en [!UICONTROL Status details] columna. Al seleccionar el vínculo, se abre [!UICONTROL Returns] panel para ver la devolución y administrar el proceso de devolución.
 
@@ -172,6 +173,6 @@ En la tienda de Commerce, los pedidos importados de [!DNL Walmart Marketplace] i
 
 - **Elementos pedidos**: en esta sección se enumeran los elementos de pedido de todos los pedidos de comercio. El [!UICONTROL Qty] proporciona el historial de estado de los artículos de pedido. Por ejemplo, si un pedido se ha facturado, enviado y reembolsado, puede ver las transiciones de estado.
 
-   ![Detalle del pedido historial de estado del artículo pedido [!DNL Walmart Marketplace] pedidos](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![Detalle del pedido historial de estado del artículo pedido [!DNL Walmart Marketplace] pedidos](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Consultar los detalles de la factura y el reembolso del artículo seleccionando la [!UICONTROL Invoice] y [!UICONTROL Credit Memo] opciones del menú de navegación. También puede acceder a la nota de crédito directamente desde [[!UICONTROL Returns]](return-refund-orders.md) en su tienda de canales de ventas.

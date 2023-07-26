@@ -1,8 +1,9 @@
 ---
 title: Administrar listas de productos de Amazon por acción
 description: Al administrar los anuncios de Amazon, puedes aplicar una acción a anuncios individuales o múltiples.
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Opciones en **[!UICONTROL Actions]** puede aplicar la acción a varios anuncios,
 Consulte también [Administrar anuncios por estado/ficha](./managing-listings-by-tab.md).
 
 | Acción | Descripción | Fichas |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | Se utiliza para devolver los productos incompletos al proceso de coincidencia. Para intentar la recoincidencia, debe modificar su [Listado](./listing-settings.md) y [Búsqueda en catálogo](./catalog-search.md) configuración para aumentar el potencial de coincidencia automática. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | Haga coincidir manualmente los productos del catálogo con los listados de Amazon seleccionando un listado que coincida, introduciendo un ASIN que coincida o asignando una condición que falte. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | Consulta información adicional sobre tus productos activos, incluido el registro de actividad de anuncios, que muestra los cambios en un SKU o producto individual. | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

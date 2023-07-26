@@ -1,8 +1,9 @@
 ---
 title: Anuncios de Amazon incompletos
 description: El canal de ventas de Amazon proporciona [!UICONTROL Incomplete] para ayudarte a identificar y cumplir los requisitos para tus anuncios de Amazon incompletos.
+feature: Sales Channels, Products
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,7 +17,7 @@ El _[!UICONTROL Incomplete]_enumera las [!DNL Commerce] catalogar productos que 
 Hay cuatro causas posibles para una lista incompleta, cada una identificada por su estado.
 
 | Estado | Motivo | Acción |
-|--- |--- |--- |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Falta la condición | Amazon acepta anuncios en diversas condiciones (como _Nuevo_, _Restaurado_, _Usado: como nuevo_) el anuncio requiere una condición definida. | Actualice la información necesaria y manualmente [asignar una condición](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) a un anuncio. |
 | No se puede asignar al listado de Amazon | Error al hacer coincidir automáticamente este anuncio con el catálogo. Si no se encuentra ninguna coincidencia, la Sales Channel de Amazon no puede administrar la lista | Actualice la información necesaria y manualmente [asignar un ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) al producto del catálogo para que coincida con el listado. |
 | Se encontraron varias coincidencias | Error al hacer coincidir automáticamente este anuncio con el catálogo. Si se encuentran varias coincidencias posibles, debe seleccionar la coincidencia correcta para el producto. | Actualice la información necesaria y manualmente [elija una coincidencia de producto](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) para el producto y listado. |
@@ -46,7 +47,7 @@ En **[!UICONTROL Select]** en el _[!UICONTROL Action]_columna:
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 
 | Columna | Descripción |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | El SKU (código de referencia) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>ASIN significa el [!DNL Amazon Standard Identification Number]. Un ASIN es un bloque único de 10 letras y/o números que identifican elementos. Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar artículos ASIN en la página de detalles del producto de Amazon, junto con más detalles relacionados con el artículo. |
 | [!UICONTROL Product Listing Name] | El nombre del producto. |

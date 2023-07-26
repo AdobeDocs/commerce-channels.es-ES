@@ -1,8 +1,9 @@
 ---
 title: 'Canal de ventas de Amazon: ejemplos de reglas de precios'
 description: Para diseñar las reglas de asignación de precios de los anuncios de Amazon, revisa estos ejemplos en función de escenarios comunes.
+feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 2%
@@ -22,7 +23,7 @@ If **[!UICONTROL Discard Subsequent Rules]** se establece en `Yes`Sin embargo, l
 Por ejemplo, supongamos que hay tres reglas de precios:
 
 | Ejemplo | Nombre de regla | Prioridad | Descartar regla posterior |
-|----------|----|----|----|
+|---------|-----------------------|----------|-------------------------|
 | 1 | 10% de descuento en productos de venta | 1 | No |
 | 2 | $2 productos de descuento | 2 | Sí |
 | 3 | 5% de descuento en todos los productos | 3 | No |
@@ -32,7 +33,7 @@ En esta situación, las #1 de reglas y #2 se aplican a los productos aptos. La r
 ### Aplicación de dos reglas de precios estándar
 
 | Campo | Configuración - Regla 1 | Configuración - Regla 2 |
-|----------|----|----|
+|--------------------------------|---------------------|-----------------------|
 | [!UICONTROL Rule Name] | Regla-1 | Regla-2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Regla de precio estándar | Regla de precio estándar |
@@ -65,7 +66,7 @@ Se aplica el precio final después de la regla 1 y la regla 2: $32.98
 ### Precio de Buy Box con Origen de Precio de Planta = Precio
 
 | Campo | Configuración |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regla-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Regla de reasignación de precios inteligente |
@@ -97,7 +98,7 @@ El precio final después de aplicar la regla: 10 $
 ### Precio de Buy Box con Origen de Precio de Planta = Precio y un descenso de precio del 20%
 
 | Campo | Configuración |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regla-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Regla de reasignación de precios inteligente |
@@ -147,7 +148,7 @@ El precio final después de aplicar la regla: 15 $
 ### Precio más bajo con todos los precios de la competencia y usar todas las condiciones de producto de la competencia
 
 | Campo | Configuración |
-|----------|-----|
+|----------------------------------------|-----------------------------------------|
 | [!UICONTROL Rule Name] | Regla-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Regla de reasignación de precios inteligente |
@@ -159,7 +160,7 @@ El precio final después de aplicar la regla: 15 $
 | [!UICONTROL Floor Price Action] | Coincidencia |
 
 | Precio | Condición |
-|----------|----|
+|-------|-----------------|
 | $17 | Nuevo |
 | $15 | Nuevo |
 | $14 | Usado; Muy bueno |
@@ -188,7 +189,7 @@ El precio final después de aplicar la regla: 13 $
 ### Regla de reasignación de precios inteligente que combina precio máximo, conversión de divisa e IVA
 
 | Campo | Configuración |
-|----------|-----|
+|-----------------------------------|---------------|
 | [!UICONTROL VAT] | 10% |
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 euros:1 USD |
@@ -204,7 +205,7 @@ Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 #### Regla de precios inteligente (del ejemplo anterior)
 
 | Campo | Configuración |
-|----------|----|
+|----------------------|---------------|
 | Prioridad | 1 |
 | IVA | 10% |
 | Fuente de precio de techo | $10 |
@@ -217,7 +218,7 @@ Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 #### Regla de precios estándar
 
 | Campo | Configuración |
-|----------|-----|
+|--------------------------------|-----------------------|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Aumentar en |
 | [!UICONTROL Apply] | Aplicar como cantidad fija |
@@ -238,7 +239,7 @@ Después de realizar esta búsqueda en función de estos parámetros, el precio 
 A partir de aquí, hay tres diferentes [acción de regla de precios](./pricing-rule-actions.md) opciones basadas en este precio más bajo.
 
 | Campo | Descripción |
-|--- |--- |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]** - Esta opción reduce el precio de tu anuncio en relación con el [precio más bajo de competidor](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** : Esta opción aumenta el precio del anuncio en relación con la [precio más bajo de competidor](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** : Esta opción cambia el precio del anuncio de Amazon para que coincida con el precio más bajo en función de los parámetros. En el ejemplo, el precio de venta de Amazon es de 25 $.</li></ul> |
 | [!UICONTROL Apply] | Opciones: Aplicar como porcentaje / Aplicar como importe fijo |
 | [!UICONTROL Adjustment Amount] | Valor numérico para definir el porcentaje o el importe fijo del descuento que se va a aplicar. <br>Estas selecciones resultan en tomar el precio más bajo y establecerlo en $0.01 menos. |
@@ -246,7 +247,7 @@ A partir de aquí, hay tres diferentes [acción de regla de precios](./pricing-r
 ### Precio mínimo
 
 | Campo | Configuración |
-|----------|----|
+|--------------------------------------|---------------------|
 | [!UICONTROL Floor Price Source] | Costo = 5 $ |
 | [!UICONTROL Floor Price Action] | Aumentar en |
 | [!UICONTROL Apply] | Aplicar como porcentaje |

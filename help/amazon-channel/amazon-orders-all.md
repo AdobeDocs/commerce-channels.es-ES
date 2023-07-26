@@ -1,8 +1,9 @@
 ---
 title: Ver pedidos de Amazon
 description: Vea sus pedidos de Amazon Marketplace en Adobe Commerce o en el administrador de Magento Open Source.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ Puede aplicar filtros a la lista de pedidos en la _[!UICONTROL Filter by]_secci�
 >- Según el ancho de la ventana de vista, puede ver texto superpuesto en las columnas. Para expandir las columnas para que el texto se ajuste, amplíe la vista de la ventana.
 >- Al filtrar por _[!UICONTROL Total]_, filtre por números enteros. La introducción de una cantidad decimal puede provocar errores en los resultados.
 
-
 ### Columnas predeterminadas
 
 | Columna | Descripción |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Disponible solo en _[!UICONTROL All Orders]_vista.<br>Reduzca la lista de pedidos en función de lo siguiente:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | La fecha de la compra tal como se recibió de Amazon. |
 | [!UICONTROL Order Number] | El número de pedido generado por Amazon y recibido de. Para ver la pantalla Detalles del pedido de Amazon, haga clic en el vínculo. |

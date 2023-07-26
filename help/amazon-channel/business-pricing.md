@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] para anuncios de Amazon"
 description: Puede enumerar sus [!DNL Commerce] almacene productos en el sitio web de Amazon Business (B2B) al permitir que su empresa esté en Amazon [!DNL Seller Central] cuenta.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ Para que sus productos aparezcan en la lista de [!DNL Amazon Business (B2B)] sit
 ![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Opciones: <ul><li>**[!UICONTROL Disabled]** - (Predeterminado) Elija cuándo no desea habilitar las ventas de empresa a empresa. Cuando se elige, todos los demás campos de esta sección se desactivan.</li><li>**[!UICONTROL Enabled]** - Elija cuándo desea habilitar su negocio para las ventas del negocio. Cuando se elige, el precio comercial se establece igual al precio de lista después de aplicar todas las reglas de asignación de precios. El precio comercial sigue el ámbito de precios del sitio web, si está habilitado. El precio de una empresa no puede ser inferior a 1 dólar.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (Obligatorio) Opciones: <ul><li>**[!UICONTROL Disabled]** - (Predeterminado) Seleccione cuándo desea que el precio de listado sea el mismo para todas las cantidades de pedidos. Cuando se elige, todas _[!UICONTROL Pricing Level]_Los campos de esta sección están desactivados.</li><li>**[!UICONTROL Enabled]** - Seleccione cuándo desea activar precios que se ajusten según la cantidad del pedido. Cuando se elige, la variable _[!UICONTROL Pricing Level]_Los campos están activados.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | Cuando se activa la opción Asignación de Precios por Niveles, puedes definir hasta cinco opciones de cantidad/descuento que establecen los precios por niveles para tus anuncios de empresa. En cada fila, introduzca el valor de umbral de cantidad y el porcentaje de descuento que desea aplicar. Por ejemplo, si introduce `5` en el primer campo de la primera fila y `5` en el segundo campo, el precio aplica un descuento del 5% cuando otra empresa compra una cantidad de cinco o más. |

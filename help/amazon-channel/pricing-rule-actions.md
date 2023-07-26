@@ -1,9 +1,9 @@
 ---
 title: 'Canal de ventas de Amazon: acciones de regla de precio'
 description: Utilice las acciones de regla de precios para definir los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado de Amazon.
-redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
+feature: Sales Channels, Price Rules
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Acciones de regla de precio
 
-Las acciones de reglas de precios definen los cálculos de ajuste que se aplican al origen de precios para determinar el precio del listado.
+Las acciones de reglas de precios definen los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado.
 
 ## Regla de precio estándar
 
 A [regla de precio estándar](./standard-price-rules.md) le permite aumentar o reducir el precio de un anuncio de Amazon en un porcentaje específico o en una cantidad en dólares fijos en relación con el [!DNL Commerce] precio de catálogo (o fuente de precios).
 
 | Sección | Descripción |
-|--- |--- |
+|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Establezca el tipo de regla en `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Defina los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado |
 
@@ -28,7 +28,7 @@ A [regla de precio estándar](./standard-price-rules.md) le permite aumentar o r
 Un [regla de reasignación inteligente de precios](./intelligent-repricing-rules.md) utiliza los precios de los competidores de Amazon para determinar el precio del anuncio. Los competidores son otros vendedores que están anunciando los mismos productos que usted está anunciando en Amazon.
 
 | Sección | Descripción |
-|--- |--- |
+|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Establezca el tipo de regla en `Intelligent repricing rule` junto con los requisitos de origen de precios y comentarios de la competencia. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Defina variaciones para las condiciones del mismo producto vendido por la competencia. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Defina los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado |

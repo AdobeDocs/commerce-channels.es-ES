@@ -1,9 +1,9 @@
 ---
 title: 'Canal de ventas de Amazon: condiciones de regla de precio'
 description: Utilice las condiciones de la regla de precios para determinar qué productos cumplen los requisitos para la regla de precios de listado.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ Puede crear diferentes condiciones cambiando la combinación de estos valores. P
 
    - Para **[!UICONTROL Product Attribute]**, elija el atributo que desea definir como base de la condición. Para este ejemplo, la condición seleccionada es `Category`.
 
-      ![Condición de regla de precio: línea 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Condición de regla de precio: línea 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      La condición seleccionada aparece en la instrucción, seguida de dos vínculos en negrita más. Las opciones difieren según el atributo de producto que seleccione.
+     La condición seleccionada aparece en la instrucción, seguida de dos vínculos en negrita más. Las opciones difieren según el atributo de producto que seleccione.
 
-      Una vez establecido el atributo, no se puede editar. Para cambiar el atributo, debe eliminar la línea y agregar el nuevo atributo. Puede eliminar una línea de condición haciendo clic en el botón Eliminar (![Icono Eliminar](assets/btn-del-red.png) al final de la línea.
+     Una vez establecido el atributo, no se puede editar. Para cambiar el atributo, debe eliminar la línea y agregar el nuevo atributo. Puede eliminar una línea de condición haciendo clic en el botón Eliminar (![Icono Eliminar](assets/btn-del-red.png) al final de la línea.
 
    - Clic **[!UICONTROL is]** y elija el operador de comparación que describe la condición que deben cumplir los productos.
 
-      Para este ejemplo, el operador de comparación es `is`. Las opciones disponibles dependen del atributo seleccionado en el paso anterior y podrían incluir diferentes opciones de comparación. Las opciones pueden incluir valores coincidentes, sin incluir al menos uno de un valor, y bueno que, igual a y menor que una cantidad numérica. En este ejemplo, las opciones son `is` y `is not`.
+     Para este ejemplo, el operador de comparación es `is`. Las opciones disponibles dependen del atributo seleccionado en el paso anterior y podrían incluir diferentes opciones de comparación. Las opciones pueden incluir valores coincidentes, sin incluir al menos uno de un valor, y bueno que, igual a y menor que una cantidad numérica. En este ejemplo, las opciones son `is` y `is not`.
 
    - Clic **[!UICONTROL ...]** y elija el valor de atributo en el que se basa la condición. Las opciones dependen de la configuración del atributo.
 
-      Puede que se le pida que seleccione una opción o que introduzca un valor para la condición. Para este ejemplo, el campo aparece en blanco. Para seleccionar las categorías de la regla, haga clic en el icono del selector (![Icono de selector](assets/btn-chooser.png)) para mostrar las opciones de selección. Esta regla es para _Libros_, seleccione la **[!UICONTROL Books]** casilla de verificación El número de categoría se rellena. Para aceptar las selecciones de categoría, haga clic en el icono de marca de verificación verde (![Icono de marca de verificación](assets/btn-check-mark-green.png)).
+     Puede que se le pida que seleccione una opción o que introduzca un valor para la condición. Para este ejemplo, el campo aparece en blanco. Para seleccionar las categorías de la regla, haga clic en el icono del selector (![Icono de selector](assets/btn-chooser.png)) para mostrar las opciones de selección. Esta regla es para _Libros_, seleccione la **[!UICONTROL Books]** casilla de verificación El número de categoría se rellena. Para aceptar las selecciones de categoría, haga clic en el icono de marca de verificación verde (![Icono de marca de verificación](assets/btn-check-mark-green.png)).
 
-      ![Condición de regla de precio: línea 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Condición de regla de precio: línea 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      El elemento seleccionado aparece en la instrucción para completar la condición.
+     El elemento seleccionado aparece en la instrucción para completar la condición.
 
-      ![Condición de regla de precio: línea 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Condición de regla de precio: línea 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Esta condición de ejemplo está completa. Como se ha indicado, esta condición significa que cualquier producto de [!DNL Commerce] catálogo que tiene una categoría definida de Libros (`4`) cumple los requisitos para esta regla de precios. Puede añadir más líneas de condición para reducir aún más los productos aptos.
+     Esta condición de ejemplo está completa. Como se ha indicado, esta condición significa que cualquier producto de [!DNL Commerce] catálogo que tiene una categoría definida de Libros (`4`) cumple los requisitos para esta regla de precios. Puede añadir más líneas de condición para reducir aún más los productos aptos.
 
 1. Para agregar otra línea de condición a la instrucción, vuelva al paso 1 y repita el proceso hasta que se hayan completado todas las condiciones deseadas.
 

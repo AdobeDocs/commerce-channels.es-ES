@@ -1,9 +1,9 @@
 ---
 title: Cumplido por la configuración de anuncios de Amazon
 description: Utilice la configuración Satisfecho por para determinar cómo se satisfacen (envían) los pedidos de los listados de Amazon.
-redirect_from: /sales-channels/asc/ob-fulfilled-by.html
+feature: Sales Channels, Products
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -42,14 +42,14 @@ El método de cumplimiento es un atributo regional y se basa en la variable **[!
 
    - `Assign Fulfilled By Using Magento Product Attribute` - A [!DNL Commerce] El atributo indica quién cumple el pedido por producto.
 
-      Si se elige, elija la [!DNL Commerce] atributo que desea asignar en **[!UICONTROL Fulfilled by Attribute]**.
+     Si se elige, elija la [!DNL Commerce] atributo que desea asignar en **[!UICONTROL Fulfilled by Attribute]**.
 
 1. Cuando termine, haga clic en **[!UICONTROL Save listing settings]**.
 
 ![Cumplido por la configuración](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Campo | Descripción |
-|--- |--- |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product Fulfilled By] | Opciones:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Elija si cumple los pedidos. Cuando se realiza un pedido, el inventario se deduce de su [!DNL Commerce] catálogo. Cuando se crea un nuevo producto, se asigna el método de cumplimiento de Merchant Fulfilled.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Seleccione si Amazon cumple los pedidos. Con este método de cumplimiento, el inventario de productos no se deduce de su [!DNL Commerce] catálogo cuando se realiza un pedido. Cuando se crea un producto, se crea con _[!UICONTROL Fulfilled by Amazon (FBA)]_como el tipo de cumplimiento. Asegúrese de que sus productos cumplen los requisitos para la FBA dentro de su [!DNL Amazon Seller Central] cuenta. El inventario de FBA también se administra directamente a través de su [!DNL Amazon Seller Central] cuenta. Con este método de satisfacción de pedidos, las actualizaciones de cantidad no se publican en relación con su [!DNL Commerce] catálogo, por lo que no puede utilizar algunas de las herramientas de marketing descritas en [Configuración de stock/cantidad](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Elija si tiene un existente [!DNL Commerce] atributo que determina si el comerciante lo cumple o Amazon lo cumple. Cuando se elige, **[!UICONTROL Fulfilled by Attribute]** habilita.</li></ul> |
 | [!UICONTROL Fulfilled By Attribute] | Elija la [!DNL Commerce] atributo utilizado para determinar el método de cumplimiento.<br><br>Por ejemplo, si el atributo es _Cumplido por_ y elige el valor del atributo como `Fulfilled By Merchant` o `Fulfilled By Amazon (FBA)`, el sistema utiliza ese valor como tipo de cumplimiento para un nuevo producto. Como comerciante, debe asegurarse de que sus productos son aptos para la realización de FBA dentro de su [!DNL Amazon Seller Central] cuenta. El inventario de FBA también se administra directamente a través de su cuenta de vendedor de Amazon.<br><br>Las opciones dependen de los atributos que configure para sus productos de Amazon. |
 

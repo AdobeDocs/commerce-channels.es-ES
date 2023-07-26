@@ -1,8 +1,9 @@
 ---
 title: Administrar listados de productos de Amazon por estado/pestaña
 description: Al administrar los anuncios de Amazon, puedes aplicar acciones a los anuncios según su estado.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Consulte también [Administrar anuncios por acción](./managing-listings-by-acti
 ![Fichas de listados de productos](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Ficha | Descripción | Acciones |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | Muestra su [!DNL Commerce] los productos de catálogo que cumplen la configuración de anuncio definida pero que carecen de la información requerida por Amazon para un anuncio.<br><br>If _[!UICONTROL Automatic List Action]_se establece en `Automatically List Eligible Products` en su [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) configuración, estos elementos son sus **[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Muestra los anuncios de Amazon existentes (según la información recibida de Amazon) que no coinciden con ningún producto de su [!DNL Commerce] catálogo. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>Intentar coincidencia automática<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Muestra los productos del catálogo que están listos para crear anuncios de Amazon, pero tu tienda no está configurada para publicar automáticamente nuevos anuncios. Esta pestaña se utiliza para publicar manualmente los nuevos anuncios.<br><br>If _[!UICONTROL Automatic List Action]_se establece en `Do Not Automatically List Eligible Products` en su [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) configuración, estos elementos son sus **[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

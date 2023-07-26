@@ -2,8 +2,9 @@
 title: "Introducción a [!DNL Amazon Sales Channel]"
 description: "[!DNL Amazon Sales Channel] permite a los comerciantes vender productos sin problemas en [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
+role: Admin, User, Leader
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%

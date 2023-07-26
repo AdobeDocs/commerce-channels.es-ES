@@ -1,8 +1,10 @@
 ---
 title: Prácticas recomendadas y limitaciones para [!DNL Amazon sales channel]
 description: Revise las prácticas recomendadas y las limitaciones al usar el canal de ventas de Amazon para Adobe Commerce y Magento Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ Las prácticas recomendadas incluyen:
 
 - Para las regiones del Reino Unido, es una práctica recomendada inscribirse en el [Amazon VAT Calculation Service](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} antes de incorporar el canal de ventas de Amazon.
 
-
-   >[!NOTE]
-   >
-   >Amazon puede tardar entre 10 y 14 días en verificar y activar su cuenta del servicio de cálculo de IVA.
+  >[!NOTE]
+  >
+  >Amazon puede tardar entre 10 y 14 días en verificar y activar su cuenta del servicio de cálculo de IVA.
 
 Las limitaciones incluyen:
 

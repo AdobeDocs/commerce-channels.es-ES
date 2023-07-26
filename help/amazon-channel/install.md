@@ -1,8 +1,9 @@
 ---
 title: "Instale el [!DNL Amazon Sales Channel] extension"
 description: Para integrar su [!DNL Commerce] catálogo con [!DNL Amazon Seller Accounts] y vender a través de [!DNL Amazon Marketplace], descargue e instale la extensión de Sales Channel de Amazon.
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -50,7 +51,6 @@ Para obtener información más detallada sobre cómo usar Composer para este pro
    - Introduzca su [claves de autenticación](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Su clave pública es su nombre de usuario; su clave privada es su contraseña.
 
    - Espere a que Composer termine de actualizar las dependencias del proyecto y asegúrese de que no haya errores.
-
 
 1. [Verificar la extensión](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

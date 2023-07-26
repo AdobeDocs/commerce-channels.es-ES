@@ -1,8 +1,9 @@
 ---
 title: Anuncios de Amazon finalizados
 description: La Sales Channel de Amazon proporciona la pestaña Finalizado para revisar los anuncios finalizados de Amazon Marketplace, que se pueden volver a publicar cuando así se elija.
+feature: Sales Channels, Products
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Para publicar anuncios, consulte [Publicar manualmente un anuncio de Amazon](./p
 las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
 
 | Columna | Descripción |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | El SKU (código de referencia) asignado por Amazon a un producto para identificar el producto, las opciones, el precio y el fabricante. |
 | [!UICONTROL ASIN] | Bloque único de 10 letras o números que identifican elementos.<br><br>ASIN significa los números de identificación estándar de Amazon. Un ASIN es un bloque único de 10 letras y/o números que identifican elementos. Para los libros, el ASIN es el mismo que el número ISBN, pero para todos los demás productos se crea un nuevo ASIN cuando el artículo se carga en su catálogo. Puede encontrar artículos ASIN en la página de detalles del producto de Amazon, junto con más detalles relacionados con el artículo. |
 | [!UICONTROL Product Listing Name] | El nombre del producto. |

@@ -1,8 +1,9 @@
 ---
 title: Canal de ventas de Amazon - [!UICONTROL Listing Rules]
 description: Utilice reglas de listado para determinar los productos del catálogo de Commerce que se publican como listados de Amazon Marketplace.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Los cambios en la cantidad y en el estado de idoneidad afectan a todos los anunc
 Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.md).
 
 | Campo | Descripción |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Las opciones disponibles dependen de la variable [sitios web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) que ha configurado en su [!DNL Commerce] configuración. Seleccione el sitio web de los productos aptos que aparecen en Amazon. Solo se puede seleccionar un sitio web, ya que cada sitio web requiere una tienda Amazon única creada en el canal de ventas de Amazon. |
 | [!UICONTROL Conditions] | Se utiliza para definir la variable [!DNL Commerce] atributos para la idoneidad del producto dentro de su región de Amazon. Consulte [Ejemplo: Definición de una condición](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en 
 
 - **[!UICONTROL Ineligible Listings]** - Los productos que aparecen en la lista no cumplen los requisitos para aparecer en la lista de Amazon según las reglas y condiciones actuales.
 
-   Los productos no aptos no se publican en Amazon. Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Para quitar manualmente un listado, consulte [Finalizar un anuncio de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no aparecen aquí. Estos productos se enumeran en la [Pestaña Anuncios inactivos](./inactive-listings.md).
+  Los productos no aptos no se publican en Amazon. Si un producto no apto ya figura en Amazon y usted relaciona el anuncio de Amazon con su [!DNL Commerce] producto del catálogo, la cantidad del listado de Amazon cambia a `0` para evitar la venta del producto. Para quitar manualmente un listado, consulte [Finalizar un anuncio de Amazon](./end-listings-manually.md). Los productos que no cumplen los requisitos de Amazon no aparecen aquí. Estos productos se enumeran en la [Pestaña Anuncios inactivos](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - Los productos que aparecen en la lista cumplen los requisitos para aparecer en la lista de Amazon según las reglas y condiciones actuales del anuncio, y también cumplen los requisitos de Amazon. Esta lista incluye los anuncios existentes de Amazon que se importan (si tiene **Importar anuncios de terceros** establezca en `Import Listing` in [Configuración de anuncio](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en 
 ### Listado de registros de vista previa
 
 | Campo | Descripción |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | El número único y secuencial que se asigna a un [!DNL Commerce] el producto del catálogo cuando se añada. |
 | [!UICONTROL Thumbnail] | Muestra una miniatura de la imagen principal del producto. |
 | [!UICONTROL Name] | El nombre del producto, administrado en la variable [!DNL Commerce] [cuadrícula de productos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

@@ -2,7 +2,9 @@
 title: Configuración del canal de ventas
 description: Para administrar el registro, el origen cron y la sincronización de las funciones del canal de ventas de Amazon, actualice la configuración de Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Configuration, Logs
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%

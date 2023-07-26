@@ -1,8 +1,9 @@
 ---
 title: Administrar anuncios
 description: '''Administrar listados de canales de ventas para un [!DNL Commerce] Almacenar con Channel Manager para Adobe Commerce y Magento Open Source."'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ En el espacio de trabajo Lista, la etiqueta Estado muestra dónde se encuentra u
 
 * **[!UICONTROL Match]**-Identifica los productos que se encontraron correctamente en [!DNL Walmart].
 
-   Se produce una coincidencia cuando el valor del atributo del producto (código UPC por ejemplo) coincide con el valor UPC de un [!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Commerce se agrega al listado existente.
+  Se produce una coincidencia cuando el valor del atributo del producto (código UPC por ejemplo) coincide con el valor UPC de un [!DNL Walmart Marketplace] listado. Cuando un producto coincide, la oferta de producto de Commerce se agrega al listado existente.
 
-   Compruebe la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) panel para revisar la lista de productos actualizada y verificar los detalles del producto, el precio y la cantidad de inventario.
+  Compruebe la [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) panel para revisar la lista de productos actualizada y verificar los detalles del producto, el precio y la cantidad de inventario.
 
 * **[!UICONTROL Match - Match in Stage]**: identifica los productos coincidentes en [!DNL Walmart] que no se pueden conectar hasta que [!DNL Walmart Marketplace] la tienda está activa. Los productos con este estado se conectan automáticamente cuando la variable [!DNL Walmart Marketplace] La tienda se pone en marcha.
 
@@ -102,4 +103,4 @@ En el espacio de trabajo Lista, la etiqueta Estado muestra dónde se encuentra u
 
 * **[!UICONTROL Error description]**: proporciona información detallada sobre el error de listado.
 
-   Una vez resuelto el error, vuelva a enviar el producto para que coincida. Consulte [Solucionar errores de coincidencia de productos](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Una vez resuelto el error, vuelva a enviar el producto para que coincida. Consulte [Solucionar errores de coincidencia de productos](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
