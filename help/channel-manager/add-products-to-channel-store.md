@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Añadir productos a [!DNL Channel Manager]
 
-Para añadir productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en la [!DNL Commerce] catálogo de productos e importarlos en [!DNL Channel Manager].
+Para añadir productos a [!DNL Walmart Marketplace] canal de ventas, selecciónelos en [!DNL Commerce] catálogo de productos e importarlos en [!DNL Channel Manager].
 El proceso de importación puede tardar hasta 30 minutos o más en función de la cantidad de productos que seleccione.
 
 ## Requisito previo

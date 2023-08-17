@@ -53,7 +53,7 @@ La clave de API se valida cada vez que accede al canal de ventas de Amazon.
 
 1. Pegue la clave copiada para **[!UICONTROL Production Api key]**.
 
-1. Clic **[!UICONTROL Save Config]**. Ahora puede volver al canal de ventas de Amazon.
+1. Haga clic **[!UICONTROL Save Config]**. Ahora puede volver al canal de ventas de Amazon.
 
    ![Añadir la clave API en la configuración de la tienda](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 

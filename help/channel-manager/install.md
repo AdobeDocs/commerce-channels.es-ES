@@ -168,7 +168,7 @@ Si el módulo está desactivado, [habilitarlo en su entorno local](https://exper
    >Para obtener instrucciones sobre cómo actualizar el Administrador de canales a una nueva versión, consulte [Actualización de módulos y extensiones](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
-## Solución de problemas
+## Resolución de problemas
 
 Utilice la siguiente información para resolver los errores que se producen durante el proceso de instalación de Channel Manager.
 

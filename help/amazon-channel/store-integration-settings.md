@@ -28,7 +28,7 @@ Después de integrar su tienda, revise y configure los ajustes de integración d
 
    Se utiliza como [!DNL Commerce] solo referencia e identifica la tienda en la lista de la página de inicio del canal de ventas de Amazon. Debe ser algo que su equipo pueda identificar fácilmente. Por ejemplo, la tienda de Amazon que vende en la región de Estados Unidos podría llamarse `Amazon Store USA`.
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

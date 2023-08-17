@@ -62,7 +62,7 @@ Puede crear diferentes condiciones cambiando la combinación de estos valores. P
 
    - Clic **[!UICONTROL is]** y elija el operador de comparación que describe la condición que deben cumplir los productos.
 
-     Para este ejemplo, el operador de comparación es `is`. Las opciones disponibles dependen del atributo seleccionado en el paso anterior y podrían incluir diferentes opciones de comparación. Las opciones pueden incluir valores coincidentes, sin incluir al menos uno de un valor, y bueno que, igual a y menor que una cantidad numérica. En este ejemplo, las opciones son `is` y `is not`.
+     Para este ejemplo, el operador de comparación es `is`. Las opciones disponibles dependen del atributo seleccionado en el paso anterior y podrían incluir diferentes opciones de comparación. Las opciones pueden incluir valores coincidentes, sin incluir al menos uno de un valor, y mayores, iguales y menores que una cantidad numérica. En este ejemplo, las opciones son `is` y `is not`.
 
    - Clic **[!UICONTROL ...]** y elija el valor de atributo en el que se basa la condición. Las opciones dependen de la configuración del atributo.
 

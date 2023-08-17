@@ -50,7 +50,7 @@ El control View se basa en las columnas predeterminadas de la página, por lo qu
 
 Cuando tenga las columnas añadidas o eliminadas de la página, aparecerá lo siguiente:
 
-1. Clic **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Haga clic **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Introduzca un nombre para la vista.
 

@@ -40,6 +40,6 @@ Expanda cada una de las secciones y configúrelas según sea necesario.
    - [[!UICONTROL Catalog Search]](./catalog-search.md): Defina los parámetros de búsqueda para garantizar un proceso fiable de coincidencia de [!DNL Commerce] catálogo de productos con sus listas de productos de Amazon.
    - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Defina la configuración y los valores de la &quot;condición&quot; del producto. La condición es un detalle del producto que Amazon requiere, pero no su [!DNL Commerce] productos del catálogo.
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ![Configuración de anuncio](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

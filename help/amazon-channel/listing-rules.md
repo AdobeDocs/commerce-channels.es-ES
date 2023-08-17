@@ -82,7 +82,7 @@ Los posibles anuncios de Amazon se rellenan en _[!UICONTROL Listing Preview]_en 
 
 1. Modifique su [Condiciones de reglas de listado](./ob-define-condition-example.md).
 
-1. Clic **[!UICONTROL Preview Changes]**.
+1. Haga clic **[!UICONTROL Preview Changes]**.
 
 1. Revisa y confirma tus anuncios en la _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, y _[!UICONTROL New Listings]_pestañas.
 

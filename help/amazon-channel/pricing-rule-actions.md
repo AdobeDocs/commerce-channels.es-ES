@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Acciones de regla de precio
 
-Las acciones de reglas de precios definen los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado.
+Las acciones de reglas de precios definen los cálculos de ajuste que se aplican al origen de precios para determinar el precio del listado.
 
 ## Regla de precio estándar
 

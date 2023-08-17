@@ -21,7 +21,7 @@ Las reglas de listado se pueden definir durante la incorporación, pero también
 
    La tienda [tablero](./amazon-store-dashboard.md) aparece con la variable `No products listed to Amazon` Mensaje.
 
-1. Clic **[!UICONTROL Preview and List Eligible Products]**.
+1. Haga clic **[!UICONTROL Preview and List Eligible Products]**.
 
    El _[!UICONTROL Listing Rules]_página.
 

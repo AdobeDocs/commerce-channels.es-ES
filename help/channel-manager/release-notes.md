@@ -6,11 +6,11 @@ exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# [!DNL Channel Manager] Notas de versión
+# [!DNL Channel Manager] Notas de la versión
 
 Estas notas de la versión describen la versión inicial de [!DNL Channel Manager] e incluir:
 

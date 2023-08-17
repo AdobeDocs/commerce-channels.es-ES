@@ -50,7 +50,7 @@ Ver el anuncio en la _[!UICONTROL Product Listings]_página (_[!UICONTROL Inacti
 
    - `No` : elige crear un anuncio y mantener el anuncio anterior sin cambios.
 
-1. Clic **[!UICONTROL Save Listing Update]**.
+1. Haga clic **[!UICONTROL Save Listing Update]**.
 
 ## Se utiliza para combinar un único producto de catálogo con dos anuncios de Amazon
 
@@ -72,7 +72,7 @@ Ver el anuncio en la _[!UICONTROL Product Listings]_página (_[!UICONTROL Inacti
 
    - `No` - Elige crear otro anuncio y mantener el anterior sin cambios.
 
-1. Clic **[!UICONTROL Save Listing Update]**.
+1. Haga clic **[!UICONTROL Save Listing Update]**.
 
 ![crear un SKU de vendedor de Amazon de alias](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 

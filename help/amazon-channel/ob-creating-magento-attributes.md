@@ -59,7 +59,7 @@ Si solo crea el atributo ASIN de Amazon (sin agregar valores ASIN por producto),
 
    - Para **[!UICONTROL Use in Filter Options]**, elija `Yes`.
 
-1. Clic **[!UICONTROL Save Attribute]**.
+1. Haga clic **[!UICONTROL Save Attribute]**.
 
 ![Atributo ASIN de Amazon](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Si solo crea el atributo ASIN de Amazon (sin agregar valores ASIN por producto),
    - `Very Good: Collectible`
    - `Good: Collectible; Acceptable`
 
-1. Clic **[!UICONTROL Add Option]**.
+1. Haga clic **[!UICONTROL Add Option]**.
 
 1. Seleccione el **[!UICONTROL Is Default]** para la condición que desea que sea la selección predeterminada.
 
@@ -116,7 +116,7 @@ Si solo crea el atributo ASIN de Amazon (sin agregar valores ASIN por producto),
 
    - Para **[!UICONTROL Use in Filter Options]**, elija `Yes`.
 
-1. Clic **[!UICONTROL Save Attribute]**.
+1. Haga clic **[!UICONTROL Save Attribute]**.
 
 ![Atributo de condición de Amazon](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 

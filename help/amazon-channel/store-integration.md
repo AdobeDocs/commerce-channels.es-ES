@@ -27,7 +27,7 @@ _Necesita las credenciales de inicio de sesión principales para su [!DNL Amazon
 
    Al añadir su primer almacén de canales de ventas de Amazon, la variable _Tareas previas a la instalación_ modal aparece. Una vez añadida la primera tienda, se puede acceder a las tareas de preconfiguración en la [inicio del canal de ventas de Amazon](./amazon-sales-channel-home.md) página debajo de _Aprendizaje y preparación_ en el menú del lado izquierdo.
 
-1. Clic **[!UICONTROL Add Amazon Store]**.
+1. Haga clic **[!UICONTROL Add Amazon Store]**.
 
    El _[!UICONTROL Add Amazon sales channel]_se abre la página.
 
@@ -62,7 +62,7 @@ _Necesita las credenciales de inicio de sesión principales para su [!DNL Amazon
 
      [Atributos de asignación](./ob-creating-magento-attributes.md) le ayuda a garantizar que su anuncio de Amazon coincide correctamente con el producto correspondiente de su [!DNL Commerce] catálogo.
 
-1. Clic **[!UICONTROL Connect]**.
+1. Haga clic **[!UICONTROL Connect]**.
 
    El cuadro de diálogo se cierra y aparece el nuevo almacén en [inicio del canal de ventas de Amazon](./amazon-sales-channel-home.md) con un mensaje de confirmación.
 

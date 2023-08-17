@@ -35,7 +35,7 @@ Los pedidos de Amazon solo se pueden cancelar si están en un `Unshipped` estado
 
 1. Para **[!UICONTROL Reason for cancellation]**, elija una opción.
 
-1. Clic **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
    El pedido se cancela y el estado se actualiza a `Canceled` en los detalles del pedido.
 

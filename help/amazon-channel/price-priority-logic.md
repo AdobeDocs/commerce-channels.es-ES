@@ -26,7 +26,7 @@ Si el precio del producto está establecido en `Use Default`Sin embargo, vuelve 
 
 |         | Prioridad del sitio web | Precio (sitio web) | Usar valor predeterminado |
 |---------|------------------|-----------------|-------------|
-| Predeterminado | 0 | $31.99 | -- |
+| Predeterminado | 0 | $31.99 | — |
 | Almacén 1 | 1 | $24.99 | No |
 | Almacén 2 | 2 | $27.99 | Sí |
 

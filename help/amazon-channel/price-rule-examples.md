@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ### Descartar reglas subsiguientes
 
-La posibilidad de descartar las reglas subsiguientes es una buena función dentro de las reglas de precios que evita que se apilen varias reglas de precios y proporcione descuentos adicionales no deseados. Para descartar reglas subsiguientes, una regla de asignación de precios debe utilizar las prioridades establecidas en la _[!UICONTROL Priority]_sección de [Configuración general de reglas de precios](./pricing-rule-general-settings.md).
+La capacidad de descartar las reglas subsiguientes es una función muy útil dentro de las reglas de precios que evita que se apilen varias reglas de precios y proporciona descuentos adicionales no deseados. Para descartar reglas subsiguientes, una regla de asignación de precios debe utilizar las prioridades establecidas en la _[!UICONTROL Priority]_sección de [Configuración general de reglas de precios](./pricing-rule-general-settings.md).
 
 If **[!UICONTROL Discard Subsequent Rules]** se establece en `Yes`Sin embargo, las reglas con prioridad inferior (números más altos) no se aplican a los productos aptos.
 
@@ -91,7 +91,7 @@ Precio: 5 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $10
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es bueno que el precio original, el producto se enumera en el [Buy Box](./buy-box-competitor-pricing.md) precio.
+Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el precio original, el producto se enumera en el [Buy Box](./buy-box-competitor-pricing.md) precio.
 
 El precio final después de aplicar la regla: 10 $
 
@@ -129,7 +129,7 @@ Calculado [Precio mínimo](./floor-price.md): 12 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $15
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es bueno que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
+Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
 
 El precio final después de aplicar la regla: 15 $
 
@@ -141,7 +141,7 @@ Precio mínimo calculado: 13,60 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $15
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es bueno que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
+Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
 
 El precio final después de aplicar la regla: 15 $
 

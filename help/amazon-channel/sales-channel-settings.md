@@ -51,6 +51,6 @@ Si la variable [!DNL Amazon Sales Channel] Una vez instalada la extensión de, l
    >
    >Cuando se migra una base de datos a una nueva copia de la instancia (se detecta cuando cambia la dirección URL de un almacén en la configuración), [!UICONTROL Read-Only Mode] se activa automáticamente.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Haga clic **[!UICONTROL Save Config]**.
 
 ![Ajustes de configuración de Sales Channel](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

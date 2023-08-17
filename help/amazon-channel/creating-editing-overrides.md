@@ -35,7 +35,7 @@ El _[!UICONTROL Create Override]_La acción está disponible cuando se visualiza
    - **Condición** - Haga clic **[!UICONTROL Change Condition]** y elija la opción correcta para la **[!UICONTROL Condition Override]**.
    - **Notas del vendedor** - Haga clic **[!UICONTROL Change Seller Notes]** e introduzca el texto de las notas para **[!UICONTROL Seller Notes Override]**.
 
-1. Clic **[!UICONTROL Save Listing Override]**.
+1. Haga clic **[!UICONTROL Save Listing Override]**.
 
    El _[!UICONTROL Product Listing Overrides]_se cierra la página. El estado de la lista cambia a `Relist in Progress`. El cambio se publicará en Amazon con la siguiente sincronización de datos (según la configuración de cron). El anuncio también se agrega al_[!UICONTROL Overrides]_ pestaña.
 
@@ -68,7 +68,7 @@ El _[!UICONTROL Edit Overrides]_La acción está disponible cuando se visualizan
 
 1. Para quitar un tipo de anulación, haga clic en **Eliminar** para cada uno de los tipos que desee eliminar. Si no se elimina, el valor definido anteriormente permanece en la anulación.
 
-1. Clic **[!UICONTROL Save Listing Override]**.
+1. Haga clic **[!UICONTROL Save Listing Override]**.
 
    El _[!UICONTROL Product Listing Overrides]_se cierra la página. El estado de la lista cambia a `Relist in Progress`. El cambio se publicará en Amazon con la siguiente sincronización de datos (según la configuración de cron). Si aún no aparecen en la lista, los anuncios también se agregan a la_[!UICONTROL Overrides]_ pestaña.
 
@@ -106,7 +106,7 @@ El _[!UICONTROL Edit Listing Overrides]_La acción está disponible en la_[!UICO
 
 1. Para quitar un tipo de anulación, haga clic en **[!UICONTROL Remove]** para cada uno de los tipos que desee eliminar. Si no se elimina, el valor definido anteriormente permanece en la anulación.
 
-1. Clic **[!UICONTROL Save Listing Override]**.
+1. Haga clic **[!UICONTROL Save Listing Override]**.
 
    El _[!UICONTROL Product Listing Overrides]_se cierra la página. El estado de los anuncios cambia a `Relist in Progress`. El cambio se publicará en Amazon con la siguiente sincronización de datos (según la configuración de cron). Si aún no aparecen en la lista, los anuncios también se agregan a la_[!UICONTROL Overrides]_ pestaña.
 

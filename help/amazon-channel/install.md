@@ -76,7 +76,7 @@ Dispone de las siguientes opciones para configurar el canal de ventas de Amazon.
 
    Se recomienda esta configuración para **_usuarios/administradores avanzados_**.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Haga clic **[!UICONTROL Save Config]**.
 
 ## Actualización de la extensión
 

@@ -7,7 +7,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Una acción de regla de precio estándar permite aumentar o reducir el precio de
 
 1. Clic **[!UICONTROL Pricing rules]** en el tablero de la tienda.
 
-1. Clic **[!UICONTROL Add new pricing rule]**.
+1. Haga clic **[!UICONTROL Add new pricing rule]**.
 
 1. Complete la **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** para la regla.
 
@@ -41,7 +41,7 @@ Una regla de reasignación de precios inteligente emplea los precios de los comp
 
 1. Clic **[!UICONTROL Pricing rules]** en el tablero de la tienda.
 
-1. Clic **[!UICONTROL Add new pricing rule]**.
+1. Haga clic **[!UICONTROL Add new pricing rule]**.
 
 1. Complete la **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** para la regla.
 
