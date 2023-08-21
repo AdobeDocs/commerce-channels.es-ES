@@ -1,9 +1,9 @@
 ---
 title: Anuncios activos de Amazon
 description: El canal de ventas de Amazon proporciona la pestaña Activo para supervisar las listas de Amazon activas que coinciden con un producto del catálogo de Adobe Commerce.
-feature: Sales Channels, Products, Merchandising, Catalogs
+feature: Sales Channels, Products, Merchandising, Catalog Management
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+source-git-commit: 8c72b7db5472a573bd8c26acafdf7a3400875477
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
