@@ -3,9 +3,9 @@ title: '[!DNL Amazon Sales Channel] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de todos los [!DNL Amazon Sales Channel] versiones.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ Estas notas de la versión describen la versión inicial de [!DNL Amazon sales c
 
 Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) para versiones, compatibilidad y compatibilidad.
 
+Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para saber qué versiones de Adobe Commerce admiten esta extensión.
+
 ## v4.5.0
 
 *30 de agosto de 2023*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Nuevo](../assets/new.svg) Se ha agregado la puerta de enlace de la API Adobe.IO, cambiando de MAGI, para mejorar la seguridad de la autenticación. `ServicesId` proporciona una nueva interfaz de usuario para administrar las credenciales de Adobe.IO, similar a otras [Servicios de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *7 de marzo de 2023*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Problema corregido](../assets/fix.svg) Se ha agregado compatibilidad con Adobe Commerce 2.4.6 y PHP 8.2.
 
@@ -70,7 +72,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *7 de marzo de 2023*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Fix](../assets/fix.svg) Se ha añadido compatibilidad con Adobe Commerce 2.4.4.
 
@@ -78,7 +80,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *11 de noviembre de 2021*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Fix](../assets/fix.svg) Dependencias actualizadas para admitir otras extensiones actualizadas.
 ![Fix](../assets/fix.svg) Se ha agregado compatibilidad con PHP 8.1.
@@ -87,7 +89,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *11 de noviembre de 2021*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Fix](../assets/fix.svg) Se ha cambiado la forma en que Adobe Commerce recibe el _Nombre de usuario_ de Amazon. Anteriormente, se producía un error durante la creación del pedido cuando la variable _Nombre de usuario_ el campo contenía caracteres especiales. Adobe Commerce ahora recibe la _Nombre de usuario_ y filtra los caracteres especiales para que el pedido se pueda crear correctamente.
 
@@ -95,7 +97,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *9 de abril de 2021*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Nuevo](../assets/new.svg) Se ha agregado compatibilidad con el modo de solo lectura a la configuración. Consulte [configuración de canal de ventas](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *3 de marzo de 2021*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Fix](../assets/fix.svg) <!--CHAN-xxxx-->El _Detalles del pedido_ se ha rediseñado y ya no depende de la _Importar pedidos_ configuración. Los detalles del pedido ahora aparecen en la interfaz de Sales Channel de Amazon para todos los pedidos.
 
@@ -129,7 +131,7 @@ Consulte [Próximas versiones](https://experienceleague.adobe.com/docs/commerce-
 
 *3 de marzo de 2021*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar el Adobe Commerce a la versión 2.4.0, se le pedirá que actualice la extensión antes de poder completar la actualización de Adobe Commerce.
 
@@ -159,7 +161,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 *7 de mayo de 2020*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Nuevo](../assets/new.svg) <!--4247, 4230-->Se ha cambiado el proceso de importación de pedidos para que se ajuste a los requisitos de pedidos de Commerce. Estos cambios corrigen problemas que impiden que Commerce cree el pedido correspondiente para un pedido importado. Consulte [Administrar pedidos](managing-orders.md) para obtener información sobre bloqueadores de pedidos y soluciones.
 
@@ -189,7 +191,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 *25 de marzo de 2020*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 *11 de noviembre de 2019*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Fix](../assets/fix.svg) **Configuración de campo numérico**: <!--CHAN-3779-->Los campos que requieren un valor numérico se han actualizado para aceptar solo caracteres numéricos. Ejemplo: Configuración de Reglas de Asignación de Precios > Campo Importe de Ajuste
 
@@ -219,7 +221,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 *7 de octubre de 2019*
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 ![Nuevo](../assets/new.svg) **Amazon UK Marketplace ya disponible**: los usuarios pueden elegir el mercado del Reino Unido al crear e integrar una tienda de Commerce. Esta actualización para el Reino Unido incluye compatibilidad adicional con:
 
@@ -237,7 +239,7 @@ Si tiene un [!DNL Amazon sales channel] versión instalada e intente actualizar 
 
 ## v2.0.0
 
-[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+[!BADGE Admitido]{type=Informative tooltip="Admitido"}
 
 >[!NOTE]
 >
