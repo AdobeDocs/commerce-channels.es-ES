@@ -5,7 +5,7 @@ feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 El canal de ventas de Amazon [página principal](./amazon-sales-channel-home.md) tiene algunos controles comunes del espacio de trabajo, como Filtros, Vista predeterminada, Columnas y Exportar. No todas las páginas tienen las mismas opciones de control.
 
-![ejemplos de control de espacio de trabajo de Sales Channel Amazon](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
+![ejemplos de control del espacio de trabajo de Sales Channel Amazon](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Acciones
 
-El _[!UICONTROL Actions]_El selector de proporciona una lista de acciones disponibles para un usuario en una página. Cuando se elige, la acción se aplica a todos los elementos seleccionados. Para aplicar una acción a un elemento específico, seleccione la casilla de verificación en la primera columna de cada elemento y elija una opción en_[!UICONTROL Actions]_.
+El selector _[!UICONTROL Actions]_proporciona una lista de acciones disponibles para un usuario en una página. Cuando se elige, la acción se aplica a todos los elementos seleccionados. Para aplicar una acción a un elemento específico, active la casilla de verificación de la primera columna de cada elemento y elija una opción en_[!UICONTROL Actions]_.
 
-Por ejemplo, cuando el selector se muestra en la _[!UICONTROL Attributes]_página, incluye la_[!UICONTROL Re-import Product Attribute Values]_ acción. Al elegir esta acción, se realiza el ping correspondiente [!DNL Amazon Seller Central] y actualiza la cuenta de [!DNL Commerce] los datos de cada uno de los elementos del almacén de Amazon marcados en la columna del lado izquierdo.
+Por ejemplo, cuando el selector se muestra en la página _[!UICONTROL Attributes]_, incluye la acción_[!UICONTROL Re-import Product Attribute Values]_. Al elegir esta acción, se realiza un ping a la cuenta [!DNL Amazon Seller Central] correspondiente y se actualizan los datos de [!DNL Commerce] para cada uno de los elementos del almacén de Amazon marcados en la columna del lado izquierdo.
 
-![Ejemplo del menú Acciones](assets/amazon-sales-channel-home-actions-option.png){width="500"}
+![Ejemplo de menú de acciones](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filtros
 
-El _[!UICONTROL Filters]_El control muestra opciones para reducir los datos mostrados en la tabla. Las opciones de filtro se basan en las columnas seleccionadas en el control Columnas. Las opciones de filtro sólo se muestran para las columnas habilitadas en el control Columnas.
+El control _[!UICONTROL Filters]_muestra opciones para reducir los datos mostrados en la tabla. Las opciones de filtro se basan en las columnas seleccionadas en el control Columnas. Las opciones de filtro sólo se muestran para las columnas habilitadas en el control Columnas.
 
 Los controles de filtros pueden incluir calendarios dinámicos para reducir los datos de fechas especificadas, menús desplegables para columnas con selecciones predefinidas y campos de texto libre que pueden contener datos personalizados.
 
 El ejemplo siguiente muestra la configuración para filtrar la lista de pedidos de modo que se muestren únicamente los pedidos que cumplan los siguientes criterios:
 
 - Pedidos realizados entre el 01/2/2019 y el 07/2/2019, y
-- Pedidos con un comprador llamado `Smith`, y
+- Pedidos con un comprador denominado `Smith`, y
 - Pedidos con un estado de `Shipped`.
 
-Una vez definidas las opciones de filtrado, haga clic en **[!UICONTROL Apply Filters]** para filtrar los datos enumerados. Haga clic en Cancelar para salir del control Filters sin aplicar.
+Cuando tenga establecidas las opciones de filtrado, haga clic en **[!UICONTROL Apply Filters]** para filtrar los datos enumerados. Haga clic en Cancelar para salir del control Filters sin aplicar.
 
 ![Ejemplo de control de filtros](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
-Después de aplicar filtros a los datos, **[!UICONTROL Active Filters]** aparecerá la información. Puede hacer clic en ![Icono Borrar filtros](assets/x-icon-clear-filters.png) para borrar una opción de filtro específica o haga clic en **[!UICONTROL Clear All]** para borrar todos los filtros aplicados.
+Después de aplicar filtros a los datos, aparecerá la información de **[!UICONTROL Active Filters]**. Puede hacer clic en el icono ![Borrar filtros](assets/x-icon-clear-filters.png) para borrar una opción de filtro específica, o bien hacer clic en **[!UICONTROL Clear All]** para borrar todos los filtros aplicados.
 
 ![Ejemplo de filtros activos](assets/applied-filters-line.png){width="700"}
 
@@ -50,7 +50,7 @@ El control View se basa en las columnas predeterminadas de la página, por lo qu
 
 Cuando tenga las columnas añadidas o eliminadas de la página, aparecerá lo siguiente:
 
-1. Haga clic **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Haga clic en **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Introduzca un nombre para la vista.
 
@@ -58,9 +58,9 @@ Cuando tenga las columnas añadidas o eliminadas de la página, aparecerá lo si
 
 ![Ver ejemplo de control](assets/workspace-controls-view.png)
 
-En este ejemplo, la variable _ID de pedido_ se agrega en el control Column y se guarda como una vista personalizada. Observe que después de guardar el nombre de vista personalizada, el nombre de la vista cambió de _Vista predeterminada_ al nombre introducido.
+En este ejemplo, la columna _Id. de pedido_ se agrega en el control Columna y se guarda como una vista personalizada. Observe que después de guardar el nombre de vista personalizada, el nombre de la vista cambió de _Vista predeterminada_ al nombre escrito.
 
-Puede alternar entre las vistas seleccionando la vista deseada en la _[!UICONTROL View]_menú.
+Puede alternar entre las vistas seleccionando la vista deseada en el menú _[!UICONTROL View]_.
 
 Si desea eliminar o cambiar el nombre de la vista personalizada, haga clic en el icono de lápiz. A continuación, puede introducir un nombre diferente o hacer clic en el icono de la papelera para eliminar la vista personalizada. No se puede eliminar la vista predeterminada.
 
@@ -77,7 +77,7 @@ En el ejemplo siguiente se muestra un control Columns. Las opciones seleccionada
 
 Los cambios de casilla de verificación se muestran inmediatamente. Si realiza cambios y sale de la página, la página vuelve a la presentación de columna predeterminada. Para los cambios que realice con regularidad, puede guardar los cambios de las columnas como una vista personalizada en el control View. A continuación, puede alternar en el control View sin tener que agregar o quitar columnas manualmente.
 
-Puede hacer clic en **[!UICONTROL Reset]** para volver a establecer las opciones en la configuración predeterminada, o bien puede hacer clic en **[!UICONTROL Cancel]** para salir sin sus cambios.
+Puede hacer clic en **[!UICONTROL Reset]** para volver a establecer las opciones en la configuración predeterminada, o bien puede hacer clic en **[!UICONTROL Cancel]** para salir sin realizar cambios.
 
 ## Exportar
 

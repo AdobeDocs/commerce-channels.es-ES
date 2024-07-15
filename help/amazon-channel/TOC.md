@@ -1,31 +1,31 @@
 ---
 user-guide-title: Guía del usuario de Amazon Sales Channel
-user-guide-description: Genere ventas a través de Amazon integrando Adobe Commerce o un Magento Open Source con su [!DNL Amazon Seller Central] cuenta.
+user-guide-description: Genere ventas a través de Amazon integrando Adobe Commerce o Magento Open Source con su cuenta de  [!DNL Amazon Seller Central] .
 breadcrumb-title: Canal de ventas de Amazon
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
 
 
-# Canal de ventas de Amazon - [!DNL channel manager] para Adobe Commerce {#amazon}
+# Canal de ventas de Amazon: [!DNL channel manager] para Adobe Commerce {#amazon}
 
 - [Guía del usuario de Amazon Sales Channel](guide-overview.md)
 - [Introducción al canal de ventas de Amazon](overview.md)
-- Primeros pasos {#getting-started}
+- Introducción a {#getting-started}
    - [Acerca de Amazon Marketplace](about-amazon-marketplace.md)
    - [Amazon y el catálogo de Commerce](about-listings-and-catalog.md)
    - [Prácticas recomendadas y limitaciones](amazon-best-practices.md)
    - [Instalación de la extensión](install.md)
-- Incorporación {#onboarding}
+- Incorporando {#onboarding}
    - [Incorporar el canal de ventas de Amazon](amazon-onboarding-home.md)
    - [Tareas previas a la configuración](amazon-pre-setup-tasks.md)
-   - [Crear [!DNL Commerce] atributos para Amazon](ob-creating-magento-attributes.md)
+   - [Crear  [!DNL Commerce] atributos para Amazon](ob-creating-magento-attributes.md)
    - [Compruebe la clave de API de Amazon](amazon-verify-api-key.md)
    - [Integración de tienda](store-integration.md)
    - [Crear regla de listado](ob-create-listing-rule.md)
@@ -43,7 +43,7 @@ ht-degree: 4%
    - [Configuración de administración del canal de ventas](sales-channel-settings.md)
    - [Tablero de la tienda Amazon](amazon-store-dashboard.md)
    - [Configuración de tienda](ob-store-review.md)
-- Configuración de anuncio {#listing-settings}
+- Configuración del listado {#listing-settings}
    - [Ver configuración de listado](listing-settings.md)
    - [Acciones de lista de productos](product-listing-actions.md)
    - [Anuncios de terceros](third-party-listing-settings.md)
@@ -56,7 +56,7 @@ ht-degree: 4%
    - [Productos renovados](renewed-products.md)
 - [Configuración de pedidos](order-settings.md)
 - [Configuración de integración de tienda](store-integration-settings.md)
-- Reglas de precios y listados {#rules}
+- Reglas de listado y precios {#rules}
    - [Reglas de listado](listing-rules.md)
    - Reglas de precios {#pricing-rules}
       - [Administrar precios](pricing-products.md)
@@ -85,7 +85,7 @@ ht-degree: 4%
    - Registros {#logs}
       - [Registro de cambios de lista](listing-changes-log.md)
       - [Registro de errores de comunicación](communication-errors-log.md)
-- Administrar anuncios {#admin-listings}
+- Administrar listados {#admin-listings}
    - [Administrar listados de Amazon](managing-product-listings.md)
    - Por estado/ficha {#status-tab}
       - [Administrar por estado/pestaña](managing-listings-by-tab.md)
@@ -104,7 +104,7 @@ ht-degree: 4%
       - [Crear un SKU de vendedor de alias](create-alias-seller-sku.md)
       - [Editar un ASIN asignado](edit-assigned-asin.md)
       - [Finalizar un anuncio de Amazon](end-listings-manually.md)
-      - [Publicar un anuncio de Amazon](publish-listings-manually.md)
+      - [Listado de Publish y Amazon](publish-listings-manually.md)
       - [Actualizar información necesaria](amazon-manually-update-incomplete-listing.md)
       - [Ver detalles](product-listing-details.md)
 - Administrar pedidos {#admin-orders}
@@ -114,4 +114,4 @@ ht-degree: 4%
    - [Tareas comunes de procesamiento de pedidos](common-order-processing.md)
    - [Flujos de trabajo de cumplimiento](fulfillment-workflows.md)
    - [Cancelar pedidos no enviados](cancel-unshipped-order.md)
-- [Notas de versión](release-notes.md)
+- [Notas de la versión](release-notes.md)

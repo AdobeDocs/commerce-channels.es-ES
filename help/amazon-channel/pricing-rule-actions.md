@@ -16,7 +16,7 @@ Las acciones de reglas de precios definen los cálculos de ajuste que se aplican
 
 ## Regla de precio estándar
 
-A [regla de precio estándar](./standard-price-rules.md) le permite aumentar o reducir el precio de un anuncio de Amazon en un porcentaje específico o en una cantidad en dólares fijos en relación con el [!DNL Commerce] precio de catálogo (o fuente de precios).
+La regla de precio estándar [1} permite aumentar o reducir el precio de un anuncio de Amazon en un porcentaje específico o en una cantidad fija en dólares en relación con el precio de catálogo [!DNL Commerce] (o el origen del precio).](./standard-price-rules.md)
 
 | Sección | Descripción |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -25,11 +25,11 @@ A [regla de precio estándar](./standard-price-rules.md) le permite aumentar o r
 
 ## Regla de reasignación de precios inteligente
 
-Un [regla de reasignación inteligente de precios](./intelligent-repricing-rules.md) utiliza los precios de los competidores de Amazon para determinar el precio del anuncio. Los competidores son otros vendedores que están anunciando los mismos productos que usted está anunciando en Amazon.
+Una [regla inteligente de reasignación de precios](./intelligent-repricing-rules.md) usa los precios de los competidores de Amazon para determinar el precio de tu anuncio. Los competidores son otros vendedores que están anunciando los mismos productos que usted está anunciando en Amazon.
 
 | Sección | Descripción |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Establezca el tipo de regla en `Intelligent repricing rule` junto con los requisitos de origen de precios y comentarios de la competencia. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Establezca el tipo de regla en `Intelligent repricing rule` junto con el Source de precios de la competencia y los requisitos de comentarios. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Defina variaciones para las condiciones del mismo producto vendido por la competencia. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Defina los cálculos de ajuste que se aplican al origen de precios para determinar el precio de listado |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Defina el precio más bajo para un producto para evitar que varias reglas de asignación de precios establezcan un precio de listado demasiado bajo. |

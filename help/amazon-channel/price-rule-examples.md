@@ -5,8 +5,8 @@ feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 2%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ### Descartar reglas subsiguientes
 
-La capacidad de descartar las reglas subsiguientes es una función muy útil dentro de las reglas de precios que evita que se apilen varias reglas de precios y proporciona descuentos adicionales no deseados. Para descartar reglas subsiguientes, una regla de asignación de precios debe utilizar las prioridades establecidas en la _[!UICONTROL Priority]_sección de [Configuración general de reglas de precios](./pricing-rule-general-settings.md).
+La capacidad de descartar las reglas subsiguientes es una función muy útil dentro de las reglas de precios que evita que se apilen varias reglas de precios y proporciona descuentos adicionales no deseados. Para descartar reglas subsiguientes, una regla de asignación de precios debe usar las prioridades establecidas en la sección _[!UICONTROL Priority]_de [Configuración general de regla de asignación de precios](./pricing-rule-general-settings.md).
 
-If **[!UICONTROL Discard Subsequent Rules]** se establece en `Yes`Sin embargo, las reglas con prioridad inferior (números más altos) no se aplican a los productos aptos.
+Si **[!UICONTROL Discard Subsequent Rules]** se establece en `Yes`, las reglas con prioridad inferior (números más altos) no se aplican a los productos aptos.
 
 Por ejemplo, supongamos que hay tres reglas de precios:
 
@@ -28,7 +28,7 @@ Por ejemplo, supongamos que hay tres reglas de precios:
 | 2 | $2 productos de descuento | 2 | Sí |
 | 3 | 5% de descuento en todos los productos | 3 | No |
 
-En esta situación, las #1 de reglas y #2 se aplican a los productos aptos. La regla #3 solo se aplica a los productos aptos que no están incluidos en la regla #2 porque tiene una prioridad inferior a la del ejemplo #2 y **[!UICONTROL Discard Subsequent Rules]** se establece en `Yes`. Por lo tanto, los productos aptos de la categoría de venta recibirán un 10% de descuento y 2 dólares de descuento sobre el precio de venta de Amazon.
+En esta situación, las #1 de reglas y #2 se aplican a los productos aptos. La regla #3 solo se aplica a los productos aptos que no están incluidos en la regla #2 porque tiene una prioridad inferior a la del ejemplo #2 y **[!UICONTROL Discard Subsequent Rules]** está establecido en `Yes`. Por lo tanto, los productos aptos de la categoría de venta recibirán un 10% de descuento y 2 dólares de descuento sobre el precio de venta de Amazon.
 
 ### Aplicación de dos reglas de precios estándar
 
@@ -63,7 +63,7 @@ Se aplica el precio final después de la regla 1 y la regla 2: $32.98
 
 ## Ejemplos de reglas de reasignación de precios inteligentes
 
-### Precio de Buy Box con Origen de Precio de Planta = Precio
+### Precio de Buy Box con precio mínimo Source = Precio
 
 | Campo | Configuración |
 |--------------------------------------|----------------------------|
@@ -81,7 +81,7 @@ Precio: 15 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $10
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es menor que el precio original, el producto se enumera en el precio original.
+Como el precio de [Buy Box](./buy-box-competitor-pricing.md) es menor que el precio original, el producto se muestra al precio original.
 
 El precio final después de aplicar la regla: 15 $
 
@@ -91,11 +91,11 @@ Precio: 5 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $10
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el precio original, el producto se enumera en el [Buy Box](./buy-box-competitor-pricing.md) precio.
+Como el precio de [Buy Box](./buy-box-competitor-pricing.md) es mayor que el precio original, el producto se muestra al precio de [Buy Box](./buy-box-competitor-pricing.md).
 
 El precio final después de aplicar la regla: 10 $
 
-### Precio de Buy Box con Origen de Precio de Planta = Precio y un descenso de precio del 20%
+### Precio de Buy Box con precio mínimo Source = Precio y un descenso del 20 %
 
 | Campo | Configuración |
 |--------------------------------------|----------------------------|
@@ -117,7 +117,7 @@ Precio mínimo calculado: 16 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $15
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es menor que el calculado [Precio mínimo](./floor-price.md), el producto aparece en la lista Calculado [Precio mínimo](./floor-price.md).
+Dado que el precio de [Buy Box](./buy-box-competitor-pricing.md) es menor que el [Precio mínimo](./floor-price.md) calculado, el producto se muestra en el [Precio mínimo calculado](./floor-price.md).
 
 El precio final después de aplicar la regla: 16 $
 
@@ -125,11 +125,11 @@ El precio final después de aplicar la regla: 16 $
 
 Precio: 15 $
 
-Calculado [Precio mínimo](./floor-price.md): 12 $
+[Precio mínimo](./floor-price.md) calculado: 12 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $15
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
+Dado que el precio de [Buy Box](./buy-box-competitor-pricing.md) es mayor que el [precio mínimo](./floor-price.md) calculado, el producto se muestra al precio de [Buy Box](./buy-box-competitor-pricing.md).
 
 El precio final después de aplicar la regla: 15 $
 
@@ -141,7 +141,7 @@ Precio mínimo calculado: 13,60 $
 
 [Buy Box](./buy-box-competitor-pricing.md) precio de Amazon: $15
 
-Debido a que el [Buy Box](./buy-box-competitor-pricing.md) el precio es mayor que el calculado [Precio mínimo](./floor-price.md), el producto se enumera en la [Buy Box](./buy-box-competitor-pricing.md) precio.
+Dado que el precio de [Buy Box](./buy-box-competitor-pricing.md) es mayor que el [precio mínimo](./floor-price.md) calculado, el producto se muestra al precio de [Buy Box](./buy-box-competitor-pricing.md).
 
 El precio final después de aplicar la regla: 15 $
 
@@ -161,10 +161,10 @@ El precio final después de aplicar la regla: 15 $
 
 | Precio | Condición |
 |-------|-----------------|
-| $17 | Nuevo |
-| $15 | Nuevo |
-| $14 | Usado; Muy bueno |
-| $13 | Usado; bueno |
+| 17 $ | Nuevo |
+| 15 $ | Nuevo |
+| 14 $ | Usado; Muy bueno |
+| 13 $ | Usado; bueno |
 
 #### Product 1
 
@@ -182,7 +182,7 @@ Precio: 10 $
 
 Condición: usado, aceptable
 
-Debido a que el [precio más bajo de competidor](./lowest-competitor-pricing.md) para la condición Usado es de $13, el producto se enumera en $13.
+Como el [precio más bajo para la competencia](./lowest-competitor-pricing.md) de la condición Usada es de 13 $, el producto se muestra en 13 $.
 
 El precio final después de aplicar la regla: 13 $
 
@@ -190,13 +190,13 @@ El precio final después de aplicar la regla: 13 $
 
 | Campo | Configuración |
 |-----------------------------------|---------------|
-| [!UICONTROL VAT] | 10% |
-| [!UICONTROL Ceiling price source] | $10 |
+| [!UICONTROL VAT] | 10 % |
+| [!UICONTROL Ceiling price source] | 10 $ |
 | [!UICONTROL Currency conversion] | 1,25 euros:1 USD |
 
-[Precio de techo](./optional-ceiling-price.md) en el mercado europeo (IVA): 10 $ x 1,25 = 12,50 $
+[Precio de techo](./optional-ceiling-price.md) en el mercado europeo (IVA): 10 dólares x 1,25 = 12,50 dólares
 
-Si la variable [precio máximo](./optional-ceiling-price.md) en el mercado europeo (IVA), el IVA se calcula y se añade.
+Cuando se alcanza el [precio máximo](./optional-ceiling-price.md) en el mercado europeo (IVA), se calcula y se agrega el IVA.
 
 Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 
@@ -207,11 +207,11 @@ Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 | Campo | Configuración |
 |----------------------|---------------|
 | Prioridad | 1 |
-| IVA | 10% |
-| Fuente de precio de techo | $10 |
+| IVA | 10 % |
+| Fuente de precio de techo | 10 $ |
 | Conversión de moneda | 1,25 euros:1 USD |
 
-[Precio de techo](./optional-ceiling-price.md) en el mercado europeo (IVA): 10 $ x 1,25 = 12,50 $
+[Precio de techo](./optional-ceiling-price.md) en el mercado europeo (IVA): 10 dólares x 1,25 = 12,50 dólares
 
 Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 
@@ -222,25 +222,25 @@ Precio final después del IVA: 12,50 $ x (1,1) = 13,75 $
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Aumentar en |
 | [!UICONTROL Apply] | Aplicar como cantidad fija |
-| [!UICONTROL Adjustment Amount] | $5.00 |
+| [!UICONTROL Adjustment Amount] | 5,00 USD |
 
-Si la variable [precio máximo](./optional-ceiling-price.md) se visita, la regla de precios estándar se aplica sobre la regla de precios inteligente.
+Cuando se alcanza el [precio máximo](./optional-ceiling-price.md), la regla de precios estándar se aplica sobre la regla de precios inteligente.
 
 Precio final después de aplicar la regla de precios estándar: 13,75 $ + 5 $ = 18,75 $
 
 ### Ajuste de precio
 
-En este ejemplo, el precio más competitivo se define mirando el Amazon [precio más bajo de la competencia](./lowest-competitor-pricing.md) con un 95% de votos positivos y un recuento mínimo de votos de 1.000 reseñas de comerciantes.
+En este ejemplo, el precio más competitivo se define mirando el precio más bajo de la competencia [de Amazon](./lowest-competitor-pricing.md) con un 95% de comentarios positivos y un recuento mínimo de 1000 reseñas de comerciantes.
 
 ![Ejemplo de ajuste de precio](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Después de realizar esta búsqueda en función de estos parámetros, el precio competitivo regresa a 25 $.
 
-A partir de aquí, hay tres diferentes [acción de regla de precios](./pricing-rule-actions.md) opciones basadas en este precio más bajo.
+A partir de aquí, hay tres opciones diferentes de [acción de regla de precio](./pricing-rule-actions.md) basadas en el precio más bajo.
 
 | Campo | Descripción |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]** - Esta opción reduce el precio de tu anuncio en relación con el [precio más bajo de competidor](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** : Esta opción aumenta el precio del anuncio en relación con la [precio más bajo de competidor](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** : Esta opción cambia el precio del anuncio de Amazon para que coincida con el precio más bajo en función de los parámetros. En el ejemplo, el precio de venta de Amazon es de 25 $.</li></ul> |
+| [!UICONTROL Price Action] | Opciones:<ul><li>**[!UICONTROL Decrease By]**: esta opción reduce el precio del anuncio en relación con el [precio más bajo de la competencia](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]**: esta opción aumenta el precio del anuncio en relación con el [precio más bajo de la competencia](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]**: esta opción cambia el precio del anuncio de Amazon para que coincida con el precio más bajo en función de los parámetros. En el ejemplo, el precio de venta de Amazon es de 25 $.</li></ul> |
 | [!UICONTROL Apply] | Opciones: Aplicar como porcentaje / Aplicar como importe fijo |
 | [!UICONTROL Adjustment Amount] | Valor numérico para definir el porcentaje o el importe fijo del descuento que se va a aplicar. <br>Estas selecciones resultan en tomar el precio más bajo y establecerlo en $0.01 menos. |
 
@@ -253,6 +253,6 @@ A partir de aquí, hay tres diferentes [acción de regla de precios](./pricing-r
 | [!UICONTROL Apply] | Aplicar como porcentaje |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[Precio mínimo](./floor-price.md) calculation = Origen de precio mínimo `$5` x Importe de Ajuste de Plano `5%` = 5,25 $
+[Cálculo del precio mínimo](./floor-price.md) = Source del precio mínimo `$5` x Importe de ajuste de piso `5%` = 5,25 $
 
 Cuando se aplica la regla de precios inteligente, permite que el precio de la lista sea inferior a 5,25 $ para este producto específico cuando el coste es de 5 $.

@@ -5,21 +5,21 @@ feature: Sales Channels, Products, Merchandising
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 # Ver detalles del listado de Amazon
 
-El _[!UICONTROL Product Listing Details]_Esta página muestra información adicional sobre sus listados de productos activos, incluido el registro de actividad de listado que muestra los cambios en un SKU/producto individual. Esta información puede ayudarle a comprender las métricas competitivas de sus productos y los cambios individuales en su SKU o producto. La información adicional de esta página incluye:
+La página _[!UICONTROL Product Listing Details]_muestra información adicional sobre las listas de productos activas, incluido el registro de actividad de lista que muestra los cambios en una SKU o producto individual. Esta información puede ayudarle a comprender las métricas competitivas de sus productos y los cambios individuales en su SKU o producto. La información adicional de esta página incluye:
 
-- **[!UICONTROL Listing Details]** - Detalles del producto, incluidos el nombre y el SKU del vendedor de Amazon
-- **[!UICONTROL Listing Activity Log]** - Registro histórico de todos los cambios que se han producido en este anuncio, como los cambios de precios y cantidad/existencias. No se requieren más acciones. Este registro se proporciona para su revisión con el fin de comprender el historial de cambios.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Datos para Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) estatus y precios de la competencia
-- **[!UICONTROL Lowest Competitor Pricing]** : Información sobre los precios y los comentarios del competidor de Amazon más bajo.
+- **[!UICONTROL Listing Details]**: detalles del producto, incluidos el nombre y el SKU del vendedor de Amazon
+- **[!UICONTROL Listing Activity Log]**: registro histórico de todos los cambios que se han producido en este anuncio, como cambios de precios y cantidad/existencias. No se requieren más acciones. Este registro se proporciona para su revisión con el fin de comprender el historial de cambios.
+- **[!UICONTROL Buy Box Competitor Pricing]**: datos del estado [[!DNL Buy Box]](./buy-box-competitor-pricing.md) de Amazon y precios de la competencia
+- **[!UICONTROL Lowest Competitor Pricing]**: información sobre los precios y los comentarios más bajos de la competencia de Amazon
 
-las páginas de inicio del canal de ventas de Amazon comparten algunos elementos comunes [controles de workspace](./workspace-controls.md) que permiten personalizar los datos que se muestran.
+las páginas de inicio del canal de ventas de Amazon comparten algunos [controles del espacio de trabajo](./workspace-controls.md) comunes que le permiten personalizar los datos que se muestran.
 
 ## Detalles del anuncio
 
@@ -41,26 +41,26 @@ Muestra toda la actividad reciente del listado de Amazon. La información mostra
 - Comentarios: proporciona detalles adicionales relacionados con el tipo de acción de lista que se produjo.
 - Ejecutado a las: identifica la fecha y la hora en que se produjo la acción.
 
-![Detalles de la lista de productos: registro de actividades de lista](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
+![Detalles de lista de productos - Registro de actividades de lista](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Precios de competidor Buy Box {#buy-box-competitor-pricing}
 
-Esta pestaña muestra información sobre el comerciante de Amazon que posee el [[!DNL Buy Box]](./buy-box-competitor-pricing.md) posición del anuncio. Esta información se puede utilizar para comprender el posicionamiento de los precios de sus competidores en Amazon. La información mostrada incluye:
+Esta ficha muestra información sobre el comerciante de Amazon que ocupa la posición [[!DNL Buy Box]](./buy-box-competitor-pricing.md) en el listado. Esta información se puede utilizar para comprender el posicionamiento de los precios de sus competidores en Amazon. La información mostrada incluye:
 
 - ASIN: El identificador de producto de Amazon de 10 dígitos.
-- Es vendedor: identifica si usted es el [!DNL Buy Box] vendedor. Opciones Sí/No.
+- Es vendedor: Identifica si usted es el vendedor [!DNL Buy Box]. Opciones Sí/No.
 - Condición: identifica la condición definida para el listado.
 - Precio del anuncio: indica el precio al que se publicó el anuncio.
 - Precio de envío: identifica el precio de envío añadido al anuncio.
 - Precio en destino: identifica el precio del anuncio más el precio de envío del anuncio.
 - Última Actualización: Identifica la fecha y la hora en que se actualizó la información de precios desde Amazon.
 
-![Detalles de la lista de productos: Precios de competidor Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
+![Detalles de la lista de productos: precios de Buy Box de la competencia](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Precios más bajos para competidores {#lowest-competitor-pricing}
 
-Esta pestaña muestra información sobre los competidores de Amazon para el mismo anuncio. Esta información se puede utilizar para comprender el posicionamiento de los precios y [precios más bajos para la competencia](./lowest-competitor-pricing.md). La información mostrada incluye:
+Esta pestaña muestra información sobre los competidores de Amazon para el mismo anuncio. Esta información se puede usar para comprender el posicionamiento de precios y los [precios más bajos para la competencia](./lowest-competitor-pricing.md). La información mostrada incluye:
 
 - ASIN: El identificador de producto de Amazon de 10 dígitos.
 - Condición: identifica la condición definida para el listado.
@@ -72,4 +72,4 @@ Esta pestaña muestra información sobre los competidores de Amazon para el mism
 - Recuento de comentarios: identifica el recuento de comentarios de Amazon del comerciante con precio más bajo.
 - Última Actualización: Identifica la fecha y la hora en que se actualizó la información de precios desde Amazon.
 
-![Detalles de la lista de productos: precios más bajos para la competencia](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
+![Detalles del listado de productos - precios más bajos para la competencia](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
